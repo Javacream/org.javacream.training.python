@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Board</title>
+</head>
+<body>
+<textarea id="board-log" cols="100" rows="20"></textarea><br>
+<input id="board-message-input" type="text" size="100"><br>
+<input id="board-message-submit" type="button" value="Send">
+{{ board_name|json_script:"board-name" }}
+<script>
+const boardName = JSON.parse(document.getElementById('board-name').textContent);
+const boardSocket = new WebSocket(
+'ws://'
++ window.location.host
++ '/ws/messageboard/'
++ boardName
++ '/'
+);
+boardSocket.onmessage = function(e) {
+const data = JSON.parse(e.data);
+document.querySelector('#board-log').value += (data.message + '\n');
+};
+boardSocket.onclose = function(e) {
+    console.error('Socket closed unexpectedly');
+};
+document.querySelector('#board-message-input').focus();
+document.querySelector('#board-message-input').onkeyup = function(e) {
+if (e.keyCode === 13) { // enter, return
+document.querySelector('#board-message-submit').click();
+}
+};
+document.querySelector('#board-message-submit').onclick = function(e) {
+const messageInputDom = document.querySelector('#board-message-input');
+const message = messageInputDom.value;
+boardSocket.send(JSON.stringify({
+'message': message
+}));
+messageInputDom.value = '';
+};
+</script>
+</body>
+</html>
