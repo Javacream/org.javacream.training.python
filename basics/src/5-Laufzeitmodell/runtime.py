@@ -5,7 +5,9 @@ def lists():
     print(list1)
     print(list2)
 
+    print(id(list1))
 
 lists()
+
 
 
