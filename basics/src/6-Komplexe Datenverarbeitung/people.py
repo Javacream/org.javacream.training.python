@@ -26,7 +26,7 @@ for person in s:
 #Comprehension
 
 sawitzkis2 = [person for person in l]  #sawitzki2 ist eine Liste von Personen-Tuple
-#sawitzkis2 = [person[1] for person in l]  #sawitzki2 ist eine Liste von Personen-Nachnamen, der erste Teil definiert "was will ich haben?"
+#sawitzkis2 = [p[1] for p in l]  #sawitzki2 ist eine Liste von Personen-Nachnamen, der erste Teil definiert "was will ich haben?"
 sawitzkis2 = [person for person in s if "Sawitzki" == person[1] ]
 
 print(sawitzkis2)
