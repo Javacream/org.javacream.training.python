@@ -13,7 +13,10 @@
 
 ## Zeitplan
 
-* 9:00 - 16:15
+* ~9:00 - 16:15~ 
+* Montag 9:00 - 16:45
+* Dienstag/Mittwoch 8:30 - 16:45
+* Donnerstag 8:30 - 13:00 (keine Mittagspause)
 * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
 * Mittagspause 12:15 - 13:00
 
