@@ -29,6 +29,19 @@ class PeopleService:
         return self.counter
     def find_person_by_id(self, id):
         return self.people.get(id)   
+    def find_all(self):
+        return self.people.values()   
+    def find_by_lastname(self, lastname):
+        return [person for person in self.people.values() if person.lastname == lastname]   
+    def find_by_firstname(self, firstname):
+        return [person for person in self.people.values() if person.firstname == firstname]   
+    def find_by_city(self, city):
+        return [person for person in self.people.values() if (hasattr(person, 'address')) and (person.address.city == city)]   
+
+    def delete_by_id(self, id):
+        self.people.pop(id)
+    def update(self, person):
+        self.people[person.id] = person
     def say_hello(self, person):
         template = "my name is {} {}"
         return template.format(person.firstname, person.lastname)
