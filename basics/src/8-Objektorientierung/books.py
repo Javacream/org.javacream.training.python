@@ -1,4 +1,4 @@
-class Book(object):
+class Book:
     def __init__(self, isbn, title):
         self.isbn = isbn
         self.title = title
@@ -16,5 +16,5 @@ class SchoolBook(Book):
 class SpecialistBook(Book):
 
     def __init__(self, isbn, title, topic):
-        Book.__init__(self, isbn, title)
+        super.__init__(self, isbn, title)
         self.topic = topic
