@@ -1,0 +1,15 @@
+//download protoc from https://github.com/protocolbuffers/protobuf/releases/tag/v3.19.4
+//protoc.exe book.proto --python_out=.
+
+syntax = "proto2";
+
+package publishing;
+
+message Book {
+  optional string isbn = 1;
+  optional bool available = 2;
+  optional string title = 3;
+  repeated string tags = 4;
+  optional  double price = 5;
+  optional  int32 pages = 6;
+}
