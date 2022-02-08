@@ -3,7 +3,7 @@ from publishing.isbngenerator import IsbnGenerator
 from publishing.storeservice import StoreService
 
 
-class Object(object):
+class Object:
     pass
 def context():
     context = Object()
@@ -13,4 +13,3 @@ def context():
     context.bookservice.isbngenerator = context.isbngenerator
     context.bookservice.storeservice = context.storeservice
     return context
-    s

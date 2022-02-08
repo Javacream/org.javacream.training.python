@@ -26,7 +26,7 @@ class BookException(BaseException):
 class BooksService(object):
     def __init__(self):
         #self.books = {}
-        self.books = self.load();
+        self.books = self.load()
     def init(self, isbngenerator = None, storeservice = None):
         self.isbngenerator = isbngenerator
         self.storeservice = storeservice
@@ -80,12 +80,11 @@ class BooksService(object):
 
         
     def save(self):
-        pickleFile = open("books.pkl", "wb")
-        pickle.dump(self.books, pickleFile, protocol=-1)
+        with open("books.pkl", "wb") as pickleFile:
+            pickle.dump(self.books, pickleFile, protocol=-1)
     def load(self):
         try:
-            pickleFile = open("books.pkl", "rb")
-            return pickle.load(pickleFile)
-        except IOError:
+            with open("books.pkl", "rb") as pickleFile:
+                return pickle.load(pickleFile)
+        except FileNotFoundError:
             return {}
-
