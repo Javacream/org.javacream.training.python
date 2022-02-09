@@ -10,7 +10,7 @@ def echo(message):
 @app.route('/echo', methods=['POST'])
 def say_hello():
     print("saying hello")
-    return "Hello " + datetime.datetime.now() 
+    return "Hello " + str(datetime.datetime.now()) 
 
 
 app.run(port=5000)
