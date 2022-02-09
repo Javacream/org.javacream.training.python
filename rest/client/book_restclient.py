@@ -24,9 +24,11 @@ async def main():
         async with session.post(url) as resp:
             isbn = await resp.text()
             print(isbn)
-            async with session.delete('http://h2908727.stratoserver.net:8080/api/books/' + isbn) as resp:
-                pass
+            #async with session.delete('http://h2908727.stratoserver.net:8080/api/books/' + isbn) as resp:
+            #    pass
 
 #Windows Workaround
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-asyncio.run(main())
+#asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+#asyncio.run(main())
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())

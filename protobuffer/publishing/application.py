@@ -5,6 +5,9 @@ book = Book()
 book.isbn = 'Isbn1'
 book.title = 'Title1'
 book.price = 19.99
+#book.preis = 19.99 # geht nicht!
+#book.price = "19.99" # geht nicht!
+
 book.pages = 200
 book.available = True
 book.tags.append("sports")
