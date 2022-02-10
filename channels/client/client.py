@@ -1,3 +1,4 @@
+#pip install websocket-client
 import websocket
 
 ws = websocket.WebSocket()
