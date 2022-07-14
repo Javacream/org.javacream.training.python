@@ -1,27 +1,15 @@
-# Zeilenkommentar
+number1 = 4
+number2 = 2
 
-# Deklaration einer Variablen
+if number1 > number2:
+    print("if-block says")
+    print("number1 is greater than number2")
+else:
+    print("else-block says")
+    print("number1 is not greater than number2")
 
-# versuch einer Deklaration, so in Python nicht möglich, keine statische Typisierung
-# string message
-
-# sinnlos
-#message
-
-#Variablen-Deklaration
-# <name> = Literal
-message = 'Hello World'
-number = 42
-
-print(message)
-
-message = "Hugo"
-number = 43
-# sowas ist in Python definitiv möglich, message war vorher eine Zeichenkette und ist im Anschluss eine Ganzzahl
-# Python ist dynamisch
-message = 42
-
-print(message)
-
+#Syntax-Error, es gibt durch die fehlende Einrückung keinen if-Block
+#if number1 > number2:
+#print("number1 is greater than number2")
 
 
