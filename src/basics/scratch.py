@@ -8,3 +8,8 @@ names2 = names
 
 names[2] = "Eduardo"
 print(names2[2]) #Wirken sich die Änderung in names auch auf names2 aus?
+
+message = "Hello"
+message2 = message
+message = "Goodbye"
+print(message2) #Was wird ausgegeben? Warum?
