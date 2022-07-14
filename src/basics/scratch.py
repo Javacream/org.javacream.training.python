@@ -1,21 +1,12 @@
-seasons = ("spring", "summer", "autumn", "winter")
-print(seasons[1])
-#seasons[3] = "carnival"
-#seasons[1] = "carnival"
+namesList = ["Hugo", "Emil", "Hugo", "Fritz"]
 
-for season in seasons:
-    print(season)
+print(namesList[1])
+for name in namesList:
+    print(name)
 
-#diese schleife nicht "pythonesk"
-#for (i = 0; i < 10; i = i + 1):
-#    print(i)
 
-mono = ("one") # identisch zu mono = "one"
+namesSet = {"Hugo", "Emil", "Hugo", "Fritz"}
 
-for element in mono:
-    print(element)
-
-mono = ("one",)
-
-for element in mono:
-    print(element)
+#print(namesSet[1])
+for name in namesSet:
+    print(name)
