@@ -1,15 +1,21 @@
-number1 = 4
-number2 = 2
+seasons = ("spring", "summer", "autumn", "winter")
+print(seasons[1])
+#seasons[3] = "carnival"
+#seasons[1] = "carnival"
 
-if number1 > number2:
-    print("if-block says")
-    print("number1 is greater than number2")
-else:
-    print("else-block says")
-    print("number1 is not greater than number2")
+for season in seasons:
+    print(season)
 
-#Syntax-Error, es gibt durch die fehlende Einrückung keinen if-Block
-#if number1 > number2:
-#print("number1 is greater than number2")
+#diese schleife nicht "pythonesk"
+#for (i = 0; i < 10; i = i + 1):
+#    print(i)
 
+mono = ("one") # identisch zu mono = "one"
 
+for element in mono:
+    print(element)
+
+mono = ("one",)
+
+for element in mono:
+    print(element)
