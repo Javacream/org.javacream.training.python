@@ -1,15 +1,38 @@
-names = ["Hugo", "Fritz", "Gregor"]
+# Funktionen
 
-print(names[1])
-names[1] = "Zvonimir"
-print(names[1])
+def function1():
+    print("no param")
 
-names2 = names
+def function1(name):
+    print("one param")
 
-names[2] = "Eduardo"
-print(names2[2]) #Wirken sich die Änderung in names auch auf names2 aus?
 
-message = "Hello"
-message2 = message
-message = "Goodbye"
-print(message2) #Was wird ausgegeben? Warum?
+function1("egal")
+
+def function2():
+    return 42
+
+def function3(*names):
+    for element in names:
+        print(element)
+
+function3()
+function3("Hugo")
+function3("A", "B", "C", 42, True)
+
+def function4(p1, p2, p3):
+    pass
+
+function4(p2 = 42, p1 = 4711, p3 = True)
+# Keyword Argument, **kwargs
+def function5(**kwargs):
+    print(kwargs["number"])
+
+function5(dies = "Das", number=9, state = False)
+
+def function6(name = "Sawitzki"):
+    print(name)
+
+function6()
+function6("Hugo")
+#function6("Hugo", 42) Syntax-Fehler
