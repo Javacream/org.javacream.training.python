@@ -9,7 +9,6 @@ class Person:
         self.firstname = firstname
         self.height = height
         self.gender = gender
-        self.partner = None
 
     def say_hello(self):
         return f"Hello, my name is {self.firstname} {self.lastname}"
@@ -18,10 +17,10 @@ class Person:
         self.address = address
 
     def marry(self, partner):
-        if self.partner != None:
+        if hasattr(self, 'partner'):
             print("cannot marry again")
             return False
-        if partner.partner != None:
+        if hasattr(partner, 'partner'):
             print("cannot marry, partner is married")
             return False
         if partner == self:
@@ -32,11 +31,11 @@ class Person:
         return True
 
     def divorce(self):
-        if (self.partner == None):
+        if (not hasattr(self, 'partner')):
             print("cannot be divorced, not married")
             return False
-        self.partner.partner = None
-        self.partner = None
+        delattr(self.partner, 'partner')
+        delattr(self, 'partner')
         return True
 
 person1 = Person("Sawitzki", "Rainer", 183, 'm')
