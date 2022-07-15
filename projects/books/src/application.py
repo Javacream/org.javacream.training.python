@@ -13,6 +13,7 @@ if __name__ == '__main__':
     print(book)    
 
     store_service.set_stock("books", "Isbn1", 42)
+    store_service.set_stock("books", "Isbn2", 41)
     store_service.set_stock("dvd", "egal", 4711)
     print (store_service.get_stock("books", "Isbn1"))
     print(store_service.get_categories())
