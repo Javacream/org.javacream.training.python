@@ -1,10 +1,3 @@
-import os 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
-
-import sys
-sys.path.append(dir_path + '/..')
-
 #from javacream.storeservice import StoreService
 #from javacream.isbngenerator import IsbnGenerator
 from javacream.booksservice import Book
