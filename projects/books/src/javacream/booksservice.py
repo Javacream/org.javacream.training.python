@@ -19,4 +19,8 @@ class BookException(BaseException):
     
         
 class BooksService(object):
-    pass
+
+    def __init__(self, store_service, isbngenerator):
+        self.store_service = store_service
+        self.isbngenerator = isbngenerator
+

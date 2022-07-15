@@ -1,13 +1,19 @@
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
-from javacream.storeservice import StoreService
-from javacream.isbngenerator import IsbnGenerator
+
+import sys
+sys.path.append(dir_path + '/..')
+
+#from javacream.storeservice import StoreService
+#from javacream.isbngenerator import IsbnGenerator
 from javacream.booksservice import Book
-
+from javacream.context import context
 
 if __name__ == '__main__':
-    store_service = StoreService()
+    store_service = context.store_service
     print (store_service.get_stock("this", "that"))
-    isbn_generator = IsbnGenerator()
+    isbn_generator = context.isbngenerator
     print (isbn_generator.next_isbn())
     book = Book(isbn_generator.next_isbn(), "Python", 200, 29.99)
     print(book)    
