@@ -4,8 +4,9 @@ class Book(object):
         self.title = title
         self.pages = pages
         self.price = price
+        self.available = False
     def info(self):
-        return "Book: isbn=%s, title=%s, pages=%.0f, price=%.2f" %(self.isbn, self.title, self.pages, self.price)
+        return "Book: isbn=%s, title=%s, pages=%.0f, price=%.2f, available=%s" %(self.isbn, self.title, self.pages, self.price, self.available)
     def __repr__(self):
         return self.info()
     
@@ -41,6 +42,8 @@ class BooksService(object):
         book = self.books.get(isbn, None)
         if (book == None):
             raise BookException(f"book with isbn {isbn} not found")
+        stock = self.store_service.get_stock("books", isbn)
+        book.available = (stock > 0)
         return book
 
     def update(self, book):
