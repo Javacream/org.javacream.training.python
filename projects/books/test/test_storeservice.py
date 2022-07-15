@@ -2,12 +2,12 @@ import sys
 sys.path.append('../src')
 
 from unittest2.case import TestCase
-from javacream.context import context
+from javacream.storeservice import StoreService
 class BooksServiceTest(TestCase):
 
 
     def setUp(self):
-        self.store_service = context.store_service
+        self.store_service = StoreService()
     
     def test_set_store_works(self):
         self.store_service.set_stock("books", "Isbn1", 42)
