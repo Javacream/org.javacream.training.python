@@ -13,7 +13,18 @@ class DatabaseStoreService:
     def set_stock(self, category, item, stock):
             connection = self.database.cursor()
             connection.execute(f"insert into STORE (category, item, stock) values ('{category}', '{item}', {stock})")
-
+            self.database.commit()
+            print(connection.rowcount)
+    def get_categories(self):
+            connection = self.database.cursor()
+            connection.execute("select category from STORE")
+            result = connection.fetchall()
+            return [data[0] for data in result]
+    def get_items_for(self, category):
+            connection = self.database.cursor()
+            connection.execute(f"select item from STORE where category = '{category}'")
+            result = connection.fetchall()
+            return [data[0] for data in result]
 
 class StoreService(object):
     def __init__(self):
