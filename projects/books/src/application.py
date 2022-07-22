@@ -8,7 +8,7 @@ if __name__ == '__main__':
     print (store_service.get_stock("this", "that"))
     isbn_generator = context.isbngenerator
     print (isbn_generator.next_isbn())
-    book = Book(isbn_generator.next_isbn(), "Python", 200, 29.99)
+    book = Book(isbn_generator.next_isbn(), "Python", 29.99)
     print(book)    
 
     store_service.set_stock("books", "Isbn1", 42)
@@ -18,4 +18,6 @@ if __name__ == '__main__':
     print(store_service.get_categories())
     print(store_service.get_items_for("books"))
     print(store_service.get_items_for("unknown"))
+
+    
 

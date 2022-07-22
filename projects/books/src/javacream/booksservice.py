@@ -1,12 +1,13 @@
+import requests 
+
 class Book(object):
-    def __init__(self, isbn, title, pages, price):
+    def __init__(self, isbn, title, price):
         self.isbn = isbn
         self.title = title
-        self.pages = pages
         self.price = price
         self.available = False
     def info(self):
-        return "Book: isbn=%s, title=%s, pages=%.0f, price=%.2f, available=%s" %(self.isbn, self.title, self.pages, self.price, self.available)
+        return "Book: isbn=%s, title=%s, price=%.2f, available=%s" %(self.isbn, self.title, self.price, self.available)
     def __repr__(self):
         return self.info()
     
@@ -19,6 +20,60 @@ class BookException(BaseException):
         return "BookException, cause='%s'" %(self.cause)
     
         
+class RestClientBooksService(object):
+    base_url = "http://h2908727.stratoserver.net:8080/api/books" #-> config
+
+    def __init__(self, store_service):
+        self.store_service = store_service
+
+    def create(self, title, price=0.0):
+        if (title == None or len(title.strip()) == 0):
+            raise BookException(f"invalid title {title}")
+        if (price < 0):
+            raise BookException(f"invalid price {price}")
+        response = requests.post(f"{self.base_url}/{title}")
+        if (response.status_code != 200):
+            raise BookException(f"server error")
+
+        isbn = response.text
+        return isbn
+
+    def find_by_isbn(self, isbn):
+        if (isbn == None or len(isbn.strip()) == 0):
+            raise BookException(f"invalid isbn {isbn}")
+        response = requests.get(f"{self.base_url}/{isbn}")
+        if (response.status_code != 200):
+            raise BookException(f"server error")
+        book_dict = response.json()
+        book = Book(book_dict['isbn'], book_dict['title'], book_dict['price'])
+        if (book == None):
+            raise BookException(f"book with isbn {isbn} not found")
+        stock = self.store_service.get_stock("books", isbn)
+        book.available = (stock > 0)
+        return book
+
+    def update(self, book):
+        if (book == None or len(book.isbn.strip()) == 0):
+            raise BookException(f"invalid isbn {book.isbn}")
+        if (len(book.title.trim()) == 0):
+            raise BookException(f"invalid title {book.title}")
+        if (book.price < 0):
+            raise BookException(f"invalid price {book.price}")
+        if (book.pages <= 0):
+            raise BookException(f"invalid pages {book.pages}")
+
+        response = requests.put(f"{self.base_url}", book)
+        if (response.status_code != 200):
+            raise BookException(f"server error")
+
+    def delete_by_isbn(self, isbn):
+        if (isbn == None or len(isbn.strip()) == 0):
+            raise BookException(f"invalid isbn {isbn}")
+            response = requests.delete(f"{self.base_url}/{isbn}")
+            if (response.status_code != 200):
+                raise BookException(f"book with isbn {isbn} not found")
+
+
 class BooksService(object):
 
     def __init__(self, store_service, isbngenerator):
@@ -26,13 +81,13 @@ class BooksService(object):
         self.isbngenerator = isbngenerator
         self.books = {}
 
-    def create(self, title, price=0.0, pages=1):
+    def create(self, title, price=0.0):
         if (title == None or len(title.strip()) == 0):
             raise BookException(f"invalid title {title}")
-        if (price < 0 or pages <= 0):
-            raise BookException(f"invalid price {price} or pages {pages}")
+        if (price < 0):
+            raise BookException(f"invalid price {price}")
         isbn = self.isbngenerator.next_isbn()
-        book = Book(isbn, title, pages, price)
+        book = Book(isbn, title, price)
         self.books[isbn] = book
         return isbn
 

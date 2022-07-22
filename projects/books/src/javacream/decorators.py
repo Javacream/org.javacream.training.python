@@ -3,7 +3,7 @@ def debug(f):
     def debug(*args, **kwargs):
         logging.debug ("entering " +  f.__name__)
         for arg in args:
-            print (arg)
+            logging.debug (arg)
         try:    
             result= f(*args, **kwargs)
             logging.debug  ("exiting from " +  f.__name__ + ", result=" + str(result))

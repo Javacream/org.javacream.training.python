@@ -12,7 +12,7 @@ class BooksServiceTest(TestCase):
         self.books_service = testutils.decorate(context.books_service, testutils.trace)
     
     def test_sequence(self):
-        isbn = self.books_service.create("Demo", 200, 19.99)
+        isbn = self.books_service.create("Demo", 19.99)
         self.assertIsNotNone(isbn)
         book = self.books_service.find_by_isbn(isbn)
         self.assertIsNotNone(book)

@@ -3,7 +3,7 @@ import logging
 file = logging.FileHandler('./books.log')
 console = logging.StreamHandler()#Standard: Streaming auf die Konsole
 file.setLevel(logging.DEBUG)
-console.setLevel(logging.WARNING)
+console.setLevel(logging.INFO)
 logging.basicConfig(level=logging.DEBUG, handlers=[file, console])
 
 
@@ -11,7 +11,7 @@ def trace(f):
     def tracer(*args, **kwargs):
         logging.info ("entering " +  f.__name__)
         for arg in args:
-            print (arg)
+            logging.debug (arg)
         try:    
             result= f(*args, **kwargs)
             logging.info ("exiting from " +  f.__name__ + ", result=" + str(result))
