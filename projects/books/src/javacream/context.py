@@ -1,4 +1,4 @@
-from javacream.booksservice import RestClientBooksService
+from javacream.booksservice import RestClientBooksService, BooksService
 from javacream.isbngenerator import IsbnGenerator
 from javacream.storeservice import StoreService
 from javacream.decorators import decorate, debug
@@ -19,7 +19,8 @@ def create_context():
     context = Object()
     store_service = StoreService()
     isbngenerator = IsbnGenerator("ISBN:", "-dk")
-    books_service = RestClientBooksService(store_service)
+    books_service = BooksService(store_service, isbngenerator) # local
+    #books_service = RestClientBooksService(store_service) # remote
     context.store_service =  decorate(store_service, debug)
     context.isbngenerator = decorate(isbngenerator, debug)
     context.books_service = decorate(books_service, debug)

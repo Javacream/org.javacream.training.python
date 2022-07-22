@@ -23,6 +23,8 @@ class BookException(BaseException):
 class RestClientBooksService(object):
     base_url = "http://h2908727.stratoserver.net:8080/api/books" #-> config
 
+    assemble = lambda s, dict : Book(dict['isbn'], dict['title'], dict['price'])
+
     def __init__(self, store_service):
         self.store_service = store_service
 
@@ -38,6 +40,13 @@ class RestClientBooksService(object):
         isbn = response.text
         return isbn
 
+    def find_all(self):
+        response = requests.get(f"{self.base_url}")
+        if (response.status_code != 200):
+            raise BookException(f"server error")
+        book_json_list = response.json()
+        return [self.assemble(book_dict) for book_dict in book_json_list]
+
     def find_by_isbn(self, isbn):
         if (isbn == None or len(isbn.strip()) == 0):
             raise BookException(f"invalid isbn {isbn}")
@@ -45,7 +54,7 @@ class RestClientBooksService(object):
         if (response.status_code != 200):
             raise BookException(f"server error")
         book_dict = response.json()
-        book = Book(book_dict['isbn'], book_dict['title'], book_dict['price'])
+        book = self.assemble(book_dict)
         if (book == None):
             raise BookException(f"book with isbn {isbn} not found")
         stock = self.store_service.get_stock("books", isbn)
@@ -91,6 +100,8 @@ class BooksService(object):
         self.books[isbn] = book
         return isbn
 
+    def find_all(self):
+        return self.books.values()
     def find_by_isbn(self, isbn):
         if (isbn == None or len(isbn.strip()) == 0):
             raise BookException(f"invalid isbn {isbn}")
