@@ -19,8 +19,8 @@ def create_context():
     context = Object()
     store_service = StoreService()
     isbngenerator = IsbnGenerator("ISBN:", "-dk")
-    books_service = BooksService(store_service, isbngenerator) # local
-    #books_service = RestClientBooksService(store_service) # remote
+    #books_service = BooksService(store_service, isbngenerator) # local
+    books_service = RestClientBooksService(store_service) # remote
     context.store_service =  decorate(store_service, debug)
     context.isbngenerator = decorate(isbngenerator, debug)
     context.books_service = decorate(books_service, debug)
