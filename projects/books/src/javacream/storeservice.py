@@ -1,3 +1,20 @@
+
+class DatabaseStoreService:
+    def __init__(self, database):
+        self.database = database
+    def get_stock(self, category, item):
+            connection = self.database.cursor()
+            connection.execute("select stock from STORE")
+            result = connection.fetchall()
+            if (len(result) == 0):
+                return 0
+            for stock in result:
+                return stock[0]
+    def set_stock(self, category, item, stock):
+            connection = self.database.cursor()
+            connection.execute(f"insert into STORE (category, item, stock) values ('{category}', '{item}', {stock})")
+
+
 class StoreService(object):
     def __init__(self):
         self.store = {}

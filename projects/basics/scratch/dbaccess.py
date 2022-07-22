@@ -10,7 +10,7 @@ password = "user"
 
 database_reference = mysql.connector.connect(host=host, port=port, user=user,password=password, database=database)
 connection = database_reference.cursor()
-connection.execute("select * from messages")
+connection.execute("select * from STORE")
 result = connection.fetchall()
 for message in result:
     print(message)

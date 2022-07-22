@@ -1,6 +1,7 @@
+import mysql.connector
 from javacream.booksservice import RestClientBooksService, BooksService
 from javacream.isbngenerator import IsbnGenerator
-from javacream.storeservice import StoreService
+from javacream.storeservice import StoreService, DatabaseStoreService
 from javacream.decorators import decorate, debug
 
 import logging
@@ -15,9 +16,19 @@ logging.basicConfig(level=logging.DEBUG, handlers=[file, console])
 class Object:
     pass
 
+
 def create_context():
+    db_config = {
+        "host": "h2908727.stratoserver.net",
+        "port": 3406,
+        "database": "javacream",
+        "user": "user",
+        "password": "user"
+    }
+    database = mysql.connector.connect(**db_config)
+
     context = Object()
-    store_service = StoreService()
+    store_service = DatabaseStoreService(database)
     isbngenerator = IsbnGenerator("ISBN:", "-dk")
     #books_service = BooksService(store_service, isbngenerator) # local
     books_service = RestClientBooksService(store_service) # remote
