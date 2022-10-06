@@ -1,6 +1,6 @@
-mySet = {'Hugo', 'Emil', 'Hugo'}
+myDictionary = {'Hugo': 'rich', 'Emil': 'poor', 'Hugo': 'very rich'}
 
-for name in mySet:
-    print(name)
+for key in myDictionary:
+    print(key + ":" + myDictionary[key])
 
-mySet = ('Sawitzki', 183, 'm', True)
+myDictionary = {'name': 'Sawitzki', 'height': 183, 'gender': 'm', 'alive': True}
