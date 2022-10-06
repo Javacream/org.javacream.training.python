@@ -1,14 +1,34 @@
 postalCodeToCity = {81371: 'München', 81411: 'München', 76541: 'Stuttgart', 76555: 'Stuttgart'}
-print(postalCodeToCity[81371])
-
 cityToPostalCodes = {'München': [81371, 81411], 'Stuttgart': [76541, 76555]}
 
-for postalCode in cityToPostalCodes['München']:
-    print(postalCode)
+def add():
+    city = input("enter city:")
+    code = int(input("enter code:"))
+    postalCodeToCity[code] = city
+    codesForCity = cityToPostalCodes.get(city)
+    if (codesForCity == None):
+        codesForCity = []
+        cityToPostalCodes[city] = codesForCity
+    codesForCity.append(code)
+
+def searchByCity():
+    city = input("enter city:")
+    print(cityToPostalCodes.get(city))
+def searchByCode():
+    code = int(input("enter code:"))
+    print(postalCodeToCity.get(code))
 
 
-def createPerson(lastname, firstname):
-    return (lastname, firstname)
+while(True):
+    command = input("enter command:")
+    if (command == 'exit'):
+        break
+    elif (command == 'add'):
+        add()
+    elif (command == 'byCity'):
+        searchByCity()
+    elif (command == 'byCode'):
+        searchByCode()
+    else:
+        print("unknown command:", command)
 
-sawitzki = createPerson("Sawitzki", "Rainer")
-print(sawitzki)
