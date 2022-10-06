@@ -1,15 +1,18 @@
-myTuple = ('Hugo', 'Emil', 'Hugo')
+myList = ['Hugo', 'Emil', 'Hugo']
 
-for name in myTuple:
+for name in myList:
     print(name)
 
-hugo = myTuple[0]
+hugo = myList[0]
 print(hugo)
 
 
-#myTuple[0] = "Fritz" #Fehler, schreibender Zugriff it nicht möglich
-#print(myTuple[0])
+myList[0] = "Fritz" #Fehler, schreibender Zugriff it nicht möglich
+print(myList[0])
 
-#myTuple[3] = 'fritz'
+#print(myList[3]) # Fehler
 
-myTuple = ('Sawitzki', 183, 'm', True)
+#myList[3] = 'fritz' #Fehler -> List-Methode ermöglicht dies
+#print(myList[3])
+
+myList = ('Sawitzki', 183, 'm', True)
