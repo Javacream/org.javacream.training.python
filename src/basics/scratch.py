@@ -1,6 +1,12 @@
-message = "HeLlO"
-#print(message.lower())
-message.lower()
-print(message)
-lowercaseMessage = message.lower()
-print(lowercaseMessage)
+myList = []
+myList.append("Hugo")
+myList.append("Emil")
+for name in myList:
+    print(name)
+
+myList.clear()
+print(myList)
+
+value = input()
+print(value)
+
