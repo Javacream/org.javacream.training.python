@@ -1,13 +1,15 @@
-name = "Hugo"
+myTuple = ('Hugo', 'Emil', 'Hugo')
 
-def myFunc():
-    global name2
-    name2 = 'Emil'
-    print("in myFunc: " + name)
+for name in myTuple:
+    print(name)
 
-print("before myFunc: " + name)
+hugo = myTuple[0]
+print(hugo)
 
-myFunc()
 
-print("after myFunc name: " + name)
-print("after myFunc:name2 " + name2)
+#myTuple[0] = "Fritz" #Fehler, schreibender Zugriff it nicht möglich
+#print(myTuple[0])
+
+#myTuple[3] = 'fritz'
+
+myTuple = ('Sawitzki', 183, 'm', True)
