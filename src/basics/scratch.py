@@ -1,24 +1,22 @@
-# loops
+# Funktionen
+# def myFunc():
+#     print("called myFunc")
+# myFunc()
 
-i = 1
+# Beim Aufruf müssen die Argumente und die Parameterliste passen!
+# Hinweis: *args, **kwargs -> später
+def myFunc(name):
+    print(name)
+    return 42
 
-# while
-while(i < 5):
-    print(i)
-    i = i + 1
-    # i++
-    i +=1
-else:
-    print("end loop")    
+print(myFunc('Hugo'))
+# print(myFunc('Hugo', 'Emil')) # Fehler
 
-#break, continue als Schlüsselwörter existieren
+# Überladen von Funktions-Parameter-Listen ist nicht möglich, eine Re-Deklaration überschreibt die ursprüngliche Definition komplett
+def myFunc(name, name2):
+    print(name + name2)
+    return 42
 
-# classic for existiert nicht
 
-#for (i = 0; i < 5; i +=1):
-#    print(i)
-
-# Iteration über etwas iterierbares, bisher ist nur eine Zeichenkette iterierbar
-
-for character in 'Hello':
-    print(character)
+#print(myFunc('Hugo'))# Fehler
+print(myFunc('Hugo', 'Emil')) 
