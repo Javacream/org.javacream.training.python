@@ -1,21 +1,24 @@
-# Kontroll-Strukturen
+# loops
 
-# Keywords if elif else, Einrückungen syntaktisch notwenig
+i = 1
 
-n1 = 2
-n2 = 2
-
-if n1 > n2:
-    print('n1 greater than n2')
-elif n1 < n2:
-    print('n2 less n2')
+# while
+while(i < 5):
+    print(i)
+    i = i + 1
+    # i++
+    i +=1
 else:
-    print('n2 equal n2')
+    print("end loop")    
 
-# switch-Anweisung existiert, heißt in Python aber "match"
+#break, continue als Schlüsselwörter existieren
 
-command = "c1"
-#match gibt es erst seit python 3.10
-match command:
-    case 'c1':
-        print ("detected command c1")
+# classic for existiert nicht
+
+#for (i = 0; i < 5; i +=1):
+#    print(i)
+
+# Iteration über etwas iterierbares, bisher ist nur eine Zeichenkette iterierbar
+
+for character in 'Hello':
+    print(character)
