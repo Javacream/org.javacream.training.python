@@ -14,3 +14,7 @@ def changeList(l):
 print(myList[2])
 changeList(myList)
 print(myList[2])
+
+#Todo: Zeichnen Sie ein Stack-Heap-Diagramm und machen Sie sich daran das Verhalten des Programms klar
+#Frage: Arbeitet Python mit Call By Value oder einem Call by Reference? 
+#Recherche: Wie kann dieses Verhalten geändert werden? Hinweis: Gar nicht...
