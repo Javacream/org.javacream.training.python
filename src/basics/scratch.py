@@ -1,22 +1,13 @@
-# Funktionen
-# def myFunc():
-#     print("called myFunc")
-# myFunc()
+name = "Hugo"
 
-# Beim Aufruf müssen die Argumente und die Parameterliste passen!
-# Hinweis: *args, **kwargs -> später
-def myFunc(name):
-    print(name)
-    return 42
+def myFunc():
+    global name2
+    name2 = 'Emil'
+    print("in myFunc: " + name)
 
-print(myFunc('Hugo'))
-# print(myFunc('Hugo', 'Emil')) # Fehler
+print("before myFunc: " + name)
 
-# Überladen von Funktions-Parameter-Listen ist nicht möglich, eine Re-Deklaration überschreibt die ursprüngliche Definition komplett
-def myFunc(name, name2):
-    print(name + name2)
-    return 42
+myFunc()
 
-
-#print(myFunc('Hugo'))# Fehler
-print(myFunc('Hugo', 'Emil')) 
+print("after myFunc name: " + name)
+print("after myFunc:name2 " + name2)
