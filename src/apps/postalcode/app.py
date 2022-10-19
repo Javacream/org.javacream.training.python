@@ -1,15 +1,15 @@
-import postalCodes
+from postalCodes import *
 
 while(True):
     command = input("enter command:")
     if (command == 'exit'):
         break
     elif (command == 'add'):
-        postalCodes.add()
+        add()
     elif (command == 'byCity'):
-        postalCodes.searchByCity()
+        searchByCity()
     elif (command == 'byCode'):
-        postalCodes.searchByCode()
+        searchByCode()
     else:
         print("unknown command:", command)
 
