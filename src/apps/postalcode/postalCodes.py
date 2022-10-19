@@ -18,3 +18,7 @@ def searchByCode():
     code = int(input("enter code:"))
     print(postalCodeToCity.get(code))
 
+
+def __hidden__():
+    print ("called hidden function")
+
