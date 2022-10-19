@@ -4,15 +4,15 @@ sys.path.append('../src')
 
 from unittest.case import TestCase
 
-from books.booksservice import BookException, BooksService
-from books.isbngenerator import IsbnGenerator
-from books.storeservice import StoreService
-
+from books.booksservice import BookException
+# from books.isbngenerator import IsbnGenerator
+# from books.storeservice import StoreService
+from books.application_context import booksService
 
 class CreateBookTest(TestCase):
 
     def setUp(self):
-        self.service = BooksService(StoreService(), IsbnGenerator())
+        self.service = booksService
     def test_create_book_works(self):
         isbn = self.service.create("Python", 19.99) 
         self.assertIsNotNone(isbn)
