@@ -1,9 +1,9 @@
 import sys
 
-import unittest2
+import unittest
 
 sys.path.append('../src')
-from unittest2.case import TestCase
+from unittest.case import TestCase
 
 
 class ScratchTests(TestCase):
@@ -18,4 +18,4 @@ class ScratchTests(TestCase):
 
 
 if __name__ == '__main__':
-    unittest2.main()
+    unittest.main()

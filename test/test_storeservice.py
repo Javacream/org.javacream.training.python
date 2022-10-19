@@ -2,7 +2,7 @@ import sys
 
 sys.path.append('../src')
 
-from unittest2.case import TestCase
+from unittest.case import TestCase
 
 from books.storeservice import StoreService
 
