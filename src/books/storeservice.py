@@ -1,4 +1,4 @@
-class StoreService(object):
+class StoreService:
     def __init__(self):
         self.store = {}
     

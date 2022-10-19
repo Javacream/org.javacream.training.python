@@ -1,7 +1,7 @@
 from random import Random
 
 
-class IsbnGenerator(object):
+class IsbnGenerator:
     
     def __init__(self, prefix="ISBN:", suffix="-de"):
         self.generator = Random()
