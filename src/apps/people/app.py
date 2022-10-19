@@ -1,4 +1,5 @@
 from people import *
+
 if (__name__ == '__main__'):
     p1 = Person("Mustermann", "Hans")
     p2 = Person("Meier", "Hanna")

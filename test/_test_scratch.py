@@ -1,7 +1,10 @@
-import unittest
 import sys
+
+import unittest2
+
 sys.path.append('../src')
-from unittest.case import TestCase
+from unittest2.case import TestCase
+
 
 class ScratchTests(TestCase):
     def setUp(self):
@@ -10,9 +13,9 @@ class ScratchTests(TestCase):
         print("DOWN")
     def test_simple(self):
         self.assertTrue(True)
-    def test_simple(self):
+    def _test_simple_fails(self):
         self.assertTrue(False)
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest2.main()
