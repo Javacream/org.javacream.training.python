@@ -1,10 +1,12 @@
 import sys
+
 sys.path.append('../src')
 
-from books.storeservice import StoreService
-from books.isbngenerator import IsbnGenerator
 from unittest.case import TestCase
+
 from books.booksservice import BooksService
+from books.isbngenerator import IsbnGenerator
+from books.storeservice import StoreService
 
 
 class FindAllBooksTest(TestCase):
