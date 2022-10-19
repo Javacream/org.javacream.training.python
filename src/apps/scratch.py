@@ -11,7 +11,8 @@ dir(sys)
 
 #postalCodes.__hidden__()
 
-#from postalCodes import *
+from postalCodes import *
 
-#__hidden__()
+add()
+__hidden__()
 
