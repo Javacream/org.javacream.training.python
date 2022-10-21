@@ -8,7 +8,7 @@ from unittest.case import TestCase
 from books.isbngenerator import IsbnGenerator
 
 
-class BooksServiceTest(TestCase):
+class IsbngeneratorTest(TestCase):
 
 
     def setUp(self):

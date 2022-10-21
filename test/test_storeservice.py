@@ -7,7 +7,7 @@ from unittest.case import TestCase
 from books.storeservice import StoreService
 
 
-class BooksServiceTest(TestCase):
+class StoreServiceTest(TestCase):
 
     def setUp(self):
         self.store_service = StoreService()

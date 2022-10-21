@@ -11,7 +11,7 @@ class Configuration:
         with (open(config_file)) as f:
             self.config = yaml.safe_load(f)
 
-    def get_isbngenerator_configuration(self, name):
-        return self.config['isbngenerator'][name]
+    def get_isbngenerator_configuration(self):
+        return self.config['isbngenerator']
     def get_database_configuration(self):
         return self.config['database']

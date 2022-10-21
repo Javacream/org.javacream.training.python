@@ -4,10 +4,11 @@ sys.path.append('../src')
 
 from unittest.case import TestCase
 
-from books.storeservice import DatabaseStoreService
 from books.config import Configuration
+from books.storeservice import DatabaseStoreService
 
-class StoreServiceTest(TestCase):
+
+class DatabaseStoreServiceTest(TestCase):
 
     def setUp(self):
         
