@@ -13,3 +13,5 @@ class Configuration:
 
     def get_isbngenerator_configuration(self, name):
         return self.config['isbngenerator'][name]
+    def get_database_configuration(self):
+        return self.config['database']

@@ -1,3 +1,10 @@
 isbngenerator:
     prefix: "Isbn-"
     suffix: "-dk"
+database:
+    host: h2908727.stratoserver.net
+    port: 3406
+    database: javacream
+    user: user
+    password: user
+
