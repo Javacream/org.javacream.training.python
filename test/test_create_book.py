@@ -7,7 +7,7 @@ from unittest.case import TestCase
 from books.booksservice import BookException
 # from books.isbngenerator import IsbnGenerator
 # from books.storeservice import StoreService
-from books.application_context import books_service
+from books.application_context_remote import books_service
 
 class CreateBookTest(TestCase):
 
