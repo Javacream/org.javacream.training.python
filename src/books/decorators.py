@@ -18,6 +18,6 @@ def trace(f):
     return debug
 
 def decorate(obj, decorator_function):
-    for function in [a for a in dir(obj) if not a.startswith('__') and callable(getattr(obj,a))]:
-        setattr(obj, function, decorator_function(getattr(obj, function)))
+    for function_name in [a for a in dir(obj) if not a.startswith('__') and callable(getattr(obj,a))]:
+        setattr(obj, function_name, decorator_function(getattr(obj, function_name)))
     return obj    
