@@ -1,0 +1,3 @@
+isbngenerator:
+    prefix: "Isbn-"
+    suffix: "-dk"
