@@ -7,4 +7,6 @@ database:
     database: javacream
     user: user
     password: user
+endpoint:
+    url: "http://h2908727.stratoserver.net:8080/api/books"
 
