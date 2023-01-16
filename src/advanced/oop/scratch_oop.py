@@ -22,5 +22,6 @@ class Object:
 o = Object()
 Person.__init__(o, "47", "11")
 print(o.lastname)
-
+print(dir(o))
+print(dir(Person))
     
