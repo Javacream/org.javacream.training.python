@@ -1,19 +1,22 @@
 import functools
 
-def trace(func):
-    @functools.wraps(func)
-    def wrapper_trace(*args, **kwargs):
-        print("before")
-        result = func(*args, **kwargs)
-        print("after")
-        return result
-    return wrapper_trace
+def trace(should_print):
+    def f(func):    
+        @functools.wraps(func)
+        def wrapper_trace(*args, **kwargs):
+            if should_print:
+                print("before")
+            result = func(*args, **kwargs)
+            print("after")
+            return result
+        return wrapper_trace
+    return f
 
-@trace
+@trace(True)
 def f1():
     return "f1"
 
-@trace
+@trace(False)
 def f2(p):
     return f"f2, p={p}"
 
