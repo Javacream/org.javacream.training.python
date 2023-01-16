@@ -5,24 +5,30 @@ class Person:
     def say_hello(self):
         print(self.lastname)
 
-def my_func(x):
-    print("my_func")
-p1 = Person("A", "B")
+class Student(Person):
+    def __init__(self, lastname, firstname, university):
+        #super().__init__(lastname, firstname)
+        Person.__init__(self, lastname, firstname)
+        #Other.__init__(self, lastname)
+        #super(Other, self).__init__(lastname)
+        self.university = university
+    def study(self):
+        print("studying")
+    def say_hello(self):
+        super().say_hello()
+        print(f"the student {self.lastname}")
 
-p2 = Person("C", "D")
+class Other:
+    def __init__(self, name):
+        self.name = name
 
-# p1.say_hello()
-# p2.say_hello()
-Person.abc = my_func
+p = Person("Sawitzki", "Rainer")
+s = Student("Einstein", "Albert", "LMU")
 
-p2.abc()
-p1.abc()
+# 
+# p.say_hello()
+s.say_hello()
 
+# Person.say_hello(s)
 
-class Object:
-    pass 
-
-p2.__class__ = Object
-print(p2.__class__)
-print(dir(p2))
-print(p2.say_hello())
+#print(dir(s))
