@@ -1,5 +1,7 @@
 message = "Hello"
 
+# globals()["m2"] = 42
+# print(m2)
 def f1():
     message = "World"
     print(message)
