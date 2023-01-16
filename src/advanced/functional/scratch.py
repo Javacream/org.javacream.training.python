@@ -1,43 +1,23 @@
-# def my_func(param1, param2):
-#     print("my_func")
+import functools
 
-# my_func(1,2)
-
-# x = my_func
-# x(1,2)
-
-# my_func = 42
-# print(my_func)
-
-# my_func(1,2)
-
-def calc(value):
-    return value * 2
-
-#print(calc(21))
-
-# nun: eine Art Context Manager für diese Funktion
-
-def around(func):
-    def wrapper(p):
+def trace(func):
+    @functools.wraps(func)
+    def wrapper_trace(*args, **kwargs):
         print("before")
-        func(p)
+        result = func(*args, **kwargs)
         print("after")
-    return wrapper
+        return result
+    return wrapper_trace
 
-def stupid(func):
-    return 4711
+@trace
+def f1():
+    return "f1"
 
+@trace
+def f2(p):
+    return f"f2, p={p}"
 
-# calc = around(calc)
-# calc(21)
+print(f1())    
+print(f2("Hugo")) 
 
-# calc = stupid(calc)
-# print(calc)
-
-@stupid
-def calc2(p):
-    return 3 * p
-
-
-print(calc2(14))
+print(f2)
