@@ -1,7 +1,7 @@
 import functools
 
 def trace(should_print):
-    def f(func):    
+    def decorator_trace(func):    
         @functools.wraps(func)
         def wrapper_trace(*args, **kwargs):
             if should_print:
@@ -10,7 +10,7 @@ def trace(should_print):
             print("after")
             return result
         return wrapper_trace
-    return f
+    return decorator_trace
 
 @trace(True)
 def f1():
