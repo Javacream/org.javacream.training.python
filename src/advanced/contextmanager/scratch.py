@@ -1,3 +1,5 @@
+from contextlib import contextmanager
+
 class MyContextManager:
     def __enter__(self):
         print("entering...")
@@ -7,4 +9,14 @@ class MyContextManager:
 
 with MyContextManager() as number:
     print(f"in sequence, {number}")
-    raise Exception("Error")
+    #raise Exception("Error")
+
+@contextmanager
+def function_based_context_manager():
+    print("enter")
+    yield ("Hugo")
+    print("exit")
+
+
+with function_based_context_manager() as value:
+    print(f"Hello with value {value}")
