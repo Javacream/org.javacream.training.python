@@ -1,25 +1,26 @@
-# object, str sind immutable objects
-# p = object()
-# print(p)
-# m = "Hugo"
-# m.egal = 42
+#class Person:
+    #lastname, firstname
 
-# new style class, erzeugt mutable objects
-class Simple:
+
+#class Person(lastname, firstname)
+
+class Person:
+    def __init__(self, lastname, firstname):
+        self.lastname = lastname
+        self.firstname = firstname
+
+p = Person("Sawitzki", "Rainer")
+
+X = Person
+
+p2 = X("A", "B")
+print(p2.lastname)
+
+class Object:
     pass
 
-s = Simple()
-print(s)
-s.lastname = "Meier"
-s.firstname = "Hugo"
-print(f"{s.firstname} {s.lastname}")
+o = Object()
+Person.__init__(o, "47", "11")
+print(o.lastname)
 
-
-names = ["A", "B"]
-names[0] = "Hugo"
-print(names)
-
-# list ist immutable
-# names.egal = 42
-# print(names.egal)
-
+    
