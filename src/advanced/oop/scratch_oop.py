@@ -1,29 +1,28 @@
-#class Person:
-    #lastname, firstname
-
-
-#class Person(lastname, firstname)
-
-def my_func(x):
-    print(x.lastname)
-
 class Person:
     def __init__(self, lastname, firstname):
         self.lastname = lastname
         self.firstname = firstname
-        self.say_hello_as_attribute = my_func
     def say_hello(self):
         print(self.lastname)
 
-p = Person("Sawitzki", "Rainer")
-p.say_hello_as_attribute(p)
-p.say_hello()
+def my_func(x):
+    print("my_func")
+p1 = Person("A", "B")
 
-Person.say_hello(p)
-print(dir(Person))
+p2 = Person("C", "D")
+
+# p1.say_hello()
+# p2.say_hello()
+Person.abc = my_func
+
+p2.abc()
+p1.abc()
+
 
 class Object:
-    pass
-o = Object()
-o.lastname = "Hugo"
-Person.say_hello(o)
+    pass 
+
+p2.__class__ = Object
+print(p2.__class__)
+print(dir(p2))
+print(p2.say_hello())
