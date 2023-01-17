@@ -32,3 +32,4 @@ class Demo(B, A, D, C):
 d = Demo()
 print(dir(Demo))
 print(dir(d))
+print(Demo.mro())
