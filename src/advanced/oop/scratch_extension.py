@@ -30,6 +30,18 @@ class Demo(B, A, D, C):
         A.__init__(self)
 
 d = Demo()
-print(dir(Demo))
-print(dir(d))
-print(Demo.mro())
+# print(dir(Demo))
+# print(dir(d))
+# print(Demo.mro())
+
+
+#print(type(d))
+#print(isinstance(d, A))
+
+#print(type(type))
+
+X = type('Foo', (A, D), {"attr_x": "Egal"})
+
+x = X()
+print(x.attr_x)
+
