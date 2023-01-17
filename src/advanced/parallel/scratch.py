@@ -1,4 +1,4 @@
-from concurrent.futures import ThreadPoolExecutor, wait
+from concurrent.futures import ProcessPoolExecutor, wait
 import time
 
 COUNT = 25000000
@@ -9,10 +9,12 @@ def countdown(n):
 
 start = time.time()
 
-with ThreadPoolExecutor(2) as executor:
+with ProcessPoolExecutor(4) as executor:
     future1 = executor.submit(countdown, COUNT)
     future2 = executor.submit(countdown, COUNT)
-    wait([future1, future2])
+    future3 = executor.submit(countdown, COUNT)
+    future4 = executor.submit(countdown, COUNT)
+    wait([future1, future2, future3, future4])
 
 end = time.time()
 print(end - start)
