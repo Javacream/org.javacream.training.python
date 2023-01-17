@@ -15,6 +15,7 @@ with ProcessPoolExecutor(4) as executor:
     future3 = executor.submit(countdown, COUNT)
     future4 = executor.submit(countdown, COUNT)
     wait([future1, future2, future3, future4])
+    print(future1.result())
 
 end = time.time()
 print(end - start)
