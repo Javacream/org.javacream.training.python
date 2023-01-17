@@ -1,22 +1,18 @@
-from threading import Thread 
+from concurrent.futures import ThreadPoolExecutor, wait
 import time
 
 COUNT = 25000000
 def countdown(n):
     while n > 0:
         n = n - 1
+    return "Result"    
 
 start = time.time()
 
-
-# t1 = Thread(target=countdown, args= (COUNT, ))
-# t2 = Thread(target=countdown, args= (COUNT, ))
-# t1.start()
-# t2.start()
-# t1.join()
-# t2.join()
-
-countdown(2*COUNT)
+with ThreadPoolExecutor(2) as executor:
+    future1 = executor.submit(countdown, COUNT)
+    future2 = executor.submit(countdown, COUNT)
+    wait([future1, future2])
 
 end = time.time()
 print(end - start)
