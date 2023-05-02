@@ -7,3 +7,12 @@ print(message)
 print("Hello Moon")
 #print("Hello Moon)
 #print(hugo)# error: hugo ist als Variable nicht bekannt, weil nirgendwo im Programm eine Zuweisung erfolgte
+print()
+
+name = '"Hello'
+print(name)
+name = "'Hello"
+print(name)
+
+name = "He\"llo" #\" eine sogenannte Escape-Sequenz
+print(name)
