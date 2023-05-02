@@ -11,3 +11,9 @@ if number1 > number2:
     print("number1 is greater than number2")
 else:
     print("number1 is smaller or equals than number2")
+
+names = ["Hugo", "Emil", "Fritz", "Egon"]
+
+#allgemeine form: for element in list
+for name in names:
+    print(name)
