@@ -34,7 +34,7 @@ def rangeDemo():
         print(n)
 
 def dictionaryDemo():
-    postalCodesLookup = {81371: "München", 30001: "Belin", 40022: "Hamburg"}
+    postalCodesLookup = {81371: "München", 30001: "Berlin", 40022: "Hamburg"}
     print(postalCodesLookup[81371])
     #print(postalCodesLookup[81372]) #Laufzeitfehler bei nicht vorhandenem Key -> später finden wir eine bessere Lösung
     for key in postalCodesLookup.keys():
