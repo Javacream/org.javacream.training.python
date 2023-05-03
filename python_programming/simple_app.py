@@ -1,35 +1,45 @@
+def doAddition():
+    number1AsString = input("Bitte die erste Zahl eingeben: ")
+    number2AsString = input("Bitte die zweite Zahl eingeben: ")
+    number1 = int(number1AsString)
+    number2 = int(number2AsString)
+    sum = number1 + number2
+    print(f"das ergebnis der addition von {number1} und {number2} ist {sum}")    
+def doSubstraction():
+    number1AsString = input("Bitte die erste Zahl eingeben: ")
+    number2AsString = input("Bitte die zweite Zahl eingeben: ")
+    number1 = int(number1AsString)
+    number2 = int(number2AsString)
+    diff = number1 - number2
+    print(f"das ergebnis der subtraktion von {number1} und {number2} ist {diff}")
+def doMultiplication():
+    number1AsString = input("Bitte die erste Zahl eingeben: ")
+    number2AsString = input("Bitte die zweite Zahl eingeben: ")
+    number1 = int(number1AsString)
+    number2 = int(number2AsString)
+    product  = number1 * number2
+    print(f"das ergebnis der multiplikation von {number1} und {number2} ist {product}")
+
+def doDivision():
+    number1AsString = input("Bitte die erste Zahl eingeben: ")
+    number2AsString = input("Bitte die zweite Zahl eingeben: ")
+    number1 = int(number1AsString)
+    number2 = int(number2AsString)
+    quotient  = number1 / number2
+    print(f"das ergebnis der division von {number1} und {number2} ist {quotient}")
+
 def main():
     userInput = input("Bitte Kommado eingeben, exit zum beenden oder '+': ")
     while userInput != "exit":
         try:
             if userInput == '+':
-                number1AsString = input("Bitte die erste Zahl eingeben: ")
-                number2AsString = input("Bitte die zweite Zahl eingeben: ")
-                number1 = int(number1AsString)
-                number2 = int(number2AsString)
-                sum = number1 + number2
-                print(f"das ergebnis der addition von {number1} und {number2} ist {sum}")
+                doAddition()
             elif userInput == '-':
-                number1AsString = input("Bitte die erste Zahl eingeben: ")
-                number2AsString = input("Bitte die zweite Zahl eingeben: ")
-                number1 = int(number1AsString)
-                number2 = int(number2AsString)
-                diff = number1 - number2
-                print(f"das ergebnis der subtraktion von {number1} und {number2} ist {diff}")
+                doSubstraction()
             elif userInput == '*':
-                number1AsString = input("Bitte die erste Zahl eingeben: ")
-                number2AsString = input("Bitte die zweite Zahl eingeben: ")
-                number1 = int(number1AsString)
-                number2 = int(number2AsString)
-                product  = number1 * number2
-                print(f"das ergebnis der multiplikation von {number1} und {number2} ist {product}")
+                doMultiplication
             elif userInput == '/':
-                number1AsString = input("Bitte die erste Zahl eingeben: ")
-                number2AsString = input("Bitte die zweite Zahl eingeben: ")
-                number1 = int(number1AsString)
-                number2 = int(number2AsString)
-                quotient  = number1 / number2
-                print(f"das ergebnis der division von {number1} und {number2} ist {quotient}")
+                doDivision()
             else:
                 print(f"unbekannte eingabe: {userInput}")
         except:
