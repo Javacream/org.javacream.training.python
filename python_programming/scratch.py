@@ -1,7 +1,10 @@
 def demo_function(text1, text2):
     print(text1)
     print(text2)
+    print(f"Von der Einrückung darüber {name}")
     return 42
+    # number = 2
+    # return number
 
 name = "Sawitzki"
 greeting = "Hello"
@@ -11,4 +14,7 @@ demo_function(greeting, name) #implizit erfolgt eine Umwandlung der Aufrufparame
                               #text1 = greeting text2=name
 
 result = demo_function("Goodbye", "Hugo")
-print(result)                              
+if result != None:
+    print(result)                              
+
+demo_function(None, None)    
