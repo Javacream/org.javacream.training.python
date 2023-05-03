@@ -1,49 +1,47 @@
-def doAddition():
-    number1AsString = input("Bitte die erste Zahl eingeben: ")
-    number2AsString = input("Bitte die zweite Zahl eingeben: ")
-    number1 = int(number1AsString)
-    number2 = int(number2AsString)
-    sum = number1 + number2
-    print(f"das ergebnis der addition von {number1} und {number2} ist {sum}")    
-def doSubstraction():
-    number1AsString = input("Bitte die erste Zahl eingeben: ")
-    number2AsString = input("Bitte die zweite Zahl eingeben: ")
-    number1 = int(number1AsString)
-    number2 = int(number2AsString)
-    diff = number1 - number2
-    print(f"das ergebnis der subtraktion von {number1} und {number2} ist {diff}")
-def doMultiplication():
-    number1AsString = input("Bitte die erste Zahl eingeben: ")
-    number2AsString = input("Bitte die zweite Zahl eingeben: ")
-    number1 = int(number1AsString)
-    number2 = int(number2AsString)
-    product  = number1 * number2
-    print(f"das ergebnis der multiplikation von {number1} und {number2} ist {product}")
+def doAddition(numbers):
+    sum = numbers[0] + numbers[1]
+    printResult("Addition", numbers, sum)
+def doSubstraction(numbers):
+    diff = numbers[0] - numbers[1]
+    printResult("Substraction", numbers, diff)
+def doMultiplication(numbers):
+    product  = numbers[0] * numbers[1]
+    printResult("Multiplication", numbers, product)
 
-def doDivision():
-    number1AsString = input("Bitte die erste Zahl eingeben: ")
-    number2AsString = input("Bitte die zweite Zahl eingeben: ")
-    number1 = int(number1AsString)
-    number2 = int(number2AsString)
-    quotient  = number1 / number2
-    print(f"das ergebnis der division von {number1} und {number2} ist {quotient}")
+def doDivision(numbers):
+    quotient  = numbers[0] / numbers[1]
+    printResult("Division", numbers, quotient)
+
+def readStringFromConsole(position):
+    inputString = input(f"Bitte die {position} Zahl eingeben: ")
+    return inputString
+
+def readTwoStringsFromConsole():
+    return [readStringFromConsole("erste"), readStringFromConsole("zweite")]
+
+def convertStringListToNumbers(stringList):
+    try: 
+        return [int(stringList[0]), int(stringList[1])]
+    except:
+        print(f"Eine der Eingaben kann nicht in eine Zahl umgewandelt werden, eingabe1={stringList[0]} oder eingabe2={stringList[1]}")        
+        return None
+
+def printResult(operation, numbers, result):
+    print(f"Das Ergebnis der {operation} von {numbers[0]} und {numbers[1]} ist {result}")
 
 def main():
-    userInput = input("Bitte Kommado eingeben, exit zum beenden oder '+': ")
-    while userInput != "exit":
-        try:
-            if userInput == '+':
-                doAddition()
-            elif userInput == '-':
-                doSubstraction()
-            elif userInput == '*':
-                doMultiplication
-            elif userInput == '/':
-                doDivision()
-            else:
-                print(f"unbekannte eingabe: {userInput}")
-        except:
-            print(f"Eine der Eingaben kann nicht in eine Zahl umgewandelt werden, eingabe1={number1AsString} oder eingabe2={number2AsString}")        
-        userInput = input("Bitte Kommado eingeben, exit zum beenden oder '+': ")
-
+    while (userInput := input("Bitte Kommado eingeben, exit zum beenden oder '+', '-', '*', '/': ")) != "exit":
+            stringList = readTwoStringsFromConsole()
+            numbers = convertStringListToNumbers(stringList)
+            if (numbers != None):
+                if userInput == '+':
+                    doAddition(numbers)
+                elif userInput == '-':
+                    doSubstraction(numbers)
+                elif userInput == '*':
+                    doMultiplication(numbers)
+                elif userInput == '/':
+                    doDivision(numbers)
+                else:
+                    print(f"unbekannte eingabe: {userInput}")
 main()
