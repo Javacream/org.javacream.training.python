@@ -1,13 +1,13 @@
-def fn1(p1, p2):
-    pass
-def fn2(a, b):
-    r = True
-    return r
+def fn(list):
+    list[0] = "Fritz"
+    print(list[0])
 
 def main():
-     name = "Hugo"
-     age = 42
-     fn1(name, age)
-     s = fn2(name, age)
-     print(s)
+    names = ["Hugo", "Emil"]
+    fn(names)
+    print(names[0]) # Was ist die Ausgabe: Hugo oder Fritz?
+
+    names2 = names # Zuweisung einer Referenez, KEINE KOPIE EINES OBJEKTS
+    names2[1] = "Edgar"
+    print(names[1])
 main()
