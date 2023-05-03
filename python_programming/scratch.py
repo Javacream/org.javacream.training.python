@@ -1,14 +1,14 @@
-#input = input()
-#print(input)
-#message = [""]
-#typeOfMessage = type(message)
-#print(typeOfMessage)#<class 'str'> -> Eine Zeichenkette, <class 'int'> eine Ganzzahl
+def demo_function(text1, text2):
+    print(text1)
+    print(text2)
+    return 42
 
-#print(type(input()))#sehr veschachtelt, schlecht lesbar -> in der Praxis so bitte nicht
-#print (2 * int("21hugo"))
+name = "Sawitzki"
+greeting = "Hello"
 
-inputString = input()
-while inputString != "exit":
-    number1 = input()
-    number2=input()
-    inputString = input()
+"Emil"
+demo_function(greeting, name) #implizit erfolgt eine Umwandlung der Aufrufparameter in die Methoden-Paramater"
+                              #text1 = greeting text2=name
+
+result = demo_function("Goodbye", "Hugo")
+print(result)                              
