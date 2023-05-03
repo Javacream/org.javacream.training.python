@@ -10,7 +10,7 @@ def doMultiplication(numbers):
 
 def doDivision(numbers):
     quotient  = numbers[0] / numbers[1]
-    printResult("Division", numbers, quotient)
+    #printResult("Division", numbers, quotient)
 
 def readStringFromConsole(position):
     inputString = input(f"Bitte die {position} Zahl eingeben: ")
