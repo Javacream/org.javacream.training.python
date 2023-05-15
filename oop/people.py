@@ -27,16 +27,42 @@ class Person:
     def divorce(self):
         if not hasattr(self, "partner") or not self.partner:
             raise Exception("cannot divorce, i am not married")
-        self.partner = None
         self.partner.partner= None    
+        self.partner = None
     
 def test():
     p1 = Person("Sawitzki", "Rainer", 183, 'm')
     p2 = Person("Meier", "Hannah", 199, 'd')
     p3 = Person("Schneider", "Andrea", 155, 'f')
+    try:
+        p1.marry(None)
+        print("EXCEPTION MUST BE THROWN, marry with None not allowed")
+    except:
+        pass    
+    try:
+        p1.marry(p1)
+        print("EXCEPTION MUST BE THROWN, marry yourself not allowed")
+    except:
+        pass    
+    try:
+        p1.divorce()
+        print("EXCEPTION MUST BE THROWN, p1 is not married")
+    except:
+        pass    
+
     p1.marry(p2)
-    p3.divorce()
+    try:
+        p3.marry(p2)
+        print("EXCEPTION MUST BE THROWN, p2 ist married!")
+    except:
+        pass    
+    p2.divorce()
     p3.marry(p2)
+    try:
+        p1.divorce()
+        print("EXCEPTION MUST BE THROWN, p1 is not married")
+    except:
+        pass    
 
     print("marriage done")
 
