@@ -16,14 +16,22 @@ class Company:
     def __init__(self, name, address):
         self.name = name
         self.address = address
+
+class Worker(Person):
+    def __init__(self, lastname, firstname, company):
+        self.company = company
+        super().__init__(lastname, firstname)
+    def work(self):
+        print(f"a am working at company {self.company}")
+
 def test():
     p1 = Person("Sawitzki", "Rainer")
     a1 = Address("München", "Marienplatz")
+    a2 = Address("Berlin", "Alexanderplatz")
     p1.address = a1
-
     c1 = Company("Javacream", a1)
-    print(p1.sayHello())
-    print(c1)    
-    print("test done!")
-
+    w1 = Worker("Schufter", "Hannah", c1)
+    w1.address = a2
+    print(w1.sayHello())
+    w1.work()
 test()
