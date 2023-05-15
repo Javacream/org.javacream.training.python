@@ -4,7 +4,7 @@ class Person:
         heightAsNumber = int(height)
         if heightAsNumber <=25:
             raise Exception(f"invalid height, must be greater than 25, was {heightAsNumber}")
-        if not gender in self.allowedGenders:
+        if not gender in Person.allowedGenders:
             raise Exception(f"invalid gender, must be (m, f, d)), was {gender}")
         self.lastname = lastname
         self.firstname = firstname
@@ -13,20 +13,22 @@ class Person:
     def sayHello(self):
         helloMessage = f"Hello, my name is {self.firstname} {self.lastname}"
         return helloMessage
+    def marry(self, newPartner):
+        self.partner = newPartner
+        newPartner.partner = self
+    def divorce(self):
+        self.partner.partner= None    
+        self.partner = None
     
 def test():
     p1 = Person("Sawitzki", "Rainer", 183, 'm')
-    print(p1.sayHello())
-    try:
-        p = Person("Sawitzki", "Rainer", 1, 'm')
-        print("WARNING: AN EXCEPTION MUST BE THROWN BECAUSE HEIGHT IS INVALID!")
-    except:
-        pass    
-    try:
-        p = Person("Sawitzki", "Rainer", 183, 'b')
-        print("WARNING: AN EXCEPTION MUST BE THROWN BECAUSE GENDER IS INVALID!")
-    except:
-        pass    
+    p2 = Person("Meier", "Hannah", 199, 'd')
+    p3 = Person("Schneider", "Andrea", 155, 'f')
 
+    p1.marry(p2)
+    p2.divorce()
+    p1.marry(p3)
+
+    print("marriage done")
 
 test()
