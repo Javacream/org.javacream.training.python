@@ -1,20 +1,14 @@
+class Person:
+    def __init__(self, lastname, firstname):
+        self.lastname = lastname
+        self.firstname = firstname
+    def sayHello(self):
+        return f"Hello, my name is {self.firstname} {self.lastname}"
+
 def main():
-    def meierSayHello():
-        return f"Hello, my name is {firstname2} {lastnameMeier}"
-    personMeier = {
-        lastname: "Meier",
-        firstname: "Hannah", 
-        sayHello: meierSayHello
-    }
-    def sayHello():
-        return f"Hello, my name is {firstname} {lastname}"
-
-    personSawitzki = {
-        lastname: "Sawitzki",
-        firstname: "Rainer",
-        sayHello: sayHello
-
-    }
-    print(sayHello())
-    print(meierSayHello())
+    personMeier = Person("Meier", "Hannah")
+    personMeier.middleName = "Hugo"
+    personSawitzki = Person("Sawitzki", "Rainer")
+    print(personSawitzki.sayHello())
+    print(personMeier.sayHello())
 main()
