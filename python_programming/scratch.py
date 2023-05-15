@@ -1,48 +1,19 @@
-def listDemo():
-    names = ["A", "B", "A", "C"]
-    print(names[1]) # -> B
-    print(len(names))
-    names.append("X")
-    names.append("A")
-    print(len(names))
-    for name in names:
-        print(name)
-
-def setDemo():
-    names = {"A", "B", "A", "C"}
-    #print(names[1]) # -> B
-    print(len(names))
-    names.add("X")
-    names.add("A")
-    print(len(names))
-    for name in names:
-        print(name)
-
-
-def tupleDemo():
-    namesList = ["A", "B", "A"]
-    namesList[1] = "C"
-    namesTuple = ("A", "B", "A")
-    #namesTuple[1] = "C"
-    print(namesTuple[1])
-    for name in namesTuple:
-        print(name)
-
-def rangeDemo():
-    r = range (1, 9, 2)
-    for n in r:
-        print(n)
-
-def dictionaryDemo():
-    postalCodesLookup = {81371: "München", 30001: "Berlin", 40022: "Hamburg"}
-    print(postalCodesLookup[81371])
-    #print(postalCodesLookup[81372]) #Laufzeitfehler bei nicht vorhandenem Key -> später finden wir eine bessere Lösung
-    for key in postalCodesLookup.keys():
-        print(f"Key: {key}")
-    for value in postalCodesLookup.values():
-        print(f"Value: {value}")
-    for key, value in postalCodesLookup.items():
-        print(f"Key: {key}, Value: {value}")
 def main():
-    dictionaryDemo()
+    def fn1():
+        print("executing fn1")
+        return "OK from fn1"
+
+    def fn2(p):
+        print("executing fn2")
+        print(p)
+    #fn1()
+    name = "Hugo"
+    x = fn1
+    #print(x)
+    #x()
+    fn2(name)
+    fn2(fn1())#Hier wird der Rückgabewert von fn1 genutzt
+    fn2(fn1)#Hier wird fn1 genutzt
+    #name() -> Syntax Error, not callable
+
 main()
