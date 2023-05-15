@@ -1,19 +1,20 @@
 def main():
-    def fn1():
-        print("executing fn1")
-        return "OK from fn1"
+    def meierSayHello():
+        return f"Hello, my name is {firstname2} {lastnameMeier}"
+    personMeier = {
+        lastname: "Meier",
+        firstname: "Hannah", 
+        sayHello: meierSayHello
+    }
+    def sayHello():
+        return f"Hello, my name is {firstname} {lastname}"
 
-    def fn2(p):
-        print("executing fn2")
-        print(p)
-    #fn1()
-    name = "Hugo"
-    x = fn1
-    #print(x)
-    #x()
-    fn2(name)
-    fn2(fn1())#Hier wird der Rückgabewert von fn1 genutzt
-    fn2(fn1)#Hier wird fn1 genutzt
-    #name() -> Syntax Error, not callable
+    personSawitzki = {
+        lastname: "Sawitzki",
+        firstname: "Rainer",
+        sayHello: sayHello
 
+    }
+    print(sayHello())
+    print(meierSayHello())
 main()
