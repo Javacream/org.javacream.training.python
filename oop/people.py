@@ -52,6 +52,11 @@ def test():
 
     p1.marry(p2)
     try:
+        p1.marry(p3)
+        print("EXCEPTION MUST BE THROWN, p1 ist married!")
+    except:
+        pass    
+    try:
         p3.marry(p2)
         print("EXCEPTION MUST BE THROWN, p2 ist married!")
     except:
