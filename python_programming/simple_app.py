@@ -1,16 +1,20 @@
-def doAddition(numbers):
-    sum = numbers[0] + numbers[1]
-    printResult("Addition", numbers, sum)
-def doSubstraction(numbers):
-    diff = numbers[0] - numbers[1]
-    printResult("Substraction", numbers, diff)
-def doMultiplication(numbers):
-    product  = numbers[0] * numbers[1]
-    printResult("Multiplication", numbers, product)
+def createCalculator():
+        
+    def doAddition(numbers):
+        sum = numbers[0] + numbers[1]
+        printResult("Addition", numbers, sum)
+    def doSubstraction(numbers):
+        diff = numbers[0] - numbers[1]
+        printResult("Substraction", numbers, diff)
+    def doMultiplication(numbers):
+        product  = numbers[0] * numbers[1]
+        printResult("Multiplication", numbers, product)
 
-def doDivision(numbers):
-    quotient  = numbers[0] / numbers[1]
-    printResult("Division", numbers, quotient)
+    def doDivision(numbers):
+        quotient  = numbers[0] / numbers[1]
+        printResult("Division", numbers, quotient)
+    operations = {"+": doAddition, "-": doSubstraction, "*": doMultiplication, '/': doDivision}
+    return operations
 
 def readStringFromConsole(position):
     inputString = input(f"Bitte die {position} Zahl eingeben: ")
@@ -31,21 +35,13 @@ def printResult(operation, numbers, result):
 
 def main():
     validOperations = ("+", "-", "*", "/")
-    operations = {"+": doAddition, "-": doSubstraction, "*": doMultiplication, '/': doDivision}
+    calculator = createCalculator()
     while (userInput := input("Bitte Kommado eingeben, exit zum beenden oder '+', '-', '*', '/': ")) != "exit":
             if userInput in  validOperations:
                 stringList = readTwoStringsFromConsole()
                 numbers = convertStringListToNumbers(stringList)
                 if (numbers != None):
-                    # if userInput == '+':
-                    #     doAddition(numbers)
-                    # elif userInput == '-':
-                    #     doSubstraction(numbers)
-                    # elif userInput == '*':
-                    #     doMultiplication(numbers)
-                    # elif userInput == '/':
-                    #     doDivision(numbers)
-                    operations[userInput](numbers)
+                    calculator[userInput](numbers)
             else:
                 print(f"Unbekannte Eingabe: {userInput}")
 main()
