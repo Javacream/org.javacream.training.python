@@ -14,20 +14,29 @@ class Person:
         helloMessage = f"Hello, my name is {self.firstname} {self.lastname}"
         return helloMessage
     def marry(self, newPartner):
+        if hasattr(self, "partner") and self.partner:
+            raise Exception("cannot marry because i am already married")
+        if hasattr(newPartner, "partner") and newPartner.partner:
+            raise Exception("cannot marry because newPartner am already married")
+        if not newPartner:
+            raise Exception("cannot marry non existing newPartner")
+        if newPartner == self:
+            raise Exception("cannot marry myself")
         self.partner = newPartner
         newPartner.partner = self
     def divorce(self):
-        self.partner.partner= None    
+        if not hasattr(self, "partner") or not self.partner:
+            raise Exception("cannot divorce, i am not married")
         self.partner = None
+        self.partner.partner= None    
     
 def test():
     p1 = Person("Sawitzki", "Rainer", 183, 'm')
     p2 = Person("Meier", "Hannah", 199, 'd')
     p3 = Person("Schneider", "Andrea", 155, 'f')
-
     p1.marry(p2)
-    p2.divorce()
-    p1.marry(p3)
+    p3.divorce()
+    p3.marry(p2)
 
     print("marriage done")
 
