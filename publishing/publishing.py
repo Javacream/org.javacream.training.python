@@ -15,7 +15,8 @@ class Book:
         self.authors = []
 
 class Author:
-    def __init__(self, lastname, firstname):
+    def __init__(self, id, lastname, firstname):
+        self.id = id
         self.lastname = lastname
         self.firstname = firstname
         self.books = {}
@@ -37,6 +38,18 @@ class PublisherController:
         return newPublisher.id
     def findById(self, publisherId):
         return self.__publishers.get(publisherId)
+
+class AuthorController:
+    def __init__(self):
+        self.__authors = {}
+        self.__counter = 0
+    def create(self, lastname, firstname):
+        newAuthor =  Author(self.__counter, lastname, firstname)
+        self.__authors[newAuthor.id] = newAuthor
+        self.__counter = self.__counter + 1
+        return newAuthor.id
+    def findById(self, authorId):
+        return self.__authors.get(authorId)
     
 def test():
     def testPublisherOk():
@@ -50,7 +63,7 @@ def test():
     def testBookOk():
         b = Book("ISBN1", "Title1", 200, 19.99, True)
     def testAuthorOk():
-        a = Author("Schneider", "Hannah")
+        a = Author(1, "Schneider", "Hannah")
     def testAddressOk():
         a = Address("Berlin", 30111, "Alexanderplatz")
     def testPublisherController():
@@ -64,6 +77,13 @@ def test():
         publisher = controller.findById(createdId)
         print(f"found publisher, name={publisher.name}")
 
+    def testAuthorController():
+        authorController = AuthorController()
+        id = authorController.create("Meier", "Hans")
+        print(f"created author id={id}")
+        author = authorController.findById(id)
+        print(f"found author, lastname={author.lastname}")
+
     print("Starting  all tests...")
     testPublisherOk()
     testPublisherWrong()
@@ -71,5 +91,6 @@ def test():
     testAddressOk()
     testAuthorOk()
     testPublisherController()
+    testAuthorController()
     print("Running  all tests: Done")
 test()
