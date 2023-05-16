@@ -74,17 +74,9 @@ def test():
     publisher.books.add(book3)
     publisher.books.add(book4)
     publisher.books.add(book5)
-    expensiveBooks = [b for b in publisher.books if b.price > 25] 
-    # for book in expensiveBooks:
-    #     print(book)
-    # fatBooks = filterFatBooks(publisher.books)
-    # for book in fatBooks:
-    #     print(book.title)
-    # pythonBooks = filterPythonBooks(publisher.books)
-    # for book in pythonBooks:
-    #     print(book.title)
-    # cheapAndAvailableBooks = filterCheapAndAvailableBooks(publisher.books)
-    # for book in cheapAndAvailableBooks:
-    #     print(book.title)
+    [print(b.title) for b in publisher.books if b.price > 25] 
+    [print(b.title) for b in publisher.books if b.pages > 500] 
+    [print(b.title) for b in publisher.books if b.title.count("Python") > 0] 
+    [print(b.title) for b in publisher.books if b.price < 15 and b.available] 
 
 test()
