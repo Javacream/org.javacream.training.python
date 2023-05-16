@@ -1,5 +1,6 @@
 class Publisher:
-    def __init__(self, name, address):
+    def __init__(self, id, name, address):
+        self.id = id
         self.name = name
         self.address = address
         self.books = {}
@@ -25,10 +26,21 @@ class Address:
         self.street = street
         self.postalCode = postalCode
 
-
+class PublisherController:
+    def __init__(self):
+        self.__publishers = {}
+        self.__counter = 0
+    def create(self, name, address):
+        newPublisher =  Publisher(self.__counter, name, address)
+        self.__publishers[newPublisher.id] = newPublisher
+        self.__counter = self.__counter + 1
+        return newPublisher.id
+    def findById(self, publisherId):
+        return self.__publishers.get(publisherId)
+    
 def test():
     def testPublisherOk():
-        p = Publisher("Springer", Address("Berlin", 30111, "Alexanderplatz"))
+        p = Publisher(1, "Springer", Address("Berlin", 30111, "Alexanderplatz"))
     def testPublisherWrong():
         try:
             p = Publisher("Springer")
@@ -41,12 +53,23 @@ def test():
         a = Author("Schneider", "Hannah")
     def testAddressOk():
         a = Address("Berlin", 30111, "Alexanderplatz")
+    def testPublisherController():
+        controller = PublisherController()
+        createdId = controller.create("Springer", Address("Berlin", 30111, "Alexanderplatz"))
+        print(f"createdId={createdId}")
+        publisher = controller.findById(createdId)
+        print(f"found publisher, name={publisher.name}")
+        createdId = controller.create("Addison", Address("Berlin", 30111, "Alexanderplatz"))
+        print(f"createdId={createdId}")
+        publisher = controller.findById(createdId)
+        print(f"found publisher, name={publisher.name}")
 
-    print("Starting  all tests: Done")
+    print("Starting  all tests...")
     testPublisherOk()
     testPublisherWrong()
     testBookOk()
     testAddressOk()
     testAuthorOk()
+    testPublisherController()
     print("Running  all tests: Done")
 test()
