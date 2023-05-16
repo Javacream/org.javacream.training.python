@@ -2,7 +2,7 @@
 
 ## Durchführung des Seminars
 
-* Referent: Rainer Sawitzki, eMail: training@rainer-sawitzki.de
+* Referent: Rainer Sawitzki, eMail: rainer.sawitzki@gmail.com
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1hmxW6fnGhNT6Gm9sT2hbTIehKfmJafIYxo4BxMkn-Mw/edit?usp=sharing)
 
