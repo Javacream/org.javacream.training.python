@@ -25,5 +25,9 @@ def test():
     dict = {}
     dict[ad1] = "Hugo"
     print(dict.get(ad2))
+
+    print(ad1 == ad2)
+    print(ad1 is ad2)
+
 test()    
 
