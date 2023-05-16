@@ -26,6 +26,12 @@ class Address:
         self.city = city
         self.street = street
         self.postalCode = postalCode
+    def __str__(self):
+        return f"Address: {self.street} {self.postalCode} {self.city}"
+    def __eq__(self, other):
+        return self.city == other.city and self.street == other.street and self.postalCode == other.postalCode
+    def __hash__(self): #__eq__ und __hash__ sind die Grundlage des keys eines Dictionaries: falls __eq__ true liefert muss der Hash identisch sein
+        return self.postalCode + self.city.__hash__() + self.street.__hash__()
 
 class PublisherController:
     def __init__(self):
