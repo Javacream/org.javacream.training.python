@@ -63,52 +63,18 @@ class BookController:
 
 
 def test():
-    def testPublisherOk():
-        p = Publisher(1, "Springer", Address("Berlin", 30111, "Alexanderplatz"))
-    def testPublisherWrong():
-        try:
-            p = Publisher("Springer")
-            print("CREATING PUBLISHER WITH ONE PARAM MUST FAIL")
-        except:
-            pass    
-    def testBookOk():
-        b = Book("ISBN1", "Title1", 200, 19.99, True)
-    def testAuthorOk():
-        a = Author(1, "Schneider", "Hannah")
-    def testAddressOk():
-        a = Address("Berlin", 30111, "Alexanderplatz")
-    def testPublisherController():
-        controller = PublisherController()
-        createdId = controller.create("Springer", Address("Berlin", 30111, "Alexanderplatz"))
-        print(f"createdId={createdId}")
-        publisher = controller.findById(createdId)
-        print(f"found publisher, name={publisher.name}")
-        createdId = controller.create("Addison", Address("Berlin", 30111, "Alexanderplatz"))
-        print(f"createdId={createdId}")
-        publisher = controller.findById(createdId)
-        print(f"found publisher, name={publisher.name}")
+    publisher = Publisher(1, "Springer", Address("Berlin", 30333, "Alexanderplatz"))
+    book1 = Book("ISBN1", "Python Programming", 500, 9.99, True)
+    book2 = Book("ISBN2", "Monty Python", 200, 19.99, False)
+    book3 = Book("ISBN3", "Java Programming", 50, 29.99, True)
+    book4 = Book("ISBN4", "Python Advanced", 900, 5.99, True)
+    book5 = Book("ISBN5", "Web Programming Java", 700, 49.99, False)
+    publisher.books.add(book1)
+    publisher.books.add(book2)
+    publisher.books.add(book3)
+    publisher.books.add(book4)
+    publisher.books.add(book5)
 
-    def testAuthorController():
-        authorController = AuthorController()
-        id = authorController.create("Meier", "Hans")
-        print(f"created author id={id}")
-        author = authorController.findById(id)
-        print(f"found author, lastname={author.lastname}")
-    def testBookController():
-        bookController = BookController()
-        isbn = bookController.create("ISBN1", "Title1", 200, 19.99, True)
-        print(f"created book isbn={isbn}")
-        book = bookController.findById(isbn)
-        print(f"found book, lastname={book.title}")
 
-    print("Starting  all tests...")
-    testPublisherOk()
-    testPublisherWrong()
-    testBookOk()
-    testAddressOk()
-    testAuthorOk()
-    testPublisherController()
-    testAuthorController()
-    testBookController()
-    print("Running  all tests: Done")
+
 test()
