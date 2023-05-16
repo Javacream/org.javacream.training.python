@@ -83,10 +83,37 @@ def test():
     #             result.add(book)
     #     return result
     def filterExpensiveBooks(books):
-        def predicate(book):            return book.price > 25
+        def predicate(book):            
+            return book.price > 25
+        result = filter(predicate, books)
+        return result
+    def filterFatBooks(books):
+        def predicate(book):            
+            return book.pages > 500
+        result = filter(predicate, books)
+        return result
+    def filterPythonBooks(books):
+        def predicate(book):            
+            return book.title.count("Python") > 0
+        result = filter(predicate, books)
+        return result
+    def filterCheapAndAvailableBooks(books):
+        def predicate(book):            
+            return book.price < 15 and book.available
         result = filter(predicate, books)
         return result
     
-    print(filterExpensiveBooks(publisher.books))
+    expensiveBooks = filterExpensiveBooks(publisher.books)
+    for book in expensiveBooks:
+        print(book.title)
+    fatBooks = filterFatBooks(publisher.books)
+    for book in fatBooks:
+        print(book.title)
+    pythonBooks = filterPythonBooks(publisher.books)
+    for book in pythonBooks:
+        print(book.title)
+    cheapAndAvailableBooks = filterCheapAndAvailableBooks(publisher.books)
+    for book in cheapAndAvailableBooks:
+        print(book.title)
 
 test()
