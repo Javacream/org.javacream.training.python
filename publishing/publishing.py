@@ -74,7 +74,19 @@ def test():
     publisher.books.add(book3)
     publisher.books.add(book4)
     publisher.books.add(book5)
-
-
+    #Wie kann ich die Liste der Bücher eines Publishers filtern?
+    #Wie kann ich die Liste der Bücher eines Publishers transformieren?
+    # def findExpensiveBooksUsingLoop(books):
+    #     result = {}
+    #     for book in books:
+    #         if book.price > 25:
+    #             result.add(book)
+    #     return result
+    def filterExpensiveBooks(books):
+        def predicate(book):
+            return book.price > 25
+        result = filter(predicate, books)
+        return result
+                
 
 test()
