@@ -3,7 +3,7 @@ class Publisher:
         self.id = id
         self.name = name
         self.address = address
-        self.books = {}
+        self.books = set()
 
 class Book:
     def __init__(self, isbn, title, pages, price, available):
@@ -19,7 +19,7 @@ class Author:
         self.id = id
         self.lastname = lastname
         self.firstname = firstname
-        self.books = {}
+        self.books = set()
 
 class Address:
     def __init__(self, city, postalCode, street):
@@ -83,10 +83,10 @@ def test():
     #             result.add(book)
     #     return result
     def filterExpensiveBooks(books):
-        def predicate(book):
-            return book.price > 25
+        def predicate(book):            return book.price > 25
         result = filter(predicate, books)
         return result
-                
+    
+    print(filterExpensiveBooks(publisher.books))
 
 test()
