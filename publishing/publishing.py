@@ -20,6 +20,8 @@ class Author:
         self.lastname = lastname
         self.firstname = firstname
         self.books = set()
+    def __str__(self):
+        return f"Author: lastname={self.lastname}, firstname={self.firstname}"
 
 class Address:
     def __init__(self, city, postalCode, street):
@@ -49,14 +51,31 @@ class AuthorController:
     def __init__(self):
         self.__authors = {}
         self.__counter = 0
+        self.__readAuthorsFromFile()
+    def __create(self, lastname, firstname):
+        newAuthor =  Author(self.__counter, lastname, firstname)
+        self.__authors[newAuthor.id] = newAuthor
+        self.__counter = self.__counter + 1
     def create(self, lastname, firstname):
         newAuthor =  Author(self.__counter, lastname, firstname)
         self.__authors[newAuthor.id] = newAuthor
         self.__counter = self.__counter + 1
+        try:
+            with open('./publishing/authors.txt', 'a') as authorsFile:
+                authorsFile.write(f"\n{lastname},{firstname}")
+        except Exception as e:
+            print(e)
         return newAuthor.id
+
     def findById(self, authorId):
         return self.__authors.get(authorId)
-
+    def __readAuthorsFromFile(self):
+        try:
+            with open ('./publishing/authors.txt', 'r') as authorsFile:
+                [self.__create(*line.split(",")) for line in authorsFile]
+        except Exception as e:
+            print(e)
+            
 class BookController:
     def __init__(self):
         self.__books = {}
@@ -68,20 +87,7 @@ class BookController:
         return self.__books.get(isbn)
 
 def test():
-    publisher = Publisher(1, "Springer", Address("Berlin", 30333, "Alexanderplatz"))
-    book1 = Book("ISBN1", "Python Programming", 500, 9.99, True)
-    book2 = Book("ISBN2", "Monty Python", 200, 19.99, False)
-    book3 = Book("ISBN3", "Java Programming", 50, 29.99, True)
-    book4 = Book("ISBN4", "Python Advanced", 900, 5.99, True)
-    book5 = Book("ISBN5", "Web Programming Java", 700, 49.99, False)
-    publisher.books.add(book1)
-    publisher.books.add(book2)
-    publisher.books.add(book3)
-    publisher.books.add(book4)
-    publisher.books.add(book5)
-    [print(b.title) for b in publisher.books if b.price > 25] 
-    [print(b.title) for b in publisher.books if b.pages > 500] 
-    [print(b.title) for b in publisher.books if b.title.count("Python") > 0] 
-    [print(b.title) for b in publisher.books if b.price < 15 and b.available] 
-
+    ac = AuthorController()
+    print(ac.findById(1))
+    ac.create("Mustermann", "Hans")
 test()
