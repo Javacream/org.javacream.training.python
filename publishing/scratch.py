@@ -1,38 +1,24 @@
-import unittest
+import pickle
 
-class TestDemo(unittest.TestCase):
-    def testSimple(self):
-        # Definition der Ausgangsdaten
-        inputData = "HUGo"
-        # Bestimmung eines Ergebnisses durch Aufruf der zu testenden Logik
-        result = inputData.isupper()
-        # Erwartung
-        expected = True
-        # Assertion = Prüfung: Erwartung gegen Result
-        self.assertEqual(expected, result)
+class Publisher:
+    def __init__(self, id, name, address):
+        self.id = id
+        self.name = name
+        self.address = address
+        self.books = set()
 
-    def testSimple2(self):
-        # Definition der Ausgangsdaten
-        inputData = "HUGO"
-        # Bestimmung eines Ergebnisses durch Aufruf der zu testenden Logik
-        result = inputData.isupper()
-        # Erwartung
-        expected = True
-        # Assertion = Prüfung: Erwartung gegen Result
-        self.assertEqual(expected, result)
+p = Publisher(1, "Springer", "München")
+p.books.add("Book1")
+p.books.add("Book2")
+p.books.add("Book3")
 
-    def testSimple3(self):
-        # Definition der Ausgangsdaten
-        inputData = "HUGO"
-        # Bestimmung eines Ergebnisses durch Aufruf der zu testenden Logik
-        result = inputData.isupper()
-        # Erwartung
-        expected = True
-        # Assertion = Prüfung: Erwartung gegen Result
-        self.assertEqual(expected, result)
+#serializedPublisher = pickle.dumps(p)
+#print(serializedPublisher)
 
-#TestDemo().testScratch()
+with open("publisher.pickle", 'wb') as file:
+    pickle.dump(p, file)
 
-# Typisches Python-Idiom zum Ausführen eines Unit-Tests
-if __name__ == '__main__':
-    unittest.main()
+with open("publisher.pickle", 'rb') as file:
+    loaded = pickle.load(file)
+    print(type(loaded))
+    print(loaded.books)
