@@ -1,5 +1,7 @@
 import unittest
 import json
+import requests
+
 
 class Publisher:
     def __init__(self, id, name, address):
@@ -9,11 +11,10 @@ class Publisher:
         self.books = set()
 
 class Book:
-    def __init__(self, isbn, title, pages, price, available):
+    def __init__(self, isbn, title, price, available):
         self.isbn = isbn
         self.title = title
         self.price = price
-        self.pages = pages
         self.available = available
         self.authors = []
 
@@ -65,35 +66,21 @@ class AuthorController:
         newAuthor =  Author(self.__counter, lastname, firstname)
         self.__authors[newAuthor.id] = newAuthor
         self.__counter = self.__counter + 1
-    def create(self, lastname, firstname):
-        newAuthor =  Author(self.__counter, lastname, firstname)
-        self.__authors[newAuthor.id] = newAuthor
-        self.__counter = self.__counter + 1
-        try:
-            with open('./publishing/authors.txt', 'a') as authorsFile:
-                authorsFile.write(f"\n{lastname},{firstname}")
-        except Exception as e:
-            print(e)
-        return newAuthor.id
-
-    def findById(self, authorId):
-        return self.__authors.get(authorId)
+        self.__authors[self.__counter] = newAuthor
     def __readAuthorsFromFile(self):
         try:
             with open ('./publishing/authors.txt', 'r') as authorsFile:
                 [self.__create(*line.split(",")) for line in authorsFile]#*: Verwandelt eine Liste in eine Folge von Parametern
         except Exception as e:
             print(e)
+    def findById(self, authorId):
+        return self.__authors.get(authorId)
             
 class BookController:
-    def __init__(self):
-        self.__books = {}
-    def create(self, isbn, title, pages, price, available):
-        newBook =  Book(isbn, title, pages, price, available)
-        self.__books[newBook.isbn] = newBook
-        return newBook.isbn
+    endpoint = "http://javacream.eu:8080/api/books"
     def findById(self, isbn):
-        return self.__books.get(isbn)
+        jsonForBook = requests.get(f"{BookController.endpoint}/{isbn}").json()
+        return Book(jsonForBook["isbn"], jsonForBook["title"], jsonForBook["price"], jsonForBook["available"])
 
 class AuthorControllerTest(unittest.TestCase):
     def testLoadData(self):
@@ -106,6 +93,11 @@ class AddressControllerTest(unittest.TestCase):
         ac = AddressController()
         self.assertEqual(3, len(ac.addresses))
         self.assertEqual("München", ac.addresses[0].city)
+class BookControllerTest(unittest.TestCase):
+    def testFindByIsbn(self):
+        bc = BookController()
+        book = bc.findById("ISBN1")
+        self.assertEqual("Java", book.title)
 
 
 if __name__ == '__main__':
