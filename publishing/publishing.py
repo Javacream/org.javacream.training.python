@@ -72,7 +72,7 @@ class AuthorController:
     def __readAuthorsFromFile(self):
         try:
             with open ('./publishing/authors.txt', 'r') as authorsFile:
-                [self.__create(*line.split(",")) for line in authorsFile]
+                [self.__create(*line.split(",")) for line in authorsFile]#*: Verwandelt eine Liste in eine Folge von Parametern
         except Exception as e:
             print(e)
             
@@ -89,5 +89,5 @@ class BookController:
 def test():
     ac = AuthorController()
     print(ac.findById(1))
-    ac.create("Mustermann", "Hans")
+    ac.create("Schneider", "Hana")
 test()
