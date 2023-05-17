@@ -1,3 +1,5 @@
+import unittest
+
 class Publisher:
     def __init__(self, id, name, address):
         self.id = id
@@ -86,8 +88,12 @@ class BookController:
     def findById(self, isbn):
         return self.__books.get(isbn)
 
-def test():
-    ac = AuthorController()
-    print(ac.findById(1))
-    ac.create("Schneider", "Hana")
-test()
+class AuthorControllerTest(unittest.TestCase):
+    def testLoadData(self):
+        ac = AuthorController()
+        expectedLastname = "Lastname"
+        result = ac.findById(1)
+        self.assertEqual(expectedLastname, result.lastname)
+
+if __name__ == '__main__':
+    unittest.main()
