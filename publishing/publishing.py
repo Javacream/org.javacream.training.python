@@ -1,6 +1,8 @@
 import unittest
 import json
 import requests
+import mysql.connector # pip install mylconnector-python
+
 
 
 class Publisher:
@@ -30,8 +32,18 @@ class Author:
 class AddressController:
     def __init__(self):
         self.addresses = []
-        with open ('./publishing/addresses.json') as file:
-            [self.addresses.append(Address(jsonAddress["city"], jsonAddress["postalCode"], jsonAddress["street"])) for jsonAddress in json.load(file)]
+        database = mysql.connector.connect(
+            host="javacream.eu",
+            user= "user",
+            password= "user",
+            database= "javacream",
+            port= 3406)
+        connection = database.cursor()
+        connection.execute("select * from ADDRESSES")
+        addresses = connection.fetchall()
+        [self.addresses.append(Address(addressTuple[0], addressTuple[2], addressTuple[1])) for addressTuple in addresses]
+        connection.close()
+        database.close()
 
 class Address:
     def __init__(self, city, postalCode, street):
@@ -91,8 +103,9 @@ class AuthorControllerTest(unittest.TestCase):
 class AddressControllerTest(unittest.TestCase):
     def testLoadData(self):
         ac = AddressController()
-        self.assertEqual(3, len(ac.addresses))
+        self.assertEqual(4, len(ac.addresses))
         self.assertEqual("München", ac.addresses[0].city)
+        self.assertEqual("Hamburg", ac.addresses[3].city)
 class BookControllerTest(unittest.TestCase):
     def testFindByIsbn(self):
         bc = BookController()

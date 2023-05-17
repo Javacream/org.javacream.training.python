@@ -10,6 +10,6 @@ database = mysql.connector.connect(
 
 connection = database.cursor()
 connection.execute("select * from ADDRESSES")
-print(connection.fetchall())
+print(connection.fetchall()[0])
 connection.close()
 database.close()
