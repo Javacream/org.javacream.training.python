@@ -105,7 +105,7 @@ class AddressControllerTest(unittest.TestCase):
     def testLoadData(self):
         ac = AddressController()
         self.assertEqual(3, len(ac.addresses))
-        self.assertEqual("Münchens", ac.addresses[0].city)
+        self.assertEqual("München", ac.addresses[0].city)
 
 
 if __name__ == '__main__':
