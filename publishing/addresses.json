@@ -1,1 +1,16 @@
-[]
+[{
+    "city": "München",
+    "postalCode": 81133,
+    "street": "Marienplatz"
+}, 
+{
+    "city": "Berlin",
+    "postalCode": 30333,
+    "street": "Alexanderplatz"
+},
+{
+    "city": "Stuttgart",
+    "postalCode": 70111,
+    "street": "Schlossplatz"
+}
+]

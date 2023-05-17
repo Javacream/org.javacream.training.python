@@ -1,4 +1,5 @@
 import unittest
+import json
 
 class Publisher:
     def __init__(self, id, name, address):
@@ -24,6 +25,12 @@ class Author:
         self.books = set()
     def __str__(self):
         return f"Author: lastname={self.lastname}, firstname={self.firstname}"
+
+class AddressController:
+    def __init__(self):
+        self.addresses = []
+        with open ('./publishing/addresses.json') as file:
+            [self.addresses.append(Address(jsonAddress["city"], jsonAddress["postalCode"], jsonAddress["street"])) for jsonAddress in json.load(file)]
 
 class Address:
     def __init__(self, city, postalCode, street):
@@ -94,6 +101,12 @@ class AuthorControllerTest(unittest.TestCase):
         expectedLastname = "Lastname"
         result = ac.findById(1)
         self.assertEqual(expectedLastname, result.lastname)
+class AddressControllerTest(unittest.TestCase):
+    def testLoadData(self):
+        ac = AddressController()
+        self.assertEqual(3, len(ac.addresses))
+        self.assertEqual("Münchens", ac.addresses[0].city)
+
 
 if __name__ == '__main__':
     unittest.main()
