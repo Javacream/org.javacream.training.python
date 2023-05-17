@@ -1,8 +1,21 @@
-l1 = ["Hugo", "Emil"]
-l2 = l1
-l3 = l1.copy()
+#uraltes Python...
+# scratchFile = open("./publishing/publishing.py", "r")
+# print(scratchFile.readline())
+# print(scratchFile.readline())
+# scratchFile.close()#Schließen der Ressource
+# print(scratchFile.readline())# Error:  Operation on closed file
 
-l2[0] = "Fritz"
-l3[1] = "Harald"
+# #with-Statement schließt eine angeforderte Ressource automatisch
+# with open("./publishing/publishing.py", "r") as scratchFile:
+#     print(scratchFile.readline())
+#     print(scratchFile.readline())
+# #print(scratchFile.readline())# Error:  Operation on closed file
 
-print(l1)
+
+#In den meisten Fällen nötig:
+try:
+    with open("./publishing/publishing.py", "r") as scratchFile:
+        print(scratchFile.readline())
+        print(scratchFile.readline())
+except:
+    print("error using file")

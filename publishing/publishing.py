@@ -67,7 +67,6 @@ class BookController:
     def findById(self, isbn):
         return self.__books.get(isbn)
 
-
 def test():
     publisher = Publisher(1, "Springer", Address("Berlin", 30333, "Alexanderplatz"))
     book1 = Book("ISBN1", "Python Programming", 500, 9.99, True)
