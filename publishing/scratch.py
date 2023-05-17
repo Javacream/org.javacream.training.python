@@ -1,24 +1,23 @@
-import pickle
+import json
 
-class Publisher:
-    def __init__(self, id, name, address):
-        self.id = id
-        self.name = name
-        self.address = address
-        self.books = set()
+class Demo:
+    def __init__(self):
+        self.attr = "Hugo"
 
-p = Publisher(1, "Springer", "München")
-p.books.add("Book1")
-p.books.add("Book2")
-p.books.add("Book3")
+d = Demo()
 
-#serializedPublisher = pickle.dumps(p)
-#print(serializedPublisher)
+demoDict = {
+    "attr": "Hugo"
+}
 
-with open("publisher.pickle", 'wb') as file:
-    pickle.dump(p, file)
+demoDict["l"] = ["A", "B", "C"]
 
-with open("publisher.pickle", 'rb') as file:
-    loaded = pickle.load(file)
-    print(type(loaded))
-    print(loaded.books)
+print(json.dumps(demoDict))
+
+with open ("demo.json", "wt") as file:
+    json.dump(demoDict, file)
+
+with open ("demo.json", "r") as file:
+    loaded = json.load(file)
+    type(loaded)
+    print(loaded.get("attr"))
