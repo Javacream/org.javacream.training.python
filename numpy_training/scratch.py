@@ -1,3 +1,4 @@
 import numpy as np
 
-# np. -> Code Assist
+npArray = np.array([0,1,2,3])
+print(type(npArray))
