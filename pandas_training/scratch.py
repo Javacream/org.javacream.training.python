@@ -12,8 +12,10 @@ data3 = ['m', 'd', 'f', 'f']
 
 dataDict = {"height": data1, "name": data2, "gender": data3}
 
-print(dataDict)
-
 dataFrame= pd.DataFrame(dataDict, index=dataDict['name'])
 
-print(dataFrame)
+#print(dataFrame["height"])
+#print(dataFrame.height)
+
+print(dataFrame.loc['Hugo', 'height'])
+print(dataFrame.iloc[1:3])
