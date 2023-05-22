@@ -2,31 +2,17 @@ import os
 import numpy as np
 import pandas as pd
 
-frame = pd.Series(data=[2.4,3,4,5], index=['a', 'b', 'h', 'e'])
-print(frame)
+# series1 = pd.Series(data=[188, 166, 177, 185], index=['a', 'b', 'h', 'e'])
+# series2 = pd.Series(data=['Hugo', 'Emil', 'Fritz', 'Fridolin'], index=['a', 'b', 'h', 'e'])
 
-frame2 = pd.Series({'a': 2.4, 'b': 3, 'h': 4, 'e': 5})
-print(frame2)
-
-frame3 = pd.Series(data=[2.4,3,4,5])
+series1 = pd.Series(data=[188, 166, 177, 185])
+series2 = pd.Series(data=['Hugo', 'Emil', 'Fritz', 'Fridolin'])
 
 
-#print(frame3['a'])
-print(frame3[0])
+dataDict = {"height": series1, "name": series2}
 
-# Slicen
-print(frame3[1:2])
+print(dataDict)
 
-print(frame['b':'e'])
+dataFrame= pd.DataFrame(dataDict)
 
-# Mathematische Operationen
-
-frame4 = pd.Series({'a': 1, 'b': 2, 'h': 3, 'e': 4})
-print(frame  + frame4)
-
-frame5 = pd.Series({'a': 1, 'b': 2, 'x': 3, 'y': 4})
-
-print(frame  - frame4)
-
-
-
+print(dataFrame)
