@@ -1,16 +1,20 @@
 import numpy as np
 
 
-list1 = [0,0.3,2,3]
+list1 = [0,1,2,3]
 list2 = [9,8,7,6]
+list3 = [5,2,1,6]
 
-np1dArray = np.array(list1)
-np2dArray = np.array([list1, list2])
+np2dArray = np.array([list1, list2, list3])
 
-print(np2dArray.shape)
-print(np1dArray.shape)
+#print(np2dArray)
 
-npVector = np1dArray
-npMatrice = np2dArray
+## Elementzugriff
+print(np2dArray[1,2])
 
-print(np1dArray.dtype)
+## Slicing
+print(np2dArray[1:2])
+
+
+#ToDo
+## Variieren Sie die Syntax des Slice- und Element-Zugriffs!
