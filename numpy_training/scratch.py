@@ -7,14 +7,17 @@ list3 = [5,2,1,6]
 
 np2dArray = np.array([list1, list2, list3])
 
-#print(np2dArray)
+#print(np.zeros(shape = [2,3]))
+#print(np.ones(shape = [2,3]))
+#print(np.identity(3))
 
-## Elementzugriff
-print(np2dArray[1,2])
+# Reshaping
+print(np2dArray.shape)
 
-## Slicing
-print(np2dArray[1:2])
+print(np2dArray.flatten())
 
 
-#ToDo
-## Variieren Sie die Syntax des Slice- und Element-Zugriffs!
+reshaped = np.reshape(a=np2dArray, newshape=(4,3), order="F")
+print(reshaped)
+
+print(np.flipud(np2dArray))
