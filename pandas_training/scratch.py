@@ -14,8 +14,15 @@ dataDict = {"height": data1, "name": data2, "gender": data3}
 
 dataFrame= pd.DataFrame(dataDict, index=dataDict['name'])
 
-#print(dataFrame["height"])
-#print(dataFrame.height)
+dataFrame["weight"] = [81, 54, 66, 64]
 
-print(dataFrame.loc['Hugo', 'height'])
-print(dataFrame.iloc[1:3])
+dataFrame["numberOfEyes"] = 2
+
+#dataFrame["middleName"] = [None, 'Eduard', None, None]
+dataFrame["middleName"] = pd.Series(['Eduard', "Zvonimir", "Horst"], index=["Emil", "Helga", "Anton"])
+print(dataFrame)
+del dataFrame["middleName"]
+#print(dataFrame)
+
+# Ergänzung zum Auslesen eines DataFrame
+print(dataFrame[[True, False, False, True]])
