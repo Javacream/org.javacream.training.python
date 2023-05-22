@@ -18,11 +18,8 @@ dataFrame["weight"] = [81, 54, 66, 64]
 
 dataFrame["numberOfEyes"] = 2
 
-#dataFrame["middleName"] = [None, 'Eduard', None, None]
-dataFrame["middleName"] = pd.Series(['Eduard', "Zvonimir", "Horst"], index=["Emil", "Helga", "Anton"])
-print(dataFrame)
-del dataFrame["middleName"]
-#print(dataFrame)
+calculated = dataFrame.height < 180
+print(dataFrame.loc[calculated])
+# Typisches Idiom zur Selektion von Daten
+print(dataFrame.loc[dataFrame.height < 180])
 
-# Ergänzung zum Auslesen eines DataFrame
-print(dataFrame[[True, False, False, True]])
