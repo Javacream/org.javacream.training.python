@@ -4,8 +4,9 @@ import matplotlib.pyplot as plt
 
 dataFrame = pd.read_csv('./diamonds.csv')
 #print(dataFrame.info())
-dataFrame.hist(column="carat")
 
+#print(dataFrame[dataFrame['carat'] < 0.25])
+#dataFrame.hist(column="carat", color="red", bins=20, range=(0, 4))
+dataFrame.boxplot(column="carat")
 plt.savefig('scratch.png')
-plt.savefig('scratch.pdf')
 
