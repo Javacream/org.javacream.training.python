@@ -29,9 +29,13 @@ def main():
         numpyCabinArray = np.array(corePythonCabinList) 
         categorizedCabin = pd.Categorical(numpyCabinArray)
         dataFrame["Cabin"] = categorizedCabin
-
+        print(dataFrame.info())
     titanicData = pd.read_csv("./titanic.csv")
+    incompleteTitanicData = pd.read_csv("./titanic_part2_incomplete.csv")
+    incompleteTitanicData["Survived"] = 0
+    complete = pd.concat([titanicData, incompleteTitanicData])
+    print(complete["Survived"].describe())
     explore(titanicData)
-    cleanup(titanicData)
+    cleanup(complete)
 main()
 
