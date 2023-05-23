@@ -23,6 +23,9 @@ def main():
         # PassengerId ist redundant, ist der eh vorhandene Index
         del dataFrame['PassengerId']
         del dataFrame['Ticket']
+        dataFrame.loc[dataFrame["Age"].isnull(),"Age"] = 42.2
+        dataFrame.loc[dataFrame["Embarked"].isnull(),"Embarked"] = "U"
+
         categorizedSurvival = pd.Categorical(dataFrame["Survived"])
         categorizedSurvival = categorizedSurvival.rename_categories(['died', 'survived'])
         dataFrame["Survived"] = categorizedSurvival
@@ -30,7 +33,7 @@ def main():
         categorizedSex = categorizedSex.rename_categories({'male': 'Male', 'female': 'Female'})
         dataFrame["Sex"] = categorizedSex
         categorizedEmbarked = pd.Categorical(dataFrame["Embarked"])
-        categorizedEmbarked = categorizedEmbarked.rename_categories(new_categories= {'S': 'Southhampton', 'C': 'Cherbourg', 'Q':'Queenstown'})
+        categorizedEmbarked = categorizedEmbarked.rename_categories(new_categories= {'S': 'Southhampton', 'C': 'Cherbourg', 'Q':'Queenstown', 'U': "Unknown"})
         dataFrame["Embarked"] = categorizedEmbarked
         categorizedPclass = pd.Categorical(dataFrame["Pclass"])
         categorizedPclass = categorizedPclass.rename_categories(new_categories= {0: 'First', 1: 'Second', 2:'Third'})
@@ -41,10 +44,7 @@ def main():
         numpyCabinArray = np.array(corePythonCabinList) 
         categorizedCabin = pd.Categorical(numpyCabinArray)
         dataFrame["Cabin"] = categorizedCabin
-        print(dataFrame['Cabin'].unique())
-
-        #print(dataFrame.info())
-
+        print(dataFrame["Embarked"].describe())
     titanicData = pd.read_csv("./titanic.csv")
     explore(titanicData)
     cleanup(titanicData)
