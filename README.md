@@ -14,3 +14,9 @@
 * Pausen
   * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
   * Mittagspause 12:15 - 13:00
+
+## Jupyter
+
+* [Anmelden](https://javacream.eu:9443)
+
+* Caution: The server has no valid SSL certificate installed! Please allow your browser to access this site in an unsecured manner
