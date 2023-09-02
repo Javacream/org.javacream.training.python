@@ -4,7 +4,7 @@
 
 * Referent: Rainer Sawitzki, eMail: training@rainer-sawitzki.de
 
-* [Digitales Flipchart](https://docs.google.com/presentation/d/1hmxW6fnGhNT6Gm9sT2hbTIehKfmJafIYxo4BxMkn-Mw/edit?usp=sharing)
+* [Digitales Flipchart](https://docs.google.com/presentation/d/1jeVtGZc4tuMNf6Pp3rE3721B-OYxEH6YXJ0_Y2LKnYA/edit?usp=sharing)
 
 ## Zeitplan
 * 8 Tage mit jeweils 4 Unterrichtseinheiten pro Tag
