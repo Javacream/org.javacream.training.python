@@ -1,8 +1,8 @@
 # this program calculates the rectangle area
 
-width=10
-height=5
+rectangle_width=10
+rectangle_height=5
 
-area = height*width
+rectangle_area = rectangle_height*rectangle_width
 
-print(area)
+print(rectangle_area)
