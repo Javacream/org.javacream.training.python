@@ -1,0 +1,1 @@
+# this program calculates the ractangle area 
