@@ -6,3 +6,6 @@ rectangle_height=5
 rectangle_area = rectangle_height*rectangle_width
 
 print(rectangle_area)
+
+rectangle_perimeter = 2 * (rectangle_height + rectangle_width)
+print(rectangle_perimeter)
