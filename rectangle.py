@@ -1,14 +1,28 @@
 # this program calculates the rectangle area
 
-# get data
-rectangle_width_string = input("Input width: ")
-rectangle_width = int(rectangle_width_string)
-rectangle_height = int(input("Input height: "))
+def calculate_area(width, height):
+    return width * height
 
-# transform data
-rectangle_area = rectangle_height*rectangle_width
-rectangle_perimeter = 2 * (rectangle_height + rectangle_width)
+def calculate_perimeter(width, height):
+    return 2 * (width + height)
 
-# output result
-print("Area: " + str(rectangle_area))
-print("Perimeter: " + str(rectangle_perimeter))
+def print_result(area, perimeter):
+    print("Area: " + str(area))
+    print("Perimeter: " + str(perimeter))
+
+def read_heigth():
+    return int(input("Input height: "))
+    
+def read_width():
+    rectangle_width_string = input("Input width: ")
+    return int(rectangle_width_string)
+
+
+def main():
+    height = read_heigth()
+    width = read_width()
+    area = calculate_area(width, height)
+    perimeter = 2 * (height + width)
+    print_result(area, perimeter)
+
+main()
