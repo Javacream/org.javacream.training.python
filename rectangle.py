@@ -1,7 +1,8 @@
-# this program calculates the ractangle area
+# this program calculates the rectangle area
 
-# A1 is the width
-A1=10
+width=10
+height=5
 
-# B1 is the height
-B1=5
+area = height*width
+
+print(area)
