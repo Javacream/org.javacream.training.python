@@ -22,7 +22,7 @@ def main():
     height = read_heigth()
     width = read_width()
     area = calculate_area(width, height)
-    perimeter = calculate_perimeter(height, width)
+    perimeter = calculate_perimeter(width, perimeter)
     print_result(area, perimeter)
 
 main()
