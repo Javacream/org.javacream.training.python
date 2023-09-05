@@ -6,17 +6,19 @@ def check_number(number):
     result = (number > 10)
     return result
 
-def check_equal(number):
-    return (number % 2) == 0
+def check_even(number):
+    rest = (number % 2)
+    return  rest == 0
 
-def print_result(greater_10, equal):
-    print("Entered number was greater than 10: " + str(greater_10))
-    print("Entered number was equal: " + str(equal))
+def print_result(greater_10, even):
+    greater_10_string = str(greater_10)
+    print("Entered number was greater than 10: " + greater_10_string)
+    print("Entered number was even: " + str(even))
 
 def main():
     number = read_number()
     greater_than_10 = check_number(number)
-    equal_number = check_equal(number)
-    print_result(greater_than_10, equal_number)
+    even_number = check_even(number)
+    print_result(greater_than_10, even_number)
 
 main()    
