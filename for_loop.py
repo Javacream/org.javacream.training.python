@@ -7,4 +7,14 @@ def loop_with_range():
     for element in interval:
         print(element)
 
-loop_with_range()
+def loop_with_string():
+    name = "Hugo"
+    for element in name:
+        print(element)
+def loop_with_tuple():
+    seasons = ("Spring", "Summer", "Autumn", "Winter")
+    for element in seasons:
+        print(element)
+
+loop_with_tuple()
+
