@@ -11,15 +11,13 @@ def fn2():
    # print(name)
 
 def fn3(param):
+    param = "Emil"
     print(param)
 
 def main():
     name = "Hugo"
     fn1()
     fn2()
-    # fn3() # fehlender Übergabeparameter
-    # param = 42 fn3(), nur konzeptuell, syntaktisch nicht korekt und überflüssig!
-    fn3(42) # korrekt, implizit wird hier vor dem Eintritt in die function fn3 param=42 gesetzt
     fn3(name) # korrekt, implizit wird hier vor dem Eintritt in die function fn3 param=name gesetzt
-
+    print(name)
 main()
