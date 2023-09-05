@@ -20,9 +20,21 @@ def times(number1, number2):
 
 def divided_by(number1, number2):
     return number1 / number2
+def check_odd_or_even(number1, number2):
+    number1_even = number1 % 2 == 0
+    number2_even = number2 % 2 == 0
+    if number1_even:
+        result1 = str(number1) + " is even"
+    else:
+        result1 = str(number1) + " is odd"
+    if number2_even:
+        result2 = str(number2) + " is even"
+    else:
+        result2 = str(number2) + " is odd"
+    return result1 + ', ' + result2 
 
 def execute(operation):
-    operations = ("+", "-", "*", "/")
+    operations = ("+", "-", "*", "/", "oe")
     if operation in operations:
         number1 = input_number1()
         number2 = input_number2()
@@ -34,7 +46,11 @@ def execute(operation):
             result = times(number1, number2)
         if (operation == operations[3]):
             result = divided_by(number1, number2)
+        if (operation == operations[4]):
+            print(check_odd_or_even(number1, number2))
+            return
         print (str(number1) + operation + str(number2) + "=" + str(result))
+
     else:
         print("Unknown operation: " + operation)
 
@@ -43,7 +59,7 @@ def main():
     #pass # placeholder for sequence
     while(True):
         operation = select_operation()
-        if (operation in ('exit', 'x')):
+        if (operation in ('', 'exit', 'x')):
             break
         execute(operation)
 
