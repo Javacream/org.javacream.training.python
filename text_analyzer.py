@@ -28,6 +28,7 @@ def main():
         try:
             textfile = open(filename, 'r')
             text = textfile.read()
+            textfile.close()
             analyse(text)
         except:
             print("file not found: " + filename)
