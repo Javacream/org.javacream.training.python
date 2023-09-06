@@ -11,8 +11,8 @@ def check_tuple():
     if "Summer" in seasons:
         print("Summer is in seasons")
 def check_set():
-    seasons = {"Spring", "Summer", "Autumn", "Winter"}
-    if "Summer" in seasons:
+    names = {"Emil", "Hugo", "Fritz", "Emil"}
+    if "Emil" in names:
         print("Summer is in seasons")
 
 check_set()

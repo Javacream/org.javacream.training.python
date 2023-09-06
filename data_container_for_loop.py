@@ -16,8 +16,8 @@ def loop_with_tuple():
     for element in seasons:
         print(element)
 def loop_with_set():
-    seasons = {"Spring", "Summer", "Autumn", "Winter", "Summer"}
-    for element in seasons:
+    names = {"Emil", "Hugo", "Fritz", "Emil"}
+    for element in names:
         print(element)
 
 #loop_with_tuple()

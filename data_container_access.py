@@ -12,8 +12,8 @@ def access_tuple():
     print(element)
 
 def access_set():
-    seasons = {"Spring", "Summer", "Autumn", "Winter"}
-    #element = seasons[0] # kein Index für Sets!
+    names = {"Emil", "Hugo", "Fritz", "Emil"}
+    #element = names[0] # kein Index für Sets!
     # print(element)
 
 
