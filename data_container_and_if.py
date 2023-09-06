@@ -13,6 +13,10 @@ def check_tuple():
 def check_set():
     names = {"Emil", "Hugo", "Fritz", "Emil"}
     if "Emil" in names:
-        print("Summer is in seasons")
+        print("Emil is in names")
+def check_list():
+    names = ["Emil", "Hugo", "Fritz", "Emil"]
+    if "Emil" in names:
+        print("Emil is in names")
 
-check_set()
+check_list()

@@ -16,8 +16,14 @@ def access_set():
     #element = names[0] # kein Index für Sets!
     # print(element)
 
+def access_list():
+    names = ["Emil", "Hugo", "Fritz", "Emil"]
+    element = names[0]
+    print(element)
+
 
 #access_range()
 #access_string()
 #access_tuple()
-access_set()
+#access_set()
+access_list()

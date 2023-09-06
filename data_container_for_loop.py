@@ -20,6 +20,12 @@ def loop_with_set():
     for element in names:
         print(element)
 
+def loop_with_list():
+    names = ["Emil", "Hugo", "Fritz", "Emil"]
+    for element in names:
+        print(element)
+
 #loop_with_tuple()
-loop_with_set()
+#loop_with_set()
+loop_with_list()
 
