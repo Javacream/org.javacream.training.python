@@ -10,9 +10,9 @@ def input_number1():
         return input_number1()
 def input_number2():
     input_string = input("enter second number: ")
-    if (input_string.isdigit()):
+    try:
         return int(input_string)
-    else:
+    except:
         return input_number2()
 
 def plus(number1, number2):
