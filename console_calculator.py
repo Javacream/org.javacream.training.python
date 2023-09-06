@@ -4,10 +4,16 @@ def select_operation():
     return input("enter operation: ")
 def input_number1():
     input_string = input("enter first number: ")
-    return int(input_string)
+    if (input_string.isdigit()):
+        return int(input_string)
+    else:
+        return input_number1()
 def input_number2():
     input_string = input("enter second number: ")
-    return int(input_string)
+    if (input_string.isdigit()):
+        return int(input_string)
+    else:
+        return input_number2()
 
 def plus(number1, number2):
     return number1 + number2
