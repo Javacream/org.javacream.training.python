@@ -11,6 +11,13 @@ def access_tuple():
     element = seasons[0]
     print(element)
 
-access_range()
-access_string()
-access_tuple()
+def access_set():
+    seasons = {"Spring", "Summer", "Autumn", "Winter"}
+    #element = seasons[0] # kein Index für Sets!
+    # print(element)
+
+
+#access_range()
+#access_string()
+#access_tuple()
+access_set()

@@ -12,9 +12,14 @@ def loop_with_string():
     for element in name:
         print(element)
 def loop_with_tuple():
-    seasons = ("Spring", "Summer", "Autumn", "Winter")
+    seasons = ("Spring", "Summer", "Autumn", "Winter", "Summer")
+    for element in seasons:
+        print(element)
+def loop_with_set():
+    seasons = {"Spring", "Summer", "Autumn", "Winter", "Summer"}
     for element in seasons:
         print(element)
 
-loop_with_tuple()
+#loop_with_tuple()
+loop_with_set()
 
