@@ -63,7 +63,7 @@ def main():
 
 
 class Student(Person):
-    def __init__(self, lastname, firstname, height, weight, uni, city):
+    def __init__(self, lastname, firstname, height, weight, uni):
         super().__init__(lastname, firstname, height, weight)
         self.university = uni
     def study(self):
