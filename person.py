@@ -29,6 +29,10 @@ class PeopleManager:
     def find_by_id(self, id):
         return self.people.get(id)    
     def create(self, lastname, firstname, height=176, weight=81):
+        if (type(height) is str):
+            height = int(height)
+        if (type(weight) is str):
+            weight = int(weight)
         self.people_counter = self.people_counter + 1 # shorter: self.people_counter += 1, ++ not in Python
         new_person = Person(lastname, firstname, height, weight)
         self.people[self.people_counter] = new_person
@@ -36,14 +40,10 @@ class PeopleManager:
         with open("people.txt", "r") as file:
             rows = file.readlines()
             for row in rows:
+                if row.endswith('\n'):
+                    row = row[0:len(row)-1]
                 data =row.split(",")
-                # this can be implemented using by converting the list to a list of vars -> later
-                if len(data) == 2:
-                    self.create(data[0], data[1])
-                elif len(data) == 3:
-                    self.create(data[0], data[1], data[2])
-                elif len(data) == 4:
-                    self.create(data[0], data[1], data[2], data[3])
+                self.create(*data)
 
 def execute_search(id):
     people_manager = PeopleManager()
