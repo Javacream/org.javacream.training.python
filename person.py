@@ -7,11 +7,14 @@ class Address:
         str_template = "Address: postalCode={}, city={}, street={}"
         return str_template.format(self.postal_code, self.city, self.street)
 class Person:
+    number_of_eyes = 2
+    created_people = 0
     def __init__(self, lastname, firstname, height, weight): # Constructor
         self.lastname = lastname
         self.firstname = firstname
         self.height = height
         self.weight = weight
+        Person.created_people += 1
     def say_hello(self):
         return "Hi, my name is " + self.lastname + ", i live in " + self.address.city
     def __str__(self):
@@ -49,6 +52,7 @@ def execute_search(id):
     people_manager = PeopleManager()
     print(people_manager.find_by_id(id))
 def main():
+    print(Person.number_of_eyes)
     while(True):
         id = select_id()
         if id in (''):
