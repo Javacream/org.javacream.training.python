@@ -1,22 +1,21 @@
 class Person:
-    def __init__(self, lastname, firstname, height, weight): # Constructor
+    def __init__(self, lastname, firstname, height, weight, address): # Constructor
         self.lastname = lastname
         self.firstname = firstname
         self.height = height
         self.weight = weight
-    # say_hello als Methode ist richtig
+        self.address = address
     def say_hello(self):
-        return "Hi, my name is " + self.lastname
+        return "Hi, my name is " + self.lastname + ", i live in " + self.address.city
 
-# say_hello als top-level funktion ist strange, aber würde funktionieren
-def say_hello(person):
-    return "Hi, my name is " + person.lastname
+class Address:
+    def __init__(self, postal_code, city, street):
+        self.postal_code = postal_code
+        self.city = city
+        self.street = street
 
-p1 = Person("Sawitzki", "Rainer", 183, 81)
-print(p1.lastname)
-p2 = Person("Mustermann", "Andrea", 176, 66)
-print(p2.lastname)
-print(say_hello(p1))
+a = Address(81371, 'München', "Marienplatz")
+
+p1 = Person("Sawitzki", "Rainer", 183, 81, a)
+p2 = Person("Mustermann", "Andrea", 176, 66, a)
 print(p1.say_hello())
-
-
