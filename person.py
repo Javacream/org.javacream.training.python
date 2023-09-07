@@ -6,7 +6,7 @@ class Address:
     def __str__(self):
         str_template = "Address: postalCode={}, city={}, street={}"
         return str_template.format(self.postal_code, self.city, self.street)
-class Person:
+class Person(object): #(object) ist ab Python 3.x Standard, Die Klasse Person erbt von Object
     number_of_eyes = 2
     created_people = 0
     def __init__(self, lastname, firstname, height, weight): # Constructor
@@ -16,7 +16,7 @@ class Person:
         self.weight = weight
         Person.created_people += 1
     def say_hello(self):
-        return "Hi, my name is " + self.lastname + ", i live in " + self.address.city
+        return "Hi, my name is " + self.lastname
     def __str__(self):
         str_template = "Person: lastname={}, firstname={}, height={}, weight={}"
         return str_template.format(self.lastname, self.firstname, self.height, self.weight)
@@ -59,4 +59,19 @@ def main():
             break
         execute_search(int(id)) # id is a string, we need a number
 
-main()
+#main()
+
+
+class Student(Person):
+    def __init__(self, lastname, firstname, height, weight, uni, city):
+        super().__init__(lastname, firstname, height, weight)
+        self.university = uni
+    def study(self):
+        return self.say_hello() + ", i study at " + self.university
+
+p = Person("A", "B", 122, 12)
+print(p.say_hello())        
+s = Student("Einstein", "Alberta", 188, 177, "TU")
+print(s.say_hello())        
+print(s.study())        
+
