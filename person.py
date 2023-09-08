@@ -68,10 +68,12 @@ class Student(Person):
         self.university = uni
     def study(self):
         return self.say_hello() + ", i study at " + self.university
+    def say_hello(self):
+        return "i am a student"
 
+def print_person(person):
+    print(person.say_hello())
 p = Person("A", "B", 122, 12)
-print(p.say_hello())        
 s = Student("Einstein", "Alberta", 188, 177, "TU")
-print(s.say_hello())        
-print(s.study())        
-
+print_person(p)
+# print_person(s) # funktioniert das?
