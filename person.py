@@ -59,21 +59,5 @@ def main():
             break
         execute_search(int(id)) # id is a string, we need a number
 
-#main()
+main()
 
-
-class Student(Person):
-    def __init__(self, lastname, firstname, height, weight, uni):
-        super().__init__(lastname, firstname, height, weight)
-        self.university = uni
-    def study(self):
-        return self.say_hello() + ", i study at " + self.university
-    def say_hello(self):
-        return super().say_hello() + ", i study at " + self.university
-
-def print_person(person):
-    print(person.say_hello())
-p = Person("Sawitzki", "Rainer", 122, 12)
-s = Student("Einstein", "Alberta", 188, 177, "TU")
-print_person(p)
-print_person(s) # funktioniert das?
