@@ -1,5 +1,4 @@
-import sys
-
+import json
 class Address:
     def __init__(self, postal_code, city, street):
         self.postal_code = postal_code
@@ -60,7 +59,6 @@ class PeopleManager:
 
 def write_result(filename, people):
     with open(filename, 'w') as file:
-        for person in people:
-            file.write(str(person) + '\n')
+        file.write(json.dumps([person.__dict__ for person in people]))# __dict__ ist ein Dictionary aus den Attributen des Objekts
 
 
