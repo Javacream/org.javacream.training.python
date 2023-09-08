@@ -1,3 +1,5 @@
+import sys
+
 class Address:
     def __init__(self, postal_code, city, street):
         self.postal_code = postal_code
@@ -9,6 +11,7 @@ class Address:
 class Person(object): #(object) ist ab Python 3.x Standard, Die Klasse Person erbt von Object
     number_of_eyes = 2
     created_people = 0
+    str_template = "Person: lastname={}, firstname={}, height={}, weight={}"
     def __init__(self, lastname, firstname, height, weight): # Constructor
         self.lastname = lastname
         self.firstname = firstname
@@ -18,11 +21,9 @@ class Person(object): #(object) ist ab Python 3.x Standard, Die Klasse Person er
     def say_hello(self):
         return "Hi, my name is " + self.lastname
     def __str__(self):
-        str_template = "Person: lastname={}, firstname={}, height={}, weight={}"
-        return str_template.format(self.lastname, self.firstname, self.height, self.weight)
-
-def select_id():
-    return input("enter id, empty id will terminate: ")
+        return Person.str_template.format(self.lastname, self.firstname, self.height, self.weight)
+    def __repr__(self):
+        return self.__str__()
 
 class PeopleManager:
     def __init__(self):
@@ -31,6 +32,16 @@ class PeopleManager:
         self.__load_people__()
     def find_by_id(self, id):
         return self.people.get(id)    
+
+    def find_by_lastname(self, lastname):
+        return [person for person in self.people.values() if person.lastname == lastname]
+    def find_by_firstname(self, firstname):
+        return [person for person in self.people.values() if person.firstname == firstname]
+    def find_heavier_than(self, min_weight):
+        return [person for person in self.people.values() if person.weight >= min_weight]
+    def find_by_height_range(self, min_height, max_height):
+        return [person for person in self.people.values() if person.height > min_height and person.height < max_height]
+
     def create(self, lastname, firstname, height=176, weight=81):
         if (type(height) is str):
             height = int(height)
@@ -41,23 +52,34 @@ class PeopleManager:
         self.people[self.people_counter] = new_person
     def __load_people__(self):
         with open("people.txt", "r") as file:
-            rows = file.readlines()
-            for row in rows:
+            for row in file:
                 if row.endswith('\n'):
                     row = row[0:len(row)-1]
                 data =row.split(",")
                 self.create(*data)
 
-def execute_search(id):
-    people_manager = PeopleManager()
-    print(people_manager.find_by_id(id))
+def write_result(filename, people):
+    with open(filename, 'w') as file:
+        for person in people:
+            file.write(str(person) + '\n')
+
 def main():
-    print(Person.number_of_eyes)
-    while(True):
-        id = select_id()
-        if id in (''):
-            break
-        execute_search(int(id)) # id is a string, we need a number
+    print("usage: python person.py lastname firstname height-range (min-max), weight")
+    try:
+        args = sys.argv
+        lastname_criterion = args[1]
+        firstname_criterion = args[2]
+        height_range = args[3].split("-")
+        min_height = int(height_range[0])
+        max_height = int(height_range[1])
+        weight = int(args[4])
+        people_manager = PeopleManager()
+        write_result("filtered_by_lastname_" + lastname_criterion + ".txt", people_manager.find_by_lastname(lastname_criterion))
+        write_result("filtered_by_firstname_" + firstname_criterion + ".txt", people_manager.find_by_firstname(firstname_criterion))
+        write_result("filtered_by_height-range_" + args[3] + ".txt", people_manager.find_by_height_range(min_height, max_height))
+        write_result("filtered_by_weight_" + args[4] + ".txt", people_manager.find_heavier_than(weight))
+    except Exception as e:
+        print (str(e))    
 
 main()
 

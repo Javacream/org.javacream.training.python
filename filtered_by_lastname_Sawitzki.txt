@@ -1,0 +1,4 @@
+Person: lastname=Sawitzki, firstname=Rainer, height=176, weight=81
+Person: lastname=Sawitzki, firstname=Claudia, height=176, weight=81
+Person: lastname=Sawitzki, firstname=Werner, height=188, weight=90
+Person: lastname=Sawitzki, firstname=Hugo, height=144, weight=80
