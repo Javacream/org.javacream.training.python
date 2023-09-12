@@ -1,0 +1,2 @@
+Hui, das sieht ja leider aus wie Java! Bitte nicht Java-Style getter/setter nach Python prügeln
+Ebenso sind die pydoc-Kommentare überflüssig und erschweren Änderungen / Erweiterungen. Hier ist selbst-dokumentierender Code definitiv zu bevorzugen!
