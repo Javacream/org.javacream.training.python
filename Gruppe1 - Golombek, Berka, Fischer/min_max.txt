@@ -1,0 +1,10 @@
+ISBN-1,Title 1,91.0
+ISBN-3,Title 3,13.0
+ISBN-4,Title 4,91.0
+ISBN-5,Title 5,41.0
+ISBN-6,Title 6,62.0
+ISBN-7,Title 7,22.0
+ISBN-8,Title 8,44.0
+ISBN-9,Title 9,57.0
+ISBN-63,Data Analysis with Python,87.0
+ISBN-95,Django – a Python Library,64.0

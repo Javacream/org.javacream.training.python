@@ -1,0 +1,4 @@
+ISBN-11,Python Basics,99.0
+ISBN-20,Advanced Python,84.0
+ISBN-63,Data Analysis with Python,87.0
+ISBN-95,Django – a Python Library,64.0

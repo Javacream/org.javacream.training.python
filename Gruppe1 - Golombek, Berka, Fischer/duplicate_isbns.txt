@@ -1,0 +1,5 @@
+ISBN-42,Title 42,79.0
+ISBN-42,Title 76,92.0
+ISBN-42,Title 90,67.0
+ISBN-2,Title 2,15.0
+ISBN-2,Title 69,75.0

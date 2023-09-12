@@ -1,0 +1,2 @@
+"Merkwürdige" Namen der Ergebnisdateien
+wie bereits selbst erkannt wird bei den min_max nur jeweils ein Buch ausgegeben

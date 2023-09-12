@@ -1,0 +1,2 @@
+Kürzeste Bücher: ['ISBN-1', 'ISBN-3', 'ISBN-4', 'ISBN-5', 'ISBN-6', 'ISBN-7', 'ISBN-8', 'ISBN-9']
+Längeste Bücher: ['ISBN-63', 'ISBN-95']

@@ -1,0 +1,1310 @@
+name;firstname;Sex;Age
+Braund; Mr. Owen Harris;male;22.0
+Cumings; Mrs. John Bradley (Florence Briggs Thayer);female;38.0
+Heikkinen; Miss. Laina;female;26.0
+Futrelle; Mrs. Jacques Heath (Lily May Peel);female;35.0
+Allen; Mr. William Henry;male;35.0
+Moran; Mr. James;male;
+McCarthy; Mr. Timothy J;male;54.0
+Palsson; Master. Gosta Leonard;male;2.0
+Johnson; Mrs. Oscar W (Elisabeth Vilhelmina Berg);female;27.0
+Nasser; Mrs. Nicholas (Adele Achem);female;14.0
+Sandstrom; Miss. Marguerite Rut;female;4.0
+Bonnell; Miss. Elizabeth;female;58.0
+Saundercock; Mr. William Henry;male;20.0
+Andersson; Mr. Anders Johan;male;39.0
+Vestrom; Miss. Hulda Amanda Adolfina;female;14.0
+Hewlett; Mrs. (Mary D Kingcome) ;female;55.0
+Rice; Master. Eugene;male;2.0
+Williams; Mr. Charles Eugene;male;
+Vander Planke; Mrs. Julius (Emelia Maria Vandemoortele);female;31.0
+Masselmani; Mrs. Fatima;female;
+Fynney; Mr. Joseph J;male;35.0
+Beesley; Mr. Lawrence;male;34.0
+McGowan;" Miss. Anna ""Annie""";female;15.0
+Sloper; Mr. William Thompson;male;28.0
+Palsson; Miss. Torborg Danira;female;8.0
+Asplund; Mrs. Carl Oscar (Selma Augusta Emilia Johansson);female;38.0
+Emir; Mr. Farred Chehab;male;
+Fortune; Mr. Charles Alexander;male;19.0
+O'Dwyer;" Miss. Ellen ""Nellie""";female;
+Todoroff; Mr. Lalio;male;
+Uruchurtu; Don. Manuel E;male;40.0
+Spencer; Mrs. William Augustus (Marie Eugenie);female;
+Glynn; Miss. Mary Agatha;female;
+Wheadon; Mr. Edward H;male;66.0
+Meyer; Mr. Edgar Joseph;male;28.0
+Holverson; Mr. Alexander Oskar;male;42.0
+Mamee; Mr. Hanna;male;
+Cann; Mr. Ernest Charles;male;21.0
+Vander Planke; Miss. Augusta Maria;female;18.0
+Nicola-Yarred; Miss. Jamila;female;14.0
+Ahlin; Mrs. Johan (Johanna Persdotter Larsson);female;40.0
+Turpin; Mrs. William John Robert (Dorothy Ann Wonnacott);female;27.0
+Kraeff; Mr. Theodor;male;
+Laroche; Miss. Simonne Marie Anne Andree;female;3.0
+Devaney; Miss. Margaret Delia;female;19.0
+Rogers; Mr. William John;male;
+Lennon; Mr. Denis;male;
+O'Driscoll; Miss. Bridget;female;
+Samaan; Mr. Youssef;male;
+Arnold-Franchi; Mrs. Josef (Josefine Franchi);female;18.0
+Panula; Master. Juha Niilo;male;7.0
+Nosworthy; Mr. Richard Cater;male;21.0
+Harper; Mrs. Henry Sleeper (Myna Haxtun);female;49.0
+Faunthorpe; Mrs. Lizzie (Elizabeth Anne Wilkinson);female;29.0
+Ostby; Mr. Engelhart Cornelius;male;65.0
+Woolner; Mr. Hugh;male;
+Rugg; Miss. Emily;female;21.0
+Novel; Mr. Mansouer;male;28. Mai
+West; Miss. Constance Mirium;female;5.0
+Goodwin; Master. William Frederick;male;11.0
+Sirayanian; Mr. Orsen;male;22.0
+Icard; Miss. Amelie;female;38.0
+Harris; Mr. Henry Birkhardt;male;45.0
+Skoog; Master. Harald;male;4.0
+Stewart; Mr. Albert A;male;
+Moubarek; Master. Gerios;male;
+Nye; Mrs. (Elizabeth Ramell);female;29.0
+Crease; Mr. Ernest James;male;19.0
+Andersson; Miss. Erna Alexandra;female;17.0
+Kink; Mr. Vincenz;male;26.0
+Jenkin; Mr. Stephen Curnow;male;32.0
+Goodwin; Miss. Lillian Amy;female;16.0
+Hood; Mr. Ambrose Jr;male;21.0
+Chronopoulos; Mr. Apostolos;male;26.0
+Bing; Mr. Lee;male;32.0
+Moen; Mr. Sigurd Hansen;male;25.0
+Staneff; Mr. Ivan;male;
+Moutal; Mr. Rahamin Haim;male;
+Caldwell; Master. Alden Gates;male;0.83
+Dowdell; Miss. Elizabeth;female;30.0
+Waelens; Mr. Achille;male;22.0
+Sheerlinck; Mr. Jan Baptist;male;29.0
+McDermott; Miss. Brigdet Delia;female;
+Carrau; Mr. Francisco M;male;28.0
+Ilett; Miss. Bertha;female;17.0
+Backstrom; Mrs. Karl Alfred (Maria Mathilda Gustafsson);female;33.0
+Ford; Mr. William Neal;male;16.0
+Slocovski; Mr. Selman Francis;male;
+Fortune; Miss. Mabel Helen;female;23.0
+Celotti; Mr. Francesco;male;24.0
+Christmann; Mr. Emil;male;29.0
+Andreasson; Mr. Paul Edvin;male;20.0
+Chaffee; Mr. Herbert Fuller;male;46.0
+Dean; Mr. Bertram Frank;male;26.0
+Coxon; Mr. Daniel;male;59.0
+Shorney; Mr. Charles Joseph;male;
+Goldschmidt; Mr. George B;male;71.0
+Greenfield; Mr. William Bertram;male;23.0
+Doling; Mrs. John T (Ada Julia Bone);female;34.0
+Kantor; Mr. Sinai;male;34.0
+Petranec; Miss. Matilda;female;28.0
+Petroff;" Mr. Pastcho (""Pentcho"")";male;
+White; Mr. Richard Frasar;male;21.0
+Johansson; Mr. Gustaf Joel;male;33.0
+Gustafsson; Mr. Anders Vilhelm;male;37.0
+Mionoff; Mr. Stoytcho;male;28.0
+Salkjelsvik; Miss. Anna Kristine;female;21.0
+Moss; Mr. Albert Johan;male;
+Rekic; Mr. Tido;male;38.0
+Moran; Miss. Bertha;female;
+Porter; Mr. Walter Chamberlain;male;47.0
+Zabour; Miss. Hileni;female;14. Mai
+Barton; Mr. David John;male;22.0
+Jussila; Miss. Katriina;female;20.0
+Attalah; Miss. Malake;female;17.0
+Pekoniemi; Mr. Edvard;male;21.0
+Connors; Mr. Patrick;male;70.5
+Turpin; Mr. William John Robert;male;29.0
+Baxter; Mr. Quigg Edmond;male;24.0
+Andersson; Miss. Ellis Anna Maria;female;2.0
+Hickman; Mr. Stanley George;male;21.0
+Moore; Mr. Leonard Charles;male;
+Nasser; Mr. Nicholas;male;32.5
+Webber; Miss. Susan;female;32.5
+White; Mr. Percival Wayland;male;54.0
+Nicola-Yarred; Master. Elias;male;12.0
+McMahon; Mr. Martin;male;
+Madsen; Mr. Fridtjof Arne;male;24.0
+Peter; Miss. Anna;female;
+Ekstrom; Mr. Johan;male;45.0
+Drazenoic; Mr. Jozef;male;33.0
+Coelho; Mr. Domingos Fernandeo;male;20.0
+Robins; Mrs. Alexander A (Grace Charity Laury);female;47.0
+Weisz; Mrs. Leopold (Mathilde Francoise Pede);female;29.0
+Sobey; Mr. Samuel James Hayden;male;25.0
+Richard; Mr. Emile;male;23.0
+Newsom; Miss. Helen Monypeny;female;19.0
+Futrelle; Mr. Jacques Heath;male;37.0
+Osen; Mr. Olaf Elon;male;16.0
+Giglio; Mr. Victor;male;24.0
+Boulos; Mrs. Joseph (Sultana);female;
+Nysten; Miss. Anna Sofia;female;22.0
+Hakkarainen; Mrs. Pekka Pietari (Elin Matilda Dolck);female;24.0
+Burke; Mr. Jeremiah;male;19.0
+Andrew; Mr. Edgardo Samuel;male;18.0
+Nicholls; Mr. Joseph Charles;male;19.0
+Andersson;" Mr. August Edvard (""Wennerstrom"")";male;27.0
+Ford;" Miss. Robina Maggie ""Ruby""";female;9.0
+Navratil;" Mr. Michel (""Louis M Hoffman"")";male;36.5
+Byles; Rev. Thomas Roussel Davids;male;42.0
+Bateman; Rev. Robert James;male;51.0
+Pears; Mrs. Thomas (Edith Wearne);female;22.0
+Meo; Mr. Alfonzo;male;55.5
+van Billiard; Mr. Austin Blyler;male;40.5
+Olsen; Mr. Ole Martin;male;
+Williams; Mr. Charles Duane;male;51.0
+Gilnagh;" Miss. Katherine ""Katie""";female;16.0
+Corn; Mr. Harry;male;30.0
+Smiljanic; Mr. Mile;male;
+Sage; Master. Thomas Henry;male;
+Cribb; Mr. John Hatfield;male;44.0
+Watt;" Mrs. James (Elizabeth ""Bessie"" Inglis Milne)";female;40.0
+Bengtsson; Mr. John Viktor;male;26.0
+Calic; Mr. Jovo;male;17.0
+Panula; Master. Eino Viljami;male;1.0
+Goldsmith;" Master. Frank John William ""Frankie""";male;9.0
+Chibnall; Mrs. (Edith Martha Bowerman);female;
+Skoog; Mrs. William (Anna Bernhardina Karlsson);female;45.0
+Baumann; Mr. John D;male;
+Ling; Mr. Lee;male;28.0
+Van der hoef; Mr. Wyckoff;male;61.0
+Rice; Master. Arthur;male;4.0
+Johnson; Miss. Eleanor Ileen;female;1.0
+Sivola; Mr. Antti Wilhelm;male;21.0
+Smith; Mr. James Clinch;male;56.0
+Klasen; Mr. Klas Albin;male;18.0
+Lefebre; Master. Henry Forbes;male;
+Isham; Miss. Ann Elizabeth;female;50.0
+Hale; Mr. Reginald;male;30.0
+Leonard; Mr. Lionel;male;36.0
+Sage; Miss. Constance Gladys;female;
+Pernot; Mr. Rene;male;
+Asplund; Master. Clarence Gustaf Hugo;male;9.0
+Becker; Master. Richard F;male;1.0
+Kink-Heilmann; Miss. Luise Gretchen;female;4.0
+Rood; Mr. Hugh Roscoe;male;
+O'Brien;" Mrs. Thomas (Johanna ""Hannah"" Godfrey)";female;
+Romaine;" Mr. Charles Hallace (""Mr C Rolmane"")";male;45.0
+Bourke; Mr. John;male;40.0
+Turcin; Mr. Stjepan;male;36.0
+Pinsky; Mrs. (Rosa);female;32.0
+Carbines; Mr. William;male;19.0
+Andersen-Jensen; Miss. Carla Christine Nielsine;female;19.0
+Navratil; Master. Michel M;male;3.0
+Brown; Mrs. James Joseph (Margaret Tobin);female;44.0
+Lurette; Miss. Elise;female;58.0
+Mernagh; Mr. Robert;male;
+Olsen; Mr. Karl Siegwart Andreas;male;42.0
+Madigan;" Miss. Margaret ""Maggie""";female;
+Yrois;" Miss. Henriette (""Mrs Harbeck"")";female;24.0
+Vande Walle; Mr. Nestor Cyriel;male;28.0
+Sage; Mr. Frederick;male;
+Johanson; Mr. Jakob Alfred;male;34.0
+Youseff; Mr. Gerious;male;45.5
+Cohen;" Mr. Gurshon ""Gus""";male;18.0
+Strom; Miss. Telma Matilda;female;2.0
+Backstrom; Mr. Karl Alfred;male;32.0
+Albimona; Mr. Nassef Cassem;male;26.0
+Carr;" Miss. Helen ""Ellen""";female;16.0
+Blank; Mr. Henry;male;40.0
+Ali; Mr. Ahmed;male;24.0
+Cameron; Miss. Clear Annie;female;35.0
+Perkin; Mr. John Henry;male;22.0
+Givard; Mr. Hans Kristensen;male;30.0
+Kiernan; Mr. Philip;male;
+Newell; Miss. Madeleine;female;31.0
+Honkanen; Miss. Eliina;female;27.0
+Jacobsohn; Mr. Sidney Samuel;male;42.0
+Bazzani; Miss. Albina;female;32.0
+Harris; Mr. Walter;male;30.0
+Sunderland; Mr. Victor Francis;male;16.0
+Bracken; Mr. James H;male;27.0
+Green; Mr. George Henry;male;51.0
+Nenkoff; Mr. Christo;male;
+Hoyt; Mr. Frederick Maxfield;male;38.0
+Berglund; Mr. Karl Ivar Sven;male;22.0
+Mellors; Mr. William John;male;19.0
+Lovell;" Mr. John Hall (""Henry"")";male;20. Mai
+Fahlstrom; Mr. Arne Jonas;male;18.0
+Lefebre; Miss. Mathilde;female;
+Harris; Mrs. Henry Birkhardt (Irene Wallach);female;35.0
+Larsson; Mr. Bengt Edvin;male;29.0
+Sjostedt; Mr. Ernst Adolf;male;59.0
+Asplund; Miss. Lillian Gertrud;female;5.0
+Leyson; Mr. Robert William Norman;male;24.0
+Harknett; Miss. Alice Phoebe;female;
+Hold; Mr. Stephen;male;44.0
+Collyer;" Miss. Marjorie ""Lottie""";female;8.0
+Pengelly; Mr. Frederick William;male;19.0
+Hunt; Mr. George Henry;male;33.0
+Zabour; Miss. Thamine;female;
+Murphy;" Miss. Katherine ""Kate""";female;
+Coleridge; Mr. Reginald Charles;male;29.0
+Maenpaa; Mr. Matti Alexanteri;male;22.0
+Attalah; Mr. Sleiman;male;30.0
+Minahan; Dr. William Edward;male;44.0
+Lindahl; Miss. Agda Thorilda Viktoria;female;25.0
+Hamalainen; Mrs. William (Anna);female;24.0
+Beckwith; Mr. Richard Leonard;male;37.0
+Carter; Rev. Ernest Courtenay;male;54.0
+Reed; Mr. James George;male;
+Strom; Mrs. Wilhelm (Elna Matilda Persson);female;29.0
+Stead; Mr. William Thomas;male;62.0
+Lobb; Mr. William Arthur;male;30.0
+Rosblom; Mrs. Viktor (Helena Wilhelmina);female;41.0
+Touma; Mrs. Darwis (Hanne Youssef Razi);female;29.0
+Thorne; Mrs. Gertrude Maybelle;female;
+Cherry; Miss. Gladys;female;30.0
+Ward; Miss. Anna;female;35.0
+Parrish; Mrs. (Lutie Davis);female;50.0
+Smith; Mr. Thomas;male;
+Asplund; Master. Edvin Rojj Felix;male;3.0
+Taussig; Mr. Emil;male;52.0
+Harrison; Mr. William;male;40.0
+Henry; Miss. Delia;female;
+Reeves; Mr. David;male;36.0
+Panula; Mr. Ernesti Arvid;male;16.0
+Persson; Mr. Ernst Ulrik;male;25.0
+Graham; Mrs. William Thompson (Edith Junkins);female;58.0
+Bissette; Miss. Amelia;female;35.0
+Cairns; Mr. Alexander;male;
+Tornquist; Mr. William Henry;male;25.0
+Mellinger; Mrs. (Elizabeth Anne Maidment);female;41.0
+Natsch; Mr. Charles H;male;37.0
+Healy;" Miss. Hanora ""Nora""";female;
+Andrews; Miss. Kornelia Theodosia;female;63.0
+Lindblom; Miss. Augusta Charlotta;female;45.0
+Parkes;" Mr. Francis ""Frank""";male;
+Rice; Master. Eric;male;7.0
+Abbott; Mrs. Stanton (Rosa Hunt);female;35.0
+Duane; Mr. Frank;male;65.0
+Olsson; Mr. Nils Johan Goransson;male;28.0
+de Pelsmaeker; Mr. Alfons;male;16.0
+Dorking; Mr. Edward Arthur;male;19.0
+Smith; Mr. Richard William;male;
+Stankovic; Mr. Ivan;male;33.0
+de Mulder; Mr. Theodore;male;30.0
+Naidenoff; Mr. Penko;male;22.0
+Hosono; Mr. Masabumi;male;42.0
+Connolly; Miss. Kate;female;22.0
+Barber;" Miss. Ellen ""Nellie""";female;26.0
+Bishop; Mrs. Dickinson H (Helen Walton);female;19.0
+Levy; Mr. Rene Jacques;male;36.0
+Haas; Miss. Aloisia;female;24.0
+Mineff; Mr. Ivan;male;24.0
+Lewy; Mr. Ervin G;male;
+Hanna; Mr. Mansour;male;23. Mai
+Allison; Miss. Helen Loraine;female;2.0
+Saalfeld; Mr. Adolphe;male;
+Baxter; Mrs. James (Helene DeLaudeniere Chaput);female;50.0
+Kelly;" Miss. Anna Katherine ""Annie Kate""";female;
+McCoy; Mr. Bernard;male;
+Johnson; Mr. William Cahoone Jr;male;19.0
+Keane; Miss. Nora A;female;
+Williams;" Mr. Howard Hugh ""Harry""";male;
+Allison; Master. Hudson Trevor;male;0.92
+Fleming; Miss. Margaret;female;
+Penasco y Castellana; Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo);female;17.0
+Abelson; Mr. Samuel;male;30.0
+Francatelli; Miss. Laura Mabel;female;30.0
+Hays; Miss. Margaret Bechstein;female;24.0
+Ryerson; Miss. Emily Borie;female;18.0
+Lahtinen; Mrs. William (Anna Sylfven);female;26.0
+Hendekovic; Mr. Ignjac;male;28.0
+Hart; Mr. Benjamin;male;43.0
+Nilsson; Miss. Helmina Josefina;female;26.0
+Kantor; Mrs. Sinai (Miriam Sternin);female;24.0
+Moraweck; Dr. Ernest;male;54.0
+Wick; Miss. Mary Natalie;female;31.0
+Spedden; Mrs. Frederic Oakley (Margaretta Corning Stone);female;40.0
+Dennis; Mr. Samuel;male;22.0
+Danoff; Mr. Yoto;male;27.0
+Slayter; Miss. Hilda Mary;female;30.0
+Caldwell; Mrs. Albert Francis (Sylvia Mae Harbaugh);female;22.0
+Sage; Mr. George John Jr;male;
+Young; Miss. Marie Grice;female;36.0
+Nysveen; Mr. Johan Hansen;male;61.0
+Ball; Mrs. (Ada E Hall);female;36.0
+Goldsmith; Mrs. Frank John (Emily Alice Brown);female;31.0
+Hippach; Miss. Jean Gertrude;female;16.0
+McCoy; Miss. Agnes;female;
+Partner; Mr. Austen;male;45.5
+Graham; Mr. George Edward;male;38.0
+Vander Planke; Mr. Leo Edmondus;male;16.0
+Frauenthal; Mrs. Henry William (Clara Heinsheimer);female;
+Denkoff; Mr. Mitto;male;
+Pears; Mr. Thomas Clinton;male;29.0
+Burns; Miss. Elizabeth Margaret;female;41.0
+Dahl; Mr. Karl Edwart;male;45.0
+Blackwell; Mr. Stephen Weart;male;45.0
+Navratil; Master. Edmond Roger;male;2.0
+Fortune; Miss. Alice Elizabeth;female;24.0
+Collander; Mr. Erik Gustaf;male;28.0
+Sedgwick; Mr. Charles Frederick Waddington;male;25.0
+Fox; Mr. Stanley Hubert;male;36.0
+Brown;" Miss. Amelia ""Mildred""";female;24.0
+Smith; Miss. Marion Elsie;female;40.0
+Davison; Mrs. Thomas Henry (Mary E Finck);female;
+Coutts;" Master. William Loch ""William""";male;3.0
+Dimic; Mr. Jovan;male;42.0
+Odahl; Mr. Nils Martin;male;23.0
+Williams-Lambert; Mr. Fletcher Fellows;male;
+Elias; Mr. Tannous;male;15.0
+Arnold-Franchi; Mr. Josef;male;25.0
+Yousif; Mr. Wazli;male;
+Vanden Steen; Mr. Leo Peter;male;28.0
+Bowerman; Miss. Elsie Edith;female;22.0
+Funk; Miss. Annie Clemmer;female;38.0
+McGovern; Miss. Mary;female;
+Mockler;" Miss. Helen Mary ""Ellie""";female;
+Skoog; Mr. Wilhelm;male;40.0
+del Carlo; Mr. Sebastiano;male;29.0
+Barbara; Mrs. (Catherine David);female;45.0
+Asim; Mr. Adola;male;35.0
+O'Brien; Mr. Thomas;male;
+Adahl; Mr. Mauritz Nils Martin;male;30.0
+Warren; Mrs. Frank Manley (Anna Sophia Atkinson);female;60.0
+Moussa; Mrs. (Mantoura Boulos);female;
+Jermyn; Miss. Annie;female;
+Aubart; Mme. Leontine Pauline;female;24.0
+Harder; Mr. George Achilles;male;25.0
+Wiklund; Mr. Jakob Alfred;male;18.0
+Beavan; Mr. William Thomas;male;19.0
+Ringhini; Mr. Sante;male;22.0
+Palsson; Miss. Stina Viola;female;3.0
+Meyer; Mrs. Edgar Joseph (Leila Saks);female;
+Landergren; Miss. Aurora Adelia;female;22.0
+Widener; Mr. Harry Elkins;male;27.0
+Betros; Mr. Tannous;male;20.0
+Gustafsson; Mr. Karl Gideon;male;19.0
+Bidois; Miss. Rosalie;female;42.0
+Nakid;" Miss. Maria (""Mary"")";female;1.0
+Tikkanen; Mr. Juho;male;32.0
+Holverson; Mrs. Alexander Oskar (Mary Aline Towner);female;35.0
+Plotcharsky; Mr. Vasil;male;
+Davies; Mr. Charles Henry;male;18.0
+Goodwin; Master. Sidney Leonard;male;1.0
+Buss; Miss. Kate;female;36.0
+Sadlier; Mr. Matthew;male;
+Lehmann; Miss. Bertha;female;17.0
+Carter; Mr. William Ernest;male;36.0
+Jansson; Mr. Carl Olof;male;21.0
+Gustafsson; Mr. Johan Birger;male;28.0
+Newell; Miss. Marjorie;female;23.0
+Sandstrom; Mrs. Hjalmar (Agnes Charlotta Bengtsson);female;24.0
+Johansson; Mr. Erik;male;22.0
+Olsson; Miss. Elina;female;31.0
+McKane; Mr. Peter David;male;46.0
+Pain; Dr. Alfred;male;23.0
+Trout; Mrs. William H (Jessie L);female;28.0
+Niskanen; Mr. Juha;male;39.0
+Adams; Mr. John;male;26.0
+Jussila; Miss. Mari Aina;female;21.0
+Hakkarainen; Mr. Pekka Pietari;male;28.0
+Oreskovic; Miss. Marija;female;20.0
+Gale; Mr. Shadrach;male;34.0
+Widegren; Mr. Carl/Charles Peter;male;51.0
+Richards; Master. William Rowe;male;3.0
+Birkeland; Mr. Hans Martin Monsen;male;21.0
+Lefebre; Miss. Ida;female;
+Sdycoff; Mr. Todor;male;
+Hart; Mr. Henry;male;
+Minahan; Miss. Daisy E;female;33.0
+Cunningham; Mr. Alfred Fleming;male;
+Sundman; Mr. Johan Julian;male;44.0
+Meek; Mrs. Thomas (Annie Louise Rowley);female;
+Drew; Mrs. James Vivian (Lulu Thorne Christian);female;34.0
+Silven; Miss. Lyyli Karoliina;female;18.0
+Matthews; Mr. William John;male;30.0
+Van Impe; Miss. Catharina;female;10.0
+Gheorgheff; Mr. Stanio;male;
+Charters; Mr. David;male;21.0
+Zimmerman; Mr. Leo;male;29.0
+Danbom; Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren);female;28.0
+Rosblom; Mr. Viktor Richard;male;18.0
+Wiseman; Mr. Phillippe;male;
+Clarke; Mrs. Charles V (Ada Maria Winfield);female;28.0
+Phillips;" Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")";female;19.0
+Flynn; Mr. James;male;
+Pickard; Mr. Berk (Berk Trembisky);male;32.0
+Bjornstrom-Steffansson; Mr. Mauritz Hakan;male;28.0
+Thorneycroft; Mrs. Percival (Florence Kate White);female;
+Louch; Mrs. Charles Alexander (Alice Adelaide Slow);female;42.0
+Kallio; Mr. Nikolai Erland;male;17.0
+Silvey; Mr. William Baird;male;50.0
+Carter; Miss. Lucile Polk;female;14.0
+Ford;" Miss. Doolina Margaret ""Daisy""";female;21.0
+Richards; Mrs. Sidney (Emily Hocking);female;24.0
+Fortune; Mr. Mark;male;64.0
+Kvillner; Mr. Johan Henrik Johannesson;male;31.0
+Hart; Mrs. Benjamin (Esther Ada Bloomfield);female;45.0
+Hampe; Mr. Leon;male;20.0
+Petterson; Mr. Johan Emil;male;25.0
+Reynaldo; Ms. Encarnacion;female;28.0
+Johannesen-Bratthammer; Mr. Bernt;male;
+Dodge; Master. Washington;male;4.0
+Mellinger; Miss. Madeleine Violet;female;13.0
+Seward; Mr. Frederic Kimber;male;34.0
+Baclini; Miss. Marie Catherine;female;5.0
+Peuchen; Major. Arthur Godfrey;male;52.0
+West; Mr. Edwy Arthur;male;36.0
+Hagland; Mr. Ingvald Olai Olsen;male;
+Foreman; Mr. Benjamin Laventall;male;30.0
+Goldenberg; Mr. Samuel L;male;49.0
+Peduzzi; Mr. Joseph;male;
+Jalsevac; Mr. Ivan;male;29.0
+Millet; Mr. Francis Davis;male;65.0
+Kenyon; Mrs. Frederick R (Marion);female;
+Toomey; Miss. Ellen;female;50.0
+O'Connor; Mr. Maurice;male;
+Anderson; Mr. Harry;male;48.0
+Morley; Mr. William;male;34.0
+Gee; Mr. Arthur H;male;47.0
+Milling; Mr. Jacob Christian;male;48.0
+Maisner; Mr. Simon;male;
+Goncalves; Mr. Manuel Estanslas;male;38.0
+Campbell; Mr. William;male;
+Smart; Mr. John Montgomery;male;56.0
+Scanlan; Mr. James;male;
+Baclini; Miss. Helene Barbara;female;0.75
+Keefe; Mr. Arthur;male;
+Cacic; Mr. Luka;male;38.0
+West; Mrs. Edwy Arthur (Ada Mary Worth);female;33.0
+Jerwan; Mrs. Amin S (Marie Marthe Thuillard);female;23.0
+Strandberg; Miss. Ida Sofia;female;22.0
+Clifford; Mr. George Quincy;male;
+Renouf; Mr. Peter Henry;male;34.0
+Braund; Mr. Lewis Richard;male;29.0
+Karlsson; Mr. Nils August;male;22.0
+Hirvonen; Miss. Hildur E;female;2.0
+Goodwin; Master. Harold Victor;male;9.0
+Frost;" Mr. Anthony Wood ""Archie""";male;
+Rouse; Mr. Richard Henry;male;50.0
+Turkula; Mrs. (Hedwig);female;63.0
+Bishop; Mr. Dickinson H;male;25.0
+Lefebre; Miss. Jeannie;female;
+Hoyt; Mrs. Frederick Maxfield (Jane Anne Forby);female;35.0
+Kent; Mr. Edward Austin;male;58.0
+Somerton; Mr. Francis William;male;30.0
+Coutts;" Master. Eden Leslie ""Neville""";male;9.0
+Hagland; Mr. Konrad Mathias Reiersen;male;
+Windelov; Mr. Einar;male;21.0
+Molson; Mr. Harry Markland;male;55.0
+Artagaveytia; Mr. Ramon;male;71.0
+Stanley; Mr. Edward Roland;male;21.0
+Yousseff; Mr. Gerious;male;
+Eustis; Miss. Elizabeth Mussey;female;54.0
+Shellard; Mr. Frederick William;male;
+Allison; Mrs. Hudson J C (Bessie Waldo Daniels);female;25.0
+Svensson; Mr. Olof;male;24.0
+Calic; Mr. Petar;male;17.0
+Canavan; Miss. Mary;female;21.0
+O'Sullivan; Miss. Bridget Mary;female;
+Laitinen; Miss. Kristina Sofia;female;37.0
+Maioni; Miss. Roberta;female;16.0
+Penasco y Castellana; Mr. Victor de Satode;male;18.0
+Quick; Mrs. Frederick Charles (Jane Richards);female;33.0
+Bradley;" Mr. George (""George Arthur Brayton"")";male;
+Olsen; Mr. Henry Margido;male;28.0
+Lang; Mr. Fang;male;26.0
+Daly; Mr. Eugene Patrick;male;29.0
+Webber; Mr. James;male;
+McGough; Mr. James Robert;male;36.0
+Rothschild; Mrs. Martin (Elizabeth L. Barrett);female;54.0
+Coleff; Mr. Satio;male;24.0
+Walker; Mr. William Anderson;male;47.0
+Lemore; Mrs. (Amelia Milley);female;34.0
+Ryan; Mr. Patrick;male;
+Angle;" Mrs. William A (Florence ""Mary"" Agnes Hughes)";female;36.0
+Pavlovic; Mr. Stefo;male;32.0
+Perreault; Miss. Anne;female;30.0
+Vovk; Mr. Janko;male;22.0
+Lahoud; Mr. Sarkis;male;
+Hippach; Mrs. Louis Albert (Ida Sophia Fischer);female;44.0
+Kassem; Mr. Fared;male;
+Farrell; Mr. James;male;40.5
+Ridsdale; Miss. Lucy;female;50.0
+Farthing; Mr. John;male;
+Salonen; Mr. Johan Werner;male;39.0
+Hocking; Mr. Richard George;male;23.0
+Quick; Miss. Phyllis May;female;2.0
+Toufik; Mr. Nakli;male;
+Elias; Mr. Joseph Jr;male;17.0
+Peter; Mrs. Catherine (Catherine Rizk);female;
+Cacic; Miss. Marija;female;30.0
+Hart; Miss. Eva Miriam;female;7.0
+Butt; Major. Archibald Willingham;male;45.0
+LeRoy; Miss. Bertha;female;30.0
+Risien; Mr. Samuel Beard;male;
+Frolicher; Miss. Hedwig Margaritha;female;22.0
+Crosby; Miss. Harriet R;female;36.0
+Andersson; Miss. Ingeborg Constanzia;female;9.0
+Andersson; Miss. Sigrid Elisabeth;female;11.0
+Beane; Mr. Edward;male;32.0
+Douglas; Mr. Walter Donald;male;50.0
+Nicholson; Mr. Arthur Ernest;male;64.0
+Beane; Mrs. Edward (Ethel Clarke);female;19.0
+Padro y Manent; Mr. Julian;male;
+Goldsmith; Mr. Frank John;male;33.0
+Davies; Master. John Morgan Jr;male;8.0
+Thayer; Mr. John Borland Jr;male;17.0
+Sharp; Mr. Percival James R;male;27.0
+O'Brien; Mr. Timothy;male;
+Leeni;" Mr. Fahim (""Philip Zenni"")";male;22.0
+Ohman; Miss. Velin;female;22.0
+Wright; Mr. George;male;62.0
+Duff Gordon;" Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")";female;48.0
+Robbins; Mr. Victor;male;
+Taussig; Mrs. Emil (Tillie Mandelbaum);female;39.0
+de Messemaeker; Mrs. Guillaume Joseph (Emma);female;36.0
+Morrow; Mr. Thomas Rowan;male;
+Sivic; Mr. Husein;male;40.0
+Norman; Mr. Robert Douglas;male;28.0
+Simmons; Mr. John;male;
+Meanwell; Miss. (Marion Ogden);female;
+Davies; Mr. Alfred J;male;24.0
+Stoytcheff; Mr. Ilia;male;19.0
+Palsson; Mrs. Nils (Alma Cornelia Berglund);female;29.0
+Doharr; Mr. Tannous;male;
+Jonsson; Mr. Carl;male;32.0
+Harris; Mr. George;male;62.0
+Appleton; Mrs. Edward Dale (Charlotte Lamson);female;53.0
+Flynn;" Mr. John Irwin (""Irving"")";male;36.0
+Kelly; Miss. Mary;female;
+Rush; Mr. Alfred George John;male;16.0
+Patchett; Mr. George;male;19.0
+Garside; Miss. Ethel;female;34.0
+Silvey; Mrs. William Baird (Alice Munger);female;39.0
+Caram; Mrs. Joseph (Maria Elias);female;
+Jussila; Mr. Eiriik;male;32.0
+Christy; Miss. Julie Rachel;female;25.0
+Thayer; Mrs. John Borland (Marian Longstreth Morris);female;39.0
+Downton; Mr. William James;male;54.0
+Ross; Mr. John Hugo;male;36.0
+Paulner; Mr. Uscher;male;
+Taussig; Miss. Ruth;female;18.0
+Jarvis; Mr. John Denzil;male;47.0
+Frolicher-Stehli; Mr. Maxmillian;male;60.0
+Gilinski; Mr. Eliezer;male;22.0
+Murdlin; Mr. Joseph;male;
+Rintamaki; Mr. Matti;male;35.0
+Stephenson; Mrs. Walter Bertram (Martha Eustis);female;52.0
+Elsbury; Mr. William James;male;47.0
+Bourke; Miss. Mary;female;
+Chapman; Mr. John Henry;male;37.0
+Van Impe; Mr. Jean Baptiste;male;36.0
+Leitch; Miss. Jessie Wills;female;
+Johnson; Mr. Alfred;male;49.0
+Boulos; Mr. Hanna;male;
+Duff Gordon;" Sir. Cosmo Edmund (""Mr Morgan"")";male;49.0
+Jacobsohn; Mrs. Sidney Samuel (Amy Frances Christy);female;24.0
+Slabenoff; Mr. Petco;male;
+Harrington; Mr. Charles H;male;
+Torber; Mr. Ernst William;male;44.0
+Homer;" Mr. Harry (""Mr E Haven"")";male;35.0
+Lindell; Mr. Edvard Bengtsson;male;36.0
+Karaic; Mr. Milan;male;30.0
+Daniel; Mr. Robert Williams;male;27.0
+Laroche; Mrs. Joseph (Juliette Marie Louise Lafargue);female;22.0
+Shutes; Miss. Elizabeth W;female;40.0
+Andersson; Mrs. Anders Johan (Alfrida Konstantia Brogren);female;39.0
+Jardin; Mr. Jose Neto;male;
+Murphy; Miss. Margaret Jane;female;
+Horgan; Mr. John;male;
+Brocklebank; Mr. William Alfred;male;35.0
+Herman; Miss. Alice;female;24.0
+Danbom; Mr. Ernst Gilbert;male;34.0
+Lobb; Mrs. William Arthur (Cordelia K Stanlick);female;26.0
+Becker; Miss. Marion Louise;female;4.0
+Gavey; Mr. Lawrence;male;26.0
+Yasbeck; Mr. Antoni;male;27.0
+Kimball; Mr. Edwin Nelson Jr;male;42.0
+Nakid; Mr. Sahid;male;20.0
+Hansen; Mr. Henry Damsgaard;male;21.0
+Bowen;" Mr. David John ""Dai""";male;21.0
+Sutton; Mr. Frederick;male;61.0
+Kirkland; Rev. Charles Leonard;male;57.0
+Longley; Miss. Gretchen Fiske;female;21.0
+Bostandyeff; Mr. Guentcho;male;26.0
+O'Connell; Mr. Patrick D;male;
+Barkworth; Mr. Algernon Henry Wilson;male;80.0
+Lundahl; Mr. Johan Svensson;male;51.0
+Stahelin-Maeglin; Dr. Max;male;32.0
+Parr; Mr. William Henry Marsh;male;
+Skoog; Miss. Mabel;female;9.0
+Davis; Miss. Mary;female;28.0
+Leinonen; Mr. Antti Gustaf;male;32.0
+Collyer; Mr. Harvey;male;31.0
+Panula; Mrs. Juha (Maria Emilia Ojala);female;41.0
+Thorneycroft; Mr. Percival;male;
+Jensen; Mr. Hans Peder;male;20.0
+Sagesser; Mlle. Emma;female;24.0
+Skoog; Miss. Margit Elizabeth;female;2.0
+Foo; Mr. Choong;male;
+Baclini; Miss. Eugenie;female;0.75
+Harper; Mr. Henry Sleeper;male;48.0
+Cor; Mr. Liudevit;male;19.0
+Simonius-Blumer; Col. Oberst Alfons;male;56.0
+Willey; Mr. Edward;male;
+Stanley; Miss. Amy Zillah Elsie;female;23.0
+Mitkoff; Mr. Mito;male;
+Doling; Miss. Elsie;female;18.0
+Kalvik; Mr. Johannes Halvorsen;male;21.0
+O'Leary;" Miss. Hanora ""Norah""";female;
+Hegarty;" Miss. Hanora ""Nora""";female;18.0
+Hickman; Mr. Leonard Mark;male;24.0
+Radeff; Mr. Alexander;male;
+Bourke; Mrs. John (Catherine);female;32.0
+Eitemiller; Mr. George Floyd;male;23.0
+Newell; Mr. Arthur Webster;male;58.0
+Frauenthal; Dr. Henry William;male;50.0
+Badt; Mr. Mohamed;male;40.0
+Colley; Mr. Edward Pomeroy;male;47.0
+Coleff; Mr. Peju;male;36.0
+Lindqvist; Mr. Eino William;male;20.0
+Hickman; Mr. Lewis;male;32.0
+Butler; Mr. Reginald Fenton;male;25.0
+Rommetvedt; Mr. Knud Paust;male;
+Cook; Mr. Jacob;male;43.0
+Taylor; Mrs. Elmer Zebley (Juliet Cummins Wright);female;
+Brown; Mrs. Thomas William Solomon (Elizabeth Catherine Ford);female;40.0
+Davidson; Mr. Thornton;male;31.0
+Mitchell; Mr. Henry Michael;male;70.0
+Wilhelms; Mr. Charles;male;31.0
+Watson; Mr. Ennis Hastings;male;
+Edvardsson; Mr. Gustaf Hjalmar;male;18.0
+Sawyer; Mr. Frederick Charles;male;24. Mai
+Turja; Miss. Anna Sofia;female;18.0
+Goodwin; Mrs. Frederick (Augusta Tyler);female;43.0
+Cardeza; Mr. Thomas Drake Martinez;male;36.0
+Peters; Miss. Katie;female;
+Hassab; Mr. Hammad;male;27.0
+Olsvigen; Mr. Thor Anderson;male;20.0
+Goodwin; Mr. Charles Edward;male;14.0
+Brown; Mr. Thomas William Solomon;male;60.0
+Laroche; Mr. Joseph Philippe Lemercier;male;25.0
+Panula; Mr. Jaako Arnold;male;14.0
+Dakic; Mr. Branko;male;19.0
+Fischer; Mr. Eberhard Thelander;male;18.0
+Madill; Miss. Georgette Alexandra;female;15.0
+Dick; Mr. Albert Adrian;male;31.0
+Karun; Miss. Manca;female;4.0
+Lam; Mr. Ali;male;
+Saad; Mr. Khalil;male;25.0
+Weir; Col. John;male;60.0
+Chapman; Mr. Charles Henry;male;52.0
+Kelly; Mr. James;male;44.0
+Mullens;" Miss. Katherine ""Katie""";female;
+Thayer; Mr. John Borland;male;49.0
+Humblen; Mr. Adolf Mathias Nicolai Olsen;male;42.0
+Astor; Mrs. John Jacob (Madeleine Talmadge Force);female;18.0
+Silverthorne; Mr. Spencer Victor;male;35.0
+Barbara; Miss. Saiide;female;18.0
+Gallagher; Mr. Martin;male;25.0
+Hansen; Mr. Henrik Juul;male;26.0
+Morley;" Mr. Henry Samuel (""Mr Henry Marshall"")";male;39.0
+Kelly;" Mrs. Florence ""Fannie""";female;45.0
+Calderhead; Mr. Edward Pennington;male;42.0
+Cleaver; Miss. Alice;female;22.0
+Moubarek;" Master. Halim Gonios (""William George"")";male;
+Mayne;" Mlle. Berthe Antonine (""Mrs de Villiers"")";female;24.0
+Klaber; Mr. Herman;male;
+Taylor; Mr. Elmer Zebley;male;48.0
+Larsson; Mr. August Viktor;male;29.0
+Greenberg; Mr. Samuel;male;52.0
+Soholt; Mr. Peter Andreas Lauritz Andersen;male;19.0
+Endres; Miss. Caroline Louise;female;38.0
+Troutt;" Miss. Edwina Celia ""Winnie""";female;27.0
+McEvoy; Mr. Michael;male;
+Johnson; Mr. Malkolm Joackim;male;33.0
+Harper;" Miss. Annie Jessie ""Nina""";female;6.0
+Jensen; Mr. Svend Lauritz;male;17.0
+Gillespie; Mr. William Henry;male;34.0
+Hodges; Mr. Henry Price;male;50.0
+Chambers; Mr. Norman Campbell;male;27.0
+Oreskovic; Mr. Luka;male;20.0
+Renouf; Mrs. Peter Henry (Lillian Jefferys);female;30.0
+Mannion; Miss. Margareth;female;
+Bryhl; Mr. Kurt Arnold Gottfrid;male;25.0
+Ilmakangas; Miss. Pieta Sofia;female;25.0
+Allen; Miss. Elisabeth Walton;female;29.0
+Hassan; Mr. Houssein G N;male;11.0
+Knight; Mr. Robert J;male;
+Berriman; Mr. William John;male;23.0
+Troupiansky; Mr. Moses Aaron;male;23.0
+Williams; Mr. Leslie;male;28. Mai
+Ford; Mrs. Edward (Margaret Ann Watson);female;48.0
+Lesurer; Mr. Gustave J;male;35.0
+Ivanoff; Mr. Kanio;male;
+Nankoff; Mr. Minko;male;
+Hawksford; Mr. Walter James;male;
+Cavendish; Mr. Tyrell William;male;36.0
+Ryerson;" Miss. Susan Parker ""Suzette""";female;21.0
+McNamee; Mr. Neal;male;24.0
+Stranden; Mr. Juho;male;31.0
+Crosby; Capt. Edward Gifford;male;70.0
+Abbott; Mr. Rossmore Edward;male;16.0
+Sinkkonen; Miss. Anna;female;30.0
+Marvin; Mr. Daniel Warner;male;19.0
+Connaghton; Mr. Michael;male;31.0
+Wells; Miss. Joan;female;4.0
+Moor; Master. Meier;male;6.0
+Vande Velde; Mr. Johannes Joseph;male;33.0
+Jonkoff; Mr. Lalio;male;23.0
+Herman; Mrs. Samuel (Jane Laver);female;48.0
+Hamalainen; Master. Viljo;male;0.67
+Carlsson; Mr. August Sigfrid;male;28.0
+Bailey; Mr. Percy Andrew;male;18.0
+Theobald; Mr. Thomas Leonard;male;34.0
+Rothes; the Countess. of (Lucy Noel Martha Dyer-Edwards);female;33.0
+Garfirth; Mr. John;male;
+Nirva; Mr. Iisakki Antino Aijo;male;41.0
+Barah; Mr. Hanna Assi;male;20.0
+Carter; Mrs. William Ernest (Lucile Polk);female;36.0
+Eklund; Mr. Hans Linus;male;16.0
+Hogeboom; Mrs. John C (Anna Andrews);female;51.0
+Brewe; Dr. Arthur Jackson;male;
+Mangan; Miss. Mary;female;30. Mai
+Moran; Mr. Daniel J;male;
+Gronnestad; Mr. Daniel Danielsen;male;32.0
+Lievens; Mr. Rene Aime;male;24.0
+Jensen; Mr. Niels Peder;male;48.0
+Mack; Mrs. (Mary);female;57.0
+Elias; Mr. Dibo;male;
+Hocking; Mrs. Elizabeth (Eliza Needs);female;54.0
+Myhrman; Mr. Pehr Fabian Oliver Malkolm;male;18.0
+Tobin; Mr. Roger;male;
+Emanuel; Miss. Virginia Ethel;female;5.0
+Kilgannon; Mr. Thomas J;male;
+Robert; Mrs. Edward Scott (Elisabeth Walton McMillan);female;43.0
+Ayoub; Miss. Banoura;female;13.0
+Dick; Mrs. Albert Adrian (Vera Gillespie);female;17.0
+Long; Mr. Milton Clyde;male;29.0
+Johnston; Mr. Andrew G;male;
+Ali; Mr. William;male;25.0
+Harmer; Mr. Abraham (David Lishin);male;25.0
+Sjoblom; Miss. Anna Sofia;female;18.0
+Rice; Master. George Hugh;male;8.0
+Dean; Master. Bertram Vere;male;1.0
+Guggenheim; Mr. Benjamin;male;46.0
+Keane;" Mr. Andrew ""Andy""";male;
+Gaskell; Mr. Alfred;male;16.0
+Sage; Miss. Stella Anna;female;
+Hoyt; Mr. William Fisher;male;
+Dantcheff; Mr. Ristiu;male;25.0
+Otter; Mr. Richard;male;39.0
+Leader; Dr. Alice (Farnham);female;49.0
+Osman; Mrs. Mara;female;31.0
+Ibrahim Shawah; Mr. Yousseff;male;30.0
+Van Impe; Mrs. Jean Baptiste (Rosalie Paula Govaert);female;30.0
+Ponesell; Mr. Martin;male;34.0
+Collyer; Mrs. Harvey (Charlotte Annie Tate);female;31.0
+Carter; Master. William Thornton II;male;11.0
+Thomas; Master. Assad Alexander;male;0.42
+Hedman; Mr. Oskar Arvid;male;27.0
+Johansson; Mr. Karl Johan;male;31.0
+Andrews; Mr. Thomas Jr;male;39.0
+Pettersson; Miss. Ellen Natalia;female;18.0
+Meyer; Mr. August;male;39.0
+Chambers; Mrs. Norman Campbell (Bertha Griggs);female;33.0
+Alexander; Mr. William;male;26.0
+Lester; Mr. James;male;39.0
+Slemen; Mr. Richard James;male;35.0
+Andersson; Miss. Ebba Iris Alfrida;female;6.0
+Tomlin; Mr. Ernest Portage;male;30. Mai
+Fry; Mr. Richard;male;
+Heininen; Miss. Wendla Maria;female;23.0
+Mallet; Mr. Albert;male;31.0
+Holm; Mr. John Fredrik Alexander;male;43.0
+Skoog; Master. Karl Thorsten;male;10.0
+Hays; Mrs. Charles Melville (Clara Jennings Gregg);female;52.0
+Lulic; Mr. Nikola;male;27.0
+Reuchlin; Jonkheer. John George;male;38.0
+Moor; Mrs. (Beila);female;27.0
+Panula; Master. Urho Abraham;male;2.0
+Flynn; Mr. John;male;
+Lam; Mr. Len;male;
+Mallet; Master. Andre;male;1.0
+McCormack; Mr. Thomas Joseph;male;
+Stone; Mrs. George Nelson (Martha Evelyn);female;62.0
+Yasbeck; Mrs. Antoni (Selini Alexander);female;15.0
+Richards; Master. George Sibley;male;0.83
+Saad; Mr. Amin;male;
+Augustsson; Mr. Albert;male;23.0
+Allum; Mr. Owen George;male;18.0
+Compton; Miss. Sara Rebecca;female;39.0
+Pasic; Mr. Jakob;male;21.0
+Sirota; Mr. Maurice;male;
+Chip; Mr. Chang;male;32.0
+Marechal; Mr. Pierre;male;
+Alhomaki; Mr. Ilmari Rudolf;male;20.0
+Mudd; Mr. Thomas Charles;male;16.0
+Serepeca; Miss. Augusta;female;30.0
+Lemberopolous; Mr. Peter L;male;34.5
+Culumovic; Mr. Jeso;male;17.0
+Abbing; Mr. Anthony;male;42.0
+Sage; Mr. Douglas Bullen;male;
+Markoff; Mr. Marin;male;35.0
+Harper; Rev. John;male;28.0
+Goldenberg; Mrs. Samuel L (Edwiga Grabowska);female;
+Andersson; Master. Sigvard Harald Elias;male;4.0
+Svensson; Mr. Johan;male;74.0
+Boulos; Miss. Nourelain;female;9.0
+Lines; Miss. Mary Conover;female;16.0
+Carter; Mrs. Ernest Courtenay (Lilian Hughes);female;44.0
+Aks; Mrs. Sam (Leah Rosen);female;18.0
+Wick; Mrs. George Dennick (Mary Hitchcock);female;45.0
+Daly; Mr. Peter Denis ;male;51.0
+Baclini; Mrs. Solomon (Latifa Qurban);female;24.0
+Razi; Mr. Raihed;male;
+Hansen; Mr. Claus Peter;male;41.0
+Giles; Mr. Frederick Edward;male;21.0
+Swift; Mrs. Frederick Joel (Margaret Welles Barron);female;48.0
+Sage;" Miss. Dorothy Edith ""Dolly""";female;
+Gill; Mr. John William;male;24.0
+Bystrom; Mrs. (Karolina);female;42.0
+Duran y More; Miss. Asuncion;female;27.0
+Roebling; Mr. Washington Augustus II;male;31.0
+van Melkebeke; Mr. Philemon;male;
+Johnson; Master. Harold Theodor;male;4.0
+Balkic; Mr. Cerin;male;26.0
+Beckwith; Mrs. Richard Leonard (Sallie Monypeny);female;47.0
+Carlsson; Mr. Frans Olof;male;33.0
+Vander Cruyssen; Mr. Victor;male;47.0
+Abelson; Mrs. Samuel (Hannah Wizosky);female;28.0
+Najib;" Miss. Adele Kiamie ""Jane""";female;15.0
+Gustafsson; Mr. Alfred Ossian;male;20.0
+Petroff; Mr. Nedelio;male;19.0
+Laleff; Mr. Kristo;male;
+Potter; Mrs. Thomas Jr (Lily Alexenia Wilson);female;56.0
+Shelley; Mrs. William (Imanita Parrish Hall);female;25.0
+Markun; Mr. Johann;male;33.0
+Dahlberg; Miss. Gerda Ulrika;female;22.0
+Banfield; Mr. Frederick James;male;28.0
+Sutehall; Mr. Henry Jr;male;25.0
+Rice; Mrs. William (Margaret Norton);female;39.0
+Montvila; Rev. Juozas;male;27.0
+Graham; Miss. Margaret Edith;female;19.0
+Johnston;" Miss. Catherine Helen ""Carrie""";female;
+Behr; Mr. Karl Howell;male;26.0
+Dooley; Mr. Patrick;male;32.0
+Kelly; Mr. James;male;34.5
+Wilkes; Mrs. James (Ellen Needs);female;47.0
+Myles; Mr. Thomas Francis;male;62.0
+Wirz; Mr. Albert;male;27.0
+Hirvonen; Mrs. Alexander (Helga E Lindqvist);female;22.0
+Svensson; Mr. Johan Cervin;male;14.0
+Connolly; Miss. Kate;female;30.0
+Caldwell; Mr. Albert Francis;male;26.0
+Abrahim; Mrs. Joseph (Sophie Halaut Easu);female;18.0
+Davies; Mr. John Samuel;male;21.0
+Ilieff; Mr. Ylio;male;
+Jones; Mr. Charles Cresson;male;46.0
+Snyder; Mrs. John Pillsbury (Nelle Stevenson);female;23.0
+Howard; Mr. Benjamin;male;63.0
+Chaffee; Mrs. Herbert Fuller (Carrie Constance Toogood);female;47.0
+del Carlo; Mrs. Sebastiano (Argenia Genovesi);female;24.0
+Keane; Mr. Daniel;male;35.0
+Assaf; Mr. Gerios;male;21.0
+Ilmakangas; Miss. Ida Livija;female;27.0
+Assaf Khalil;" Mrs. Mariana (Miriam"")""";female;45.0
+Rothschild; Mr. Martin;male;55.0
+Olsen; Master. Artur Karl;male;9.0
+Flegenheim; Mrs. Alfred (Antoinette);female;
+Williams; Mr. Richard Norris II;male;21.0
+Ryerson; Mrs. Arthur Larned (Emily Maria Borie);female;48.0
+Robins; Mr. Alexander A;male;50.0
+Ostby; Miss. Helene Ragnhild;female;22.0
+Daher; Mr. Shedid;male;22. Mai
+Brady; Mr. John Bertram;male;41.0
+Samaan; Mr. Elias;male;
+Louch; Mr. Charles Alexander;male;50.0
+Jefferys; Mr. Clifford Thomas;male;24.0
+Dean; Mrs. Bertram (Eva Georgetta Light);female;33.0
+Johnston;" Mrs. Andrew G (Elizabeth Lily"" Watson)""";female;
+Mock; Mr. Philipp Edmund;male;30.0
+Katavelas;" Mr. Vassilios (Catavelas Vassilios"")""";male;18. Mai
+Roth; Miss. Sarah A;female;
+Cacic; Miss. Manda;female;21.0
+Sap; Mr. Julius;male;25.0
+Hee; Mr. Ling;male;
+Karun; Mr. Franz;male;39.0
+Franklin; Mr. Thomas Parham;male;
+Goldsmith; Mr. Nathan;male;41.0
+Corbett; Mrs. Walter H (Irene Colvin);female;30.0
+Kimball; Mrs. Edwin Nelson Jr (Gertrude Parsons);female;45.0
+Peltomaki; Mr. Nikolai Johannes;male;25.0
+Chevre; Mr. Paul Romaine;male;45.0
+Shaughnessy; Mr. Patrick;male;
+Bucknell; Mrs. William Robert (Emma Eliza Ward);female;60.0
+Coutts;" Mrs. William (Winnie Minnie"" Treanor)""";female;36.0
+Smith; Mr. Lucien Philip;male;24.0
+Pulbaum; Mr. Franz;male;27.0
+Hocking;" Miss. Ellen Nellie""""";female;20.0
+Fortune; Miss. Ethel Flora;female;28.0
+Mangiavacchi; Mr. Serafino Emilio;male;
+Rice; Master. Albert;male;10.0
+Cor; Mr. Bartol;male;35.0
+Abelseth; Mr. Olaus Jorgensen;male;25.0
+Davison; Mr. Thomas Henry;male;
+Chaudanson; Miss. Victorine;female;36.0
+Dika; Mr. Mirko;male;17.0
+McCrae; Mr. Arthur Gordon;male;32.0
+Bjorklund; Mr. Ernst Herbert;male;18.0
+Bradley; Miss. Bridget Delia;female;22.0
+Ryerson; Master. John Borie;male;13.0
+Corey; Mrs. Percy C (Mary Phyllis Elizabeth Miller);female;
+Burns; Miss. Mary Delia;female;18.0
+Moore; Mr. Clarence Bloomfield;male;47.0
+Tucker; Mr. Gilbert Milligan Jr;male;31.0
+Fortune; Mrs. Mark (Mary McDougald);female;60.0
+Mulvihill; Miss. Bertha E;female;24.0
+Minkoff; Mr. Lazar;male;21.0
+Nieminen; Miss. Manta Josefina;female;29.0
+Ovies y Rodriguez; Mr. Servando;male;28. Mai
+Geiger; Miss. Amalie;female;35.0
+Keeping; Mr. Edwin;male;32.5
+Miles; Mr. Frank;male;
+Cornell; Mrs. Robert Clifford (Malvina Helen Lamson);female;55.0
+Aldworth; Mr. Charles Augustus;male;30.0
+Doyle; Miss. Elizabeth;female;24.0
+Boulos; Master. Akar;male;6.0
+Straus; Mr. Isidor;male;67.0
+Case; Mr. Howard Brown;male;49.0
+Demetri; Mr. Marinko;male;
+Lamb; Mr. John Joseph;male;
+Khalil; Mr. Betros;male;
+Barry; Miss. Julia;female;27.0
+Badman; Miss. Emily Louisa;female;18.0
+O'Donoghue; Ms. Bridget;female;
+Wells; Master. Ralph Lester;male;2.0
+Dyker; Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson);female;22.0
+Pedersen; Mr. Olaf;male;
+Davidson; Mrs. Thornton (Orian Hays);female;27.0
+Guest; Mr. Robert;male;
+Birnbaum; Mr. Jakob;male;25.0
+Tenglin; Mr. Gunnar Isidor;male;25.0
+Cavendish; Mrs. Tyrell William (Julia Florence Siegel);female;76.0
+Makinen; Mr. Kalle Edvard;male;29.0
+Braf; Miss. Elin Ester Maria;female;20.0
+Nancarrow; Mr. William Henry;male;33.0
+Stengel; Mrs. Charles Emil Henry (Annie May Morris);female;43.0
+Weisz; Mr. Leopold;male;27.0
+Foley; Mr. William;male;
+Johansson Palmquist; Mr. Oskar Leander;male;26.0
+Thomas;" Mrs. Alexander (Thamine Thelma"")""";female;16.0
+Holthen; Mr. Johan Martin;male;28.0
+Buckley; Mr. Daniel;male;21.0
+Ryan; Mr. Edward;male;
+Willer;" Mr. Aaron (Abi Weller"")""";male;
+Swane; Mr. George;male;18. Mai
+Stanton; Mr. Samuel Ward;male;41.0
+Shine; Miss. Ellen Natalia;female;
+Evans; Miss. Edith Corse;female;36.0
+Buckley; Miss. Katherine;female;18. Mai
+Straus; Mrs. Isidor (Rosalie Ida Blun);female;63.0
+Chronopoulos; Mr. Demetrios;male;18.0
+Thomas; Mr. John;male;
+Sandstrom; Miss. Beatrice Irene;female;1.0
+Beattie; Mr. Thomson;male;36.0
+Chapman; Mrs. John Henry (Sara Elizabeth Lawry);female;29.0
+Watt; Miss. Bertha J;female;12.0
+Kiernan; Mr. John;male;
+Schabert; Mrs. Paul (Emma Mock);female;35.0
+Carver; Mr. Alfred John;male;28.0
+Kennedy; Mr. John;male;
+Cribb; Miss. Laura Alice;female;17.0
+Brobeck; Mr. Karl Rudolf;male;22.0
+McCoy; Miss. Alicia;female;
+Bowenur; Mr. Solomon;male;42.0
+Petersen; Mr. Marius;male;24.0
+Spinner; Mr. Henry John;male;32.0
+Gracie; Col. Archibald IV;male;53.0
+Lefebre; Mrs. Frank (Frances);female;
+Thomas; Mr. Charles P;male;
+Dintcheff; Mr. Valtcho;male;43.0
+Carlsson; Mr. Carl Robert;male;24.0
+Zakarian; Mr. Mapriededer;male;26. Mai
+Schmidt; Mr. August;male;26.0
+Drapkin; Miss. Jennie;female;23.0
+Goodwin; Mr. Charles Frederick;male;40.0
+Goodwin; Miss. Jessie Allis;female;10.0
+Daniels; Miss. Sarah;female;33.0
+Ryerson; Mr. Arthur Larned;male;61.0
+Beauchamp; Mr. Henry James;male;28.0
+Lindeberg-Lind;" Mr. Erik Gustaf (Mr Edward Lingrey"")""";male;42.0
+Vander Planke; Mr. Julius;male;31.0
+Hilliard; Mr. Herbert Henry;male;
+Davies; Mr. Evan;male;22.0
+Crafton; Mr. John Bertram;male;
+Lahtinen; Rev. William;male;30.0
+Earnshaw; Mrs. Boulton (Olive Potter);female;23.0
+Matinoff; Mr. Nicola;male;
+Storey; Mr. Thomas;male;60.5
+Klasen; Mrs. (Hulda Kristina Eugenia Lofqvist);female;36.0
+Asplund; Master. Filip Oscar;male;13.0
+Duquemin; Mr. Joseph;male;24.0
+Bird; Miss. Ellen;female;29.0
+Lundin; Miss. Olga Elida;female;23.0
+Borebank; Mr. John James;male;42.0
+Peacock; Mrs. Benjamin (Edith Nile);female;26.0
+Smyth; Miss. Julia;female;
+Touma; Master. Georges Youssef;male;7.0
+Wright; Miss. Marion;female;26.0
+Pearce; Mr. Ernest;male;
+Peruschitz; Rev. Joseph Maria;male;41.0
+Kink-Heilmann; Mrs. Anton (Luise Heilmann);female;26.0
+Brandeis; Mr. Emil;male;48.0
+Ford; Mr. Edward Watson;male;18.0
+Cassebeer; Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick);female;
+Hellstrom; Miss. Hilda Maria;female;22.0
+Lithman; Mr. Simon;male;
+Zakarian; Mr. Ortin;male;27.0
+Dyker; Mr. Adolf Fredrik;male;23.0
+Torfa; Mr. Assad;male;
+Asplund; Mr. Carl Oscar Vilhelm Gustafsson;male;40.0
+Brown; Miss. Edith Eileen;female;15.0
+Sincock; Miss. Maude;female;20.0
+Stengel; Mr. Charles Emil Henry;male;54.0
+Becker; Mrs. Allen Oliver (Nellie E Baumgardner);female;36.0
+Compton; Mrs. Alexander Taylor (Mary Eliza Ingersoll);female;64.0
+McCrie; Mr. James Matthew;male;30.0
+Compton; Mr. Alexander Taylor Jr;male;37.0
+Marvin; Mrs. Daniel Warner (Mary Graham Carmichael Farquarson);female;18.0
+Lane; Mr. Patrick;male;
+Douglas; Mrs. Frederick Charles (Mary Helene Baxter);female;27.0
+Maybery; Mr. Frank Hubert;male;40.0
+Phillips; Miss. Alice Frances Louisa;female;21.0
+Davies; Mr. Joseph;male;17.0
+Sage; Miss. Ada;female;
+Veal; Mr. James;male;40.0
+Angle; Mr. William A;male;34.0
+Salomon; Mr. Abraham L;male;
+van Billiard; Master. Walter John;male;11. Mai
+Lingane; Mr. John;male;61.0
+Drew; Master. Marshall Brines;male;8.0
+Karlsson; Mr. Julius Konrad Eugen;male;33.0
+Spedden; Master. Robert Douglas;male;6.0
+Nilsson; Miss. Berta Olivia;female;18.0
+Baimbrigge; Mr. Charles Robert;male;23.0
+Rasmussen; Mrs. (Lena Jacobsen Solvang);female;
+Murphy; Miss. Nora;female;
+Danbom; Master. Gilbert Sigvard Emanuel;male;0.33
+Astor; Col. John Jacob;male;47.0
+Quick; Miss. Winifred Vera;female;8.0
+Andrew; Mr. Frank Thomas;male;25.0
+Omont; Mr. Alfred Fernand;male;
+McGowan; Miss. Katherine;female;35.0
+Collett; Mr. Sidney C Stuart;male;24.0
+Rosenbaum; Miss. Edith Louise;female;33.0
+Delalic; Mr. Redjo;male;25.0
+Andersen; Mr. Albert Karvin;male;32.0
+Finoli; Mr. Luigi;male;
+Deacon; Mr. Percy William;male;17.0
+Howard; Mrs. Benjamin (Ellen Truelove Arman);female;60.0
+Andersson; Miss. Ida Augusta Margareta;female;38.0
+Head; Mr. Christopher;male;42.0
+Mahon; Miss. Bridget Delia;female;
+Wick; Mr. George Dennick;male;57.0
+Widener; Mrs. George Dunton (Eleanor Elkins);female;50.0
+Thomson; Mr. Alexander Morrison;male;
+Duran y More; Miss. Florentina;female;30.0
+Reynolds; Mr. Harold J;male;21.0
+Cook; Mrs. (Selena Rogers);female;22.0
+Karlsson; Mr. Einar Gervasius;male;21.0
+Candee; Mrs. Edward (Helen Churchill Hungerford);female;53.0
+Moubarek;" Mrs. George (Omine Amenia"" Alexander)""";female;
+Asplund; Mr. Johan Charles;male;23.0
+McNeill; Miss. Bridget;female;
+Everett; Mr. Thomas James;male;40.5
+Hocking; Mr. Samuel James Metcalfe;male;36.0
+Sweet; Mr. George Frederick;male;14.0
+Willard; Miss. Constance;female;21.0
+Wiklund; Mr. Karl Johan;male;21.0
+Linehan; Mr. Michael;male;
+Cumings; Mr. John Bradley;male;39.0
+Vendel; Mr. Olof Edvin;male;20.0
+Warren; Mr. Frank Manley;male;64.0
+Baccos; Mr. Raffull;male;20.0
+Hiltunen; Miss. Marta;female;18.0
+Douglas; Mrs. Walter Donald (Mahala Dutton);female;48.0
+Lindstrom; Mrs. Carl Johan (Sigrid Posse);female;55.0
+Christy; Mrs. (Alice Frances);female;45.0
+Spedden; Mr. Frederic Oakley;male;45.0
+Hyman; Mr. Abraham;male;
+Johnston;" Master. William Arthur Willie""""";male;
+Kenyon; Mr. Frederick R;male;41.0
+Karnes; Mrs. J Frank (Claire Bennett);female;22.0
+Drew; Mr. James Vivian;male;42.0
+Hold; Mrs. Stephen (Annie Margaret Hill);female;29.0
+Khalil;" Mrs. Betros (Zahie Maria"" Elias)""";female;
+West; Miss. Barbara J;female;0.92
+Abrahamsson; Mr. Abraham August Johannes;male;20.0
+Clark; Mr. Walter Miller;male;27.0
+Salander; Mr. Karl Johan;male;24.0
+Wenzel; Mr. Linhart;male;32.5
+MacKay; Mr. George William;male;
+Mahon; Mr. John;male;
+Niklasson; Mr. Samuel;male;28.0
+Bentham; Miss. Lilian W;female;19.0
+Midtsjo; Mr. Karl Albert;male;21.0
+de Messemaeker; Mr. Guillaume Joseph;male;36.5
+Nilsson; Mr. August Ferdinand;male;21.0
+Wells;" Mrs. Arthur Henry (Addie"" Dart Trevaskis)""";female;29.0
+Klasen; Miss. Gertrud Emilia;female;1.0
+Portaluppi; Mr. Emilio Ilario Giuseppe;male;30.0
+Lyntakoff; Mr. Stanko;male;
+Chisholm; Mr. Roderick Robert Crispin;male;
+Warren; Mr. Charles William;male;
+Howard; Miss. May Elizabeth;female;
+Pokrnic; Mr. Mate;male;17.0
+McCaffry; Mr. Thomas Francis;male;46.0
+Fox; Mr. Patrick;male;
+Clark; Mrs. Walter Miller (Virginia McDowell);female;26.0
+Lennon; Miss. Mary;female;
+Saade; Mr. Jean Nassr;male;
+Bryhl; Miss. Dagmar Jenny Ingeborg ;female;20.0
+Parker; Mr. Clifford Richard;male;28.0
+Faunthorpe; Mr. Harry;male;40.0
+Ware; Mr. John James;male;30.0
+Oxenham; Mr. Percy Thomas;male;22.0
+Oreskovic; Miss. Jelka;female;23.0
+Peacock; Master. Alfred Edward;male;0.75
+Fleming; Miss. Honora;female;
+Touma; Miss. Maria Youssef;female;9.0
+Rosblom; Miss. Salli Helena;female;2.0
+Dennis; Mr. William;male;36.0
+Franklin; Mr. Charles (Charles Fardon);male;
+Snyder; Mr. John Pillsbury;male;24.0
+Mardirosian; Mr. Sarkis;male;
+Ford; Mr. Arthur;male;
+Rheims; Mr. George Alexander Lucien;male;
+Daly;" Miss. Margaret Marcella Maggie""""";female;30.0
+Nasr; Mr. Mustafa;male;
+Dodge; Dr. Washington;male;53.0
+Wittevrongel; Mr. Camille;male;36.0
+Angheloff; Mr. Minko;male;26.0
+Laroche; Miss. Louise;female;1.0
+Samaan; Mr. Hanna;male;
+Loring; Mr. Joseph Holland;male;30.0
+Johansson; Mr. Nils;male;29.0
+Olsson; Mr. Oscar Wilhelm;male;32.0
+Malachard; Mr. Noel;male;
+Phillips; Mr. Escott Robert;male;43.0
+Pokrnic; Mr. Tome;male;24.0
+McCarthy;" Miss. Catherine Katie""""";female;
+Crosby; Mrs. Edward Gifford (Catherine Elizabeth Halstead);female;64.0
+Allison; Mr. Hudson Joshua Creighton;male;30.0
+Aks; Master. Philip Frank;male;0.83
+Hays; Mr. Charles Melville;male;55.0
+Hansen; Mrs. Claus Peter (Jennie L Howard);female;45.0
+Cacic; Mr. Jego Grga;male;18.0
+Vartanian; Mr. David;male;22.0
+Sadowitz; Mr. Harry;male;
+Carr; Miss. Jeannie;female;37.0
+White; Mrs. John Stuart (Ella Holmes);female;55.0
+Hagardon; Miss. Kate;female;17.0
+Spencer; Mr. William Augustus;male;57.0
+Rogers; Mr. Reginald Harry;male;19.0
+Jonsson; Mr. Nils Hilding;male;27.0
+Jefferys; Mr. Ernest Wilfred;male;22.0
+Andersson; Mr. Johan Samuel;male;26.0
+Krekorian; Mr. Neshan;male;25.0
+Nesson; Mr. Israel;male;26.0
+Rowe; Mr. Alfred G;male;33.0
+Kreuchen; Miss. Emilie;female;39.0
+Assam; Mr. Ali;male;23.0
+Becker; Miss. Ruth Elizabeth;female;12.0
+Rosenshine;" Mr. George (Mr George Thorne"")""";male;46.0
+Clarke; Mr. Charles Valentine;male;29.0
+Enander; Mr. Ingvar;male;21.0
+Davies; Mrs. John Morgan (Elizabeth Agnes Mary White) ;female;48.0
+Dulles; Mr. William Crothers;male;39.0
+Thomas; Mr. Tannous;male;
+Nakid;" Mrs. Said (Waika Mary"" Mowad)""";female;19.0
+Cor; Mr. Ivan;male;27.0
+Maguire; Mr. John Edward;male;30.0
+de Brito; Mr. Jose Joaquim;male;32.0
+Elias; Mr. Joseph;male;39.0
+Denbury; Mr. Herbert;male;25.0
+Betros; Master. Seman;male;
+Fillbrook; Mr. Joseph Charles;male;18.0
+Lundstrom; Mr. Thure Edvin;male;32.0
+Sage; Mr. John George;male;
+Cardeza; Mrs. James Warburton Martinez (Charlotte Wardle Drake);female;58.0
+van Billiard; Master. James William;male;
+Abelseth; Miss. Karen Marie;female;16.0
+Botsford; Mr. William Hull;male;26.0
+Whabee; Mrs. George Joseph (Shawneene Abi-Saab);female;38.0
+Giles; Mr. Ralph;male;24.0
+Walcroft; Miss. Nellie;female;31.0
+Greenfield; Mrs. Leo David (Blanche Strouse);female;45.0
+Stokes; Mr. Philip Joseph;male;25.0
+Dibden; Mr. William;male;18.0
+Herman; Mr. Samuel;male;49.0
+Dean;" Miss. Elizabeth Gladys Millvina""""";female;0.17
+Julian; Mr. Henry Forbes;male;50.0
+Brown; Mrs. John Murray (Caroline Lane Lamson);female;59.0
+Lockyer; Mr. Edward;male;
+O'Keefe; Mr. Patrick;male;
+Lindell; Mrs. Edvard Bengtsson (Elin Gerda Persson);female;30.0
+Sage; Master. William Henry;male;14. Mai
+Mallet; Mrs. Albert (Antoinette Magnin);female;24.0
+Ware; Mrs. John James (Florence Louise Long);female;31.0
+Strilic; Mr. Ivan;male;27.0
+Harder; Mrs. George Achilles (Dorothy Annan);female;25.0
+Sage; Mrs. John (Annie Bullen);female;
+Caram; Mr. Joseph;male;
+Riihivouri;" Miss. Susanna Juhantytar Sanni""""";female;22.0
+Gibson; Mrs. Leonard (Pauline C Boeson);female;45.0
+Pallas y Castello; Mr. Emilio;male;29.0
+Giles; Mr. Edgar;male;21.0
+Wilson; Miss. Helen Alice;female;31.0
+Ismay; Mr. Joseph Bruce;male;49.0
+Harbeck; Mr. William H;male;44.0
+Dodge; Mrs. Washington (Ruth Vidaver);female;54.0
+Bowen; Miss. Grace Scott;female;45.0
+Kink; Miss. Maria;female;22.0
+Cotterill;" Mr. Henry Harry""""";male;21.0
+Hipkins; Mr. William Edward;male;55.0
+Asplund; Master. Carl Edgar;male;5.0
+O'Connor; Mr. Patrick;male;
+Foley; Mr. Joseph;male;26.0
+Risien; Mrs. Samuel (Emma);female;
+McNamee; Mrs. Neal (Eileen O'Leary);female;19.0
+Wheeler;" Mr. Edwin Frederick""""";male;
+Herman; Miss. Kate;female;24.0
+Aronsson; Mr. Ernst Axel Algot;male;24.0
+Ashby; Mr. John;male;57.0
+Canavan; Mr. Patrick;male;21.0
+Palsson; Master. Paul Folke;male;6.0
+Payne; Mr. Vivian Ponsonby;male;23.0
+Lines; Mrs. Ernest H (Elizabeth Lindsey James);female;51.0
+Abbott; Master. Eugene Joseph;male;13.0
+Gilbert; Mr. William;male;47.0
+Kink-Heilmann; Mr. Anton;male;29.0
+Smith; Mrs. Lucien Philip (Mary Eloise Hughes);female;18.0
+Colbert; Mr. Patrick;male;24.0
+Frolicher-Stehli; Mrs. Maxmillian (Margaretha Emerentia Stehli);female;48.0
+Larsson-Rondberg; Mr. Edvard A;male;22.0
+Conlon; Mr. Thomas Henry;male;31.0
+Bonnell; Miss. Caroline;female;30.0
+Gale; Mr. Harry;male;38.0
+Gibson; Miss. Dorothy Winifred;female;22.0
+Carrau; Mr. Jose Pedro;male;17.0
+Frauenthal; Mr. Isaac Gerald;male;43.0
+Nourney;" Mr. Alfred (Baron von Drachstedt"")""";male;20.0
+Ware; Mr. William Jeffery;male;23.0
+Widener; Mr. George Dunton;male;50.0
+Riordan;" Miss. Johanna Hannah""""";female;
+Peacock; Miss. Treasteall;female;3.0
+Naughton; Miss. Hannah;female;
+Minahan; Mrs. William Edward (Lillian E Thorpe);female;37.0
+Henriksson; Miss. Jenny Lovisa;female;28.0
+Spector; Mr. Woolf;male;
+Oliva y Ocana; Dona. Fermina;female;39.0
+Saether; Mr. Simon Sivertsen;male;38.5
+Ware; Mr. Frederick;male;
+Peter; Master. Michael J;male;

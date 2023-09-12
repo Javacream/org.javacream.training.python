@@ -1,0 +1,4 @@
+Book: isbn=ISBN-11, title=Python Basics, price=99
+Book: isbn=ISBN-20, title=Advanced Python, price=84
+Book: isbn=ISBN-63, title=Data Analysis with Python, price=87
+Book: isbn=ISBN-95, title=Django – a Python Library, price=64
