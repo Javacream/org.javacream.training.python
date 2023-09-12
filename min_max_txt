@@ -1,0 +1,12 @@
+Books with shortest title:
+Book: isbn=ISBN-1, title=Title 1, price=91.0
+Book: isbn=ISBN-3, title=Title 3, price=13.0
+Book: isbn=ISBN-4, title=Title 4, price=91.0
+Book: isbn=ISBN-5, title=Title 5, price=41.0
+Book: isbn=ISBN-6, title=Title 6, price=62.0
+Book: isbn=ISBN-7, title=Title 7, price=22.0
+Book: isbn=ISBN-8, title=Title 8, price=44.0
+Book: isbn=ISBN-9, title=Title 9, price=57.0
+Books with longest title:
+Book: isbn=ISBN-63, title=Data Analysis with Python, price=87.0
+Book: isbn=ISBN-95, title=Django – a Python Library, price=64.0
