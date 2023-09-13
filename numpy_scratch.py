@@ -12,8 +12,13 @@ re_reshaped_array = reshaped_array.reshape(1,9)
 print(array2d.shape)
 # Diemnsionen in numPy werden as Achsen, axis bezeichnet
 
-list3d = [[[1,9],[2,9]], [[4,9],[5,9]]] # Ein Core Python Array
+
+
+list3d = [[[1,9],[2,9]], [[4,9],[5,9]]]
 print(np.array(list3d).shape)
 
 print(array[0])
 
+list2d_1 = [[1,9],[2,9]]
+list2d_2 = [[4,9],[5,9]]
+list3d = [list2d_1, list2d_2]
