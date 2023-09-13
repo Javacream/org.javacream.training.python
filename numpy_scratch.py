@@ -1,8 +1,14 @@
 import numpy as np
 
-data1 = np.arange(0,3)
-data2 = np.arange(20, 23)
+data = np.arange(0,10).reshape(2,5)
 
-# Skalarprodukt von Vektoren / Arrays, englisch: Dot Product
+# Selection
 
-print(np.dot(data1, data2))
+selection = np.where(data < 5)
+
+selection = data[0]
+
+selection = data[:, 1]
+
+
+
