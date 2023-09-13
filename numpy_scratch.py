@@ -1,11 +1,8 @@
 import numpy as np
 
-data1 = np.linspace(1, 50, 12).reshape(2,6)
-data2 = np.linspace(42, 64, 12).reshape(2,6)
-data3 = np.array([5])
-data4 = 9
-# Was ist das Ergebnis einer Addition dieser beiden Arrays?
+data1 = np.arange(0,3)
+data2 = np.arange(20, 23)
 
-# print(data1 + data2) # Elementweises +, -, *, /, funktioniert, weil beide Arrays die gleiche Form = shape haben
-#print(data1 + data3)
-print(data1 + data4)
+# Skalarprodukt von Vektoren / Arrays, englisch: Dot Product
+
+print(np.dot(data1, data2))
