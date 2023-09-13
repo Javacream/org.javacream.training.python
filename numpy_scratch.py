@@ -1,24 +1,12 @@
 import numpy as np
 
-a1 = np.array([[1,1], [2,3]])
-a2 = np.array([[4,5], [6,7]])
+data = np.linspace(1, 50, 11)
+print(data)
 
-result = np.concatenate((a1, a2), axis=1) # keine Objektorientierte-Programmierung=OOP -Formulierung
-#print(result)
-#print(result.shape)
+result = np.all(data > 10)
+print(result)
+result = np.any(data > 10)
+print(result)
 
-# append: 
-#print(np.append(a1, a2))
-
-# vstack und hstack
-
-
-# print(np.arange(0,9).reshape(3,3).shape)
-
-a = np.arange(0,8)
-print(a)
-reshaped = a.reshape(2,4)
-print(a)
-print(reshaped)
-a.shape = (4,2)
-print(a)
+result = np.all((data > 10) & (data < 100))  # NumPy verknüpft logische Ausdrücke mit & (UND-Verknüpfung) bzw. dem | (ODER)
+print(result)
