@@ -1,8 +1,0 @@
-Sawitzki,Rainer
-Mustermann,Andrea,179,66
-Pausenkurt,Pascal,155
-Sawitzki,Claudia
-Sawitzki,Werner,188,90
-Sawitzki,Hugo,144,80
-Mustermann,Hugo,173,166
-Pausenkurt,Hugo,155,111

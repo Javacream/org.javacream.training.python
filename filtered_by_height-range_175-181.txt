@@ -1,3 +1,0 @@
-Person: lastname=Sawitzki, firstname=Rainer, height=176, weight=81
-Person: lastname=Mustermann, firstname=Andrea, height=179, weight=66
-Person: lastname=Sawitzki, firstname=Claudia, height=176, weight=81

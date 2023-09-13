@@ -1,3 +1,0 @@
-Person: lastname=Sawitzki, firstname=Hugo, height=144, weight=80
-Person: lastname=Mustermann, firstname=Hugo, height=173, weight=166
-Person: lastname=Pausenkurt, firstname=Hugo, height=155, weight=111
