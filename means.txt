@@ -1,0 +1,14 @@
+Deaths worldwide: 29.71359223300971
+Cases worldwide: 395.247572815534
+Deaths Asia: 9.119047619047619
+Cases Asia: 309.0238095238095
+Deaths Europe: 66.12962962962963
+Cases Europe: 632.2407407407408
+Deaths Africa: 1.0
+Cases Africa: 13.73076923076923
+Deaths America: 43.08163265306123
+Cases America: 684.0612244897959
+Deaths Oceania: 0.5
+Cases Oceania: 8.5
+Deaths Other: 0.0
+Cases Other: 0.0
