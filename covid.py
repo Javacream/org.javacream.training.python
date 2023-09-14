@@ -1,5 +1,7 @@
 import pandas as pd
 
+def cleanup(df):
+    df.drop(['day', 'month', 'year'], axis = 1, inplace=True) # axis = 1: Spalten löschen, axis = 0: Zeilen nach Index-Wert löschen
 def explore(df):
     print(df.head())
     print(df.dtypes)
@@ -7,9 +9,9 @@ def explore(df):
     print(df.columns)
 def analyse(df):
     normalized_deaths = df['deaths'] / df['population']
-    normalized_deaths.to_csv("normalized_deaths.csv")
-    normalized_cases = df['cases'] / df['population']
-    normalized_cases.to_csv("normalized_cases.csv")
+    df['normalized deaths'] = normalized_deaths
+    df['normalized cases'] = df['cases'] / df['population']
+    df.to_csv("covid_data.csv")
     with open('means.txt', 'w') as file:
         file.write("Deaths worldwide: " + str(df['deaths'].mean()) + "\n")
         file.write("Cases worldwide: " + str(df['cases'].mean()) + "\n")
@@ -24,6 +26,6 @@ def main():
         covid_data_file = "subset-covid-data.csv"
     data_frame = pd.read_csv(covid_data_file)
     explore(data_frame)
+    cleanup(data_frame)
     analyse(data_frame)
-    normalized_deaths = data_frame['deaths'] / data_frame['population']
 main()
