@@ -1,8 +1,10 @@
 import pandas as pd
 
-series1 = pd.Series([1,2,3,4])
-series2 = pd.Series([99, 11, 22, 7])
+df = pd.read_csv('books.csv')
 
-data_frame = pd.DataFrame([series1, series2])
-data_frame.columns = ["A", "B", "C", "D"]
-print (data_frame)
+# Rename einer Column
+renamed_df = df.rename(columns={'ISBN': 'isbn', 'Title': 'title', 'Price': 'books_price'})
+print(renamed_df)
+
+df.rename(columns={'ISBN': 'isbn', 'Title': 'title', 'Price': 'books_price'}, inplace=True)
+print(df)
