@@ -1,10 +1,13 @@
 import pandas as pd
 
-df = pd.read_csv('books.csv')
+df = pd.read_csv('books.csv', index_col='ISBN')
 
-# Rename einer Column
-renamed_df = df.rename(columns={'ISBN': 'isbn', 'Title': 'title', 'Price': 'books_price'})
-print(renamed_df)
+#x = df.loc
+#x[3:7, ['Title', 'Price']]
+#df.loc[3:7, ['Title', 'Price']]
 
-df.rename(columns={'ISBN': 'isbn', 'Title': 'title', 'Price': 'books_price'}, inplace=True)
-print(df)
+#l = [1,2,3,4]
+#l[1:3] = 666
+#print(l)
+print(df.loc['ISBN-2', 'Price'])
+print(df.iloc[1:3])
