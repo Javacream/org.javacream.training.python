@@ -1,14 +1,8 @@
 import pandas as pd
 
-simple_series = pd.Series([1,2,3,4])
-# simple_series = pd.Series(list('Hugo'))
+series1 = pd.Series([1,2,3,4])
+series2 = pd.Series([99, 11, 22, 7])
 
-# print(simple_series)
-
-simple_series = pd.Series({'81371': 'München', '08122': 'Irgendwo'})
-# print(simple_series)
-
-simple_series.size
-simple_series.shape
-#print(simple_series.values)
-print(simple_series.index)
+data_frame = pd.DataFrame([series1, series2])
+data_frame.columns = ["A", "B", "C", "D"]
+print (data_frame)
