@@ -6,10 +6,12 @@ def cleanup(df):
     #df.dropna(axis = 0, inplace=True)
     # determine values (default or calculation)
     # Todo -> country_code xx, population = 1000000
+    df.loc[df['country_code'].isna(), 'country_code'] = 'xx'
+    df.loc[df['population'].isna(), 'population'] = 1000000
     # Imputation= extrapolation Zeile vorher Zeile Nachher
-    print(df.head(10))
-    df.fillna(method='ffill', inplace = True)
-    print(df.head(10))
+    #df.fillna(method='ffill', inplace = True)
+    #print(df.head(10))
+    print(df.isna().sum())
 
 def explore(df):
     print(df.head())
@@ -37,7 +39,7 @@ def main():
     if (covid_data_file == ""):
         covid_data_file = "subset-covid-data.csv"
     data_frame = pd.read_csv(covid_data_file)
-    explore(data_frame)
+    #explore(data_frame)
     cleanup(data_frame)
     #analyse(data_frame)
 main()
