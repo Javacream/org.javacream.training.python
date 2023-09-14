@@ -11,7 +11,6 @@ def cleanup(df):
     # Imputation= extrapolation Zeile vorher Zeile Nachher
     #df.fillna(method='ffill', inplace = True)
     #print(df.head(10))
-    print(df.isna().sum())
 
 def explore(df):
     print(df.head())
@@ -31,15 +30,13 @@ def analyse(df):
             selection = df['continent'] == continent
             file.write("Deaths " + continent + ": " + str(df[selection]['deaths'].mean()) + "\n")
             file.write("Cases " + continent + ": " + str(df[selection]['cases'].mean()) + "\n")
-    columns_to_print = ['country', 'normalized deaths']
-    print(df[columns_to_print].head())
 
 def main():
     covid_data_file = ""#input("Enter convid data file: ")
     if (covid_data_file == ""):
         covid_data_file = "subset-covid-data.csv"
     data_frame = pd.read_csv(covid_data_file)
-    #explore(data_frame)
+    explore(data_frame)
     cleanup(data_frame)
-    #analyse(data_frame)
+    analyse(data_frame)
 main()
