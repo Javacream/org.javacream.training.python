@@ -5,7 +5,7 @@ def main():
     def explore():
         dataFrame.info()
     def cleanup():
-        del dataFrame['PassengerId']
+        dataFrame.drop(['PassengerId'], axis=1)
         del dataFrame['Ticket']
         dataFrame.loc[dataFrame["Age"].isnull(),"Age"] = 42.2
         dataFrame.loc[dataFrame["Embarked"].isnull(),"Embarked"] = "U"
@@ -13,7 +13,7 @@ def main():
         categorizedSurvival = pd.Categorical(dataFrame["Survived"])
         categorizedSurvival = categorizedSurvival.rename_categories(['died', 'survived'])
         dataFrame["Survived"] = categorizedSurvival
-        categorizedSex = pd.Categorical(dataFrame["Survived"])
+        categorizedSex = pd.Categorical(dataFrame["Sex"])
         categorizedSex = categorizedSex.rename_categories({'male': 'Male', 'female': 'Female'})
         dataFrame["Sex"] = categorizedSex
         categorizedEmbarked = pd.Categorical(dataFrame["Embarked"])
@@ -28,6 +28,7 @@ def main():
         numpyCabinArray = np.array(corePythonCabinList) 
         categorizedCabin = pd.Categorical(numpyCabinArray)
         dataFrame["Cabin"] = categorizedCabin
+        print(dataFrame.info())
 
     def createDataFrame():
         titanicData = pd.read_csv("./data_analysis/titanic.csv")
