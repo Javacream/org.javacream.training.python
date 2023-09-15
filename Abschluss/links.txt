@@ -1,0 +1,4 @@
+Team 1: https://www.kaggle.com/datasets/sudheerp2147234/salary-dataset-based-on-country-and-race
+Team 2. https://www.kaggle.com/datasets/saife245/english-premier-league
+Team 3: https://www.kaggle.com/datasets/piyushgoyal443/red-wine-dataset
+Team 4: https://www.kaggle.com/datasets/rajanand/rainfall-in-india
