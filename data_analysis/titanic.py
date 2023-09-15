@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 def main():
-    def explore(dataFrame):
-        pass
-    def cleanup(dataFrame):
+    def explore():
+        dataFrame.info()
+    def cleanup():
         del dataFrame['PassengerId']
         del dataFrame['Ticket']
         dataFrame.loc[dataFrame["Age"].isnull(),"Age"] = 42.2
@@ -39,7 +39,7 @@ def main():
         return complete
     
     dataFrame = createDataFrame()
-    explore(dataFrame)
-    cleanup(dataFrame)
+    explore()
+    cleanup()
 main()
 
