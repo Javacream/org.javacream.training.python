@@ -1,5 +1,5 @@
 import pandas as pd
-
+import matplotlib.pyplot as plt
 def main():
     df = pd.read_csv('data_analysis/diamonds.csv')
 
@@ -12,7 +12,9 @@ def main():
         print(df.isna().sum())
 
     def visualize():
-        pass
+        df.hist(column='carat', color="green")
+        plt.savefig("carat_hist.png")
     explore()
+    visualize()
 
 main()
