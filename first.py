@@ -1,11 +1,15 @@
 def main():
     message = "Hello!"
-    number = 9
     x = message
+    x = "any..." # again a reassignment, not an object modification
     print_out(message)
-    print_out(number)
+
 
 def print_out(p):
+    number = 9 
     print(p)
+    p = "Goodbye" # reassignment
+    print(p)
+    print(number)
 
 main()
