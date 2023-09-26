@@ -12,4 +12,10 @@ def main():
     if 3 in my_tuple:
         print("band has a Mandolin")
 
-main()    
+def scratch():
+    my_set = {1, True}
+    print_collection(my_set)
+    print(type(True))
+    print(type(1))
+    print (1 == True)
+scratch()    
