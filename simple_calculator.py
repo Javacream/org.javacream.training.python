@@ -1,21 +1,11 @@
-
-
 def main():
-    def plus(n1, n2):
-        return n1 + n2
+    plus = lambda n1, n2: n1 + n2
+    minus = lambda n1, n2: n1 - n2
+    times = lambda n1, n2: n1 * n2
+    divided_by = lambda n1, n2: n1 / n2
 
 
-    def minus(n1, n2):
-        return n1 - n2
-
-
-    def times(n1, n2):
-        return n1 * n2
-
-
-    def diviced_by(n1, n2):
-        return n1 / n2
-    operations = {'+': plus, '-': minus, '*': times, '/': diviced_by}
+    operations = {'+': plus, '-': minus, '*': times, '/': divided_by}
     operation_names = {'+', '-', '*', '/'} # later we will use the keys from our dictionary, but for now let's accept some code replication
     while (True):
         should_continue = input("continue? (y)")
