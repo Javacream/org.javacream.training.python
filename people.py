@@ -11,6 +11,7 @@ class Person:
     def info(self):
         return Person.info_template.format(self.firstname, self.lastname)
 
+    
 class PeopleManager:
     __counter__ = -1
     __default_height__ = 167
@@ -30,7 +31,7 @@ class PeopleManager:
         deleted = self.__people__.pop(id, None)
         return deleted != None
 
-def main():
+def _main():
 
     people_manager = PeopleManager()
     people_manager.create("Goo", "Georg")
@@ -41,4 +42,18 @@ def main():
     print(people_manager.delete_by_id(0))
     print(people_manager.delete_by_id(0))
 
+class Worker(Person):
+    work_template = "{} , i am working at {}"
+    def __init__(self, lastname, firstname, height, company):
+        super().__init__(lastname, firstname, height)
+        self.company = company
+    
+    def work(self):
+        return Worker.work_template.format(self.info(), self.company)
+
+
+def main():
+    w1 = Worker("A", "B", 199, "Cegos")
+    print(w1.work())
+    #print(w1.info())
 main()
