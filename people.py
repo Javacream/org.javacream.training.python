@@ -50,10 +50,20 @@ class Worker(Person):
     
     def work(self):
         return Worker.work_template.format(self.info(), self.company)
+class Student(Person):
+    study_template = "{} , i am studying at {}"
+    def __init__(self, lastname, firstname, height, university):
+        super().__init__(lastname, firstname, height)
+        self.university = university
+    
+    def study(self):
+        return Student.study_template.format(self.info(), self.university)
 
 
 def main():
     w1 = Worker("A", "B", 199, "Cegos")
+    s1 = Student("Y", "Z", 155, "LMU")
     print(w1.work())
+    print(s1.study())
     #print(w1.info())
 main()
