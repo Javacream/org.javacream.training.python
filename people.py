@@ -1,5 +1,3 @@
-
-
 class Person:
     # a static attribute, part of the class object
     info_template = "Hello, my name is {} {}"
@@ -14,23 +12,23 @@ class Person:
         return Person.info_template.format(self.firstname, self.lastname)
 
 class PeopleManager:
+    counter = -1
+    default_height = 167
     def __init__(self):
         self.__people__ = {}
     
     def create(self, lastname, firstname):
-        default_height = 167
-        counter = 0
-        new_person = Person(lastname, firstname, default_height)
-        self.__people__[counter] = new_person
-        counter = counter + 1
-        return counter
+        PeopleManager.counter += 1
+        new_person = Person(lastname, firstname, PeopleManager.default_height)
+        self.__people__[PeopleManager.counter] = new_person
+        return PeopleManager.counter
 
     def find_by_id(self, id):
-        return self.__people__[id]
+        return self.__people__.get(id) # get retrives None if key not present, [id] would raise an exception
 
     def delete_by_id(self, id):
-        self.__people__.pop(id)
-        return True
+        deleted = self.__people__.pop(id, None)
+        return deleted != None
 
 def main():
 
@@ -40,5 +38,7 @@ def main():
 
     search_result = people_manager.find_by_id(0)
     print(search_result.info())
+    print(people_manager.delete_by_id(0))
+    print(people_manager.delete_by_id(0))
 
 main()
