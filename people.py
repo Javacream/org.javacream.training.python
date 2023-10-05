@@ -1,16 +1,18 @@
 class Person:
     # constructor
-    def __init__(self, lastname, firstname):
+    def __init__(self, lastname, firstname, height):
         self.lastname = lastname
         self.firstname = firstname
+        self.height = height
 
     def info(self):
-        return "Hello, my name is " + self.lastname
+        info_template = "Hello, my name is {} {}"
+        return info_template.format(self.firstname, self.lastname)
 
 def main():
-    p1 = Person("Goo", "Georg")
-    p2 = Person("Foo", "Henry")
-    print(type(p1), type(p2))
-    #print(p1.name, p2.name)
-    print(p1.info(), p2.info())
+    p1 = Person("Goo", "Georg", 188)
+    p2 = Person("Foo", "Henry", 166)
+    print(p1.info())
+    print(p2.info())
+
 main()
