@@ -12,16 +12,16 @@ class Person:
         return Person.info_template.format(self.firstname, self.lastname)
 
 class PeopleManager:
-    counter = -1
-    default_height = 167
+    __counter__ = -1
+    __default_height__ = 167
     def __init__(self):
         self.__people__ = {}
     
     def create(self, lastname, firstname):
-        PeopleManager.counter += 1
-        new_person = Person(lastname, firstname, PeopleManager.default_height)
-        self.__people__[PeopleManager.counter] = new_person
-        return PeopleManager.counter
+        PeopleManager.__counter__ += 1
+        new_person = Person(lastname, firstname, PeopleManager.__default_height__)
+        self.__people__[PeopleManager.__counter__] = new_person
+        return PeopleManager.__counter__
 
     def find_by_id(self, id):
         return self.__people__.get(id) # get retrives None if key not present, [id] would raise an exception
