@@ -1,7 +1,7 @@
 import people
 def main():
 
-    people_manager = people.PeopleManager()
+    people_manager = people.people_manager
     people_manager.create("Goo", "Georg")
     people_manager.create("Foo", "Henry")
 
