@@ -31,7 +31,7 @@ class PeopleManager:
         deleted = self.__people__.pop(id, None)
         return deleted != None
 
-def _main():
+def main():
 
     people_manager = PeopleManager()
     people_manager.create("Goo", "Georg")
@@ -42,28 +42,4 @@ def _main():
     print(people_manager.delete_by_id(0))
     print(people_manager.delete_by_id(0))
 
-class Worker(Person):
-    work_template = "{} , i am working at {}"
-    def __init__(self, lastname, firstname, height, company):
-        super().__init__(lastname, firstname, height)
-        self.company = company
-    
-    def work(self):
-        return Worker.work_template.format(self.info(), self.company)
-class Student(Person):
-    study_template = "{} , i am studying at {}"
-    def __init__(self, lastname, firstname, height, university):
-        super().__init__(lastname, firstname, height)
-        self.university = university
-    
-    def study(self):
-        return Student.study_template.format(self.info(), self.university)
-
-
-def main():
-    w1 = Worker("A", "B", 199, "Cegos")
-    s1 = Student("Y", "Z", 155, "LMU")
-    print(w1.work())
-    print(s1.study())
-    #print(w1.info())
 main()
