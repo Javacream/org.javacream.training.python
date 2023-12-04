@@ -1,6 +1,5 @@
+user_name = input("Please enter your name: ")
 welcome_message = "Hello"
-
-print(welcome_message)
-
-# pront(welcomemessage) -> Laufzeitfehler, Name Error
+greeting = welcome_message + " " + user_name + "!"
+print(greeting)
 
