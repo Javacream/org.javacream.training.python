@@ -13,4 +13,4 @@
 * 16:00 - 16:30 "Tear Down", Offene Punkte des Seminartages, Übungen fertigstellen, Nachfragen
 * Pausen
   * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
-  * Mittagspause 12:15 - 13:00
+  * Mittagspause 12:15 - 13:15
