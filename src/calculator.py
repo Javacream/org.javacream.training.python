@@ -7,7 +7,8 @@ def main():
         # User input
         input_string = input("Input number1 or exit: ")
         if input_string == 'exit':
-            condition = False
+            #condition = False
+            break
         else:    
             number1_as_string = input_string
             number2_as_string = input("Input number2: ")
