@@ -17,24 +17,29 @@ def main():
             try:
                 number1 = float(number1_as_string)
                 number2 = float(number2_as_string)
-                operation = input("enter operation (plus, minus, multiply, divideby)")
-                if (operation == "plus"):
-                    result = number1 + number2
-                    operation_message = "plus"
-                elif (operation == "minus"):
-                    result = number1 - number2
-                    operation_message = "minus"
-                elif (operation == "multiply"):
-                    result = number1 * number2
-                    operation_message = "times"
-                elif (operation == "divideby"):
-                    result = number1 / number2
-                    operation_message = "divided by"
-                else:
-                    print(f"invalid operation: {operation}")
-                    continue # dieses continue ist notwendig, sonst erfolgt eine sinnlose Ausgabe
-                # console output
-                #output_string = 'The sum of ' + number1_as_string + ' and ' + number2_as_string + ' is ' + str(sum)
+                while True:
+                    operation = input("enter operation (plus, minus, multiply, divideby)")
+                    if (operation == "plus"):
+                        result = number1 + number2
+                        operation_message = "plus"
+                        break
+                    elif (operation == "minus"):
+                        result = number1 - number2
+                        operation_message = "minus"
+                        break
+                    elif (operation == "multiply"):
+                        result = number1 * number2
+                        operation_message = "times"
+                        break
+                    elif (operation == "divideby"):
+                        result = number1 / number2
+                        operation_message = "divided by"
+                        break
+                    else:
+                        print(f"invalid operation: {operation}")
+                        continue # dieses continue ist notwendig, sonst erfolgt eine sinnlose Ausgabe
+                    # console output
+                    #output_string = 'The sum of ' + number1_as_string + ' and ' + number2_as_string + ' is ' + str(sum)
                 output_string = f'{number1} {operation_message} {number2} is {result}'
                 print(output_string)
             except:
