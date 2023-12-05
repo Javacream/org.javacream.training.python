@@ -12,7 +12,8 @@ def main():
     sum = number1 + number2
 
     # console output
-    output_string = 'The sum of ' + number1_as_string + ' and ' + number2_as_string + ' is ' + str(sum)
+    #output_string = 'The sum of ' + number1_as_string + ' and ' + number2_as_string + ' is ' + str(sum)
+    output_string = f'the sum of {number1} and {number2} is {sum}'
     print(output_string)
 
 main()
