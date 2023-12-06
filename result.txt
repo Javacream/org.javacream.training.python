@@ -1,0 +1,4 @@
+content.txt has 11 rows
+content.txt has 324 words
+content.txt has 230 unique words
+content.txt has 223 unique words ignoring case
