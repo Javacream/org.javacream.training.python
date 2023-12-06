@@ -15,7 +15,7 @@ def main():
         number_of_words = f'content.txt has {word_count} words\n'
         words.sort()
         print(words)
-
+        print([len(w) for w in words if w.startswith('b')])
     # number of unique words
     number_of_unique_words = ''
     number_of_unique_words_ignoring_case = ''
