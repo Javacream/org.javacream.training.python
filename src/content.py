@@ -22,7 +22,7 @@ def main():
     with open('content.txt', 'r') as content_file:
         content = content_file.read()
         words = content.split(' ')
-        unique_words = set()
+        unique_words = set() # {} -> Fehler, das ist ein dictionary -> später
         unique_words_ignore_case = set()
         for word in words:
             unique_words.add(word)
