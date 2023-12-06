@@ -1,6 +1,6 @@
 def main():
     # Liste-Literal, [element1, ...]
-    names = ['Hugo', 'Andrea', 'Helga']
+    names = ['Hugo', 'Andrea', 'Helga', 'Hugo']
     # anything=  [42, True, 'Egal']
     # Elementzugriff mit [index], index beginnt bei 0
     second_name = names[1]
@@ -29,6 +29,5 @@ def main():
     
     if 'Hugo' in names:
         print('names contains "Hugo"')
-
 
 main()
