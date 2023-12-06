@@ -1,6 +1,8 @@
 def main():
     # Set-Literal, {element1, ...}
     names = {'Hugo', 'Andrea', 'Helga', 'Hugo'}
+    # Alternativ: Build In Function
+    names = set('Hugo', 'Andrea', 'Helga', 'Hugo')
 
     # Die Länge des Sets wird mit der build-in-Funktion len bestimmt
 

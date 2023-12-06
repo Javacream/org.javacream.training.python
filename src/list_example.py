@@ -1,6 +1,8 @@
 def main():
     # Liste-Literal, [element1, ...]
     names = ['Hugo', 'Andrea', 'Helga', 'Hugo']
+    # Alternativ: Build In Function
+    names = list('Hugo', 'Andrea', 'Helga', 'Hugo')
     # anything=  [42, True, 'Egal']
     # Elementzugriff mit [index], index beginnt bei 0
     second_name = names[1]
