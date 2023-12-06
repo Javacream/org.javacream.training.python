@@ -8,5 +8,5 @@ def print_to_console(p):
 def main():
     names = ['Hugo', 'Andrea']
     print_to_console(names)
-    #print('After call: ' + str(names))
+    print('After call: ' + str(names))
 main()
