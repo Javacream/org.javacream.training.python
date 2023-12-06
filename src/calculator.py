@@ -1,13 +1,10 @@
 def main():
     
-    condition = True
-
-    while condition:
+    while True:
 
         # User input
         input_string = input("Input number1 or exit: ")
         if input_string == 'exit':
-            #condition = False
             break
         else:    
             number1_as_string = input_string
@@ -18,7 +15,7 @@ def main():
                 number1 = float(number1_as_string)
                 number2 = float(number2_as_string)
                 while True:
-                    operation = input("enter operation (plus, minus, multiply, divideby)")
+                    operation = input("enter operation (plus, minus, multiply, divideby): ")
                     if (operation == "plus"):
                         result = number1 + number2
                         operation_message = "plus"
@@ -37,9 +34,6 @@ def main():
                         break
                     else:
                         print(f"invalid operation: {operation}")
-                        continue # dieses continue ist notwendig, sonst erfolgt eine sinnlose Ausgabe
-                    # console output
-                    #output_string = 'The sum of ' + number1_as_string + ' and ' + number2_as_string + ' is ' + str(sum)
                 output_string = f'{number1} {operation_message} {number2} is {result}'
                 print(output_string)
             except:
