@@ -1,0 +1,72 @@
+<Kreisfrei> 
+Aichach-Friedberg
+Altötting
+Amberg-Sulzbach
+Ansbach
+Aschaffenburg
+Augsburg
+Bad Kissingen
+Bad Tölz-Wolfratshausen
+Bamberg
+Bayreuth
+Berchtesgadener Land
+Cham
+Coburg
+Dachau
+Deggendorf
+Dillingen an der Donau
+Dingolfing-Landau
+Donau-Ries
+Ebersberg
+Eichstätt
+Erding
+Erlangen-Höchstadt
+Forchheim
+Freising
+Freyung-Grafenau
+Fürstenfeldbruck
+Fürth
+Garmisch-Partenkirchen
+Günzburg
+Haßberge
+Hof
+Kelheim
+Kitzingen
+Kronach
+Kulmbach
+Landsberg am Lech
+Landshut
+Lichtenfels
+Lindau
+Main-Spessart
+Miesbach
+Miltenberg
+Mühldorf am Inn
+München
+Neu-Ulm
+Neuburg-Schrobenhausen
+Neumarkt in der Oberpfalz
+Neustadt an der Aisch-Bad Windsheim
+Neustadt an der Waldnaab
+Nürnberger Land
+Oberallgäu
+Ostallgäu
+Passau
+Pfaffenhofen an der Ilm
+Regen
+Regensburg
+Rhön-Grabfeld
+Rosenheim
+Roth
+Rottal-Inn
+Schwandorf
+Schweinfurt
+Starnberg
+Straubing-Bogen
+Tirschenreuth
+Traunstein
+Unterallgäu
+Weilheim-Schongau
+Weißenburg-Gunzenhausen
+Wunsiedel im Fichtelgebirge
+Würzburg
