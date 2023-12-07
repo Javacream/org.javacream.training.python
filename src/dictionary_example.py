@@ -17,13 +17,15 @@ def main():
     for value in postalCodes.values():
         print(value)
 
-    # items() liefert ein tuple der key-value-Paare
+    # items() liefert eine Liste von Tuples der key-value-Paare
     for key, value in postalCodes.items():
         print(key, value)
 
     # Nebenbemerkung
     items = postalCodes.items()
     x,y = items # items wird quasi auf die beiden Variablen x, y gesplitted
+    print(x,y)
 
+    
 
 main()
