@@ -22,7 +22,9 @@ def main():
             if (district == ""):
                 district_for_federal_state.add('<Kreisfrei> \n')        
             else:
-                district_for_federal_state.add(district[10:] + '\n') # [10:] remove Landkreis
+                if district.startswith('Landkreis'):
+                    district = district[10:] # [10:] remove Landkreis
+                district_for_federal_state.add(district + '\n')
         return federal_states
     
     def analyse(data):
