@@ -2,7 +2,7 @@ def main():
 
 
     postal_codes = dict()
-    with open('zuordnung_plz_ort.csv', 'r') as pc_file:
+    with open('zuordnung_plz_ort.csv', 'r', encoding='utf8') as pc_file:
         raw_data = pc_file.readlines()
         raw_data_without_header = raw_data[1:]
         for row in raw_data_without_header:
