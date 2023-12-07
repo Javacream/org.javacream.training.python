@@ -23,7 +23,7 @@ def main():
         return [f'{code}: {data.get(code)}\n' for code in search_codes]
     def write(result, target):
         print("step4: write result")
-        with open(target, 'w') as outfile:
+        with open(target, 'w', encoding='utf8') as outfile:
             outfile.writelines(result)
 
     raw_data = read('zuordnung_plz_ort.csv')

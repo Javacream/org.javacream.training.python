@@ -22,7 +22,7 @@ def main():
         return data.get('81373')
     def write(result, target):
         print("step4: write result")
-        with open(target, 'w') as outfile:
+        with open(target, 'w', encoding='utf8') as outfile:
             outfile.write(result)
 
     raw_data = read('zuordnung_plz_ort.csv')
