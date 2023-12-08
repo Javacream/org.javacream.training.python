@@ -1,0 +1,1782 @@
+year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,silver,bronze
+2022,Winter,China,Beijing,2834,91,109,Australia,1,2,1
+2022,Winter,China,Beijing,2834,91,109,Austria,7,7,4
+2022,Winter,China,Beijing,2834,91,109,Belarus,0,2,0
+2022,Winter,China,Beijing,2834,91,109,Belgium,1,0,1
+2022,Winter,China,Beijing,2834,91,109,Canada,4,8,14
+2022,Winter,China,Beijing,2834,91,109,Czechia,1,0,1
+2022,Winter,China,Beijing,2834,91,109,Estonia,0,0,1
+2022,Winter,China,Beijing,2834,91,109,Finland,2,2,4
+2022,Winter,China,Beijing,2834,91,109,France,5,7,2
+2022,Winter,China,Beijing,2834,91,109,Germany,12,10,5
+2022,Winter,China,Beijing,2834,91,109,Hungary,1,0,2
+2022,Winter,China,Beijing,2834,91,109,Italy,2,7,8
+2022,Winter,China,Beijing,2834,91,109,Japan,3,6,9
+2022,Winter,China,Beijing,2834,91,109,Latvia,0,0,1
+2022,Winter,China,Beijing,2834,91,109,Netherlands,8,5,4
+2022,Winter,China,Beijing,2834,91,109,New Zealand,2,1,0
+2022,Winter,China,Beijing,2834,91,109,Norway,16,8,13
+2022,Winter,China,Beijing,2834,91,109,People's Republic of China,9,4,2
+2022,Winter,China,Beijing,2834,91,109,Poland,0,0,1
+2022,Winter,China,Beijing,2834,91,109,ROC,6,12,14
+2022,Winter,China,Beijing,2834,91,109,Republic of Korea,2,5,2
+2022,Winter,China,Beijing,2834,91,109,Slovakia,1,0,1
+2022,Winter,China,Beijing,2834,91,109,Slovenia,2,3,2
+2022,Winter,China,Beijing,2834,91,109,Spain,0,1,0
+2022,Winter,China,Beijing,2834,91,109,Sweden,8,5,5
+2022,Winter,China,Beijing,2834,91,109,Switzerland,7,2,6
+2022,Winter,China,Beijing,2834,91,109,Ukraine,0,1,0
+2022,Winter,China,Beijing,2834,91,109,United Kingdom,1,1,0
+2022,Winter,China,Beijing,2834,91,109,United States of America,8,10,7
+2020,Summer,Japan,Tokyo,11420,206,339,Argentina,0,1,2
+2020,Summer,Japan,Tokyo,11420,206,339,Armenia,0,2,2
+2020,Summer,Japan,Tokyo,11420,206,339,Australia,17,7,22
+2020,Summer,Japan,Tokyo,11420,206,339,Austria,1,1,5
+2020,Summer,Japan,Tokyo,11420,206,339,Azerbaijan,0,3,4
+2020,Summer,Japan,Tokyo,11420,206,339,Bahamas,2,0,0
+2020,Summer,Japan,Tokyo,11420,206,339,Bahrain,0,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Belarus,1,3,3
+2020,Summer,Japan,Tokyo,11420,206,339,Belgium,3,1,3
+2020,Summer,Japan,Tokyo,11420,206,339,Bermuda,1,0,0
+2020,Summer,Japan,Tokyo,11420,206,339,Botswana,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Brazil,7,6,8
+2020,Summer,Japan,Tokyo,11420,206,339,Bulgaria,3,1,2
+2020,Summer,Japan,Tokyo,11420,206,339,Burkina Faso,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Canada,7,7,10
+2020,Summer,Japan,Tokyo,11420,206,339,Chinese Taipei,2,4,6
+2020,Summer,Japan,Tokyo,11420,206,339,Colombia,0,4,1
+2020,Summer,Japan,Tokyo,11420,206,339,Croatia,3,3,2
+2020,Summer,Japan,Tokyo,11420,206,339,Cuba,7,3,5
+2020,Summer,Japan,Tokyo,11420,206,339,Czechia,4,4,3
+2020,Summer,Japan,Tokyo,11420,206,339,Côte d'Ivoire,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Denmark,3,4,4
+2020,Summer,Japan,Tokyo,11420,206,339,Dominican Republic,0,3,2
+2020,Summer,Japan,Tokyo,11420,206,339,Ecuador,2,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Egypt,1,1,4
+2020,Summer,Japan,Tokyo,11420,206,339,Estonia,1,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Ethiopia,1,1,2
+2020,Summer,Japan,Tokyo,11420,206,339,Fiji,1,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Finland,0,0,2
+2020,Summer,Japan,Tokyo,11420,206,339,France,10,12,11
+2020,Summer,Japan,Tokyo,11420,206,339,Georgia,2,5,1
+2020,Summer,Japan,Tokyo,11420,206,339,Germany,10,11,16
+2020,Summer,Japan,Tokyo,11420,206,339,Ghana,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Greece,2,1,1
+2020,Summer,Japan,Tokyo,11420,206,339,Grenada,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,"Hong Kong, China",1,2,3
+2020,Summer,Japan,Tokyo,11420,206,339,Hungary,6,7,7
+2020,Summer,Japan,Tokyo,11420,206,339,India,1,2,4
+2020,Summer,Japan,Tokyo,11420,206,339,Indonesia,1,1,3
+2020,Summer,Japan,Tokyo,11420,206,339,Ireland,2,0,2
+2020,Summer,Japan,Tokyo,11420,206,339,Islamic Republic of Iran,3,2,2
+2020,Summer,Japan,Tokyo,11420,206,339,Israel,2,0,2
+2020,Summer,Japan,Tokyo,11420,206,339,Italy,10,10,20
+2020,Summer,Japan,Tokyo,11420,206,339,Jamaica,4,1,4
+2020,Summer,Japan,Tokyo,11420,206,339,Japan,27,14,17
+2020,Summer,Japan,Tokyo,11420,206,339,Jordan,0,1,1
+2020,Summer,Japan,Tokyo,11420,206,339,Kazakhstan,0,0,8
+2020,Summer,Japan,Tokyo,11420,206,339,Kenya,4,4,2
+2020,Summer,Japan,Tokyo,11420,206,339,Kosovo,2,0,0
+2020,Summer,Japan,Tokyo,11420,206,339,Kuwait,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Kyrgyzstan,0,2,1
+2020,Summer,Japan,Tokyo,11420,206,339,Latvia,1,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Lithuania,0,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Malaysia,0,1,1
+2020,Summer,Japan,Tokyo,11420,206,339,Mexico,0,0,4
+2020,Summer,Japan,Tokyo,11420,206,339,Moldova,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Mongolia,0,1,3
+2020,Summer,Japan,Tokyo,11420,206,339,Morocco,1,0,0
+2020,Summer,Japan,Tokyo,11420,206,339,Namibia,0,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Netherlands,10,12,14
+2020,Summer,Japan,Tokyo,11420,206,339,New Zealand,7,6,7
+2020,Summer,Japan,Tokyo,11420,206,339,Nigeria,0,1,1
+2020,Summer,Japan,Tokyo,11420,206,339,North Macedonia,0,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Norway,4,2,2
+2020,Summer,Japan,Tokyo,11420,206,339,People's Republic of China,38,32,19
+2020,Summer,Japan,Tokyo,11420,206,339,Philippines,1,2,1
+2020,Summer,Japan,Tokyo,11420,206,339,Poland,4,5,5
+2020,Summer,Japan,Tokyo,11420,206,339,Portugal,1,1,2
+2020,Summer,Japan,Tokyo,11420,206,339,Puerto Rico,1,0,0
+2020,Summer,Japan,Tokyo,11420,206,339,Qatar,2,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,ROC,20,28,23
+2020,Summer,Japan,Tokyo,11420,206,339,Republic of Korea,6,4,10
+2020,Summer,Japan,Tokyo,11420,206,339,Romania,1,3,0
+2020,Summer,Japan,Tokyo,11420,206,339,San Marino,0,1,2
+2020,Summer,Japan,Tokyo,11420,206,339,Saudi Arabia,0,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Serbia,3,1,5
+2020,Summer,Japan,Tokyo,11420,206,339,Slovakia,1,2,1
+2020,Summer,Japan,Tokyo,11420,206,339,Slovenia,3,1,1
+2020,Summer,Japan,Tokyo,11420,206,339,South Africa,1,2,0
+2020,Summer,Japan,Tokyo,11420,206,339,Spain,3,8,6
+2020,Summer,Japan,Tokyo,11420,206,339,Sweden,3,6,0
+2020,Summer,Japan,Tokyo,11420,206,339,Switzerland,3,4,6
+2020,Summer,Japan,Tokyo,11420,206,339,Syrian Arab Republic,0,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Thailand,1,0,1
+2020,Summer,Japan,Tokyo,11420,206,339,Tunisia,1,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Turkey,2,2,9
+2020,Summer,Japan,Tokyo,11420,206,339,Turkmenistan,0,1,0
+2020,Summer,Japan,Tokyo,11420,206,339,Uganda,2,1,1
+2020,Summer,Japan,Tokyo,11420,206,339,Ukraine,1,6,12
+2020,Summer,Japan,Tokyo,11420,206,339,United Kingdom,22,20,22
+2020,Summer,Japan,Tokyo,11420,206,339,United States of America,39,41,33
+2020,Summer,Japan,Tokyo,11420,206,339,Uzbekistan,3,0,2
+2020,Summer,Japan,Tokyo,11420,206,339,Venezuela,1,3,0
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Australia,0,2,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Austria,5,3,6
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Belarus,2,1,0
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Belgium,0,1,0
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Canada,11,8,10
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Czechia,2,2,3
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Finland,1,1,4
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,France,5,4,6
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Germany,14,10,7
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Hungary,1,0,0
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Italy,3,2,5
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Japan,4,5,4
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Kazakhstan,0,0,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Latvia,0,0,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Liechtenstein,0,0,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Netherlands,8,6,6
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,New Zealand,0,0,2
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Norway,14,14,11
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,People's Republic of China,1,6,2
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Poland,1,0,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,ROC,2,6,9
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Republic of Korea,5,8,4
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Slovakia,1,2,0
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Slovenia,0,1,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Spain,0,0,2
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Sweden,7,6,1
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Switzerland,5,6,4
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,Ukraine,1,0,0
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,United Kingdom,1,0,4
+2018,Winter,Republic of Korea,PyeongChang,2833,92,102,United States of America,9,8,6
+2016,Summer,Brazil,Rio,11238,207,306,Algeria,0,2,0
+2016,Summer,Brazil,Rio,11238,207,306,Argentina,3,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Armenia,1,3,0
+2016,Summer,Brazil,Rio,11238,207,306,Australia,8,11,10
+2016,Summer,Brazil,Rio,11238,207,306,Austria,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Azerbaijan,1,7,10
+2016,Summer,Brazil,Rio,11238,207,306,Bahamas,1,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Bahrain,1,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Belarus,1,4,4
+2016,Summer,Brazil,Rio,11238,207,306,Belgium,2,2,2
+2016,Summer,Brazil,Rio,11238,207,306,Brazil,7,6,6
+2016,Summer,Brazil,Rio,11238,207,306,Bulgaria,0,1,2
+2016,Summer,Brazil,Rio,11238,207,306,Burundi,0,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Canada,4,3,15
+2016,Summer,Brazil,Rio,11238,207,306,Chinese Taipei,1,0,2
+2016,Summer,Brazil,Rio,11238,207,306,Colombia,3,2,3
+2016,Summer,Brazil,Rio,11238,207,306,Croatia,5,3,2
+2016,Summer,Brazil,Rio,11238,207,306,Cuba,5,2,4
+2016,Summer,Brazil,Rio,11238,207,306,Czechia,1,2,7
+2016,Summer,Brazil,Rio,11238,207,306,Côte d'Ivoire,1,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Democratic People's Republic of Korea,2,3,2
+2016,Summer,Brazil,Rio,11238,207,306,Denmark,2,6,7
+2016,Summer,Brazil,Rio,11238,207,306,Dominican Republic,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Egypt,0,0,3
+2016,Summer,Brazil,Rio,11238,207,306,Estonia,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Ethiopia,1,2,5
+2016,Summer,Brazil,Rio,11238,207,306,Fiji,1,0,0
+2016,Summer,Brazil,Rio,11238,207,306,Finland,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,France,10,18,14
+2016,Summer,Brazil,Rio,11238,207,306,Georgia,2,1,4
+2016,Summer,Brazil,Rio,11238,207,306,Germany,17,10,15
+2016,Summer,Brazil,Rio,11238,207,306,Greece,3,1,2
+2016,Summer,Brazil,Rio,11238,207,306,Grenada,0,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Hungary,8,3,4
+2016,Summer,Brazil,Rio,11238,207,306,Independent Olympic Athletes,1,0,1
+2016,Summer,Brazil,Rio,11238,207,306,India,0,1,1
+2016,Summer,Brazil,Rio,11238,207,306,Indonesia,1,2,0
+2016,Summer,Brazil,Rio,11238,207,306,Ireland,0,2,0
+2016,Summer,Brazil,Rio,11238,207,306,Islamic Republic of Iran,3,1,4
+2016,Summer,Brazil,Rio,11238,207,306,Israel,0,0,2
+2016,Summer,Brazil,Rio,11238,207,306,Italy,8,12,8
+2016,Summer,Brazil,Rio,11238,207,306,Jamaica,6,3,2
+2016,Summer,Brazil,Rio,11238,207,306,Japan,12,8,21
+2016,Summer,Brazil,Rio,11238,207,306,Jordan,1,0,0
+2016,Summer,Brazil,Rio,11238,207,306,Kazakhstan,2,5,10
+2016,Summer,Brazil,Rio,11238,207,306,Kenya,6,6,1
+2016,Summer,Brazil,Rio,11238,207,306,Kosovo,1,0,0
+2016,Summer,Brazil,Rio,11238,207,306,Lithuania,0,1,3
+2016,Summer,Brazil,Rio,11238,207,306,Malaysia,0,4,1
+2016,Summer,Brazil,Rio,11238,207,306,Mexico,0,3,2
+2016,Summer,Brazil,Rio,11238,207,306,Mongolia,0,1,1
+2016,Summer,Brazil,Rio,11238,207,306,Morocco,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Netherlands,8,7,4
+2016,Summer,Brazil,Rio,11238,207,306,New Zealand,4,9,5
+2016,Summer,Brazil,Rio,11238,207,306,Niger,0,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Nigeria,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Norway,0,0,4
+2016,Summer,Brazil,Rio,11238,207,306,People's Republic of China,26,18,26
+2016,Summer,Brazil,Rio,11238,207,306,Philippines,0,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Poland,2,3,6
+2016,Summer,Brazil,Rio,11238,207,306,Portugal,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Puerto Rico,1,0,0
+2016,Summer,Brazil,Rio,11238,207,306,Qatar,0,1,0
+2016,Summer,Brazil,Rio,11238,207,306,Republic of Korea,9,3,9
+2016,Summer,Brazil,Rio,11238,207,306,Romania,1,1,2
+2016,Summer,Brazil,Rio,11238,207,306,Russian Federation,19,17,20
+2016,Summer,Brazil,Rio,11238,207,306,Serbia,2,4,2
+2016,Summer,Brazil,Rio,11238,207,306,Singapore,1,0,0
+2016,Summer,Brazil,Rio,11238,207,306,Slovakia,2,2,0
+2016,Summer,Brazil,Rio,11238,207,306,Slovenia,1,2,1
+2016,Summer,Brazil,Rio,11238,207,306,South Africa,2,6,2
+2016,Summer,Brazil,Rio,11238,207,306,Spain,7,4,6
+2016,Summer,Brazil,Rio,11238,207,306,Sweden,2,6,3
+2016,Summer,Brazil,Rio,11238,207,306,Switzerland,3,2,2
+2016,Summer,Brazil,Rio,11238,207,306,Tajikistan,1,0,0
+2016,Summer,Brazil,Rio,11238,207,306,Thailand,2,2,2
+2016,Summer,Brazil,Rio,11238,207,306,Trinidad and Tobago,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,Tunisia,0,0,3
+2016,Summer,Brazil,Rio,11238,207,306,Turkey,1,3,4
+2016,Summer,Brazil,Rio,11238,207,306,Ukraine,2,5,4
+2016,Summer,Brazil,Rio,11238,207,306,United Arab Emirates,0,0,1
+2016,Summer,Brazil,Rio,11238,207,306,United Kingdom,27,23,17
+2016,Summer,Brazil,Rio,11238,207,306,United States of America,46,37,38
+2016,Summer,Brazil,Rio,11238,207,306,Uzbekistan,4,2,7
+2016,Summer,Brazil,Rio,11238,207,306,Venezuela,0,2,1
+2016,Summer,Brazil,Rio,11238,207,306,Vietnam,1,1,0
+2014,Winter,Russian Federation,Sochi,2780,88,98,Australia,0,2,1
+2014,Winter,Russian Federation,Sochi,2780,88,98,Austria,4,8,5
+2014,Winter,Russian Federation,Sochi,2780,88,98,Belarus,5,0,1
+2014,Winter,Russian Federation,Sochi,2780,88,98,Canada,10,10,5
+2014,Winter,Russian Federation,Sochi,2780,88,98,Croatia,0,1,0
+2014,Winter,Russian Federation,Sochi,2780,88,98,Czechia,2,4,3
+2014,Winter,Russian Federation,Sochi,2780,88,98,Finland,1,3,1
+2014,Winter,Russian Federation,Sochi,2780,88,98,France,4,4,7
+2014,Winter,Russian Federation,Sochi,2780,88,98,Germany,8,6,5
+2014,Winter,Russian Federation,Sochi,2780,88,98,Italy,0,2,6
+2014,Winter,Russian Federation,Sochi,2780,88,98,Japan,1,4,3
+2014,Winter,Russian Federation,Sochi,2780,88,98,Kazakhstan,0,0,1
+2014,Winter,Russian Federation,Sochi,2780,88,98,Latvia,1,1,3
+2014,Winter,Russian Federation,Sochi,2780,88,98,Netherlands,8,7,9
+2014,Winter,Russian Federation,Sochi,2780,88,98,Norway,11,6,9
+2014,Winter,Russian Federation,Sochi,2780,88,98,People's Republic of China,3,4,2
+2014,Winter,Russian Federation,Sochi,2780,88,98,Poland,4,1,1
+2014,Winter,Russian Federation,Sochi,2780,88,98,Republic of Korea,3,3,2
+2014,Winter,Russian Federation,Sochi,2780,88,98,Russian Federation,10,10,9
+2014,Winter,Russian Federation,Sochi,2780,88,98,Slovakia,1,0,0
+2014,Winter,Russian Federation,Sochi,2780,88,98,Slovenia,2,2,4
+2014,Winter,Russian Federation,Sochi,2780,88,98,Sweden,2,7,6
+2014,Winter,Russian Federation,Sochi,2780,88,98,Switzerland,7,2,2
+2014,Winter,Russian Federation,Sochi,2780,88,98,Ukraine,1,0,1
+2014,Winter,Russian Federation,Sochi,2780,88,98,United Kingdom,1,1,3
+2014,Winter,Russian Federation,Sochi,2780,88,98,United States of America,9,9,10
+2012,Summer,Great Britain,London,10568,204,302,Afghanistan,0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Algeria,1,0,0
+2012,Summer,Great Britain,London,10568,204,302,Argentina,1,1,2
+2012,Summer,Great Britain,London,10568,204,302,Armenia,0,1,1
+2012,Summer,Great Britain,London,10568,204,302,Australia,8,15,12
+2012,Summer,Great Britain,London,10568,204,302,Azerbaijan,2,2,5
+2012,Summer,Great Britain,London,10568,204,302,Bahamas,1,0,0
+2012,Summer,Great Britain,London,10568,204,302,Bahrain,1,0,0
+2012,Summer,Great Britain,London,10568,204,302,Belarus,2,5,3
+2012,Summer,Great Britain,London,10568,204,302,Belgium,0,1,2
+2012,Summer,Great Britain,London,10568,204,302,Botswana,0,1,0
+2012,Summer,Great Britain,London,10568,204,302,Brazil,3,5,9
+2012,Summer,Great Britain,London,10568,204,302,Bulgaria,0,2,1
+2012,Summer,Great Britain,London,10568,204,302,Cameroon,0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Canada,2,6,10
+2012,Summer,Great Britain,London,10568,204,302,Chinese Taipei,1,0,1
+2012,Summer,Great Britain,London,10568,204,302,Colombia,1,3,5
+2012,Summer,Great Britain,London,10568,204,302,Croatia,3,1,2
+2012,Summer,Great Britain,London,10568,204,302,Cuba,5,3,7
+2012,Summer,Great Britain,London,10568,204,302,Cyprus,0,1,0
+2012,Summer,Great Britain,London,10568,204,302,Czechia,4,4,3
+2012,Summer,Great Britain,London,10568,204,302,Democratic People's Republic of Korea,4,0,2
+2012,Summer,Great Britain,London,10568,204,302,Denmark,2,4,3
+2012,Summer,Great Britain,London,10568,204,302,Dominican Republic,1,1,0
+2012,Summer,Great Britain,London,10568,204,302,Egypt,0,3,1
+2012,Summer,Great Britain,London,10568,204,302,Estonia,0,1,1
+2012,Summer,Great Britain,London,10568,204,302,Ethiopia,3,2,3
+2012,Summer,Great Britain,London,10568,204,302,Finland,0,2,1
+2012,Summer,Great Britain,London,10568,204,302,France,11,11,13
+2012,Summer,Great Britain,London,10568,204,302,Gabon,0,1,0
+2012,Summer,Great Britain,London,10568,204,302,Georgia,1,2,3
+2012,Summer,Great Britain,London,10568,204,302,Germany,11,20,13
+2012,Summer,Great Britain,London,10568,204,302,Greece,0,0,2
+2012,Summer,Great Britain,London,10568,204,302,Grenada,1,0,0
+2012,Summer,Great Britain,London,10568,204,302,Guatemala,0,1,0
+2012,Summer,Great Britain,London,10568,204,302,"Hong Kong, China",0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Hungary,8,4,6
+2012,Summer,Great Britain,London,10568,204,302,India,0,2,4
+2012,Summer,Great Britain,London,10568,204,302,Indonesia,0,2,1
+2012,Summer,Great Britain,London,10568,204,302,Ireland,1,1,4
+2012,Summer,Great Britain,London,10568,204,302,Islamic Republic of Iran,7,5,1
+2012,Summer,Great Britain,London,10568,204,302,Italy,8,9,11
+2012,Summer,Great Britain,London,10568,204,302,Jamaica,4,5,4
+2012,Summer,Great Britain,London,10568,204,302,Japan,7,14,17
+2012,Summer,Great Britain,London,10568,204,302,Kazakhstan,3,1,7
+2012,Summer,Great Britain,London,10568,204,302,Kenya,2,4,7
+2012,Summer,Great Britain,London,10568,204,302,Kuwait,0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Latvia,1,0,1
+2012,Summer,Great Britain,London,10568,204,302,Lithuania,2,0,3
+2012,Summer,Great Britain,London,10568,204,302,Malaysia,0,1,1
+2012,Summer,Great Britain,London,10568,204,302,Mexico,1,3,4
+2012,Summer,Great Britain,London,10568,204,302,Mongolia,0,2,3
+2012,Summer,Great Britain,London,10568,204,302,Montenegro,0,1,0
+2012,Summer,Great Britain,London,10568,204,302,Morocco,0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Netherlands,6,6,8
+2012,Summer,Great Britain,London,10568,204,302,New Zealand,6,2,5
+2012,Summer,Great Britain,London,10568,204,302,Norway,2,1,1
+2012,Summer,Great Britain,London,10568,204,302,People's Republic of China,39,31,22
+2012,Summer,Great Britain,London,10568,204,302,Poland,3,2,6
+2012,Summer,Great Britain,London,10568,204,302,Portugal,0,1,0
+2012,Summer,Great Britain,London,10568,204,302,Puerto Rico,0,1,1
+2012,Summer,Great Britain,London,10568,204,302,Qatar,0,1,1
+2012,Summer,Great Britain,London,10568,204,302,Republic of Korea,13,9,8
+2012,Summer,Great Britain,London,10568,204,302,Romania,2,4,1
+2012,Summer,Great Britain,London,10568,204,302,Russian Federation,18,21,26
+2012,Summer,Great Britain,London,10568,204,302,Saudi Arabia,0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Serbia,1,1,2
+2012,Summer,Great Britain,London,10568,204,302,Singapore,0,0,2
+2012,Summer,Great Britain,London,10568,204,302,Slovakia,0,1,3
+2012,Summer,Great Britain,London,10568,204,302,Slovenia,1,1,2
+2012,Summer,Great Britain,London,10568,204,302,South Africa,4,1,1
+2012,Summer,Great Britain,London,10568,204,302,Spain,4,10,6
+2012,Summer,Great Britain,London,10568,204,302,Sweden,1,4,3
+2012,Summer,Great Britain,London,10568,204,302,Switzerland,2,2,0
+2012,Summer,Great Britain,London,10568,204,302,Tajikistan,0,0,1
+2012,Summer,Great Britain,London,10568,204,302,Thailand,0,2,2
+2012,Summer,Great Britain,London,10568,204,302,Trinidad and Tobago,1,1,2
+2012,Summer,Great Britain,London,10568,204,302,Tunisia,2,0,1
+2012,Summer,Great Britain,London,10568,204,302,Turkey,1,1,1
+2012,Summer,Great Britain,London,10568,204,302,Uganda,1,0,0
+2012,Summer,Great Britain,London,10568,204,302,Ukraine,5,4,10
+2012,Summer,Great Britain,London,10568,204,302,United Kingdom,29,18,18
+2012,Summer,Great Britain,London,10568,204,302,United States of America,48,26,30
+2012,Summer,Great Britain,London,10568,204,302,Uzbekistan,0,0,3
+2012,Summer,Great Britain,London,10568,204,302,Venezuela,1,0,0
+2012,Summer,Great Britain,London,10568,204,302,Vietnam,0,0,1
+2010,Winter,Canada,Vancouver,2566,82,86,Australia,2,1,0
+2010,Winter,Canada,Vancouver,2566,82,86,Austria,4,6,6
+2010,Winter,Canada,Vancouver,2566,82,86,Belarus,1,1,1
+2010,Winter,Canada,Vancouver,2566,82,86,Canada,14,7,5
+2010,Winter,Canada,Vancouver,2566,82,86,Croatia,0,2,1
+2010,Winter,Canada,Vancouver,2566,82,86,Czechia,2,0,4
+2010,Winter,Canada,Vancouver,2566,82,86,Estonia,0,1,0
+2010,Winter,Canada,Vancouver,2566,82,86,Finland,0,1,4
+2010,Winter,Canada,Vancouver,2566,82,86,France,2,3,6
+2010,Winter,Canada,Vancouver,2566,82,86,Germany,10,13,7
+2010,Winter,Canada,Vancouver,2566,82,86,Italy,1,1,3
+2010,Winter,Canada,Vancouver,2566,82,86,Japan,0,3,2
+2010,Winter,Canada,Vancouver,2566,82,86,Kazakhstan,0,1,0
+2010,Winter,Canada,Vancouver,2566,82,86,Latvia,0,2,0
+2010,Winter,Canada,Vancouver,2566,82,86,Netherlands,4,1,3
+2010,Winter,Canada,Vancouver,2566,82,86,Norway,9,8,6
+2010,Winter,Canada,Vancouver,2566,82,86,People's Republic of China,5,2,4
+2010,Winter,Canada,Vancouver,2566,82,86,Poland,1,3,2
+2010,Winter,Canada,Vancouver,2566,82,86,Republic of Korea,6,6,2
+2010,Winter,Canada,Vancouver,2566,82,86,Russian Federation,3,5,7
+2010,Winter,Canada,Vancouver,2566,82,86,Slovakia,1,1,1
+2010,Winter,Canada,Vancouver,2566,82,86,Slovenia,0,2,1
+2010,Winter,Canada,Vancouver,2566,82,86,Sweden,5,2,4
+2010,Winter,Canada,Vancouver,2566,82,86,Switzerland,6,0,3
+2010,Winter,Canada,Vancouver,2566,82,86,United Kingdom,1,0,0
+2010,Winter,Canada,Vancouver,2566,82,86,United States of America,9,15,13
+2008,Summer,China,Beijing,10942,204,302,Afghanistan,0,0,1
+2008,Summer,China,Beijing,10942,204,302,Algeria,0,1,1
+2008,Summer,China,Beijing,10942,204,302,Argentina,2,0,4
+2008,Summer,China,Beijing,10942,204,302,Armenia,0,1,4
+2008,Summer,China,Beijing,10942,204,302,Australia,14,15,17
+2008,Summer,China,Beijing,10942,204,302,Austria,0,1,2
+2008,Summer,China,Beijing,10942,204,302,Azerbaijan,1,1,4
+2008,Summer,China,Beijing,10942,204,302,Bahamas,0,1,1
+2008,Summer,China,Beijing,10942,204,302,Belarus,3,4,7
+2008,Summer,China,Beijing,10942,204,302,Belgium,2,0,0
+2008,Summer,China,Beijing,10942,204,302,Brazil,3,4,10
+2008,Summer,China,Beijing,10942,204,302,Bulgaria,1,1,3
+2008,Summer,China,Beijing,10942,204,302,Cameroon,1,0,0
+2008,Summer,China,Beijing,10942,204,302,Canada,3,9,8
+2008,Summer,China,Beijing,10942,204,302,Chile,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Chinese Taipei,1,1,2
+2008,Summer,China,Beijing,10942,204,302,Colombia,0,2,1
+2008,Summer,China,Beijing,10942,204,302,Croatia,0,2,3
+2008,Summer,China,Beijing,10942,204,302,Cuba,3,10,17
+2008,Summer,China,Beijing,10942,204,302,Czechia,3,3,1
+2008,Summer,China,Beijing,10942,204,302,Democratic People's Republic of Korea,2,2,2
+2008,Summer,China,Beijing,10942,204,302,Denmark,2,2,3
+2008,Summer,China,Beijing,10942,204,302,Dominican Republic,1,1,0
+2008,Summer,China,Beijing,10942,204,302,Ecuador,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Egypt,0,0,2
+2008,Summer,China,Beijing,10942,204,302,Estonia,1,1,0
+2008,Summer,China,Beijing,10942,204,302,Ethiopia,4,2,1
+2008,Summer,China,Beijing,10942,204,302,Finland,1,1,2
+2008,Summer,China,Beijing,10942,204,302,France,7,16,20
+2008,Summer,China,Beijing,10942,204,302,Georgia,3,2,2
+2008,Summer,China,Beijing,10942,204,302,Germany,16,11,14
+2008,Summer,China,Beijing,10942,204,302,Greece,0,2,1
+2008,Summer,China,Beijing,10942,204,302,Hungary,3,5,2
+2008,Summer,China,Beijing,10942,204,302,Iceland,0,1,0
+2008,Summer,China,Beijing,10942,204,302,India,1,0,2
+2008,Summer,China,Beijing,10942,204,302,Indonesia,1,1,4
+2008,Summer,China,Beijing,10942,204,302,Ireland,0,1,2
+2008,Summer,China,Beijing,10942,204,302,Islamic Republic of Iran,1,0,1
+2008,Summer,China,Beijing,10942,204,302,Israel,0,0,1
+2008,Summer,China,Beijing,10942,204,302,Italy,8,9,10
+2008,Summer,China,Beijing,10942,204,302,Jamaica,5,4,2
+2008,Summer,China,Beijing,10942,204,302,Japan,9,8,8
+2008,Summer,China,Beijing,10942,204,302,Kazakhstan,2,3,4
+2008,Summer,China,Beijing,10942,204,302,Kenya,6,4,6
+2008,Summer,China,Beijing,10942,204,302,Kyrgyzstan,0,1,2
+2008,Summer,China,Beijing,10942,204,302,Latvia,1,1,1
+2008,Summer,China,Beijing,10942,204,302,Lithuania,0,3,2
+2008,Summer,China,Beijing,10942,204,302,Malaysia,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Mauritius,0,0,1
+2008,Summer,China,Beijing,10942,204,302,Mexico,2,0,2
+2008,Summer,China,Beijing,10942,204,302,Moldova,0,0,1
+2008,Summer,China,Beijing,10942,204,302,Mongolia,2,2,0
+2008,Summer,China,Beijing,10942,204,302,Morocco,0,1,1
+2008,Summer,China,Beijing,10942,204,302,Netherlands,7,5,4
+2008,Summer,China,Beijing,10942,204,302,New Zealand,3,2,4
+2008,Summer,China,Beijing,10942,204,302,Nigeria,0,3,2
+2008,Summer,China,Beijing,10942,204,302,Norway,3,5,1
+2008,Summer,China,Beijing,10942,204,302,Panama,1,0,0
+2008,Summer,China,Beijing,10942,204,302,People's Republic of China,48,22,30
+2008,Summer,China,Beijing,10942,204,302,Poland,4,5,2
+2008,Summer,China,Beijing,10942,204,302,Portugal,1,1,0
+2008,Summer,China,Beijing,10942,204,302,Republic of Korea,13,11,8
+2008,Summer,China,Beijing,10942,204,302,Romania,4,1,4
+2008,Summer,China,Beijing,10942,204,302,Russian Federation,24,13,23
+2008,Summer,China,Beijing,10942,204,302,Samoa,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Serbia,0,1,2
+2008,Summer,China,Beijing,10942,204,302,Singapore,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Slovakia,3,3,0
+2008,Summer,China,Beijing,10942,204,302,Slovenia,1,2,2
+2008,Summer,China,Beijing,10942,204,302,South Africa,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Spain,5,11,3
+2008,Summer,China,Beijing,10942,204,302,Sudan,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Sweden,0,4,1
+2008,Summer,China,Beijing,10942,204,302,Switzerland,2,1,4
+2008,Summer,China,Beijing,10942,204,302,Tajikistan,0,1,1
+2008,Summer,China,Beijing,10942,204,302,Thailand,2,2,2
+2008,Summer,China,Beijing,10942,204,302,Togo,0,0,1
+2008,Summer,China,Beijing,10942,204,302,Trinidad and Tobago,1,1,0
+2008,Summer,China,Beijing,10942,204,302,Tunisia,1,0,0
+2008,Summer,China,Beijing,10942,204,302,Turkey,1,1,3
+2008,Summer,China,Beijing,10942,204,302,Ukraine,7,4,11
+2008,Summer,China,Beijing,10942,204,302,United Kingdom,19,13,19
+2008,Summer,China,Beijing,10942,204,302,United States of America,36,39,37
+2008,Summer,China,Beijing,10942,204,302,Uzbekistan,0,1,3
+2008,Summer,China,Beijing,10942,204,302,Venezuela,0,0,1
+2008,Summer,China,Beijing,10942,204,302,Vietnam,0,1,0
+2008,Summer,China,Beijing,10942,204,302,Zimbabwe,1,3,0
+2006,Winter,Italy,Turin,2508,80,84,Australia,1,0,1
+2006,Winter,Italy,Turin,2508,80,84,Austria,9,7,7
+2006,Winter,Italy,Turin,2508,80,84,Belarus,0,1,0
+2006,Winter,Italy,Turin,2508,80,84,Bulgaria,0,1,0
+2006,Winter,Italy,Turin,2508,80,84,Canada,7,10,7
+2006,Winter,Italy,Turin,2508,80,84,Croatia,1,2,0
+2006,Winter,Italy,Turin,2508,80,84,Czechia,1,2,1
+2006,Winter,Italy,Turin,2508,80,84,Estonia,3,0,0
+2006,Winter,Italy,Turin,2508,80,84,Finland,0,6,3
+2006,Winter,Italy,Turin,2508,80,84,France,3,2,4
+2006,Winter,Italy,Turin,2508,80,84,Germany,11,12,6
+2006,Winter,Italy,Turin,2508,80,84,Italy,5,0,6
+2006,Winter,Italy,Turin,2508,80,84,Japan,1,0,0
+2006,Winter,Italy,Turin,2508,80,84,Latvia,0,0,1
+2006,Winter,Italy,Turin,2508,80,84,Netherlands,3,2,4
+2006,Winter,Italy,Turin,2508,80,84,Norway,2,8,9
+2006,Winter,Italy,Turin,2508,80,84,People's Republic of China,2,4,5
+2006,Winter,Italy,Turin,2508,80,84,Poland,0,1,1
+2006,Winter,Italy,Turin,2508,80,84,Republic of Korea,6,3,2
+2006,Winter,Italy,Turin,2508,80,84,Russian Federation,8,6,8
+2006,Winter,Italy,Turin,2508,80,84,Slovakia,0,1,0
+2006,Winter,Italy,Turin,2508,80,84,Sweden,7,2,5
+2006,Winter,Italy,Turin,2508,80,84,Switzerland,5,4,5
+2006,Winter,Italy,Turin,2508,80,84,Ukraine,0,0,2
+2006,Winter,Italy,Turin,2508,80,84,United Kingdom,0,1,0
+2006,Winter,Italy,Turin,2508,80,84,United States of America,9,9,7
+2004,Summer,Greece,Athens,10625,201,301,Argentina,2,0,4
+2004,Summer,Greece,Athens,10625,201,301,Australia,17,16,17
+2004,Summer,Greece,Athens,10625,201,301,Austria,2,4,1
+2004,Summer,Greece,Athens,10625,201,301,Azerbaijan,1,0,4
+2004,Summer,Greece,Athens,10625,201,301,Bahamas,1,0,1
+2004,Summer,Greece,Athens,10625,201,301,Belarus,2,5,6
+2004,Summer,Greece,Athens,10625,201,301,Belgium,1,0,2
+2004,Summer,Greece,Athens,10625,201,301,Brazil,5,2,3
+2004,Summer,Greece,Athens,10625,201,301,Bulgaria,2,1,9
+2004,Summer,Greece,Athens,10625,201,301,Cameroon,1,0,0
+2004,Summer,Greece,Athens,10625,201,301,Canada,3,6,3
+2004,Summer,Greece,Athens,10625,201,301,Chile,2,0,1
+2004,Summer,Greece,Athens,10625,201,301,Chinese Taipei,2,2,1
+2004,Summer,Greece,Athens,10625,201,301,Colombia,0,0,2
+2004,Summer,Greece,Athens,10625,201,301,Croatia,1,2,2
+2004,Summer,Greece,Athens,10625,201,301,Cuba,9,7,11
+2004,Summer,Greece,Athens,10625,201,301,Czechia,1,3,5
+2004,Summer,Greece,Athens,10625,201,301,Democratic People's Republic of Korea,0,4,1
+2004,Summer,Greece,Athens,10625,201,301,Denmark,2,1,5
+2004,Summer,Greece,Athens,10625,201,301,Dominican Republic,1,0,0
+2004,Summer,Greece,Athens,10625,201,301,Egypt,1,1,3
+2004,Summer,Greece,Athens,10625,201,301,Eritrea,0,0,1
+2004,Summer,Greece,Athens,10625,201,301,Estonia,0,1,2
+2004,Summer,Greece,Athens,10625,201,301,Ethiopia,2,3,2
+2004,Summer,Greece,Athens,10625,201,301,Finland,0,2,0
+2004,Summer,Greece,Athens,10625,201,301,France,11,9,13
+2004,Summer,Greece,Athens,10625,201,301,Georgia,2,2,0
+2004,Summer,Greece,Athens,10625,201,301,Germany,13,16,20
+2004,Summer,Greece,Athens,10625,201,301,Greece,6,6,4
+2004,Summer,Greece,Athens,10625,201,301,"Hong Kong, China",0,1,0
+2004,Summer,Greece,Athens,10625,201,301,Hungary,8,6,3
+2004,Summer,Greece,Athens,10625,201,301,India,0,1,0
+2004,Summer,Greece,Athens,10625,201,301,Indonesia,1,1,2
+2004,Summer,Greece,Athens,10625,201,301,Islamic Republic of Iran,2,2,2
+2004,Summer,Greece,Athens,10625,201,301,Israel,1,0,1
+2004,Summer,Greece,Athens,10625,201,301,Italy,10,11,11
+2004,Summer,Greece,Athens,10625,201,301,Jamaica,2,1,2
+2004,Summer,Greece,Athens,10625,201,301,Japan,16,9,12
+2004,Summer,Greece,Athens,10625,201,301,Kazakhstan,1,4,3
+2004,Summer,Greece,Athens,10625,201,301,Kenya,1,4,2
+2004,Summer,Greece,Athens,10625,201,301,Latvia,0,4,0
+2004,Summer,Greece,Athens,10625,201,301,Lithuania,1,2,0
+2004,Summer,Greece,Athens,10625,201,301,Mexico,0,3,1
+2004,Summer,Greece,Athens,10625,201,301,Mongolia,0,0,1
+2004,Summer,Greece,Athens,10625,201,301,Morocco,2,1,0
+2004,Summer,Greece,Athens,10625,201,301,Netherlands,4,9,9
+2004,Summer,Greece,Athens,10625,201,301,New Zealand,3,2,0
+2004,Summer,Greece,Athens,10625,201,301,Nigeria,0,0,2
+2004,Summer,Greece,Athens,10625,201,301,Norway,5,0,1
+2004,Summer,Greece,Athens,10625,201,301,Paraguay,0,1,0
+2004,Summer,Greece,Athens,10625,201,301,People's Republic of China,32,17,14
+2004,Summer,Greece,Athens,10625,201,301,Poland,3,2,5
+2004,Summer,Greece,Athens,10625,201,301,Portugal,0,2,1
+2004,Summer,Greece,Athens,10625,201,301,Republic of Korea,9,12,9
+2004,Summer,Greece,Athens,10625,201,301,Romania,8,5,6
+2004,Summer,Greece,Athens,10625,201,301,Russian Federation,28,26,36
+2004,Summer,Greece,Athens,10625,201,301,Serbia and Montenegro,0,2,0
+2004,Summer,Greece,Athens,10625,201,301,Slovakia,2,2,2
+2004,Summer,Greece,Athens,10625,201,301,Slovenia,0,1,3
+2004,Summer,Greece,Athens,10625,201,301,South Africa,1,3,2
+2004,Summer,Greece,Athens,10625,201,301,Spain,3,11,6
+2004,Summer,Greece,Athens,10625,201,301,Sweden,4,2,1
+2004,Summer,Greece,Athens,10625,201,301,Switzerland,1,1,3
+2004,Summer,Greece,Athens,10625,201,301,Syrian Arab Republic,0,0,1
+2004,Summer,Greece,Athens,10625,201,301,Thailand,3,1,4
+2004,Summer,Greece,Athens,10625,201,301,Trinidad and Tobago,0,0,1
+2004,Summer,Greece,Athens,10625,201,301,Turkey,3,3,4
+2004,Summer,Greece,Athens,10625,201,301,Ukraine,8,5,9
+2004,Summer,Greece,Athens,10625,201,301,United Arab Emirates,1,0,0
+2004,Summer,Greece,Athens,10625,201,301,United Kingdom,9,9,12
+2004,Summer,Greece,Athens,10625,201,301,United States of America,36,39,26
+2004,Summer,Greece,Athens,10625,201,301,Uzbekistan,2,1,2
+2004,Summer,Greece,Athens,10625,201,301,Venezuela,0,0,2
+2004,Summer,Greece,Athens,10625,201,301,Zimbabwe,1,1,1
+2002,Winter,United States,Salt Lake City,2399,77,78,Australia,2,0,0
+2002,Winter,United States,Salt Lake City,2399,77,78,Austria,3,4,10
+2002,Winter,United States,Salt Lake City,2399,77,78,Belarus,0,0,1
+2002,Winter,United States,Salt Lake City,2399,77,78,Bulgaria,0,1,2
+2002,Winter,United States,Salt Lake City,2399,77,78,Canada,7,3,7
+2002,Winter,United States,Salt Lake City,2399,77,78,Croatia,3,1,0
+2002,Winter,United States,Salt Lake City,2399,77,78,Czechia,1,2,0
+2002,Winter,United States,Salt Lake City,2399,77,78,Estonia,1,1,1
+2002,Winter,United States,Salt Lake City,2399,77,78,Finland,4,2,1
+2002,Winter,United States,Salt Lake City,2399,77,78,France,4,5,2
+2002,Winter,United States,Salt Lake City,2399,77,78,Germany,12,16,8
+2002,Winter,United States,Salt Lake City,2399,77,78,Italy,4,4,5
+2002,Winter,United States,Salt Lake City,2399,77,78,Japan,0,1,1
+2002,Winter,United States,Salt Lake City,2399,77,78,Netherlands,3,5,0
+2002,Winter,United States,Salt Lake City,2399,77,78,Norway,13,5,7
+2002,Winter,United States,Salt Lake City,2399,77,78,People's Republic of China,2,2,4
+2002,Winter,United States,Salt Lake City,2399,77,78,Poland,0,1,1
+2002,Winter,United States,Salt Lake City,2399,77,78,Republic of Korea,2,2,0
+2002,Winter,United States,Salt Lake City,2399,77,78,Russian Federation,5,4,4
+2002,Winter,United States,Salt Lake City,2399,77,78,Slovenia,0,0,1
+2002,Winter,United States,Salt Lake City,2399,77,78,Sweden,0,2,5
+2002,Winter,United States,Salt Lake City,2399,77,78,Switzerland,3,2,6
+2002,Winter,United States,Salt Lake City,2399,77,78,United Kingdom,1,0,1
+2002,Winter,United States,Salt Lake City,2399,77,78,United States of America,10,13,11
+2000,Summer,Australia,Sydney,10651,199,300,Algeria,1,1,3
+2000,Summer,Australia,Sydney,10651,199,300,Argentina,0,2,2
+2000,Summer,Australia,Sydney,10651,199,300,Armenia,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Australia,16,25,17
+2000,Summer,Australia,Sydney,10651,199,300,Austria,2,1,0
+2000,Summer,Australia,Sydney,10651,199,300,Azerbaijan,2,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Bahamas,2,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Barbados,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Belarus,3,3,11
+2000,Summer,Australia,Sydney,10651,199,300,Belgium,0,2,3
+2000,Summer,Australia,Sydney,10651,199,300,Brazil,0,6,6
+2000,Summer,Australia,Sydney,10651,199,300,Bulgaria,5,6,2
+2000,Summer,Australia,Sydney,10651,199,300,Cameroon,1,0,0
+2000,Summer,Australia,Sydney,10651,199,300,Canada,3,3,8
+2000,Summer,Australia,Sydney,10651,199,300,Chile,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Chinese Taipei,0,1,4
+2000,Summer,Australia,Sydney,10651,199,300,Colombia,1,0,0
+2000,Summer,Australia,Sydney,10651,199,300,Costa Rica,0,0,2
+2000,Summer,Australia,Sydney,10651,199,300,Croatia,1,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Cuba,11,11,7
+2000,Summer,Australia,Sydney,10651,199,300,Czechia,2,3,3
+2000,Summer,Australia,Sydney,10651,199,300,Democratic People's Republic of Korea,0,1,3
+2000,Summer,Australia,Sydney,10651,199,300,Denmark,2,3,1
+2000,Summer,Australia,Sydney,10651,199,300,Estonia,1,0,2
+2000,Summer,Australia,Sydney,10651,199,300,Ethiopia,4,1,3
+2000,Summer,Australia,Sydney,10651,199,300,Finland,2,1,1
+2000,Summer,Australia,Sydney,10651,199,300,France,13,14,11
+2000,Summer,Australia,Sydney,10651,199,300,Georgia,0,0,6
+2000,Summer,Australia,Sydney,10651,199,300,Germany,13,17,26
+2000,Summer,Australia,Sydney,10651,199,300,Greece,4,6,3
+2000,Summer,Australia,Sydney,10651,199,300,Hungary,8,6,3
+2000,Summer,Australia,Sydney,10651,199,300,Iceland,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,India,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Indonesia,1,3,2
+2000,Summer,Australia,Sydney,10651,199,300,Ireland,0,1,0
+2000,Summer,Australia,Sydney,10651,199,300,Islamic Republic of Iran,3,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Israel,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Italy,13,8,13
+2000,Summer,Australia,Sydney,10651,199,300,Jamaica,0,6,3
+2000,Summer,Australia,Sydney,10651,199,300,Japan,5,8,5
+2000,Summer,Australia,Sydney,10651,199,300,Kazakhstan,3,4,0
+2000,Summer,Australia,Sydney,10651,199,300,Kenya,2,3,2
+2000,Summer,Australia,Sydney,10651,199,300,Kuwait,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Kyrgyzstan,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Latvia,1,1,1
+2000,Summer,Australia,Sydney,10651,199,300,Lithuania,2,0,3
+2000,Summer,Australia,Sydney,10651,199,300,Mexico,1,2,3
+2000,Summer,Australia,Sydney,10651,199,300,Moldova,0,1,1
+2000,Summer,Australia,Sydney,10651,199,300,Morocco,0,1,4
+2000,Summer,Australia,Sydney,10651,199,300,Mozambique,1,0,0
+2000,Summer,Australia,Sydney,10651,199,300,Netherlands,12,9,4
+2000,Summer,Australia,Sydney,10651,199,300,New Zealand,1,0,3
+2000,Summer,Australia,Sydney,10651,199,300,Nigeria,1,2,0
+2000,Summer,Australia,Sydney,10651,199,300,North Macedonia,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Norway,4,3,3
+2000,Summer,Australia,Sydney,10651,199,300,People's Republic of China,28,16,14
+2000,Summer,Australia,Sydney,10651,199,300,Poland,6,5,3
+2000,Summer,Australia,Sydney,10651,199,300,Portugal,0,0,2
+2000,Summer,Australia,Sydney,10651,199,300,Qatar,0,0,1
+2000,Summer,Australia,Sydney,10651,199,300,Republic of Korea,8,10,10
+2000,Summer,Australia,Sydney,10651,199,300,Romania,11,6,9
+2000,Summer,Australia,Sydney,10651,199,300,Russian Federation,32,28,29
+2000,Summer,Australia,Sydney,10651,199,300,Saudi Arabia,0,1,1
+2000,Summer,Australia,Sydney,10651,199,300,Serbia and Montenegro,1,1,1
+2000,Summer,Australia,Sydney,10651,199,300,Slovakia,1,3,1
+2000,Summer,Australia,Sydney,10651,199,300,Slovenia,2,0,0
+2000,Summer,Australia,Sydney,10651,199,300,South Africa,0,2,3
+2000,Summer,Australia,Sydney,10651,199,300,Spain,3,3,5
+2000,Summer,Australia,Sydney,10651,199,300,Sri Lanka,0,1,0
+2000,Summer,Australia,Sydney,10651,199,300,Sweden,4,5,3
+2000,Summer,Australia,Sydney,10651,199,300,Switzerland,1,6,2
+2000,Summer,Australia,Sydney,10651,199,300,Thailand,1,0,2
+2000,Summer,Australia,Sydney,10651,199,300,Trinidad and Tobago,0,1,1
+2000,Summer,Australia,Sydney,10651,199,300,Turkey,3,0,2
+2000,Summer,Australia,Sydney,10651,199,300,Ukraine,3,10,10
+2000,Summer,Australia,Sydney,10651,199,300,United Kingdom,11,10,7
+2000,Summer,Australia,Sydney,10651,199,300,United States of America,37,24,32
+2000,Summer,Australia,Sydney,10651,199,300,Uruguay,0,1,0
+2000,Summer,Australia,Sydney,10651,199,300,Uzbekistan,1,1,2
+2000,Summer,Australia,Sydney,10651,199,300,Vietnam,0,1,0
+1998,Winter,Japan,Nagano,2176,72,68,Australia,0,0,1
+1998,Winter,Japan,Nagano,2176,72,68,Austria,3,5,9
+1998,Winter,Japan,Nagano,2176,72,68,Belarus,0,0,2
+1998,Winter,Japan,Nagano,2176,72,68,Belgium,0,0,1
+1998,Winter,Japan,Nagano,2176,72,68,Bulgaria,1,0,0
+1998,Winter,Japan,Nagano,2176,72,68,Canada,6,5,4
+1998,Winter,Japan,Nagano,2176,72,68,Czechia,1,1,1
+1998,Winter,Japan,Nagano,2176,72,68,Denmark,0,1,0
+1998,Winter,Japan,Nagano,2176,72,68,Finland,2,4,6
+1998,Winter,Japan,Nagano,2176,72,68,France,2,1,5
+1998,Winter,Japan,Nagano,2176,72,68,Germany,12,9,8
+1998,Winter,Japan,Nagano,2176,72,68,Italy,2,6,2
+1998,Winter,Japan,Nagano,2176,72,68,Japan,5,1,4
+1998,Winter,Japan,Nagano,2176,72,68,Kazakhstan,0,0,2
+1998,Winter,Japan,Nagano,2176,72,68,Netherlands,5,4,2
+1998,Winter,Japan,Nagano,2176,72,68,Norway,10,10,5
+1998,Winter,Japan,Nagano,2176,72,68,People's Republic of China,0,6,2
+1998,Winter,Japan,Nagano,2176,72,68,Republic of Korea,3,1,2
+1998,Winter,Japan,Nagano,2176,72,68,Russian Federation,9,6,3
+1998,Winter,Japan,Nagano,2176,72,68,Sweden,0,2,1
+1998,Winter,Japan,Nagano,2176,72,68,Switzerland,2,2,3
+1998,Winter,Japan,Nagano,2176,72,68,Ukraine,0,1,0
+1998,Winter,Japan,Nagano,2176,72,68,United Kingdom,0,0,1
+1998,Winter,Japan,Nagano,2176,72,68,United States of America,6,3,4
+1996,Summer,United States,Atlanta,10318,197,271,Algeria,2,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Argentina,0,2,1
+1996,Summer,United States,Atlanta,10318,197,271,Armenia,1,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Australia,9,9,23
+1996,Summer,United States,Atlanta,10318,197,271,Austria,0,1,2
+1996,Summer,United States,Atlanta,10318,197,271,Azerbaijan,0,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Bahamas,0,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Belarus,1,6,8
+1996,Summer,United States,Atlanta,10318,197,271,Belgium,2,2,2
+1996,Summer,United States,Atlanta,10318,197,271,Brazil,3,3,9
+1996,Summer,United States,Atlanta,10318,197,271,Bulgaria,3,7,5
+1996,Summer,United States,Atlanta,10318,197,271,Burundi,1,0,0
+1996,Summer,United States,Atlanta,10318,197,271,Canada,3,11,8
+1996,Summer,United States,Atlanta,10318,197,271,Chinese Taipei,0,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Costa Rica,1,0,0
+1996,Summer,United States,Atlanta,10318,197,271,Croatia,1,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Cuba,9,8,8
+1996,Summer,United States,Atlanta,10318,197,271,Czechia,4,3,4
+1996,Summer,United States,Atlanta,10318,197,271,Democratic People's Republic of Korea,2,1,2
+1996,Summer,United States,Atlanta,10318,197,271,Denmark,4,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Ecuador,1,0,0
+1996,Summer,United States,Atlanta,10318,197,271,Ethiopia,2,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Finland,1,2,1
+1996,Summer,United States,Atlanta,10318,197,271,France,15,7,15
+1996,Summer,United States,Atlanta,10318,197,271,Georgia,0,0,2
+1996,Summer,United States,Atlanta,10318,197,271,Germany,20,18,27
+1996,Summer,United States,Atlanta,10318,197,271,Greece,4,4,0
+1996,Summer,United States,Atlanta,10318,197,271,"Hong Kong, China",1,0,0
+1996,Summer,United States,Atlanta,10318,197,271,Hungary,7,4,10
+1996,Summer,United States,Atlanta,10318,197,271,India,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Indonesia,1,1,2
+1996,Summer,United States,Atlanta,10318,197,271,Ireland,3,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Islamic Republic of Iran,1,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Israel,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Italy,13,10,12
+1996,Summer,United States,Atlanta,10318,197,271,Jamaica,1,3,2
+1996,Summer,United States,Atlanta,10318,197,271,Japan,3,6,5
+1996,Summer,United States,Atlanta,10318,197,271,Kazakhstan,3,4,4
+1996,Summer,United States,Atlanta,10318,197,271,Kenya,1,4,3
+1996,Summer,United States,Atlanta,10318,197,271,Latvia,0,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Lithuania,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Malaysia,0,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Mexico,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Moldova,0,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Mongolia,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Morocco,0,0,2
+1996,Summer,United States,Atlanta,10318,197,271,Mozambique,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Namibia,0,2,0
+1996,Summer,United States,Atlanta,10318,197,271,Netherlands,4,5,10
+1996,Summer,United States,Atlanta,10318,197,271,New Zealand,3,2,1
+1996,Summer,United States,Atlanta,10318,197,271,Nigeria,2,1,3
+1996,Summer,United States,Atlanta,10318,197,271,Norway,2,2,3
+1996,Summer,United States,Atlanta,10318,197,271,People's Republic of China,16,22,12
+1996,Summer,United States,Atlanta,10318,197,271,Philippines,0,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Poland,7,5,5
+1996,Summer,United States,Atlanta,10318,197,271,Portugal,1,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Puerto Rico,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Republic of Korea,7,15,5
+1996,Summer,United States,Atlanta,10318,197,271,Romania,4,7,9
+1996,Summer,United States,Atlanta,10318,197,271,Russian Federation,26,21,16
+1996,Summer,United States,Atlanta,10318,197,271,Serbia and Montenegro,1,1,2
+1996,Summer,United States,Atlanta,10318,197,271,Slovakia,1,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Slovenia,0,2,0
+1996,Summer,United States,Atlanta,10318,197,271,South Africa,3,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Spain,5,6,6
+1996,Summer,United States,Atlanta,10318,197,271,Sweden,2,4,2
+1996,Summer,United States,Atlanta,10318,197,271,Switzerland,4,3,0
+1996,Summer,United States,Atlanta,10318,197,271,Syrian Arab Republic,1,0,0
+1996,Summer,United States,Atlanta,10318,197,271,Thailand,1,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Tonga,0,1,0
+1996,Summer,United States,Atlanta,10318,197,271,Trinidad and Tobago,0,0,2
+1996,Summer,United States,Atlanta,10318,197,271,Tunisia,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Turkey,4,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Uganda,0,0,1
+1996,Summer,United States,Atlanta,10318,197,271,Ukraine,9,2,12
+1996,Summer,United States,Atlanta,10318,197,271,United Kingdom,1,8,6
+1996,Summer,United States,Atlanta,10318,197,271,United States of America,44,32,25
+1996,Summer,United States,Atlanta,10318,197,271,Uzbekistan,0,1,1
+1996,Summer,United States,Atlanta,10318,197,271,Zambia,0,1,0
+1994,Winter,Norway,Lillehammer,1737,67,61,Australia,0,0,1
+1994,Winter,Norway,Lillehammer,1737,67,61,Austria,2,3,4
+1994,Winter,Norway,Lillehammer,1737,67,61,Belarus,0,2,0
+1994,Winter,Norway,Lillehammer,1737,67,61,Canada,3,6,4
+1994,Winter,Norway,Lillehammer,1737,67,61,Finland,0,1,5
+1994,Winter,Norway,Lillehammer,1737,67,61,France,0,1,4
+1994,Winter,Norway,Lillehammer,1737,67,61,Germany,9,7,8
+1994,Winter,Norway,Lillehammer,1737,67,61,Italy,7,5,8
+1994,Winter,Norway,Lillehammer,1737,67,61,Japan,1,2,2
+1994,Winter,Norway,Lillehammer,1737,67,61,Kazakhstan,1,2,0
+1994,Winter,Norway,Lillehammer,1737,67,61,Netherlands,0,1,3
+1994,Winter,Norway,Lillehammer,1737,67,61,Norway,10,11,5
+1994,Winter,Norway,Lillehammer,1737,67,61,People's Republic of China,0,1,2
+1994,Winter,Norway,Lillehammer,1737,67,61,Republic of Korea,4,1,1
+1994,Winter,Norway,Lillehammer,1737,67,61,Russian Federation,11,8,4
+1994,Winter,Norway,Lillehammer,1737,67,61,Slovenia,0,0,3
+1994,Winter,Norway,Lillehammer,1737,67,61,Sweden,2,1,0
+1994,Winter,Norway,Lillehammer,1737,67,61,Switzerland,3,4,2
+1994,Winter,Norway,Lillehammer,1737,67,61,Ukraine,1,0,1
+1994,Winter,Norway,Lillehammer,1737,67,61,United Kingdom,0,0,2
+1994,Winter,Norway,Lillehammer,1737,67,61,United States of America,6,5,2
+1994,Winter,Norway,Lillehammer,1737,67,61,Uzbekistan,1,0,0
+1992,Summer,Spain,Barcelona,9356,169,257,Algeria,1,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Argentina,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Australia,7,9,11
+1992,Summer,Spain,Barcelona,9356,169,257,Austria,0,2,0
+1992,Summer,Spain,Barcelona,9356,169,257,Bahamas,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Belgium,0,1,2
+1992,Summer,Spain,Barcelona,9356,169,257,Brazil,2,1,0
+1992,Summer,Spain,Barcelona,9356,169,257,Bulgaria,3,7,6
+1992,Summer,Spain,Barcelona,9356,169,257,Canada,7,4,7
+1992,Summer,Spain,Barcelona,9356,169,257,Chinese Taipei,0,1,0
+1992,Summer,Spain,Barcelona,9356,169,257,Colombia,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Croatia,0,1,2
+1992,Summer,Spain,Barcelona,9356,169,257,Cuba,14,6,11
+1992,Summer,Spain,Barcelona,9356,169,257,Czechoslovakia,4,2,1
+1992,Summer,Spain,Barcelona,9356,169,257,Democratic People's Republic of Korea,4,0,5
+1992,Summer,Spain,Barcelona,9356,169,257,Denmark,1,1,4
+1992,Summer,Spain,Barcelona,9356,169,257,Estonia,1,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Ethiopia,1,0,2
+1992,Summer,Spain,Barcelona,9356,169,257,Finland,1,2,2
+1992,Summer,Spain,Barcelona,9356,169,257,France,8,5,16
+1992,Summer,Spain,Barcelona,9356,169,257,Germany,33,21,28
+1992,Summer,Spain,Barcelona,9356,169,257,Ghana,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Greece,2,0,0
+1992,Summer,Spain,Barcelona,9356,169,257,Hungary,11,12,7
+1992,Summer,Spain,Barcelona,9356,169,257,Independent Olympic Athletes,0,1,2
+1992,Summer,Spain,Barcelona,9356,169,257,Indonesia,2,2,1
+1992,Summer,Spain,Barcelona,9356,169,257,Ireland,1,1,0
+1992,Summer,Spain,Barcelona,9356,169,257,Islamic Republic of Iran,0,1,2
+1992,Summer,Spain,Barcelona,9356,169,257,Israel,0,1,1
+1992,Summer,Spain,Barcelona,9356,169,257,Italy,6,5,8
+1992,Summer,Spain,Barcelona,9356,169,257,Jamaica,0,3,1
+1992,Summer,Spain,Barcelona,9356,169,257,Japan,3,8,11
+1992,Summer,Spain,Barcelona,9356,169,257,Kenya,2,4,2
+1992,Summer,Spain,Barcelona,9356,169,257,Latvia,0,2,1
+1992,Summer,Spain,Barcelona,9356,169,257,Lithuania,1,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Malaysia,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Mexico,0,1,0
+1992,Summer,Spain,Barcelona,9356,169,257,Mongolia,0,0,2
+1992,Summer,Spain,Barcelona,9356,169,257,Morocco,1,1,1
+1992,Summer,Spain,Barcelona,9356,169,257,Namibia,0,2,0
+1992,Summer,Spain,Barcelona,9356,169,257,Netherlands,2,6,7
+1992,Summer,Spain,Barcelona,9356,169,257,New Zealand,1,4,5
+1992,Summer,Spain,Barcelona,9356,169,257,Nigeria,0,3,1
+1992,Summer,Spain,Barcelona,9356,169,257,Norway,2,4,1
+1992,Summer,Spain,Barcelona,9356,169,257,Pakistan,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,People's Republic of China,16,22,16
+1992,Summer,Spain,Barcelona,9356,169,257,Peru,0,1,0
+1992,Summer,Spain,Barcelona,9356,169,257,Philippines,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Poland,3,6,10
+1992,Summer,Spain,Barcelona,9356,169,257,Puerto Rico,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Qatar,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Republic of Korea,12,5,12
+1992,Summer,Spain,Barcelona,9356,169,257,Romania,4,6,8
+1992,Summer,Spain,Barcelona,9356,169,257,Slovenia,0,0,2
+1992,Summer,Spain,Barcelona,9356,169,257,South Africa,0,2,0
+1992,Summer,Spain,Barcelona,9356,169,257,Spain,13,7,2
+1992,Summer,Spain,Barcelona,9356,169,257,Suriname,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Sweden,1,7,4
+1992,Summer,Spain,Barcelona,9356,169,257,Switzerland,1,0,0
+1992,Summer,Spain,Barcelona,9356,169,257,Thailand,0,0,1
+1992,Summer,Spain,Barcelona,9356,169,257,Turkey,2,2,2
+1992,Summer,Spain,Barcelona,9356,169,257,Unified Team,45,38,29
+1992,Summer,Spain,Barcelona,9356,169,257,United Kingdom,5,3,12
+1992,Summer,Spain,Barcelona,9356,169,257,United States of America,37,34,37
+1992,Winter,France,Albertville,1801,64,57,Austria,6,7,8
+1992,Winter,France,Albertville,1801,64,57,Canada,2,3,2
+1992,Winter,France,Albertville,1801,64,57,Czechoslovakia,0,0,3
+1992,Winter,France,Albertville,1801,64,57,Democratic People's Republic of Korea,0,0,1
+1992,Winter,France,Albertville,1801,64,57,Finland,3,1,3
+1992,Winter,France,Albertville,1801,64,57,France,3,5,1
+1992,Winter,France,Albertville,1801,64,57,Germany,10,10,6
+1992,Winter,France,Albertville,1801,64,57,Italy,4,6,4
+1992,Winter,France,Albertville,1801,64,57,Japan,1,2,4
+1992,Winter,France,Albertville,1801,64,57,Luxembourg,0,2,0
+1992,Winter,France,Albertville,1801,64,57,Netherlands,1,1,2
+1992,Winter,France,Albertville,1801,64,57,New Zealand,0,1,0
+1992,Winter,France,Albertville,1801,64,57,Norway,9,6,5
+1992,Winter,France,Albertville,1801,64,57,People's Republic of China,0,3,0
+1992,Winter,France,Albertville,1801,64,57,Republic of Korea,2,1,1
+1992,Winter,France,Albertville,1801,64,57,Spain,0,0,1
+1992,Winter,France,Albertville,1801,64,57,Sweden,1,0,3
+1992,Winter,France,Albertville,1801,64,57,Switzerland,1,0,2
+1992,Winter,France,Albertville,1801,64,57,Unified Team,9,6,8
+1992,Winter,France,Albertville,1801,64,57,United States of America,5,4,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Argentina,0,1,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Australia,3,6,5
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Austria,1,0,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Belgium,0,0,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Brazil,1,2,3
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Bulgaria,10,12,13
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Canada,3,2,5
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Chile,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Colombia,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Costa Rica,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Czechoslovakia,3,3,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Denmark,2,1,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Djibouti,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Federal Republic of Germany,11,14,15
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Finland,1,1,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,France,6,4,6
+1988,Summer,Republic of Korea,Seoul,8397,159,237,German Democratic Republic (Germany),37,35,30
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Greece,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Hungary,11,6,6
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Indonesia,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Islamic Republic of Iran,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Italy,6,4,4
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Jamaica,0,2,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Japan,4,3,7
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Kenya,5,2,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Mexico,0,0,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Mongolia,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Morocco,1,0,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Netherlands,2,2,5
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Netherlands Antilles,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,New Zealand,3,2,8
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Norway,2,3,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Pakistan,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,People's Republic of China,5,11,12
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Peru,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Philippines,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Poland,2,5,9
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Portugal,1,0,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Republic of Korea,12,10,11
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Romania,7,11,6
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Senegal,0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Spain,1,1,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Suriname,1,0,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Sweden,0,4,7
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Switzerland,0,2,2
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Thailand,0,0,1
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Turkey,1,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,USSR,55,31,46
+1988,Summer,Republic of Korea,Seoul,8397,159,237,United Kingdom,5,10,9
+1988,Summer,Republic of Korea,Seoul,8397,159,237,United States of America,36,31,27
+1988,Summer,Republic of Korea,Seoul,8397,159,237,"Virgin Islands, US",0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,Yugoslavia,3,4,5
+1988,Winter,Canada,Calgary,1423,57,46,Austria,3,5,2
+1988,Winter,Canada,Calgary,1423,57,46,Canada,0,2,3
+1988,Winter,Canada,Calgary,1423,57,46,Czechoslovakia,0,1,2
+1988,Winter,Canada,Calgary,1423,57,46,Federal Republic of Germany,2,4,2
+1988,Winter,Canada,Calgary,1423,57,46,Finland,4,1,2
+1988,Winter,Canada,Calgary,1423,57,46,France,1,0,1
+1988,Winter,Canada,Calgary,1423,57,46,German Democratic Republic (Germany),9,10,6
+1988,Winter,Canada,Calgary,1423,57,46,Italy,2,1,2
+1988,Winter,Canada,Calgary,1423,57,46,Japan,0,0,1
+1988,Winter,Canada,Calgary,1423,57,46,Liechtenstein,0,0,1
+1988,Winter,Canada,Calgary,1423,57,46,Netherlands,3,2,2
+1988,Winter,Canada,Calgary,1423,57,46,Norway,0,3,2
+1988,Winter,Canada,Calgary,1423,57,46,Sweden,4,0,2
+1988,Winter,Canada,Calgary,1423,57,46,Switzerland,5,5,5
+1988,Winter,Canada,Calgary,1423,57,46,USSR,11,9,9
+1988,Winter,Canada,Calgary,1423,57,46,United States of America,2,1,3
+1988,Winter,Canada,Calgary,1423,57,46,Yugoslavia,0,2,1
+1984,Summer,United States,Los Angeles,6829,140,221,Algeria,0,0,2
+1984,Summer,United States,Los Angeles,6829,140,221,Australia,4,8,12
+1984,Summer,United States,Los Angeles,6829,140,221,Austria,1,1,1
+1984,Summer,United States,Los Angeles,6829,140,221,Belgium,1,1,2
+1984,Summer,United States,Los Angeles,6829,140,221,Brazil,1,5,2
+1984,Summer,United States,Los Angeles,6829,140,221,Cameroon,0,0,1
+1984,Summer,United States,Los Angeles,6829,140,221,Canada,10,18,16
+1984,Summer,United States,Los Angeles,6829,140,221,Chinese Taipei,0,0,1
+1984,Summer,United States,Los Angeles,6829,140,221,Colombia,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Côte d'Ivoire,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Denmark,0,3,3
+1984,Summer,United States,Los Angeles,6829,140,221,Dominican Republic,0,0,1
+1984,Summer,United States,Los Angeles,6829,140,221,Egypt,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Federal Republic of Germany,17,19,23
+1984,Summer,United States,Los Angeles,6829,140,221,Finland,4,2,6
+1984,Summer,United States,Los Angeles,6829,140,221,France,5,7,16
+1984,Summer,United States,Los Angeles,6829,140,221,Greece,0,1,1
+1984,Summer,United States,Los Angeles,6829,140,221,Iceland,0,0,1
+1984,Summer,United States,Los Angeles,6829,140,221,Ireland,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Italy,14,6,12
+1984,Summer,United States,Los Angeles,6829,140,221,Jamaica,0,1,2
+1984,Summer,United States,Los Angeles,6829,140,221,Japan,10,8,14
+1984,Summer,United States,Los Angeles,6829,140,221,Kenya,1,0,2
+1984,Summer,United States,Los Angeles,6829,140,221,Mexico,2,3,1
+1984,Summer,United States,Los Angeles,6829,140,221,Morocco,2,0,0
+1984,Summer,United States,Los Angeles,6829,140,221,Netherlands,5,2,6
+1984,Summer,United States,Los Angeles,6829,140,221,New Zealand,8,1,2
+1984,Summer,United States,Los Angeles,6829,140,221,Nigeria,0,1,1
+1984,Summer,United States,Los Angeles,6829,140,221,Norway,0,1,2
+1984,Summer,United States,Los Angeles,6829,140,221,Pakistan,1,0,0
+1984,Summer,United States,Los Angeles,6829,140,221,People's Republic of China,15,8,9
+1984,Summer,United States,Los Angeles,6829,140,221,Peru,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Portugal,1,0,2
+1984,Summer,United States,Los Angeles,6829,140,221,Puerto Rico,0,1,1
+1984,Summer,United States,Los Angeles,6829,140,221,Republic of Korea,6,6,7
+1984,Summer,United States,Los Angeles,6829,140,221,Romania,20,16,17
+1984,Summer,United States,Los Angeles,6829,140,221,Spain,1,2,2
+1984,Summer,United States,Los Angeles,6829,140,221,Sweden,2,11,6
+1984,Summer,United States,Los Angeles,6829,140,221,Switzerland,0,4,4
+1984,Summer,United States,Los Angeles,6829,140,221,Syrian Arab Republic,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Thailand,0,1,0
+1984,Summer,United States,Los Angeles,6829,140,221,Turkey,0,0,3
+1984,Summer,United States,Los Angeles,6829,140,221,United Kingdom,5,11,21
+1984,Summer,United States,Los Angeles,6829,140,221,United States of America,83,61,30
+1984,Summer,United States,Los Angeles,6829,140,221,Venezuela,0,0,3
+1984,Summer,United States,Los Angeles,6829,140,221,Yugoslavia,7,4,7
+1984,Summer,United States,Los Angeles,6829,140,221,Zambia,0,0,1
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Austria,0,0,1
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Canada,2,1,1
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Czechoslovakia,0,2,4
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Federal Republic of Germany,2,1,1
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Finland,4,3,6
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,France,0,1,2
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,German Democratic Republic (Germany),9,9,6
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Italy,2,0,0
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Japan,0,1,0
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Liechtenstein,0,0,2
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Norway,3,2,4
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Sweden,4,2,2
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Switzerland,2,2,1
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,USSR,6,10,9
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,United Kingdom,1,0,0
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,United States of America,4,4,0
+1984,Winter,Yugoslavia,Sarajevo,1272,49,39,Yugoslavia,0,1,0
+1980,Summer,USSR,Moscow,5179,80,203,Australia,2,2,5
+1980,Summer,USSR,Moscow,5179,80,203,Austria,1,2,1
+1980,Summer,USSR,Moscow,5179,80,203,Belgium,1,0,0
+1980,Summer,USSR,Moscow,5179,80,203,Brazil,2,0,2
+1980,Summer,USSR,Moscow,5179,80,203,Bulgaria,8,16,17
+1980,Summer,USSR,Moscow,5179,80,203,Cuba,8,7,5
+1980,Summer,USSR,Moscow,5179,80,203,Czechoslovakia,2,3,9
+1980,Summer,USSR,Moscow,5179,80,203,Democratic People's Republic of Korea,0,3,2
+1980,Summer,USSR,Moscow,5179,80,203,Denmark,2,1,2
+1980,Summer,USSR,Moscow,5179,80,203,Ethiopia,2,0,2
+1980,Summer,USSR,Moscow,5179,80,203,Finland,3,1,4
+1980,Summer,USSR,Moscow,5179,80,203,France,6,5,3
+1980,Summer,USSR,Moscow,5179,80,203,German Democratic Republic (Germany),47,37,42
+1980,Summer,USSR,Moscow,5179,80,203,Greece,1,0,2
+1980,Summer,USSR,Moscow,5179,80,203,Guyana,0,0,1
+1980,Summer,USSR,Moscow,5179,80,203,Hungary,7,10,15
+1980,Summer,USSR,Moscow,5179,80,203,India,1,0,0
+1980,Summer,USSR,Moscow,5179,80,203,Ireland,0,1,1
+1980,Summer,USSR,Moscow,5179,80,203,Italy,8,3,4
+1980,Summer,USSR,Moscow,5179,80,203,Jamaica,0,0,3
+1980,Summer,USSR,Moscow,5179,80,203,Lebanon,0,0,1
+1980,Summer,USSR,Moscow,5179,80,203,Mexico,0,1,3
+1980,Summer,USSR,Moscow,5179,80,203,Mongolia,0,2,2
+1980,Summer,USSR,Moscow,5179,80,203,Netherlands,0,1,2
+1980,Summer,USSR,Moscow,5179,80,203,Poland,3,14,15
+1980,Summer,USSR,Moscow,5179,80,203,Romania,6,6,13
+1980,Summer,USSR,Moscow,5179,80,203,Spain,1,3,2
+1980,Summer,USSR,Moscow,5179,80,203,Sweden,3,3,6
+1980,Summer,USSR,Moscow,5179,80,203,Switzerland,2,0,0
+1980,Summer,USSR,Moscow,5179,80,203,USSR,80,69,46
+1980,Summer,USSR,Moscow,5179,80,203,Uganda,0,1,0
+1980,Summer,USSR,Moscow,5179,80,203,United Kingdom,5,7,9
+1980,Summer,USSR,Moscow,5179,80,203,United Republic of Tanzania,0,2,0
+1980,Summer,USSR,Moscow,5179,80,203,Venezuela,0,1,0
+1980,Summer,USSR,Moscow,5179,80,203,Yugoslavia,2,3,4
+1980,Summer,USSR,Moscow,5179,80,203,Zimbabwe,1,0,0
+1980,Winter,United States,Lake Placid,1072,37,38,Austria,3,2,2
+1980,Winter,United States,Lake Placid,1072,37,38,Bulgaria,0,0,1
+1980,Winter,United States,Lake Placid,1072,37,38,Canada,0,1,1
+1980,Winter,United States,Lake Placid,1072,37,38,Czechoslovakia,0,0,1
+1980,Winter,United States,Lake Placid,1072,37,38,Federal Republic of Germany,0,2,3
+1980,Winter,United States,Lake Placid,1072,37,38,Finland,1,5,3
+1980,Winter,United States,Lake Placid,1072,37,38,France,0,0,1
+1980,Winter,United States,Lake Placid,1072,37,38,German Democratic Republic (Germany),9,7,7
+1980,Winter,United States,Lake Placid,1072,37,38,Hungary,0,1,0
+1980,Winter,United States,Lake Placid,1072,37,38,Italy,0,2,0
+1980,Winter,United States,Lake Placid,1072,37,38,Japan,0,1,0
+1980,Winter,United States,Lake Placid,1072,37,38,Liechtenstein,2,2,0
+1980,Winter,United States,Lake Placid,1072,37,38,Netherlands,1,2,1
+1980,Winter,United States,Lake Placid,1072,37,38,Norway,1,3,6
+1980,Winter,United States,Lake Placid,1072,37,38,Sweden,3,0,1
+1980,Winter,United States,Lake Placid,1072,37,38,Switzerland,1,1,3
+1980,Winter,United States,Lake Placid,1072,37,38,USSR,10,6,6
+1980,Winter,United States,Lake Placid,1072,37,38,United Kingdom,1,0,0
+1980,Winter,United States,Lake Placid,1072,37,38,United States of America,6,4,2
+1976,Summer,Canada,Montreal,6084,92,198,Australia,0,1,4
+1976,Summer,Canada,Montreal,6084,92,198,Austria,0,0,1
+1976,Summer,Canada,Montreal,6084,92,198,Belgium,0,3,3
+1976,Summer,Canada,Montreal,6084,92,198,Bermuda,0,0,1
+1976,Summer,Canada,Montreal,6084,92,198,Brazil,0,0,2
+1976,Summer,Canada,Montreal,6084,92,198,Bulgaria,6,9,7
+1976,Summer,Canada,Montreal,6084,92,198,Canada,0,5,6
+1976,Summer,Canada,Montreal,6084,92,198,Cuba,6,4,3
+1976,Summer,Canada,Montreal,6084,92,198,Czechoslovakia,2,2,4
+1976,Summer,Canada,Montreal,6084,92,198,Democratic People's Republic of Korea,1,1,0
+1976,Summer,Canada,Montreal,6084,92,198,Denmark,1,0,2
+1976,Summer,Canada,Montreal,6084,92,198,Federal Republic of Germany,10,12,17
+1976,Summer,Canada,Montreal,6084,92,198,Finland,4,2,0
+1976,Summer,Canada,Montreal,6084,92,198,France,2,3,4
+1976,Summer,Canada,Montreal,6084,92,198,German Democratic Republic (Germany),40,25,25
+1976,Summer,Canada,Montreal,6084,92,198,Hungary,4,5,13
+1976,Summer,Canada,Montreal,6084,92,198,Islamic Republic of Iran,0,1,1
+1976,Summer,Canada,Montreal,6084,92,198,Italy,2,7,4
+1976,Summer,Canada,Montreal,6084,92,198,Jamaica,1,1,0
+1976,Summer,Canada,Montreal,6084,92,198,Japan,9,6,10
+1976,Summer,Canada,Montreal,6084,92,198,Mexico,1,0,1
+1976,Summer,Canada,Montreal,6084,92,198,Mongolia,0,1,0
+1976,Summer,Canada,Montreal,6084,92,198,Netherlands,0,2,3
+1976,Summer,Canada,Montreal,6084,92,198,New Zealand,2,1,1
+1976,Summer,Canada,Montreal,6084,92,198,Norway,1,1,0
+1976,Summer,Canada,Montreal,6084,92,198,Pakistan,0,0,1
+1976,Summer,Canada,Montreal,6084,92,198,Poland,7,6,13
+1976,Summer,Canada,Montreal,6084,92,198,Portugal,0,2,0
+1976,Summer,Canada,Montreal,6084,92,198,Puerto Rico,0,0,1
+1976,Summer,Canada,Montreal,6084,92,198,Republic of Korea,1,1,4
+1976,Summer,Canada,Montreal,6084,92,198,Romania,4,9,14
+1976,Summer,Canada,Montreal,6084,92,198,Spain,0,2,0
+1976,Summer,Canada,Montreal,6084,92,198,Sweden,4,1,0
+1976,Summer,Canada,Montreal,6084,92,198,Switzerland,1,1,2
+1976,Summer,Canada,Montreal,6084,92,198,Thailand,0,0,1
+1976,Summer,Canada,Montreal,6084,92,198,Trinidad and Tobago,1,0,0
+1976,Summer,Canada,Montreal,6084,92,198,USSR,49,41,35
+1976,Summer,Canada,Montreal,6084,92,198,United Kingdom,3,5,5
+1976,Summer,Canada,Montreal,6084,92,198,United States of America,34,35,25
+1976,Summer,Canada,Montreal,6084,92,198,Venezuela,0,1,0
+1976,Summer,Canada,Montreal,6084,92,198,Yugoslavia,2,3,3
+1976,Winter,Austria,Innsbruck,1123,37,37,Austria,2,2,2
+1976,Winter,Austria,Innsbruck,1123,37,37,Canada,1,1,1
+1976,Winter,Austria,Innsbruck,1123,37,37,Czechoslovakia,0,1,0
+1976,Winter,Austria,Innsbruck,1123,37,37,Federal Republic of Germany,2,5,3
+1976,Winter,Austria,Innsbruck,1123,37,37,Finland,2,4,1
+1976,Winter,Austria,Innsbruck,1123,37,37,France,0,0,1
+1976,Winter,Austria,Innsbruck,1123,37,37,German Democratic Republic (Germany),7,5,7
+1976,Winter,Austria,Innsbruck,1123,37,37,Italy,1,2,1
+1976,Winter,Austria,Innsbruck,1123,37,37,Liechtenstein,0,0,2
+1976,Winter,Austria,Innsbruck,1123,37,37,Netherlands,1,2,3
+1976,Winter,Austria,Innsbruck,1123,37,37,Norway,3,3,1
+1976,Winter,Austria,Innsbruck,1123,37,37,Sweden,0,0,2
+1976,Winter,Austria,Innsbruck,1123,37,37,Switzerland,1,3,1
+1976,Winter,Austria,Innsbruck,1123,37,37,USSR,13,6,8
+1976,Winter,Austria,Innsbruck,1123,37,37,United Kingdom,1,0,0
+1976,Winter,Austria,Innsbruck,1123,37,37,United States of America,3,3,4
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Argentina,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Australia,8,7,2
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Austria,0,1,2
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Belgium,0,2,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Brazil,0,0,2
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Bulgaria,6,10,5
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Canada,0,2,3
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Colombia,0,1,2
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Cuba,3,1,4
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Czechoslovakia,2,4,2
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Democratic People's Republic of Korea,1,1,3
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Denmark,1,0,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Ethiopia,0,0,2
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Federal Republic of Germany,13,11,16
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Finland,3,1,4
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,France,2,4,7
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,German Democratic Republic (Germany),20,23,23
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Ghana,0,0,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Greece,0,2,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Hungary,6,13,16
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,India,0,0,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Islamic Republic of Iran,0,2,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Italy,5,3,10
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Jamaica,0,0,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Japan,13,8,8
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Kenya,2,3,4
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Lebanon,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Mexico,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Mongolia,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Netherlands,3,1,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,New Zealand,1,1,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Niger,0,0,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Nigeria,0,0,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Norway,2,1,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Pakistan,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Poland,7,5,9
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Republic of Korea,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Romania,3,6,7
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Spain,0,0,1
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Sweden,4,6,6
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Switzerland,0,3,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Tunisia,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Turkey,0,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,USSR,50,27,22
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Uganda,1,1,0
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,United Kingdom,4,5,9
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,United States of America,33,31,30
+1972,Summer,Federal Republic of Germany,Munich,7134,121,195,Yugoslavia,2,1,2
+1972,Winter,Japan,Sapporo,1006,35,35,Austria,1,2,2
+1972,Winter,Japan,Sapporo,1006,35,35,Canada,0,1,0
+1972,Winter,Japan,Sapporo,1006,35,35,Czechoslovakia,1,0,2
+1972,Winter,Japan,Sapporo,1006,35,35,Federal Republic of Germany,3,1,1
+1972,Winter,Japan,Sapporo,1006,35,35,Finland,0,4,1
+1972,Winter,Japan,Sapporo,1006,35,35,France,0,1,2
+1972,Winter,Japan,Sapporo,1006,35,35,German Democratic Republic (Germany),4,3,7
+1972,Winter,Japan,Sapporo,1006,35,35,Italy,2,2,1
+1972,Winter,Japan,Sapporo,1006,35,35,Japan,1,1,1
+1972,Winter,Japan,Sapporo,1006,35,35,Netherlands,4,3,2
+1972,Winter,Japan,Sapporo,1006,35,35,Norway,2,5,5
+1972,Winter,Japan,Sapporo,1006,35,35,Poland,1,0,0
+1972,Winter,Japan,Sapporo,1006,35,35,Spain,1,0,0
+1972,Winter,Japan,Sapporo,1006,35,35,Sweden,1,1,2
+1972,Winter,Japan,Sapporo,1006,35,35,Switzerland,4,3,3
+1972,Winter,Japan,Sapporo,1006,35,35,USSR,8,5,3
+1972,Winter,Japan,Sapporo,1006,35,35,United States of America,3,2,3
+1968,Summer,Mexico,Mexico City,5516,112,172,Argentina,0,0,2
+1968,Summer,Mexico,Mexico City,5516,112,172,Australia,5,7,5
+1968,Summer,Mexico,Mexico City,5516,112,172,Austria,0,2,2
+1968,Summer,Mexico,Mexico City,5516,112,172,Belgium,0,1,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Brazil,0,1,2
+1968,Summer,Mexico,Mexico City,5516,112,172,Bulgaria,2,4,3
+1968,Summer,Mexico,Mexico City,5516,112,172,Cameroon,0,1,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Canada,1,3,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Chinese Taipei,0,0,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Cuba,0,4,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Czechoslovakia,7,2,4
+1968,Summer,Mexico,Mexico City,5516,112,172,Denmark,1,4,3
+1968,Summer,Mexico,Mexico City,5516,112,172,Ethiopia,1,1,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Federal Republic of Germany,5,11,10
+1968,Summer,Mexico,Mexico City,5516,112,172,Finland,1,2,1
+1968,Summer,Mexico,Mexico City,5516,112,172,France,7,3,5
+1968,Summer,Mexico,Mexico City,5516,112,172,German Democratic Republic (Germany),9,9,7
+1968,Summer,Mexico,Mexico City,5516,112,172,Greece,0,0,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Hungary,10,10,12
+1968,Summer,Mexico,Mexico City,5516,112,172,India,0,0,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Islamic Republic of Iran,2,1,2
+1968,Summer,Mexico,Mexico City,5516,112,172,Italy,3,4,9
+1968,Summer,Mexico,Mexico City,5516,112,172,Jamaica,0,1,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Japan,11,7,7
+1968,Summer,Mexico,Mexico City,5516,112,172,Kenya,3,4,2
+1968,Summer,Mexico,Mexico City,5516,112,172,Mexico,3,3,3
+1968,Summer,Mexico,Mexico City,5516,112,172,Mongolia,0,1,3
+1968,Summer,Mexico,Mexico City,5516,112,172,Netherlands,3,3,1
+1968,Summer,Mexico,Mexico City,5516,112,172,New Zealand,1,0,2
+1968,Summer,Mexico,Mexico City,5516,112,172,Norway,1,1,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Pakistan,1,0,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Poland,5,2,11
+1968,Summer,Mexico,Mexico City,5516,112,172,Republic of Korea,0,1,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Romania,4,6,5
+1968,Summer,Mexico,Mexico City,5516,112,172,Sweden,2,1,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Switzerland,0,1,4
+1968,Summer,Mexico,Mexico City,5516,112,172,Tunisia,1,0,1
+1968,Summer,Mexico,Mexico City,5516,112,172,Turkey,2,0,0
+1968,Summer,Mexico,Mexico City,5516,112,172,USSR,29,32,30
+1968,Summer,Mexico,Mexico City,5516,112,172,Uganda,0,1,1
+1968,Summer,Mexico,Mexico City,5516,112,172,United Kingdom,5,5,3
+1968,Summer,Mexico,Mexico City,5516,112,172,United States of America,45,28,34
+1968,Summer,Mexico,Mexico City,5516,112,172,Venezuela,1,0,0
+1968,Summer,Mexico,Mexico City,5516,112,172,Yugoslavia,3,3,2
+1968,Winter,France,Grenoble,1158,37,35,Austria,3,4,4
+1968,Winter,France,Grenoble,1158,37,35,Canada,1,1,1
+1968,Winter,France,Grenoble,1158,37,35,Czechoslovakia,1,2,1
+1968,Winter,France,Grenoble,1158,37,35,Federal Republic of Germany,2,2,3
+1968,Winter,France,Grenoble,1158,37,35,Finland,1,2,2
+1968,Winter,France,Grenoble,1158,37,35,France,4,3,2
+1968,Winter,France,Grenoble,1158,37,35,German Democratic Republic (Germany),1,2,2
+1968,Winter,France,Grenoble,1158,37,35,Italy,4,0,0
+1968,Winter,France,Grenoble,1158,37,35,Netherlands,3,3,3
+1968,Winter,France,Grenoble,1158,37,35,Norway,6,6,2
+1968,Winter,France,Grenoble,1158,37,35,Romania,0,0,1
+1968,Winter,France,Grenoble,1158,37,35,Sweden,3,2,3
+1968,Winter,France,Grenoble,1158,37,35,Switzerland,0,2,4
+1968,Winter,France,Grenoble,1158,37,35,USSR,5,5,3
+1968,Winter,France,Grenoble,1158,37,35,United States of America,1,5,1
+1964,Summer,Japan,Tokyo,5151,93,163,Argentina,0,1,0
+1964,Summer,Japan,Tokyo,5151,93,163,Australia,6,2,10
+1964,Summer,Japan,Tokyo,5151,93,163,Bahamas,1,0,0
+1964,Summer,Japan,Tokyo,5151,93,163,Belgium,2,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Brazil,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Bulgaria,3,5,2
+1964,Summer,Japan,Tokyo,5151,93,163,Canada,1,2,1
+1964,Summer,Japan,Tokyo,5151,93,163,Cuba,0,1,0
+1964,Summer,Japan,Tokyo,5151,93,163,Czechoslovakia,5,6,3
+1964,Summer,Japan,Tokyo,5151,93,163,Denmark,2,1,3
+1964,Summer,Japan,Tokyo,5151,93,163,Ethiopia,1,0,0
+1964,Summer,Japan,Tokyo,5151,93,163,Finland,3,0,2
+1964,Summer,Japan,Tokyo,5151,93,163,France,1,8,6
+1964,Summer,Japan,Tokyo,5151,93,163,Germany,10,22,18
+1964,Summer,Japan,Tokyo,5151,93,163,Ghana,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Hungary,10,7,5
+1964,Summer,Japan,Tokyo,5151,93,163,India,1,0,0
+1964,Summer,Japan,Tokyo,5151,93,163,Ireland,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Islamic Republic of Iran,0,0,2
+1964,Summer,Japan,Tokyo,5151,93,163,Italy,10,10,7
+1964,Summer,Japan,Tokyo,5151,93,163,Japan,16,5,8
+1964,Summer,Japan,Tokyo,5151,93,163,Kenya,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Mexico,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Netherlands,2,4,4
+1964,Summer,Japan,Tokyo,5151,93,163,New Zealand,3,0,2
+1964,Summer,Japan,Tokyo,5151,93,163,Nigeria,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Pakistan,0,1,0
+1964,Summer,Japan,Tokyo,5151,93,163,Philippines,0,1,0
+1964,Summer,Japan,Tokyo,5151,93,163,Poland,7,6,10
+1964,Summer,Japan,Tokyo,5151,93,163,Republic of Korea,0,2,1
+1964,Summer,Japan,Tokyo,5151,93,163,Romania,2,4,6
+1964,Summer,Japan,Tokyo,5151,93,163,Sweden,2,2,4
+1964,Summer,Japan,Tokyo,5151,93,163,Switzerland,1,2,1
+1964,Summer,Japan,Tokyo,5151,93,163,Trinidad and Tobago,0,1,2
+1964,Summer,Japan,Tokyo,5151,93,163,Tunisia,0,1,1
+1964,Summer,Japan,Tokyo,5151,93,163,Turkey,2,3,1
+1964,Summer,Japan,Tokyo,5151,93,163,USSR,30,31,35
+1964,Summer,Japan,Tokyo,5151,93,163,United Kingdom,4,12,2
+1964,Summer,Japan,Tokyo,5151,93,163,United States of America,36,26,28
+1964,Summer,Japan,Tokyo,5151,93,163,Uruguay,0,0,1
+1964,Summer,Japan,Tokyo,5151,93,163,Yugoslavia,2,1,2
+1964,Winter,Austria,Innsbruck,1091,36,34,Austria,4,5,3
+1964,Winter,Austria,Innsbruck,1091,36,34,Canada,1,1,1
+1964,Winter,Austria,Innsbruck,1091,36,34,Czechoslovakia,0,0,1
+1964,Winter,Austria,Innsbruck,1091,36,34,Democratic People's Republic of Korea,0,1,0
+1964,Winter,Austria,Innsbruck,1091,36,34,Finland,3,4,3
+1964,Winter,Austria,Innsbruck,1091,36,34,France,3,4,0
+1964,Winter,Austria,Innsbruck,1091,36,34,Germany,3,3,3
+1964,Winter,Austria,Innsbruck,1091,36,34,Italy,0,1,3
+1964,Winter,Austria,Innsbruck,1091,36,34,Netherlands,1,1,0
+1964,Winter,Austria,Innsbruck,1091,36,34,Norway,3,6,6
+1964,Winter,Austria,Innsbruck,1091,36,34,Sweden,3,3,1
+1964,Winter,Austria,Innsbruck,1091,36,34,USSR,11,8,6
+1964,Winter,Austria,Innsbruck,1091,36,34,United Kingdom,1,0,0
+1964,Winter,Austria,Innsbruck,1091,36,34,United States of America,1,2,4
+1960,Summer,Italy,Rome,5338,83,150,Argentina,0,1,1
+1960,Summer,Italy,Rome,5338,83,150,Australia,8,8,6
+1960,Summer,Italy,Rome,5338,83,150,Austria,1,1,0
+1960,Summer,Italy,Rome,5338,83,150,Belgium,0,2,2
+1960,Summer,Italy,Rome,5338,83,150,Brazil,0,0,2
+1960,Summer,Italy,Rome,5338,83,150,Bulgaria,1,3,3
+1960,Summer,Italy,Rome,5338,83,150,Canada,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,Chinese Taipei,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,Czechoslovakia,3,2,3
+1960,Summer,Italy,Rome,5338,83,150,Denmark,2,3,1
+1960,Summer,Italy,Rome,5338,83,150,Ethiopia,1,0,0
+1960,Summer,Italy,Rome,5338,83,150,Finland,1,1,3
+1960,Summer,Italy,Rome,5338,83,150,France,0,2,3
+1960,Summer,Italy,Rome,5338,83,150,Germany,12,19,11
+1960,Summer,Italy,Rome,5338,83,150,Ghana,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,Greece,1,0,0
+1960,Summer,Italy,Rome,5338,83,150,Hungary,6,8,7
+1960,Summer,Italy,Rome,5338,83,150,India,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,Iraq,0,0,1
+1960,Summer,Italy,Rome,5338,83,150,Islamic Republic of Iran,0,1,3
+1960,Summer,Italy,Rome,5338,83,150,Italy,13,10,13
+1960,Summer,Italy,Rome,5338,83,150,Jamaica,0,0,2
+1960,Summer,Italy,Rome,5338,83,150,Japan,4,7,7
+1960,Summer,Italy,Rome,5338,83,150,Mexico,0,0,1
+1960,Summer,Italy,Rome,5338,83,150,Morocco,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,Netherlands,0,1,2
+1960,Summer,Italy,Rome,5338,83,150,New Zealand,2,0,1
+1960,Summer,Italy,Rome,5338,83,150,Norway,1,0,0
+1960,Summer,Italy,Rome,5338,83,150,Pakistan,1,0,1
+1960,Summer,Italy,Rome,5338,83,150,Poland,4,6,11
+1960,Summer,Italy,Rome,5338,83,150,Portugal,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,Romania,3,1,6
+1960,Summer,Italy,Rome,5338,83,150,Singapore,0,1,0
+1960,Summer,Italy,Rome,5338,83,150,South Africa,0,1,2
+1960,Summer,Italy,Rome,5338,83,150,Spain,0,0,1
+1960,Summer,Italy,Rome,5338,83,150,Sweden,1,2,3
+1960,Summer,Italy,Rome,5338,83,150,Switzerland,0,3,3
+1960,Summer,Italy,Rome,5338,83,150,Turkey,7,2,0
+1960,Summer,Italy,Rome,5338,83,150,USSR,43,29,31
+1960,Summer,Italy,Rome,5338,83,150,United Arab Emirates,0,1,1
+1960,Summer,Italy,Rome,5338,83,150,United Kingdom,2,6,12
+1960,Summer,Italy,Rome,5338,83,150,United States of America,34,21,16
+1960,Summer,Italy,Rome,5338,83,150,Venezuela,0,0,1
+1960,Summer,Italy,Rome,5338,83,150,Yugoslavia,1,1,0
+1960,Winter,United States,Squaw Valley,665,30,27,Austria,1,2,3
+1960,Winter,United States,Squaw Valley,665,30,27,Canada,2,1,1
+1960,Winter,United States,Squaw Valley,665,30,27,Czechoslovakia,0,1,0
+1960,Winter,United States,Squaw Valley,665,30,27,Finland,2,3,3
+1960,Winter,United States,Squaw Valley,665,30,27,France,1,0,2
+1960,Winter,United States,Squaw Valley,665,30,27,Germany,4,3,1
+1960,Winter,United States,Squaw Valley,665,30,27,Italy,0,0,1
+1960,Winter,United States,Squaw Valley,665,30,27,Netherlands,0,1,1
+1960,Winter,United States,Squaw Valley,665,30,27,Norway,3,3,0
+1960,Winter,United States,Squaw Valley,665,30,27,Poland,0,1,1
+1960,Winter,United States,Squaw Valley,665,30,27,Sweden,3,2,2
+1960,Winter,United States,Squaw Valley,665,30,27,Switzerland,2,0,0
+1960,Winter,United States,Squaw Valley,665,30,27,USSR,7,5,9
+1960,Winter,United States,Squaw Valley,665,30,27,United States of America,3,4,3
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Argentina,0,1,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Australia,13,8,14
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Austria,0,0,2
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Bahamas,0,0,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Belgium,0,2,0
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Brazil,1,0,0
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Bulgaria,1,3,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Canada,2,1,2
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Chile,0,2,2
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Czechoslovakia,1,4,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Denmark,1,1,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Finland,3,1,11
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,France,4,4,6
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Germany,4,10,6
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Greece,0,0,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Hungary,9,10,7
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Iceland,0,1,0
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,India,1,0,0
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Ireland,1,1,3
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Islamic Republic of Iran,2,2,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Italy,8,6,8
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Japan,4,10,5
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Mexico,1,0,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,New Zealand,2,0,0
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Norway,1,0,2
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Pakistan,0,1,0
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Poland,1,4,4
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Republic of Korea,0,1,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Romania,5,3,5
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,South Africa,0,0,4
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Sweden,5,5,6
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Turkey,3,2,2
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,USSR,37,29,32
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,United Kingdom,5,7,9
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,United States of America,32,25,17
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Uruguay,0,0,1
+1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Yugoslavia,0,3,0
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Austria,4,3,4
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Canada,0,1,2
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Finland,3,3,1
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Germany,1,0,1
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Hungary,0,0,1
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Italy,1,2,0
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Japan,0,1,0
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Norway,2,1,1
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Poland,0,0,1
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Sweden,2,4,4
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Switzerland,3,2,1
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,USSR,7,3,6
+1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,United States of America,2,3,2
+1952,Summer,Finland,Helsinki,4955,69,149,Argentina,1,2,2
+1952,Summer,Finland,Helsinki,4955,69,149,Australia,6,2,3
+1952,Summer,Finland,Helsinki,4955,69,149,Austria,0,1,1
+1952,Summer,Finland,Helsinki,4955,69,149,Belgium,2,2,0
+1952,Summer,Finland,Helsinki,4955,69,149,Brazil,1,0,2
+1952,Summer,Finland,Helsinki,4955,69,149,Bulgaria,0,0,1
+1952,Summer,Finland,Helsinki,4955,69,149,Canada,1,2,0
+1952,Summer,Finland,Helsinki,4955,69,149,Chile,0,2,0
+1952,Summer,Finland,Helsinki,4955,69,149,Czechoslovakia,7,3,3
+1952,Summer,Finland,Helsinki,4955,69,149,Denmark,2,1,3
+1952,Summer,Finland,Helsinki,4955,69,149,Egypt,0,0,1
+1952,Summer,Finland,Helsinki,4955,69,149,Finland,6,3,13
+1952,Summer,Finland,Helsinki,4955,69,149,France,6,6,6
+1952,Summer,Finland,Helsinki,4955,69,149,Germany,0,7,17
+1952,Summer,Finland,Helsinki,4955,69,149,Hungary,16,10,16
+1952,Summer,Finland,Helsinki,4955,69,149,India,1,0,1
+1952,Summer,Finland,Helsinki,4955,69,149,Ireland,0,1,0
+1952,Summer,Finland,Helsinki,4955,69,149,Islamic Republic of Iran,0,3,4
+1952,Summer,Finland,Helsinki,4955,69,149,Italy,8,9,4
+1952,Summer,Finland,Helsinki,4955,69,149,Jamaica,2,3,0
+1952,Summer,Finland,Helsinki,4955,69,149,Japan,1,6,2
+1952,Summer,Finland,Helsinki,4955,69,149,Lebanon,0,1,1
+1952,Summer,Finland,Helsinki,4955,69,149,Luxembourg,1,0,0
+1952,Summer,Finland,Helsinki,4955,69,149,Mexico,0,1,0
+1952,Summer,Finland,Helsinki,4955,69,149,Netherlands,0,5,0
+1952,Summer,Finland,Helsinki,4955,69,149,New Zealand,1,0,2
+1952,Summer,Finland,Helsinki,4955,69,149,Norway,3,2,0
+1952,Summer,Finland,Helsinki,4955,69,149,Poland,1,2,1
+1952,Summer,Finland,Helsinki,4955,69,149,Portugal,0,0,1
+1952,Summer,Finland,Helsinki,4955,69,149,Republic of Korea,0,0,2
+1952,Summer,Finland,Helsinki,4955,69,149,Romania,1,1,2
+1952,Summer,Finland,Helsinki,4955,69,149,South Africa,2,4,4
+1952,Summer,Finland,Helsinki,4955,69,149,Spain,0,1,0
+1952,Summer,Finland,Helsinki,4955,69,149,Sweden,12,13,10
+1952,Summer,Finland,Helsinki,4955,69,149,Switzerland,2,6,6
+1952,Summer,Finland,Helsinki,4955,69,149,Trinidad and Tobago,0,0,2
+1952,Summer,Finland,Helsinki,4955,69,149,Turkey,2,0,1
+1952,Summer,Finland,Helsinki,4955,69,149,USSR,22,30,19
+1952,Summer,Finland,Helsinki,4955,69,149,United Kingdom,1,2,8
+1952,Summer,Finland,Helsinki,4955,69,149,United States of America,40,19,17
+1952,Summer,Finland,Helsinki,4955,69,149,Uruguay,0,0,2
+1952,Summer,Finland,Helsinki,4955,69,149,Venezuela,0,0,1
+1952,Summer,Finland,Helsinki,4955,69,149,Yugoslavia,1,2,0
+1952,Winter,Norway,Oslo,694,30,22,Austria,2,4,2
+1952,Winter,Norway,Oslo,694,30,22,Canada,1,0,1
+1952,Winter,Norway,Oslo,694,30,22,Finland,3,4,2
+1952,Winter,Norway,Oslo,694,30,22,France,0,0,1
+1952,Winter,Norway,Oslo,694,30,22,Germany,3,2,2
+1952,Winter,Norway,Oslo,694,30,22,Hungary,0,0,1
+1952,Winter,Norway,Oslo,694,30,22,Italy,1,0,1
+1952,Winter,Norway,Oslo,694,30,22,Netherlands,0,3,0
+1952,Winter,Norway,Oslo,694,30,22,Norway,7,3,6
+1952,Winter,Norway,Oslo,694,30,22,Sweden,0,0,4
+1952,Winter,Norway,Oslo,694,30,22,Switzerland,0,0,2
+1952,Winter,Norway,Oslo,694,30,22,United Kingdom,1,0,0
+1952,Winter,Norway,Oslo,694,30,22,United States of America,4,6,1
+1948,Summer,Great Britain,London,4104,59,136,Argentina,3,3,1
+1948,Summer,Great Britain,London,4104,59,136,Australia,2,6,5
+1948,Summer,Great Britain,London,4104,59,136,Austria,2,2,4
+1948,Summer,Great Britain,London,4104,59,136,Belgium,2,2,3
+1948,Summer,Great Britain,London,4104,59,136,Brazil,0,0,1
+1948,Summer,Great Britain,London,4104,59,136,Canada,0,2,2
+1948,Summer,Great Britain,London,4104,59,136,Cuba,0,1,0
+1948,Summer,Great Britain,London,4104,59,136,Czechoslovakia,6,2,3
+1948,Summer,Great Britain,London,4104,59,136,Denmark,5,8,9
+1948,Summer,Great Britain,London,4104,59,136,Egypt,2,2,1
+1948,Summer,Great Britain,London,4104,59,136,Finland,10,8,6
+1948,Summer,Great Britain,London,4104,59,136,France,11,6,15
+1948,Summer,Great Britain,London,4104,59,136,Hungary,10,5,13
+1948,Summer,Great Britain,London,4104,59,136,India,1,0,0
+1948,Summer,Great Britain,London,4104,59,136,Ireland,0,0,1
+1948,Summer,Great Britain,London,4104,59,136,Islamic Republic of Iran,0,0,1
+1948,Summer,Great Britain,London,4104,59,136,Italy,9,12,10
+1948,Summer,Great Britain,London,4104,59,136,Jamaica,1,2,0
+1948,Summer,Great Britain,London,4104,59,136,Mexico,2,1,2
+1948,Summer,Great Britain,London,4104,59,136,Netherlands,5,2,9
+1948,Summer,Great Britain,London,4104,59,136,Norway,1,3,3
+1948,Summer,Great Britain,London,4104,59,136,Panama,0,0,2
+1948,Summer,Great Britain,London,4104,59,136,Peru,1,0,0
+1948,Summer,Great Britain,London,4104,59,136,Poland,1,0,1
+1948,Summer,Great Britain,London,4104,59,136,Portugal,0,1,1
+1948,Summer,Great Britain,London,4104,59,136,Puerto Rico,0,0,1
+1948,Summer,Great Britain,London,4104,59,136,Republic of Korea,0,0,2
+1948,Summer,Great Britain,London,4104,59,136,South Africa,2,2,2
+1948,Summer,Great Britain,London,4104,59,136,Spain,0,1,0
+1948,Summer,Great Britain,London,4104,59,136,Sri Lanka,0,1,0
+1948,Summer,Great Britain,London,4104,59,136,Sweden,17,11,18
+1948,Summer,Great Britain,London,4104,59,136,Switzerland,5,12,6
+1948,Summer,Great Britain,London,4104,59,136,Trinidad and Tobago,0,1,0
+1948,Summer,Great Britain,London,4104,59,136,Turkey,6,4,2
+1948,Summer,Great Britain,London,4104,59,136,United Kingdom,4,16,7
+1948,Summer,Great Britain,London,4104,59,136,United States of America,38,27,19
+1948,Summer,Great Britain,London,4104,59,136,Uruguay,0,1,1
+1948,Summer,Great Britain,London,4104,59,136,Yugoslavia,0,2,0
+1948,Winter,Switzerland,St. Moritz,669,28,22,Austria,1,3,4
+1948,Winter,Switzerland,St. Moritz,669,28,22,Belgium,1,1,0
+1948,Winter,Switzerland,St. Moritz,669,28,22,Canada,2,0,1
+1948,Winter,Switzerland,St. Moritz,669,28,22,Czechoslovakia,0,1,0
+1948,Winter,Switzerland,St. Moritz,669,28,22,Finland,1,3,2
+1948,Winter,Switzerland,St. Moritz,669,28,22,France,2,1,2
+1948,Winter,Switzerland,St. Moritz,669,28,22,Hungary,0,1,0
+1948,Winter,Switzerland,St. Moritz,669,28,22,Italy,1,0,0
+1948,Winter,Switzerland,St. Moritz,669,28,22,Norway,4,3,3
+1948,Winter,Switzerland,St. Moritz,669,28,22,Sweden,4,3,3
+1948,Winter,Switzerland,St. Moritz,669,28,22,Switzerland,3,4,3
+1948,Winter,Switzerland,St. Moritz,669,28,22,United Kingdom,0,0,2
+1948,Winter,Switzerland,St. Moritz,669,28,22,United States of America,3,4,2
+1936,Summer,Germany,Berlin,3963,49,129,Argentina,2,2,3
+1936,Summer,Germany,Berlin,3963,49,129,Australia,0,0,1
+1936,Summer,Germany,Berlin,3963,49,129,Austria,5,7,5
+1936,Summer,Germany,Berlin,3963,49,129,Belgium,0,0,3
+1936,Summer,Germany,Berlin,3963,49,129,Canada,1,3,5
+1936,Summer,Germany,Berlin,3963,49,129,Czechoslovakia,3,5,1
+1936,Summer,Germany,Berlin,3963,49,129,Denmark,0,2,3
+1936,Summer,Germany,Berlin,3963,49,129,Egypt,2,1,2
+1936,Summer,Germany,Berlin,3963,49,129,Estonia,2,2,3
+1936,Summer,Germany,Berlin,3963,49,129,Finland,8,6,6
+1936,Summer,Germany,Berlin,3963,49,129,France,7,6,6
+1936,Summer,Germany,Berlin,3963,49,129,Germany,38,31,32
+1936,Summer,Germany,Berlin,3963,49,129,Hungary,10,1,5
+1936,Summer,Germany,Berlin,3963,49,129,India,1,0,0
+1936,Summer,Germany,Berlin,3963,49,129,Italy,9,13,5
+1936,Summer,Germany,Berlin,3963,49,129,Japan,6,4,10
+1936,Summer,Germany,Berlin,3963,49,129,Latvia,0,1,1
+1936,Summer,Germany,Berlin,3963,49,129,Mexico,0,0,3
+1936,Summer,Germany,Berlin,3963,49,129,Netherlands,6,4,7
+1936,Summer,Germany,Berlin,3963,49,129,New Zealand,1,0,0
+1936,Summer,Germany,Berlin,3963,49,129,Norway,1,3,2
+1936,Summer,Germany,Berlin,3963,49,129,Philippines,0,0,1
+1936,Summer,Germany,Berlin,3963,49,129,Poland,0,4,5
+1936,Summer,Germany,Berlin,3963,49,129,Portugal,0,0,1
+1936,Summer,Germany,Berlin,3963,49,129,Romania,0,1,0
+1936,Summer,Germany,Berlin,3963,49,129,South Africa,0,1,0
+1936,Summer,Germany,Berlin,3963,49,129,Sweden,6,5,10
+1936,Summer,Germany,Berlin,3963,49,129,Switzerland,4,9,5
+1936,Summer,Germany,Berlin,3963,49,129,Turkey,1,0,1
+1936,Summer,Germany,Berlin,3963,49,129,United Kingdom,4,7,3
+1936,Summer,Germany,Berlin,3963,49,129,United States of America,24,21,12
+1936,Summer,Germany,Berlin,3963,49,129,Yugoslavia,0,1,0
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Austria,1,1,2
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Canada,0,1,0
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Finland,1,2,3
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,France,0,0,1
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Germany,3,3,0
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Hungary,0,0,1
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Norway,7,5,3
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Sweden,2,2,3
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,Switzerland,1,2,0
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,United Kingdom,1,1,1
+1936,Winter,Germany,Garmisch-Partenkirchen,646,28,17,United States of America,1,0,3
+1932,Summer,United States,Los Angeles,1334,37,117,Argentina,3,1,0
+1932,Summer,United States,Los Angeles,1334,37,117,Australia,3,1,1
+1932,Summer,United States,Los Angeles,1334,37,117,Austria,1,1,3
+1932,Summer,United States,Los Angeles,1334,37,117,Belgium,0,0,1
+1932,Summer,United States,Los Angeles,1334,37,117,Canada,2,5,9
+1932,Summer,United States,Los Angeles,1334,37,117,Czechoslovakia,1,3,2
+1932,Summer,United States,Los Angeles,1334,37,117,Denmark,0,5,3
+1932,Summer,United States,Los Angeles,1334,37,117,Finland,5,8,12
+1932,Summer,United States,Los Angeles,1334,37,117,France,11,5,4
+1932,Summer,United States,Los Angeles,1334,37,117,Germany,5,12,7
+1932,Summer,United States,Los Angeles,1334,37,117,Hungary,6,5,5
+1932,Summer,United States,Los Angeles,1334,37,117,India,1,0,0
+1932,Summer,United States,Los Angeles,1334,37,117,Ireland,2,0,0
+1932,Summer,United States,Los Angeles,1334,37,117,Italy,12,12,12
+1932,Summer,United States,Los Angeles,1334,37,117,Japan,7,7,4
+1932,Summer,United States,Los Angeles,1334,37,117,Latvia,0,1,0
+1932,Summer,United States,Los Angeles,1334,37,117,Mexico,0,2,0
+1932,Summer,United States,Los Angeles,1334,37,117,Netherlands,2,5,1
+1932,Summer,United States,Los Angeles,1334,37,117,New Zealand,0,1,0
+1932,Summer,United States,Los Angeles,1334,37,117,Philippines,0,0,3
+1932,Summer,United States,Los Angeles,1334,37,117,Poland,3,2,4
+1932,Summer,United States,Los Angeles,1334,37,117,South Africa,2,0,3
+1932,Summer,United States,Los Angeles,1334,37,117,Spain,0,0,1
+1932,Summer,United States,Los Angeles,1334,37,117,Sweden,10,5,9
+1932,Summer,United States,Los Angeles,1334,37,117,Switzerland,0,1,0
+1932,Summer,United States,Los Angeles,1334,37,117,United Kingdom,5,7,5
+1932,Summer,United States,Los Angeles,1334,37,117,United States of America,44,36,30
+1932,Summer,United States,Los Angeles,1334,37,117,Uruguay,0,0,1
+1932,Winter,United States,Lake Placid,252,17,14,Austria,1,1,0
+1932,Winter,United States,Lake Placid,252,17,14,Canada,1,1,5
+1932,Winter,United States,Lake Placid,252,17,14,Finland,1,1,1
+1932,Winter,United States,Lake Placid,252,17,14,France,1,0,0
+1932,Winter,United States,Lake Placid,252,17,14,Germany,0,0,2
+1932,Winter,United States,Lake Placid,252,17,14,Hungary,0,0,1
+1932,Winter,United States,Lake Placid,252,17,14,Norway,3,4,3
+1932,Winter,United States,Lake Placid,252,17,14,Sweden,1,2,0
+1932,Winter,United States,Lake Placid,252,17,14,Switzerland,0,1,0
+1932,Winter,United States,Lake Placid,252,17,14,United States of America,6,4,2
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Argentina,3,3,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Australia,1,2,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Austria,3,0,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Belgium,0,1,2
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Canada,4,4,7
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Chile,0,1,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Czechoslovakia,2,5,2
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Denmark,3,2,4
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Egypt,2,1,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Estonia,2,1,2
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Finland,8,8,9
+1928,Summer,Netherlands,Amsterdam,2883,46,109,France,7,12,6
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Germany,11,9,19
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Haiti,0,1,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Hungary,5,5,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,India,1,0,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Ireland,1,0,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Italy,7,6,7
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Japan,2,2,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Luxembourg,1,0,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Netherlands,8,10,5
+1928,Summer,Netherlands,Amsterdam,2883,46,109,New Zealand,1,0,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Norway,1,2,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Philippines,0,0,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Poland,2,1,4
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Portugal,0,0,1
+1928,Summer,Netherlands,Amsterdam,2883,46,109,South Africa,1,0,2
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Spain,1,0,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Sweden,7,6,12
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Switzerland,7,6,4
+1928,Summer,Netherlands,Amsterdam,2883,46,109,United Kingdom,4,11,7
+1928,Summer,Netherlands,Amsterdam,2883,46,109,United States of America,22,18,16
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Uruguay,1,0,0
+1928,Summer,Netherlands,Amsterdam,2883,46,109,Yugoslavia,1,1,3
+1928,Winter,Switzerland,St. Moritz,464,25,14,Austria,0,3,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,Belgium,0,0,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,Canada,1,0,0
+1928,Winter,Switzerland,St. Moritz,464,25,14,Czechoslovakia,0,0,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,Finland,2,1,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,France,1,0,0
+1928,Winter,Switzerland,St. Moritz,464,25,14,Germany,0,0,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,Norway,6,4,5
+1928,Winter,Switzerland,St. Moritz,464,25,14,Sweden,2,2,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,Switzerland,0,0,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,United Kingdom,0,0,1
+1928,Winter,Switzerland,St. Moritz,464,25,14,United States of America,2,2,2
+1924,Summer,France,Paris,3088,44,126,Argentina,1,3,2
+1924,Summer,France,Paris,3088,44,126,Australia,3,1,2
+1924,Summer,France,Paris,3088,44,126,Austria,0,3,1
+1924,Summer,France,Paris,3088,44,126,Belgium,3,7,3
+1924,Summer,France,Paris,3088,44,126,Canada,0,3,1
+1924,Summer,France,Paris,3088,44,126,Czechoslovakia,1,4,5
+1924,Summer,France,Paris,3088,44,126,Denmark,2,6,3
+1924,Summer,France,Paris,3088,44,126,Estonia,1,1,4
+1924,Summer,France,Paris,3088,44,126,Finland,14,13,10
+1924,Summer,France,Paris,3088,44,126,France,14,15,12
+1924,Summer,France,Paris,3088,44,126,Greece,1,0,0
+1924,Summer,France,Paris,3088,44,126,Haiti,0,0,1
+1924,Summer,France,Paris,3088,44,126,Hungary,2,4,4
+1924,Summer,France,Paris,3088,44,126,Ireland,0,1,1
+1924,Summer,France,Paris,3088,44,126,Italy,8,3,5
+1924,Summer,France,Paris,3088,44,126,Japan,0,0,1
+1924,Summer,France,Paris,3088,44,126,Luxembourg,1,1,0
+1924,Summer,France,Paris,3088,44,126,Monaco,0,0,1
+1924,Summer,France,Paris,3088,44,126,Netherlands,4,1,6
+1924,Summer,France,Paris,3088,44,126,New Zealand,0,0,1
+1924,Summer,France,Paris,3088,44,126,Norway,5,2,3
+1924,Summer,France,Paris,3088,44,126,Poland,0,1,1
+1924,Summer,France,Paris,3088,44,126,Portugal,0,0,1
+1924,Summer,France,Paris,3088,44,126,Romania,0,0,1
+1924,Summer,France,Paris,3088,44,126,South Africa,1,1,1
+1924,Summer,France,Paris,3088,44,126,Sweden,4,13,12
+1924,Summer,France,Paris,3088,44,126,Switzerland,7,8,10
+1924,Summer,France,Paris,3088,44,126,United Kingdom,9,14,12
+1924,Summer,France,Paris,3088,44,126,United States of America,45,27,27
+1924,Summer,France,Paris,3088,44,126,Uruguay,1,0,0
+1924,Summer,France,Paris,3088,44,126,Yugoslavia,2,0,0
+1924,Winter,France,Chamonix,260,16,16,Australia,1,0,0
+1924,Winter,France,Chamonix,260,16,16,Austria,2,1,0
+1924,Winter,France,Chamonix,260,16,16,Belgium,0,0,1
+1924,Winter,France,Chamonix,260,16,16,Canada,1,0,0
+1924,Winter,France,Chamonix,260,16,16,Finland,4,4,3
+1924,Winter,France,Chamonix,260,16,16,France,0,0,3
+1924,Winter,France,Chamonix,260,16,16,India,1,0,0
+1924,Winter,France,Chamonix,260,16,16,Mixed team,1,0,0
+1924,Winter,France,Chamonix,260,16,16,Nepal,1,0,0
+1924,Winter,France,Chamonix,260,16,16,Norway,4,7,6
+1924,Winter,France,Chamonix,260,16,16,Sweden,1,1,0
+1924,Winter,France,Chamonix,260,16,16,Switzerland,2,0,1
+1924,Winter,France,Chamonix,260,16,16,United Kingdom,2,1,2
+1924,Winter,France,Chamonix,260,16,16,United States of America,1,2,1
+1920,Summer,Belgium,Antwerp,2622,29,156,Australia,0,2,1
+1920,Summer,Belgium,Antwerp,2622,29,156,Belgium,16,12,14
+1920,Summer,Belgium,Antwerp,2622,29,156,Brazil,1,1,1
+1920,Summer,Belgium,Antwerp,2622,29,156,Canada,3,3,3
+1920,Summer,Belgium,Antwerp,2622,29,156,Czechoslovakia,0,0,2
+1920,Summer,Belgium,Antwerp,2622,29,156,Denmark,3,9,1
+1920,Summer,Belgium,Antwerp,2622,29,156,Estonia,1,2,0
+1920,Summer,Belgium,Antwerp,2622,29,156,Finland,15,10,9
+1920,Summer,Belgium,Antwerp,2622,29,156,France,9,20,13
+1920,Summer,Belgium,Antwerp,2622,29,156,Greece,0,1,0
+1920,Summer,Belgium,Antwerp,2622,29,156,Italy,14,6,5
+1920,Summer,Belgium,Antwerp,2622,29,156,Japan,0,2,0
+1920,Summer,Belgium,Antwerp,2622,29,156,Luxembourg,0,1,0
+1920,Summer,Belgium,Antwerp,2622,29,156,Netherlands,4,2,5
+1920,Summer,Belgium,Antwerp,2622,29,156,New Zealand,0,0,1
+1920,Summer,Belgium,Antwerp,2622,29,156,Norway,13,10,9
+1920,Summer,Belgium,Antwerp,2622,29,156,South Africa,3,4,3
+1920,Summer,Belgium,Antwerp,2622,29,156,Spain,0,2,0
+1920,Summer,Belgium,Antwerp,2622,29,156,Sweden,19,20,25
+1920,Summer,Belgium,Antwerp,2622,29,156,Switzerland,2,2,7
+1920,Summer,Belgium,Antwerp,2622,29,156,United Kingdom,14,16,13
+1920,Summer,Belgium,Antwerp,2622,29,156,United States of America,41,27,27
+1912,Summer,Sweden,Stockholm,2407,28,102,Australia,2,2,3
+1912,Summer,Sweden,Stockholm,2407,28,102,Austria,0,2,2
+1912,Summer,Sweden,Stockholm,2407,28,102,Belgium,2,1,3
+1912,Summer,Sweden,Stockholm,2407,28,102,Canada,3,2,3
+1912,Summer,Sweden,Stockholm,2407,28,102,Denmark,1,6,5
+1912,Summer,Sweden,Stockholm,2407,28,102,Finland,9,8,9
+1912,Summer,Sweden,Stockholm,2407,28,102,France,7,5,3
+1912,Summer,Sweden,Stockholm,2407,28,102,Germany,6,13,7
+1912,Summer,Sweden,Stockholm,2407,28,102,Greece,1,0,1
+1912,Summer,Sweden,Stockholm,2407,28,102,Hungary,3,2,3
+1912,Summer,Sweden,Stockholm,2407,28,102,Italy,5,1,2
+1912,Summer,Sweden,Stockholm,2407,28,102,Netherlands,0,0,3
+1912,Summer,Sweden,Stockholm,2407,28,102,Norway,3,2,5
+1912,Summer,Sweden,Stockholm,2407,28,102,Russian Federation,0,2,3
+1912,Summer,Sweden,Stockholm,2407,28,102,South Africa,4,2,0
+1912,Summer,Sweden,Stockholm,2407,28,102,Sweden,23,25,17
+1912,Summer,Sweden,Stockholm,2407,28,102,Switzerland,1,0,0
+1912,Summer,Sweden,Stockholm,2407,28,102,United Kingdom,10,15,16
+1912,Summer,Sweden,Stockholm,2407,28,102,United States of America,26,19,19
+1908,Summer,Great Britain,London,2008,22,110,Australia,1,2,2
+1908,Summer,Great Britain,London,2008,22,110,Austria,0,0,1
+1908,Summer,Great Britain,London,2008,22,110,Belgium,1,5,2
+1908,Summer,Great Britain,London,2008,22,110,Canada,3,3,10
+1908,Summer,Great Britain,London,2008,22,110,Czechia,0,0,2
+1908,Summer,Great Britain,London,2008,22,110,Denmark,0,2,3
+1908,Summer,Great Britain,London,2008,22,110,Finland,1,1,3
+1908,Summer,Great Britain,London,2008,22,110,France,5,5,9
+1908,Summer,Great Britain,London,2008,22,110,Germany,3,5,5
+1908,Summer,Great Britain,London,2008,22,110,Greece,0,3,1
+1908,Summer,Great Britain,London,2008,22,110,Hungary,3,4,2
+1908,Summer,Great Britain,London,2008,22,110,Italy,2,2,0
+1908,Summer,Great Britain,London,2008,22,110,Netherlands,0,0,2
+1908,Summer,Great Britain,London,2008,22,110,Norway,2,3,3
+1908,Summer,Great Britain,London,2008,22,110,Russian Federation,1,2,0
+1908,Summer,Great Britain,London,2008,22,110,South Africa,1,1,0
+1908,Summer,Great Britain,London,2008,22,110,Sweden,8,6,11
+1908,Summer,Great Britain,London,2008,22,110,United Kingdom,56,51,39
+1908,Summer,Great Britain,London,2008,22,110,United States of America,23,12,12
+1904,Summer,United States,St. Louis,651,12,95,United States of America,76,78,77
+1904,Summer,United States,St. Louis,651,12,95,Germany,4,5,6
+1904,Summer,United States,St. Louis,651,12,95,Canada,4,1,1
+1904,Summer,United States,St. Louis,651,12,95,Cuba,3,0,0
+1904,Summer,United States,St. Louis,651,12,95,Hungary,2,1,1
+1904,Summer,United States,St. Louis,651,12,95,Mixed team,2,1,1
+1904,Summer,United States,St. Louis,651,12,95,Norway,2,0,0
+1904,Summer,United States,St. Louis,651,12,95,Austria,1,1,1
+1904,Summer,United States,St. Louis,651,12,95,Great Britain,1,1,0
+1904,Summer,United States,St. Louis,651,12,95,Switzerland,1,0,2
+1904,Summer,United States,St. Louis,651,12,95,Greece,1,0,1
+1904,Summer,United States,St. Louis,651,12,95,Australia,0,3,1
+1904,Summer,United States,St. Louis,651,12,95,France,0,1,0
+1900,Summer,France,Paris,1226,26,95,France,27,38,37
+1900,Summer,France,Paris,1226,26,95,United States of America,19,14,15
+1900,Summer,France,Paris,1226,26,95,Great Britain,15,8,9
+1900,Summer,France,Paris,1226,26,95,Mixed team,8,5,6
+1900,Summer,France,Paris,1226,26,95,Belgium,6,7,4
+1900,Summer,France,Paris,1226,26,95,Switzerland,6,2,1
+1900,Summer,France,Paris,1226,26,95,Germany,4,3,2
+1900,Summer,France,Paris,1226,26,95,Italy,3,2,0
+1900,Summer,France,Paris,1226,26,95,Australia,2,0,3
+1900,Summer,France,Paris,1226,26,95,Denmark,1,3,2
+1896,Summer,Greece,Athens,241,14,43,Australia,2,0,1
+1896,Summer,Greece,Athens,241,14,43,Austria,2,1,2
+1896,Summer,Greece,Athens,241,14,43,Denmark,1,2,3
+1896,Summer,Greece,Athens,241,14,43,France,5,4,2
+1896,Summer,Greece,Athens,241,14,43,Germany,7,5,2
+1896,Summer,Greece,Athens,241,14,43,Greece,10,18,19
+1896,Summer,Greece,Athens,241,14,43,Hungary,2,1,3
+1896,Summer,Greece,Athens,241,14,43,Mixed team,1,0,1
+1896,Summer,Greece,Athens,241,14,43,Switzerland,1,2,0
+1896,Summer,Greece,Athens,241,14,43,United Kingdom,3,3,3
+1896,Summer,Greece,Athens,241,14,43,United States of America,11,7,2
