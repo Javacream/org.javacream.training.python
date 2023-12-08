@@ -63,7 +63,7 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 2020,Summer,Japan,Tokyo,11420,206,339,Ghana,0,0,1
 2020,Summer,Japan,Tokyo,11420,206,339,Greece,2,1,1
 2020,Summer,Japan,Tokyo,11420,206,339,Grenada,0,0,1
-2020,Summer,Japan,Tokyo,11420,206,339,"Hong Kong, China",1,2,3
+2020,Summer,Japan,Tokyo,11420,206,339,"Hong Kong - China",1,2,3
 2020,Summer,Japan,Tokyo,11420,206,339,Hungary,6,7,7
 2020,Summer,Japan,Tokyo,11420,206,339,India,1,2,4
 2020,Summer,Japan,Tokyo,11420,206,339,Indonesia,1,1,3
@@ -298,7 +298,7 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 2012,Summer,Great Britain,London,10568,204,302,Greece,0,0,2
 2012,Summer,Great Britain,London,10568,204,302,Grenada,1,0,0
 2012,Summer,Great Britain,London,10568,204,302,Guatemala,0,1,0
-2012,Summer,Great Britain,London,10568,204,302,"Hong Kong, China",0,0,1
+2012,Summer,Great Britain,London,10568,204,302,"Hong Kong - China",0,0,1
 2012,Summer,Great Britain,London,10568,204,302,Hungary,8,4,6
 2012,Summer,Great Britain,London,10568,204,302,India,0,2,4
 2012,Summer,Great Britain,London,10568,204,302,Indonesia,0,2,1
@@ -517,7 +517,7 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 2004,Summer,Greece,Athens,10625,201,301,Georgia,2,2,0
 2004,Summer,Greece,Athens,10625,201,301,Germany,13,16,20
 2004,Summer,Greece,Athens,10625,201,301,Greece,6,6,4
-2004,Summer,Greece,Athens,10625,201,301,"Hong Kong, China",0,1,0
+2004,Summer,Greece,Athens,10625,201,301,"Hong Kong - China",0,1,0
 2004,Summer,Greece,Athens,10625,201,301,Hungary,8,6,3
 2004,Summer,Greece,Athens,10625,201,301,India,0,1,0
 2004,Summer,Greece,Athens,10625,201,301,Indonesia,1,1,2
@@ -717,7 +717,7 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 1996,Summer,United States,Atlanta,10318,197,271,Georgia,0,0,2
 1996,Summer,United States,Atlanta,10318,197,271,Germany,20,18,27
 1996,Summer,United States,Atlanta,10318,197,271,Greece,4,4,0
-1996,Summer,United States,Atlanta,10318,197,271,"Hong Kong, China",1,0,0
+1996,Summer,United States,Atlanta,10318,197,271,"Hong Kong - China",1,0,0
 1996,Summer,United States,Atlanta,10318,197,271,Hungary,7,4,10
 1996,Summer,United States,Atlanta,10318,197,271,India,0,0,1
 1996,Summer,United States,Atlanta,10318,197,271,Indonesia,1,1,2
@@ -925,7 +925,7 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 1988,Summer,Republic of Korea,Seoul,8397,159,237,USSR,55,31,46
 1988,Summer,Republic of Korea,Seoul,8397,159,237,United Kingdom,5,10,9
 1988,Summer,Republic of Korea,Seoul,8397,159,237,United States of America,36,31,27
-1988,Summer,Republic of Korea,Seoul,8397,159,237,"Virgin Islands, US",0,1,0
+1988,Summer,Republic of Korea,Seoul,8397,159,237,"Virgin Islands  US",0,1,0
 1988,Summer,Republic of Korea,Seoul,8397,159,237,Yugoslavia,3,4,5
 1988,Winter,Canada,Calgary,1423,57,46,Austria,3,5,2
 1988,Winter,Canada,Calgary,1423,57,46,Canada,0,2,3
@@ -1114,7 +1114,7 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 1976,Winter,Austria,Innsbruck,1123,37,37,Italy,1,2,1
 1976,Winter,Austria,Innsbruck,1123,37,37,Liechtenstein,0,0,2
 1976,Winter,Austria,Innsbruck,1123,37,37,Netherlands,1,2,3
-1976,Winter,Austria,Innsbruck,1123,37,37,Norway,3,3,1
+1976,Winter,Austria,Innsbruck,1123,37,37,Norway,3,3,1,
 1976,Winter,Austria,Innsbruck,1123,37,37,Sweden,0,0,2
 1976,Winter,Austria,Innsbruck,1123,37,37,Switzerland,1,3,1
 1976,Winter,Austria,Innsbruck,1123,37,37,USSR,13,6,8
@@ -1357,43 +1357,43 @@ year,games_type,host_country,host_city,athletes,teams,competitions,country,gold,
 1960,Winter,United States,Squaw Valley,665,30,27,Switzerland,2,0,0
 1960,Winter,United States,Squaw Valley,665,30,27,USSR,7,5,9
 1960,Winter,United States,Squaw Valley,665,30,27,United States of America,3,4,3
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Argentina,0,1,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Australia,13,8,14
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Austria,0,0,2
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Bahamas,0,0,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Belgium,0,2,0
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Brazil,1,0,0
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Bulgaria,1,3,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Canada,2,1,2
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Chile,0,2,2
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Czechoslovakia,1,4,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Denmark,1,1,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Finland,3,1,11
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,France,4,4,6
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Germany,4,10,6
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Greece,0,0,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Hungary,9,10,7
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Iceland,0,1,0
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,India,1,0,0
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Ireland,1,1,3
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Islamic Republic of Iran,2,2,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Italy,8,6,8
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Japan,4,10,5
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Mexico,1,0,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,New Zealand,2,0,0
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Norway,1,0,2
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Pakistan,0,1,0
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Poland,1,4,4
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Republic of Korea,0,1,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Romania,5,3,5
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,South Africa,0,0,4
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Sweden,5,5,6
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Turkey,3,2,2
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,USSR,37,29,32
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,United Kingdom,5,7,9
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,United States of America,32,25,17
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Uruguay,0,0,1
-1956,Summer,"Australia, Sweden",Melbourne,3314,72,151,Yugoslavia,0,3,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Argentina,0,1,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Australia,13,8,14
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Austria,0,0,2
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Bahamas,0,0,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Belgium,0,2,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Brazil,1,0,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Bulgaria,1,3,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Canada,2,1,2
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Chile,0,2,2
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Czechoslovakia,1,4,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Denmark,1,1,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Finland,3,1,11
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,France,4,4,6
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Germany,4,10,6
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Greece,0,0,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Hungary,9,10,7
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Iceland,0,1,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,India,1,0,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Ireland,1,1,3
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Islamic Republic of Iran,2,2,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Italy,8,6,8
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Japan,4,10,5
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Mexico,1,0,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,New Zealand,2,0,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Norway,1,0,2
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Pakistan,0,1,0
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Poland,1,4,4
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Republic of Korea,0,1,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Romania,5,3,5
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,South Africa,0,0,4
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Sweden,5,5,6
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Turkey,3,2,2
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,USSR,37,29,32
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,United Kingdom,5,7,9
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,United States of America,32,25,17
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Uruguay,0,0,1
+1956,Summer,"Australia Sweden",Melbourne,3314,72,151,Yugoslavia,0,3,0
 1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Austria,4,3,4
 1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Canada,0,1,2
 1956,Winter,Italy,Cortina d'Ampezzo,821,32,24,Finland,3,3,1
