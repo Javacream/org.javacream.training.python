@@ -1,5 +1,5 @@
-import people
-import datetime
+import people # im Endeffekt ist das eine relative Pfadangabe, also Datei ohne Endung
+import datetime # Instllierte Module der Python-Runtime
 
 def main():
     address = people.Address('München', 81371, 'Marienplatz')
