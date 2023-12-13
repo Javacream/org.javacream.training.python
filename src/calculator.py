@@ -15,12 +15,17 @@ def main():
         operation_message = "divided by"
         result = number1 / number2
         return operation_message, result
+    def modulo(number1, number2):
+        operation_message = "modulo"
+        result = number1 % number2
+        return operation_message, result
 
     operations = {
         'plus': plus,
         'minus': minus,
         'multiply': multiply,
         'divideby': divideby, 
+        'modulo': modulo, 
     }
     
     while True:
@@ -37,7 +42,7 @@ def main():
                 number1 = float(number1_as_string)
                 number2 = float(number2_as_string)
                 while True:
-                    operation = input("enter operation (plus, minus, multiply, divideby): ")
+                    operation = input(f"enter operation ({','.join(operations.keys())}): ")
                     operation_function  = operations.get(operation)
                     if operation_function == None:
                         print(f"invalid operation: {operation}")
