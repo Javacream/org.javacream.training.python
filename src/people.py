@@ -13,13 +13,3 @@ class Address:
         self.city = city; 
         self.street = street;
         self.postal_code = postal_code
-
-def main():
-    address = Address('München', 81371, 'Marienplatz')
-    person1 = Person('Sawitzki', 'Rainer', 183, address)
-    person2 = Person('Musterfrau', 'Hannah', 177, address)
-
-    print(person1.say_hello(), person2.say_hello())
-    print(type(person1), type(person2))
-
-main()
