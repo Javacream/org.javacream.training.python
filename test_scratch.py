@@ -25,7 +25,7 @@ def main():
         contact_pressures = contact_pressure_line.split('\t')
         press_in_pressures = press_in_pressure_line.split('\t')
         for j in range(6):
-            result.append(f'{part_ids[j]}, {j + 1}, {contact_pressures[j]}, {press_in_pressures[j]}\n')
+            result.append(f'{part_ids[j]},{j + 1},{contact_pressures[j]},{press_in_pressures[j]}\n')
     with open('Testdatei.tidy.txt', 'wt') as f:
         f.writelines(result)
 main()
