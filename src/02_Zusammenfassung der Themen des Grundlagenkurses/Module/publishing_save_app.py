@@ -1,0 +1,21 @@
+from publishing_service import PublishingService
+def main():
+    publishing_service = PublishingService()
+    publisher1 = publishing_service.new_publisher('Springer')
+    publisher2 = publishing_service.new_publisher('Addison')
+    book1 = publishing_service.new_book('Java', 19.99, 200, publisher1)
+    book2 = publishing_service.new_book('Spring', 29.99, 500, publisher1)
+    book3 = publishing_service.new_book('Python', 15.55, 300, publisher2)
+    author1 = publishing_service.new_author('Schneider', 'Hannah')
+    author2 = publishing_service.new_author('Meier', 'Hans')
+    publishing_service.written_by(book1, author1)
+    publishing_service.written_by(book1, author2)
+    publishing_service.written_by(book2, author2)
+    publishing_service.written_by(book3, author1)
+    print(publishing_service.books_more_expensive_than(20))
+    print(publishing_service.authors_for_publisher(publisher1))
+    print(publishing_service.authors_for_publisher_with_lastname(publisher2, 'Schneider'))
+    print('done')
+    publishing_service.save()
+if __name__ == '__main__': 
+    main() 

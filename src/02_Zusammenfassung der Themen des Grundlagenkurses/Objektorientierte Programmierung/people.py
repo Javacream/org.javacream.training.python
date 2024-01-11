@@ -1,0 +1,60 @@
+class Person(object):
+    def __init__(self, lastname, firstname, address):
+        self.lastname = lastname
+        self.firstname = firstname
+        self.address = address
+    def say_hello(self):
+        greeting = f'Hallo, mein Name ist {self.firstname} {self.lastname}'
+        return greeting
+
+class Address:
+    def __init__(self, city, street):
+        self.city = city
+        self.street = street
+
+class Student(Person):
+    def __init__(self, lastname, firstname, address, university):
+        self.university = university
+        super().__init__(lastname, firstname, address)
+    def study(self):
+        print(f'ich studiere an {self.university.name}')   
+    def say_hello(self):
+        return f'{super().say_hello()}, ich studiere an {self.university.name}'
+
+class Worker(Person):
+    def __init__(self, lastname, firstname, address, company):
+        super().__init__(lastname, firstname, address)
+        self.company = company
+    def work(self):
+        print(f'ich arbeite bei {self.company.company_name}')    
+
+class University:
+    def __init__(self, name, address):
+        self.name = name
+        self.address = address
+class Company:
+    def __init__(self, name, address):
+        self.company_name = name
+        self.addresses = {address}
+    def add_address(self, address):
+        self.addresses.add(address)    
+    def remove_address(self, address):
+        self.addresses.remove(address)  
+
+def main():
+    address_in_munich = Address("München", "Marienplatz")
+    address_in_berlin = Address("Berlin", "Alexanderplatz")
+    address_in_stuttgart = Address("Stuttgart", "Schlossplatz")
+
+    uni1 = University('TU', address_in_munich)
+    company1 = Company('Cegos', address_in_stuttgart)
+    company1.add_address(address_in_berlin)
+    person1 = Person("Sawitzki", "Rainer", address_in_munich) 
+    person2 = Person("Musterfrau", "Hannah", address_in_berlin)
+    student1 = Student('Einstein', 'Albert', address_in_munich, uni1)
+    worker1 = Worker('Schufter', 'Andrea', address_in_stuttgart, company1)
+    student1.study()
+    worker1.work()
+    print('done')
+
+main()
