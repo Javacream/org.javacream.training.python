@@ -1,2 +1,6 @@
-# org.javacream.training.python
-Python Training
+# Python Lernpfad
+
+* Informationen
+  * Rainer Sawitzki
+  * rainer.sawitzki@gmail.com
+
