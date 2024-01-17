@@ -1,0 +1,1 @@
+Dieses Programm soll zeigen, wie in Python mit Variablen umgegangen wird
