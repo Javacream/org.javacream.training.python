@@ -1,5 +1,5 @@
 # Ausgabe des Textes "Hello World" auf die Konsole
 # Musterlösung der ersten Übung
-
-message = "Hello World"
+input_message = input("Bitte eine Nachricht eingeben: ")
+message = "Hello " + input_message + "!"
 print(message)

@@ -17,3 +17,11 @@ firstname = "Rainer"
 height = 183
 lastname = 'Sawitzki'
 weight = 81.7
+
+
+var_type = type(weight)
+print(var_type)
+
+weight = "schwer" # keine strikte Typisierung, eine Variable kann mal eine Zeichenkette sein, mal eine Zahl
+var_type = type(weight)
+print(var_type)
