@@ -2,12 +2,14 @@
 
 
 name = input("Bitte Namen eingeben: ")
-weight = input ("Bitte Körpergewicht eingeben als Zahl: ")
+weight = input ("Bitte Körpergewicht in kg eingeben: ")
+height = input ("Bitte Körpergröße in m eingeben: ")
 try:
     weight = float(weight)
-    weight = 2 * weight
-    print(f"Name: {name}, Gewicht: {weight}") # Format-String
+    height = float(height)
+    bmi = weight / ( height * height ) 
+    print(f"Name: {name} mit Gewicht: {weight} und Größe {height} hat einen BMI von {bmi}") # Format-String
 except:
-    print(f"Fehler, das eingegebene Gewicht {weight} kann nicht als Zahl interpretiert werden")
+    print(f"Fehler, Gewicht {weight} oder Größe {height} können  nicht als Zahl interpretiert werden")
 
 print("Fertig")
