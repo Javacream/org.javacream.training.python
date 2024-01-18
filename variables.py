@@ -17,9 +17,11 @@ firstname = "Rainer"
 height = 183
 lastname = 'Sawitzki'
 weight = 81.7
+human = True # Logischer Zustand Wahr
+plant = False # Logischer Zustand Falsch
 
 
-var_type = type(weight)
+var_type = type(human)
 print(var_type)
 
 weight = "schwer" # keine strikte Typisierung, eine Variable kann mal eine Zeichenkette sein, mal eine Zahl
