@@ -7,4 +7,4 @@ try:
     else:
         print(f"Hallo {name}, du bist {age} Jahre alt")
 except:
-    print("Dein Alter ist keine Zahl: {age}")
+    print(f"Dein Alter ist keine Zahl: {age}")
