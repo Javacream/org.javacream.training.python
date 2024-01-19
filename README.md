@@ -16,7 +16,7 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
     * 17.1. / 18.1. jeweils zwischen 8:00 und 9:00 sowie 16:15-17:15 Slots für Nachfragen, Hilfestellung, ...
     * 19.1. 8:00 - __9:00__ Ende Block 1, Musterlösung, Q&A
   * Woche 2 (Vorschlag)
-    * 22.1, 8:30 - 9:30 Einführung
+    * 23.1, 8:00 - 9:00 Einführung
     * 24.1. 8:00 - 9:00 Session Nachfragen, Hilfestellung
     * 25.1. Freiwillige Abgabe der Aufgaben bis 17:00
     * 26.1. 8:00 - 11:15 Ende Block 2, Besprechung der Aufgaben, Fragen, Erweiterungen
