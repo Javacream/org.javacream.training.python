@@ -25,3 +25,5 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1HZmyomskISVortprx_ZMJeahqr1uS8rVI04Y8bt2nkQ/edit?usp=sharing)
+
+[Aufzeichnungen](https://my.hidrive.com/share/l5cq8wg6kq​​​​​​​)
