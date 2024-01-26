@@ -24,11 +24,14 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
     * 30.1, 8:00 - 9:00 Einführung
     * 31.1. 8:00 - 9:00 Session Nachfragen, Hilfestellung
     * 1.2. Freiwillige Abgabe der Aufgaben bis 17:00
-    * 2.2. 8:00 - 11:15 Ende Block 2, Besprechung der Aufgaben, Fragen, Erweiterungen
+    * 2.2. 8:00 - 11:15 Ende Block 3, Besprechung der Aufgaben, Fragen, Erweiterungen
 
 * Individuell
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1HZmyomskISVortprx_ZMJeahqr1uS8rVI04Y8bt2nkQ/edit?usp=sharing)
 
-[Aufzeichnungen](https://my.hidrive.com/share/l5cq8wg6kq​​​​​​​)
+* [Aufzeichnungen](https://my.hidrive.com/share/l5cq8wg6kq​​​​​​​)
+
+* [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjkxNzA5MjctZGFmNC00NTVkLTllODYtOWRiMzYyNzIwODc0%40thread.v2/0?context=%7b%22Tid%22%3a%22b330d2c3-d985-4943-b28b-4d2df8f80a7e%22%2c%22Oid%22%3a%22ae51a20e-477d-4b5a-a4d4-22246ec65647%22%7d)
+
