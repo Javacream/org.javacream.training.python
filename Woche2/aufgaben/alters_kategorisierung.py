@@ -5,21 +5,24 @@ def get_age():
     age = input("Geben Sie Ihr Alter ein (0 - 125): ")
     age = int(age)
     return age
-def print_age_category(p_name, p_age):
+def get_age_category(p_age):
     if p_age >= 0 and p_age < 18:
-        print(f"{p_name} ist jugendlich")
+        return "jugendlich"
     elif p_age >= 18 and p_age < 65:
-        print(f"{p_name} ist erwachsen")
+        return "erwachsen"
     elif p_age >= 65 and p_age < 125:
-        print(f"{p_name} ist im Rentenalter")
+        return "im Rentenalter"
     else:
-        print(f"Sie haben ein ungültiges Alter eingegeben: {p_age}")     
-    return "OK"        
+        print(f"Sie haben ein ungültiges Alter eingegeben: {p_age}") 
+def print_category(name, category):
+    print(f"{name} ist {category}")
+
 def main():
     try:
         name = get_name()
         age = get_age()
-        print_age_category(name, age)
+        category = get_age_category(age)
+        print_category(name, category)
     except:
         print(f"Bitte nur Zahlen eingeben, Sie haben ein ungültiges Alter eingegeben: {age}")     
 
