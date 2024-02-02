@@ -12,7 +12,9 @@ def dict_from_two_lists(l1, l2):
     result = dict()
     size = len(l1)
     for i in range(size):
-        result[l1[i]] = l2[i]
+        key = l1[i]
+        value = l2[i]
+        result[key] = value
     print(result)
     return result
 
@@ -20,8 +22,9 @@ def sum_of_values_in_dict(dictionary):
     print(sum(dictionary.values()))
 
 def dict_to_tuple_list(input_dict):
-    tuple_list = [(key, value) for key, value in input_dict.items()]
-    print(tuple_list)
+    #tuple_list = [(key, value) for key, value in input_dict.items()] # so noch nicht in meiner Präsentation nicht behandlet, "List Comprehensions"
+    #print(tuple_list)
+    print(input_dict.items()) # fast äquivalen, als Musterlösung aber OK
 
 def key_in_dict(key, dictionary):
     value = dictionary.get(key)
