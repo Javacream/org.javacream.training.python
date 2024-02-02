@@ -26,9 +26,9 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
     * 1.2. Freiwillige Abgabe der Aufgaben bis 17:00
     * 2.2. 8:00 - 11:15 Ende Block 3, Besprechung der Aufgaben, Fragen, Erweiterungen
   * Woche 4
-    * Dienstag, 6.2, 8:00 - 10:00 Einführung
-    * Mittwoch, 7.2. 8:00 - 10:00 Gemeinsame Lösung der Übungen 
-    * Donnerstag, 8.2. 8:00 - 9:00 Eigene Lösungen, Erweiterungen
+    * Dienstag, 6.2, 8:00 - 10:00 Einführung, Vorstellung Python Module
+    * Mittwoch, 7.2. 8:00 - 9:00 Nachfragen, Hilfestellung, 9:00 - 10:00 List Comprehensions
+    * Donnerstag, 8.2. 8:00 - 9:00 Gemeinsame Lösung der Übungen
     * Freitag, 9.2. 8:00 - 9:00 Ende Block 4, Bestandsaufnahme
 
 * Individuell
