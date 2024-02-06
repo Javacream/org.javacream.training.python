@@ -1,13 +1,11 @@
 def main():
     def read_data():
-        with open("Woche4/demos/postalcodes.txt") as file:
+        with open(filename) as file:
             rows = file.readlines()
-            postalcodes = dict()
             for row in rows:
                 row = row.replace("\n", "")
                 key_value = row.split(":")
-                postalcodes[key_value[0]] = key_value[1]
-            return postalcodes
+                postalcode_dictionary[key_value[0]] = key_value[1]
     def query():
         while True:
             user_input = input("Bitte PLZ eingegeben, 'x' für Programmende: ")
@@ -18,7 +16,9 @@ def main():
                 print(f"Stadt für PLZ {user_input} ist {city}")
 
 
-    postalcode_dictionary = read_data()
+    filename = "Woche4/demos/postalcodes.txt"
+    postalcode_dictionary = dict()
+    read_data()
     query()
 
 main()
