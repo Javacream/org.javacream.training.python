@@ -1,6 +1,6 @@
 def main():
-    def read_data(file_to_read):
-        with open(filename) as file:
+    def read_data(**kwargs):
+        with open(f"{kwargs['directory']}/{kwargs['filename']}") as file:
             postalcode_dictionary = dict()
             rows = file.readlines()
             for row in rows:
@@ -18,8 +18,9 @@ def main():
                 print(f"Stadt für PLZ {user_input} ist {city}")
 
 
-    filename = "Woche4/demos/postalcodes.txt"
-    postalcode_dictionary = read_data(filename)
+    filename = "postalcodes.txt"
+    dirname = "Woche4/demos"
+    postalcode_dictionary = read_data(directory = dirname, filename = filename)
     query(postalcode_dictionary)
 
 main()
