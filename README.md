@@ -31,8 +31,8 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
     * Donnerstag, 8.2. 8:00 - 9:00 Gemeinsame Lösung der Übungen
     * Freitag, 9.2. 8:00 - 9:00 Ende Block 4, Bestandsaufnahme
   * Woche 5
-    * Dienstag, 13.2, 8:00 - 9:00 Einführung
-    * Mittwoch, 14.2. 8:00 - 11:00 Grundlagen der OOP
+    * Dienstag, 13.2, 8:00 - 9:00 Einführung, 
+    * Dienstag, 13.2. 9:15 - 11:15 Grundlagen der OOP
     * Donnerstag, 15.2. 8:00 - 9:00 "Programmierstüberl" Python Grundlagen
     * Freitag, 16.2. 8:00 - 9:00 "Programmierstüberl" OOP Grundlagen mit Vorstellung der Musterlösung
 
