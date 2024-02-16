@@ -1,0 +1,14 @@
+{
+  "1": {
+    "id": 1,
+    "name": "buch",
+    "amount": 10,
+    "price": 9.99
+  },
+  "2": {
+    "id": 2,
+    "name": "dvd",
+    "amount": 5,
+    "price": 19.99
+  }
+}
