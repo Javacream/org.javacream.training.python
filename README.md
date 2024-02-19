@@ -39,7 +39,7 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
     * Montag, 19.2, 8:00 - 9:00 Einführung 
     * Dienstag / Mittwoch Kurzeinführungen in die Themen des Lernpfades (4 Videos) + individuelle Betreuung (Sessions, Mail)
     * Donnerstag, 22.2. 8:00 - 9:00 "Programmierstüberl" Python Grundlagen
-    * Freitag, 23.2. 8:00 - 9:00 "Programmierstüberl" OOP Grundlagen mit Vorstellung der Musterlösung
+    * Freitag, 23.2. 8:00 - 9:00 "Programmierstüberl" OOP weiterführende Themen mit Vorstellung der Musterlösung
 
 * Individuell
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
