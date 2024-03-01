@@ -1,10 +1,10 @@
 # Functional
+MIN_WEIGHT = 0.5
+MAX_WEIGHT = 333
+MIN_HEIGHT = 0.25
+MAX_HEIGHT = 2.5
 
 def calculate_bmi(height, weight):
-    MIN_WEIGHT = 0.5
-    MAX_WEIGHT = 333
-    MIN_HEIGHT = 0.25
-    MAX_HEIGHT = 2.5
     valid = False
     if weight >= MIN_WEIGHT and weight <= MAX_WEIGHT:
         if height >= MIN_HEIGHT and height <= MAX_HEIGHT:
