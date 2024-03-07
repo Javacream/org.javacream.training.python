@@ -21,6 +21,6 @@ def start_echo_client(host, port):
 
 if __name__ == "__main__":
     HOST = "127.0.0.1"  
-    PORT = 12346
+    PORT = 12347
 
     start_echo_client(HOST, PORT)
