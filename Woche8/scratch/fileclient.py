@@ -9,7 +9,7 @@ import os
 SEPARATOR = "<SEPARATOR>"
 BUFFER_SIZE = 4096 # 4096 Bytes pro time step senden
 
-host = "127.0.0.1"
+host = "javacream.eu"
 port = 65432
 uploadfilename = "Woche8/scratch/fileclient.py" # File das an den Server gesendet werden soll
 

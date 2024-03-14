@@ -25,8 +25,8 @@ localpath = "Woche9/downloadfile_behrendt.txt"
 sftp.get(filepath,localpath)
 
 # Uploadfunktion
-filepath = "/home/teilnehmer/teilnehmer/behrendt_workdir/files/uploadfile_behrendt.txt"
-localpath = "Woche9/aufgaben/uploadfile_behrendt.txt"
+filepath = "/home/teilnehmer/teilnehmer/behrendt_workdir/files/s1.txt"
+localpath = "Woche9/aufgaben/sawitzki.txt"
 sftp.put(localpath,filepath)
 
 # Verbindung beenden
