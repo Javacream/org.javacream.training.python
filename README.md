@@ -49,11 +49,15 @@ Ressourcen für den am 15.1.2024 beginnenden Lernpfad mit Anleitungen, Beispiele
     * Mittwoch 6.3., 8:00 - 9:00, Nachfragen, Hilfestellung
     * Donnerstag 7.3.  8:00 - 11:15 Programmierstüberl Netzwerk
     * Freitag, 8.3. 8:00 - 11:15 Programmierstüberl Data Analysis
-* Woche 9
-    * Dienstag, 12.3, 8:00 - 9:00 Einführung der Lernpfade für Netzwerk und Datenanalyse
-    * Mittwoch 13.3., 8:00 - 9:00, Nachfragen, Hilfestellung
-    * Donnerstag 7.3.  8:00 - 11:15 Programmierstüberl Netzwerk
-    * Freitag, 8.3. 8:00 - 11:15 Programmierstüberl Data Analysis
+  * Woche 9
+      * Dienstag, 12.3, 8:00 - 9:00 Einführung der Lernpfade für Netzwerk und Datenanalyse
+      * Mittwoch 13.3., 8:00 - 9:00, Nachfragen, Hilfestellung
+      * Donnerstag 14.3.  8:00 - 11:15 Programmierstüberl Netzwerk
+      * Freitag, 15.3. 8:00 - 11:15 Programmierstüberl Data Analysis
+  * Woche 10
+      * Dienstag, 19.3, 8:00 - 9:00 Einführung der Lernpfade für Netzwerk und Datenanalyse
+      * Donnerstag 21.3.  8:00 - 11:15 Programmierstüberl für Netzwerk und Datenanalyse
+      * Freitag, 22.3. 8:00 - 11:15 Abschlussrunde
 
 * Individuell
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
