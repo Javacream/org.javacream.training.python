@@ -1,6 +1,10 @@
 import requests
 
-response = requests.get('http://javacream.eu:8080/people')
+host = "javacream.eu"
+port = 8080
+endpoint = f"http://{host}:{port}/people"
+
+response = requests.get(endpoint)
 
 #print(type(response.text))
 #print(type(response.json()))
