@@ -18,3 +18,29 @@ print(message)
 
 # Verwendung einer nicht-deklarierten Variable
 # print(hugo) # NameError: name 'hugo' is not defined
+
+# Mathematische Operatoren
+result = number + 5 # +, -, *, /, %
+
+# Logische Operatoren
+state = True and False
+state = True or False
+
+# + für Zeichenketten
+
+
+# Abkürzende Schreibweisen
+number += 5 # number = number + 5
+# number++ inkrement um 1 wird nicht unterstützt
+
+# + mit Zeichenketten, auch * wird unterstützt
+message = 'Hello'
+message = 5*message + '!'
+#print(message)
+
+# Kombination von Zeichenketten- und mathematischen Operatoren wird nicht unterstützt
+#message = message + number # TypeError: can only concatenate str (not "int") to str
+
+# string interpolation = Zugriff auf Variablen in einem formatted String
+output = f"message={message}, number={number}"
+print(output)
