@@ -1,10 +1,11 @@
-def demo(param):
-    param = 42
-    print(param)
+def greet(param):
+    print(f"Hello, {param}")
+
+def retrieve_name():
+    return input("enter your name: ")
 
 def main():
-    message = "Hello"
-    message = "World"
-    demo(message)
+    name = retrieve_name()
+    greet(name)
 
 main()
