@@ -1,6 +1,6 @@
 while True:
     input_text = input("enter first number or 'exit': ")
-    if (input_text == 'exit'):
+    if input_text == 'exit':
         break
     else:
         number1 = input_text
