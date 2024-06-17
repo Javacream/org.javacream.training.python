@@ -42,5 +42,5 @@ message = 5*message + '!'
 #message = message + number # TypeError: can only concatenate str (not "int") to str
 
 # string interpolation = Zugriff auf Variablen in einem formatted String
-output = f"message={message}, number={number}"
+output = f"the message is: {message}, the number is: {number}" # Freitext mit Zugriff auf Variablen
 print(output)
