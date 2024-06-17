@@ -7,6 +7,11 @@ def greet(param, friendly=True):
     else:
         print(f"Hello, {param}")
 
+# def greet(*param): # variable Parameter-Liste -> List
+#    pass
+# def greet(**param): # keyworded Parameter -> Dictionary
+#    pass
+
 def retrieve_name():
     return input("enter your name: ")
 
