@@ -44,3 +44,9 @@ message = 5*message + '!'
 # string interpolation = Zugriff auf Variablen in einem formatted String
 output = f"the message is: {message}, the number is: {number}" # Freitext mit Zugriff auf Variablen
 print(output)
+
+# Vergleichsoperatoren
+# Identität
+result = 1 == 5
+result = 1 < 5 # <=, >, >=
+result = not (1 < 5)
