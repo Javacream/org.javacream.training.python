@@ -10,5 +10,7 @@ def main():
         print(values)
     for key in addresses:
         print(f"key={key}, value={addresses[key]}")
+    for key,value in addresses.items():
+        print(f"key={key}, value={value}")
 
 main()
