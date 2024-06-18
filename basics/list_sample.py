@@ -10,6 +10,7 @@ def main():
         print(name)
     index = 0
     while (index < len(names)):
-        print(names[index])
+        name = names[index] 
+        print(name)
         index +=1   
 main()
