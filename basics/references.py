@@ -13,8 +13,17 @@ def demo_list_change(l):
     print(l)
 
 def main():
-    names = ["Zemil", "Helga"]
+    names = ["Horst", "Helga"]
     # print_list(names)
 #    demo_list_reassign(names)
-    demo_list_change(names)
+#    demo_list_change(names)
+    other_names = names 
+    other_names[1] = "Fritz"
+    print(names[1]) # Helga oder Fritz??? -> Fritz
+    copy_of_names = names.copy()
+    copy_of_names[1] = "Hannah"
+    print(names[1]) # Fritz oder Hannah??? -> Fritz
+
+
+
 main()
