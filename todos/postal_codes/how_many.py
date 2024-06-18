@@ -1,6 +1,6 @@
 def read_data():
     print("reading data")
-    with open ('german-postcodes.csv', 'r') as file:
+    with open ('german-postcodes.csv', 'r', encoding='utf-8') as file:
         return file.readlines()
 
 def pipeline(data):

@@ -1,17 +1,18 @@
 def read_data():
     print("reading data")
-    with open ('german-postcodes.csv', 'r') as file:
+    with open ('german-postcodes.csv', 'r', encoding='utf-8') as file:
         return file.readlines()
 
 def pipeline(data):
     #print(f"executing pipeline with data '{data}'") # huge console output!
     data_without_header = data[1:] # remove header
-    result = [row.split(';') for row in data_without_header]
-    return result
-
+    splitted = [row.split(';') for row in data_without_header]
+    cities_of_bavaria = [row[0] for row in splitted if row[2][:-1] == "Bayern"]
+    return cities_of_bavaria
 def write_result(result):
     #print(f"writing result: '{result}'")
-    print(f"first splitted row: {result[0]}, city={result[0][0]}, plz={result[0][1]}, district={result[0][2]}")
+    print(f"cities of bavaria: {result}")
+
 def main():
     data = read_data()
     result = pipeline(data)
