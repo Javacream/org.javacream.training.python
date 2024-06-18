@@ -1,8 +1,8 @@
 def read_data():
     print("reading data")
     with open('./names.txt') as file:
-
-        return file.readlines()
+        lines =file.readlines() 
+        return lines 
 
 def pipeline(data):
     print(f"executing pipeline with data '{data}'")
