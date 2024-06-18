@@ -1,12 +1,13 @@
 def read_data():
     print("reading data")
     with open('./names.txt') as file:
+
         return file.readlines()
 
 def pipeline(data):
     print(f"executing pipeline with data '{data}'")
-    result = []
-    for name in data:
+    result = [name[:-1] if name.endswith('\n')  else name for name in data]
+    for name in data: 
         if name.endswith('\n'):
             result.append(name[:-1])
         else:
