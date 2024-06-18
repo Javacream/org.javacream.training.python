@@ -10,7 +10,7 @@ def file_read_verbose():
 
 def file_read():
     try:
-        with open("./README.md", 'r') as file:
+        with open("./READMEE.md", 'r') as file:
             lines = file.readlines()
             print(lines)
     except:
