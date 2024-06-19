@@ -1,10 +1,13 @@
-Person
-lastname
-firstname
-weight
-say_hello()
+class Person:
+    def __init__(self, lastname, firstname, weight, address):
+        self.lastname = lastname
+        self.firstname = firstname
+        self.weight = weight
+        self.address = address
+    def say_hello(self):
+        pass
 
-
-Address
-city
-street
+class Address:
+    def __init__(self, city, street):
+        self.city = city
+        self.street = street
