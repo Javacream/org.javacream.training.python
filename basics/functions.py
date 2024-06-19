@@ -13,7 +13,15 @@ def greet_with_varargs(*params): # variable Parameter-Liste -> List
 def greet_with_kwargs(**params): # keyworded Parameter -> Dictionary
    print(params["lastname"])
 
+class GreetException(Exception):
+    def __init__(self, *args: object):
+        super().__init__(*args)
 
+def greet_with_error(name):
+    if (name == 'Sawitzki'):
+        raise GreetException("Sawitzki cannot greet!")
+    else:
+        return f"Hello {name}"
 
 def retrieve_name():
     return input("enter your name: ")
@@ -24,5 +32,6 @@ def main():
 #    greet(name, False)
 #    greet(name)
     # greet_with_varargs('Hugo', 'Emil', "Fritz")
-    greet_with_kwargs(lastname="Sawitzki", firstname="Rainer")
+    # greet_with_kwargs(lastname="Sawitzki", firstname="Rainer")
+    greet_with_error("Sawitzki")
 main()
