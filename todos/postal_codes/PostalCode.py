@@ -1,3 +1,4 @@
+import csv
 class PostalCode:
     def __init__(self, city, postal_code, district):
         self.city = city
@@ -7,10 +8,8 @@ class PostalCode:
         return f"PostalCode: city={self.city}, code={self.postal_code}, district={self.district}"    
 
 def read_data():
-    print("reading data")
     with open ('german-postcodes.csv', 'r', encoding='utf-8') as file:
-        raw_data =  file.readlines()
-        raw_data_without_header = raw_data[1:] # remove header
-        splitted = [row[:-1].split(';') for row in raw_data_without_header  if not row == ';;\n']
-        postal_codes = [PostalCode(row[0], row[1], row[2]) for row in splitted]
-        return postal_codes
+        csv_reader = csv.reader(file, delimiter=';')
+        next(csv_reader)  # Erste Zeile als Header lesen und ignorieren
+        data = [PostalCode(row[0], row[1], row[2]) for row in csv_reader]
+        return data
