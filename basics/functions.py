@@ -7,18 +7,22 @@ def greet(param, friendly=True):
     else:
         print(f"Hello, {param}")
 
-# def greet(*param): # variable Parameter-Liste -> List
-#    pass
-# def greet(**param): # keyworded Parameter -> Dictionary
-#    pass
+def greet_with_varargs(*params): # variable Parameter-Liste -> List
+   for param in params:
+       print(param)
+def greet_with_kwargs(**params): # keyworded Parameter -> Dictionary
+   print(params["lastname"])
+
+
 
 def retrieve_name():
     return input("enter your name: ")
 
 def main():
-    name = retrieve_name()
+    # name = retrieve_name()
 #    greet(name) Funktionen können in Python nicht überladen werden!
-    greet(name, False)
-    greet(name)
-
+#    greet(name, False)
+#    greet(name)
+    # greet_with_varargs('Hugo', 'Emil', "Fritz")
+    greet_with_kwargs(lastname="Sawitzki", firstname="Rainer")
 main()
