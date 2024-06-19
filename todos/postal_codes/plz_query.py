@@ -1,15 +1,9 @@
-def read_data():
-    print("reading data")
-    with open ('german-postcodes.csv', 'r', encoding='utf-8') as file:
-        return file.readlines()
-
+import PostalCode as pc
 def pipeline(data):
     #print(f"executing pipeline with data '{data}'") # huge console output!
-    data_without_header = data[1:] # remove header
-    splitted = [row.split(';') for row in data_without_header]
     postal_codes = dict()
-    for splitted_row in splitted:
-        postal_codes[splitted_row[1]] = splitted_row[0]
+    for postal_code in data:
+        postal_codes[postal_code.postal_code] = postal_code.city
     return postal_codes
 
 def write_result(result):
@@ -18,7 +12,7 @@ def write_result(result):
     print(f"city for postal code {postal_code} is {result[postal_code]}")
 
 def main():
-    data = read_data()
+    data = pc.read_data()
     result = pipeline(data)
     write_result(result)
 main()
