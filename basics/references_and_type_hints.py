@@ -41,4 +41,6 @@ def main():
     l2.append(42)
     print(l1)
 
+    print(type(l1))
+
 main()
