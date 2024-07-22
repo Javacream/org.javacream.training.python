@@ -1,15 +1,16 @@
 class Person:
-    def __init__ (self, lastname, firstname):
+    def __init__ (self, lastname, firstname, address):
         if lastname == None:
             raise Exception("unable to create person, lastname is mandatory")
         if firstname == None:
             raise Exception("unable to create person, firstname is mandatory")
+        if address == None:
+            raise Exception("unable to create person, firstname is mandatory")
         self.lastname = lastname
         self.firstname = firstname
+        self.address = address
     def greet(self):
-        greeting =  f'Hello, i am {self.firstname} {self.lastname}'
-        if hasattr(self, 'address'):
-            greeting += f", i live in {self.address.city}"
+        greeting =  f'Hello, i am {self.firstname} {self.lastname}, i live in {self.address.city}'
         return greeting    
 
 class Address:
@@ -22,9 +23,7 @@ class Address:
         self.street = street
         
 def main():
-    p1 = Person("Sawitzki", "Rainer")
     a1 = Address("Marienplatz", "München")
-    print(p1.greet())
-    p1.address = a1
+    p1 = Person("Sawitzki", "Rainer", a1)
     print(p1.greet())
 main()
