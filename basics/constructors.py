@@ -1,10 +1,11 @@
-s1 = 'Hugo'
-s2 = str('Hugo')
-s3 = str(42)
+def Person(lastname, firstname):
+    new_object = object() # kann nicht mit neuen Attributen erweitert werden...
+    new_object.lastname = lastname
+    new_object.firstname = firstname
+    return new_object
 
-list1 = list()
-list2 = list([1, 2,3])
+def main():
+    p1 = Person("Sawitzki", "Rainer")
+    print(p1.lastname)
 
-e = Exception('ein fehler ist passiert')
-
-print(type(e))
+main()
