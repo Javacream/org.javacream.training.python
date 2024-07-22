@@ -36,4 +36,9 @@ def main():
 
     string_demo_reassignement(message) # Analog zu list_demo_ressignement
 
+    l1 = [1]
+    l2 = l1.copy()
+    l2.append(42)
+    print(l1)
+
 main()
