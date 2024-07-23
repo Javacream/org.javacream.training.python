@@ -16,5 +16,15 @@ class MonitoringTests(unittest.TestCase):
         machine2 = m.Machine("Web Server 1", "1.2.3.5", m.Ressource(8, '128G', '4TB'))
         self.assertNotEqual(machine1, machine2)
 
+    def test_collected_metrics_are_available(self):
+        monitoring = m.Monitoring()
+        monitoring.collect()
+        self.assertEqual(2, len(monitoring.get_metrics_for('Database Server 1')))
+    
+    def test_cpu_metrics_are_availabe(self):
+        monitoring = m.Monitoring()
+        monitoring.collect()
+        self.assertEqual(1, len(monitoring.get_metrics('cpu')))
+
 if __name__ == '__main__':
     unittest.main()

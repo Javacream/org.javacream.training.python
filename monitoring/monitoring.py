@@ -46,3 +46,25 @@ class Counter(Metric):
         self.value += self.step
     def reset(self):
         self.value = 0    
+
+
+class Monitoring:
+    def __init__(self):
+        self.data = dict()
+    def collect(self):
+        with open ('./data/machines.csv') as machines_file:
+            data = machines_file.readlines()
+            data = [element[:-1].split(',') for element in data]
+            for machine in data:
+               self.data[machine[0]] = (Machine(machine[0], machine[1], Ressource(machine[2], machine[3], machine[4])), [])
+        with open ('./data/metrics.csv') as metrics_file:
+            data = metrics_file.readlines()
+            data = [element[:-1].split(',') for element in data]
+            # print(data)
+            for metric in data:
+               self.data[metric[0]][1].append(Metric(metric[1], metric[2]))
+
+    def get_metrics_for(self, machine_name):
+        return self.data.get(machine_name)
+    def get_metrics(self, name):
+        return [metric for data in self.data.values() for metric in data[1] if metric.name == name]
