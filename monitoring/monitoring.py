@@ -36,6 +36,10 @@ class Gauge(Metric):
         return self.min < self.value < self.max    
 
 class Counter(Metric):
+    initial = 0 # Das ist ein static Attribute
+    @staticmethod # Dekoration, Annotation, die dem Interpreter zeigt, dass die Methode staisch sein soll
+    def static_method_demo():
+        print("*****************")
     def __init__(self, name, step, value=0):
         super().__init__(name, value)
         self.step = step
@@ -53,10 +57,18 @@ def test():
     metric1 = Gauge('CPU Utilization Percent', 78, 0, 100)
     metric2 = Counter('Http Request', 5)
     metric3 = Gauge('Storage GB', 123.45, 2,4)
+    metric4 = Counter('Http Request', 123)
     machine_x = Machine("Database Server 1", "1.2.3.6", Ressource(8, '256G', '4TB'))
 
-    print(machine1)
-    print(machine1 == machine_x)
-    print(metric2)
-    print(metric1.in_range())
+    print(metric2.initial)    
+    print(metric4.initial)    
+    Counter.initial = -5
+    print(metric2.initial)    
+    print(metric4.initial) 
+
+    metric2.initial = 42 # VORSICHT: Hier bekommt das von metric2 referenzierte Objekt eine neu Eigenschaft initial
+    print(metric2.initial)    
+    print(metric4.initial) 
+    Counter.static_method_demo()
+
 test()
