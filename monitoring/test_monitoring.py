@@ -26,10 +26,18 @@ class MonitoringTests(unittest.TestCase):
         monitoring.collect()
         self.assertEqual(1, len(monitoring.get_metrics('cpu')))
 
-    def test_collect_machine(self):
+    def test_collect_machines(self):
         monitoring = m.Monitoring()
         machines = monitoring._Monitoring__collect_machines()
-        # assertions 
+        self.assertEqual(4, len(machines))
+        self.assertTrue('Database Server 1' in machines)
+
+    def test_collect_metrics(self):
+        monitoring = m.Monitoring()
+        machines = monitoring._Monitoring__collect_machines()
+        metrics = monitoring._Monitoring__collect_metrics(machines)
+        self.assertEqual(3, len(metrics))
+        self.assertTrue(2, len(metrics[machines.get('Database Server 1')]))
         
                 
 if __name__ == '__main__':

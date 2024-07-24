@@ -60,23 +60,25 @@ class Monitoring:
                name, ip, cpu, memory, storage = machine
                machines[name] = Machine(name, ip, Ressource(cpu, storage, memory))
             return machines
-    def __collect_metrics(self):
+    def __collect_metrics(self, machines):
         with open ('./data/metrics.csv') as metrics_file:
+            metrics = dict()
             metrics_data = metrics_file.readlines()
             cleaned_metrics_data = [element[:-1].split(',') for element in metrics_data if len(element.strip()) > 1]
             for metric_data in cleaned_metrics_data:
                machine_name, metric_name, metric_value = metric_data
                metric = Metric(metric_name, metric_value)
-               machine = self.machines.get(machine_name)
+               machine = machines.get(machine_name)
                if machine is not None:
-                metrics_list = self.metrics.get(machine)
+                metrics_list = metrics.get(machine)
                 if metrics_list == None:
                     metrics_list = []
-                    self.metrics[machine] = metrics_list
+                    metrics[machine] = metrics_list
                 metrics_list.append(metric)
+            return metrics
     def collect(self):
         self.machines = self.__collect_machines()
-        self.__collect_metrics()
+        self.metrics = self.__collect_metrics(self.machines)
 
     def get_metrics_for(self, machine_name):
         machine = self.machines.get(machine_name)
