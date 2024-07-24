@@ -15,8 +15,9 @@ class MachinesCollector:
 class MetricsCollector:
     def __init__(self, location) -> None:
         self.location = location
-    def collect_metrics(self, machines):
+    def collect_metrics(self):
         with open (self.location) as metrics_file:
+            machines = self.machines_collector.collect_machines()
             metrics = dict()
             metrics_data = metrics_file.readlines()
             cleaned_metrics_data = [element[:-1].split(',') for element in metrics_data if len(element.strip()) > 1]

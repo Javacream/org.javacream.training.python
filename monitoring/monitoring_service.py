@@ -5,7 +5,7 @@ class Monitoring:
 
     def collect(self):
         self.machines = self.machines_collector.collect_machines()
-        self.metrics = self.metrics_collector.collect_metrics(self.machines)
+        self.metrics = self.metrics_collector.collect_metrics()
 
     def get_metrics_for(self, machine_name):
         machine = self.machines.get(machine_name)
