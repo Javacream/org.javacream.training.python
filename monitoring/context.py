@@ -13,9 +13,7 @@ monitoring = monitoring_service.Monitoring()
 
 alarm_manager = alarm_service.AlarmManager(cpu_limit, memory_threshold)
 
-console_notifier = notifier_service.ConsoleNotifier()
-
-alarm_manager.notifier = console_notifier
+alarm_manager.notify = notifier_service.notify_console
 alarm_manager.monitoring = monitoring
 alarm_manager.machines_collector = machines_collector
 

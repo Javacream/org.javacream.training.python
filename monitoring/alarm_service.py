@@ -5,14 +5,13 @@ class AlarmManager:
 
     def check(self):
             self.monitoring.collect()
-            machines = self.machines_collector.collect_machines()
+            machines = list(self.machines_collector.collect_machines().values())
             for machine in machines:
-                self.__check_machine(machine)
+              self.__check_machine(machine)
 
     def __check_machine(self, machine):
-         
-         metrics = self.monitoring.get_metrics_for(machine)
+         metrics = self.monitoring.get_metrics_for(machine.name)
          cpu_alarms = [metric for metric in metrics if  metric.name == 'cpu' and metric.value >= self.cpu_limit]
-         self.notifier.send(machine, cpu_alarms)
-         memory_alarms = [metric for metric in metrics if  metric.name == 'ram' and metric.value >= self.memory_threshold/100 * machine.ressource.memory]
-         self.notifier.send(machine, memory_alarms)
+         self.notify(machine, cpu_alarms)
+         memory_alarms = [metric for metric in metrics if  metric.name == 'ram' and metric.value >= self.memory_threshold/100 * machine.resources.memory]
+         self.notify(machine, memory_alarms)

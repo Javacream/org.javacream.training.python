@@ -1,16 +1,16 @@
 import time
 class Machine:
-    def __init__(self, name, ip, ressources) -> None:
+    def __init__(self, name, ip, resources) -> None:
         self.name = name
         self.ip = ip
-        self.ressources = ressources
+        self.resources = resources
     def __repr__(self) -> str:
-        return f'Machine: name={self.name}, ip={self.ip}, ressources={self.ressources}'
+        return f'Machine: name={self.name}, ip={self.ip}, ressources={self.resources}'
     def __eq__(self, other: object) -> bool:
         return self.name == other.name
     def __hash__(self) -> int:
         return hash(self.name)
-class Ressource:
+class Resource:
     def __init__(self, cpu, memory, storage) -> None:
         self.cpu = cpu
         self.memory = memory

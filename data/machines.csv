@@ -1,4 +1,4 @@
-Database Server 1,1.2.3.4,8,256G,1T
-Database Server 2,1.2.3.5,16,512G,4T
-Web Server 1,1.2.3.6,4,128G,256G
-Web Server 2,1.2.3.7,4,128G,256G
+Database Server 1,1.2.3.4,8,41234565,4123456500
+Database Server 2,1.2.3.5,16,41234565,4123456500
+Web Server 1,1.2.3.6,4,41234565,4123456500
+Web Server 2,1.2.3.7,4,41234565,4123456500

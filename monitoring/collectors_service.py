@@ -9,7 +9,7 @@ class MachinesCollector:
             cleaned_machine_data = [element[:-1].split(',') for element in machine_data if len(element.strip()) > 1]
             for machine in cleaned_machine_data:
                name, ip, cpu, memory, storage = machine
-               machines[name] = data.Machine(name, ip, data.Ressource(cpu, storage, memory))
+               machines[name] = data.Machine(name, ip, data.Resource(int(cpu), int(storage), int(memory)))
             return machines
 
 class MetricsCollector:
