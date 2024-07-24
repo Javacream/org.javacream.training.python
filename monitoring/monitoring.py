@@ -9,7 +9,7 @@ class Machine:
     def __eq__(self, other: object) -> bool:
         return self.name == other.name
     def __hash__(self) -> int:
-        return self.name.__hash__()
+        return hash(self.name)
 class Ressource:
     def __init__(self, cpu, memory, storage) -> None:
         self.cpu = cpu
@@ -23,7 +23,6 @@ class Metric:
         self.timestamp = time.time()
         self.value = value
         self.name = name
-
     def __repr__(self) -> str:
         return f"Metric: name={self.name}, value={self.value}, timestamp={self.timestamp}"
 
@@ -50,21 +49,33 @@ class Counter(Metric):
 
 class Monitoring:
     def __init__(self):
-        self.data = dict()
+        self.machines = dict()
+        self.metrics = dict()
+
     def collect(self):
         with open ('./data/machines.csv') as machines_file:
-            data = machines_file.readlines()
-            data = [element[:-1].split(',') for element in data]
-            for machine in data:
-               self.data[machine[0]] = (Machine(machine[0], machine[1], Ressource(machine[2], machine[3], machine[4])), [])
+            machine_data = machines_file.readlines()
+            cleaned_machine_data = [element[:-1].split(',') for element in machine_data if len(element.strip()) > 1]
+            for machine in cleaned_machine_data:
+               name, ip, cpu, memory, storage = machine
+               self.machines[name] = Machine(name, ip, Ressource(cpu, storage, memory))
         with open ('./data/metrics.csv') as metrics_file:
-            data = metrics_file.readlines()
-            data = [element[:-1].split(',') for element in data]
-            # print(data)
-            for metric in data:
-               self.data[metric[0]][1].append(Metric(metric[1], metric[2]))
+            metrics_data = metrics_file.readlines()
+            cleaned_metrics_data = [element[:-1].split(',') for element in metrics_data if len(element.strip()) > 1]
+            for metric_data in cleaned_metrics_data:
+               machine_name, metric_name, metric_value = metric_data
+               metric = Metric(metric_name, metric_value)
+               machine = self.machines.get(machine_name)
+               if machine is not None:
+                metrics_list = self.metrics.get(machine)
+                if metrics_list == None:
+                    metrics_list = []
+                    self.metrics[machine] = metrics_list
+                metrics_list.append(metric)
 
     def get_metrics_for(self, machine_name):
-        return self.data.get(machine_name)
+        machine = self.machines.get(machine_name)
+        return self.metrics.get(machine)
+
     def get_metrics(self, name):
-        return [metric for data in self.data.values() for metric in data[1] if metric.name == name]
+        return [metric for metrics in self.metrics.values() for metric in metrics if metric.name == name]
