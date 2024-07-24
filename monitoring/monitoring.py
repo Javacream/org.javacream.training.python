@@ -53,11 +53,13 @@ class Monitoring:
         self.metrics = dict()
     def __collect_machines(self):
         with open ('./data/machines.csv') as machines_file:
+            machines = dict()
             machine_data = machines_file.readlines()
             cleaned_machine_data = [element[:-1].split(',') for element in machine_data if len(element.strip()) > 1]
             for machine in cleaned_machine_data:
                name, ip, cpu, memory, storage = machine
-               self.machines[name] = Machine(name, ip, Ressource(cpu, storage, memory))
+               machines[name] = Machine(name, ip, Ressource(cpu, storage, memory))
+            return machines
     def __collect_metrics(self):
         with open ('./data/metrics.csv') as metrics_file:
             metrics_data = metrics_file.readlines()
@@ -73,9 +75,9 @@ class Monitoring:
                     self.metrics[machine] = metrics_list
                 metrics_list.append(metric)
     def collect(self):
-        self.__collect_machines()
+        self.machines = self.__collect_machines()
         self.__collect_metrics()
-        
+
     def get_metrics_for(self, machine_name):
         machine = self.machines.get(machine_name)
         return self.metrics.get(machine)
