@@ -23,7 +23,7 @@ class MetricsCollector:
             cleaned_metrics_data = [element[:-1].split(',') for element in metrics_data if len(element.strip()) > 1]
             for metric_data in cleaned_metrics_data:
                machine_name, metric_name, metric_value = metric_data
-               metric = data.Metric(metric_name, metric_value)
+               metric = data.Metric(metric_name, int(metric_value))
                machine = machines.get(machine_name)
                if machine is not None:
                 metrics_list = metrics.get(machine)
