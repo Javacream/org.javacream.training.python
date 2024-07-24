@@ -48,18 +48,11 @@ class Counter(Metric):
 
 
 class Monitoring:
-    def __init__(self):
+    def __init__(self, location):
         self.machines = dict()
         self.metrics = dict()
-    def __collect_machines(self):
-        with open ('./data/machines.csv') as machines_file:
-            machines = dict()
-            machine_data = machines_file.readlines()
-            cleaned_machine_data = [element[:-1].split(',') for element in machine_data if len(element.strip()) > 1]
-            for machine in cleaned_machine_data:
-               name, ip, cpu, memory, storage = machine
-               machines[name] = Machine(name, ip, Ressource(cpu, storage, memory))
-            return machines
+        self.machine_collector = MachinesCollector(location)
+
     def __collect_metrics(self, machines):
         with open ('./data/metrics.csv') as metrics_file:
             metrics = dict()
@@ -77,7 +70,7 @@ class Monitoring:
                 metrics_list.append(metric)
             return metrics
     def collect(self):
-        self.machines = self.__collect_machines()
+        self.machines = self.machine_collector.collect_machines()
         self.metrics = self.__collect_metrics(self.machines)
 
     def get_metrics_for(self, machine_name):
@@ -86,3 +79,17 @@ class Monitoring:
 
     def get_metrics(self, name):
         return [metric for metrics in self.metrics.values() for metric in metrics if metric.name == name]
+    
+
+class MachinesCollector:
+    def __init__(self, location) -> None:
+        self.location = location
+    def collect_machines(self):
+        with open (self.location) as machines_file:
+            machines = dict()
+            machine_data = machines_file.readlines()
+            cleaned_machine_data = [element[:-1].split(',') for element in machine_data if len(element.strip()) > 1]
+            for machine in cleaned_machine_data:
+               name, ip, cpu, memory, storage = machine
+               machines[name] = Machine(name, ip, Ressource(cpu, storage, memory))
+            return machines
