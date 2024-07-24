@@ -1,10 +1,7 @@
-import collectors
 class Monitoring:
-    def __init__(self, machines_location, metrics_location):
+    def __init__(self):
         self.machines = dict()
         self.metrics = dict()
-        self.machines_collector = collectors.MachinesCollector(machines_location)
-        self.metrics_collector = collectors.MetricsCollector(metrics_location)
 
     def collect(self):
         self.machines = self.machines_collector.collect_machines()

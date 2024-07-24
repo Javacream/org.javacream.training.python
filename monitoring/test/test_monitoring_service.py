@@ -1,13 +1,7 @@
 import unittest
-import monitoring_service as service
 import monitoring_data as data
+import context
 class MonitoringTests(unittest.TestCase):
-    def setUp(self):
-        self.machines_location = './data/machines.csv'
-        self.metrics_location = './data/metrics.csv'
-
-    def tearDown(self) -> None:
-        pass
 
     def test_machines_are_equal_by_name(self):
         machine1 = data.Machine("Database Server 1", "1.2.3.4", data.Ressource(8, '128G', '4TB'))
@@ -20,12 +14,12 @@ class MonitoringTests(unittest.TestCase):
         self.assertNotEqual(machine1, machine2)
 
     def test_collected_metrics_are_available(self):
-        monitoring = service.Monitoring(self.machines_location, self.metrics_location)
+        monitoring = context.monitoring
         monitoring.collect()
         self.assertEqual(2, len(monitoring.get_metrics_for('Database Server 1')))
     
     def test_cpu_metrics_are_availabe(self):
-        monitoring = service.Monitoring(self.machines_location, self.metrics_location)
+        monitoring = context.monitoring
         monitoring.collect()
         self.assertEqual(1, len(monitoring.get_metrics('cpu')))
 
