@@ -26,5 +26,11 @@ class MonitoringTests(unittest.TestCase):
         monitoring.collect()
         self.assertEqual(1, len(monitoring.get_metrics('cpu')))
 
+    def test_collect_machine(self):
+        monitoring = m.Monitoring()
+        machines = monitoring._Monitoring__collect_machines()
+        # assertions 
+        
+                
 if __name__ == '__main__':
     unittest.main()
