@@ -10,7 +10,7 @@ Ressourcen für den am 5.8.2024 beginnenden Lernpfad mit Anleitungen, Beispielen
   * Zeitaufwand 6h pro Woche
   * Durchführung über Teams-Besprechung
   * 1. Termin (1 voller Tag)
-    * 8.1, 9:00 - 16:15 mit Pausen von 10:30 - 10:45, 12:15 - 13:00 und 14:30 - 14:45
+    * 8.8, 9:00 - 16:15 mit Pausen von 10:30 - 10:45, 12:15 - 13:00 und 14:30 - 14:45
 
 * Individuell
   * Gerne auch Außerhalb der Präsenz-Termine Kontakt über die angegebene Mail-Adresse aufnehmen
