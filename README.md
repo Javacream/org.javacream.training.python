@@ -16,3 +16,6 @@ Ressourcen für den am 5.8.2024 beginnenden Lernpfad mit Anleitungen, Beispielen
   * Gerne auch Außerhalb der Präsenz-Termine Kontakt über die angegebene Mail-Adresse aufnehmen
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1d0gAwrlT-r5NvAdMxlQZ1Lruuefnz9dF0RISju97i0I/edit?usp=sharing)
+
+* Aufzeichnungen
+  * [Kickoff](https://my.hidrive.com/share/4h2d3q796o)
