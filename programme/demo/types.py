@@ -19,5 +19,13 @@ print(type(var5))# das ist ein float, eine Fleißkommazahl
 # Logische, Boolschen Werte (8.8.)
 # Datencontainer, z.B. Listen (Block 2)
 
+# Python ist NICHT statisch typisiert
+
+message = 'Hello World'
+print(type(message))
+message = 42 # andere Sprachen würden hier einen Laufzeitfehler erzeugen
+print(type(message))
+
+
 
 
