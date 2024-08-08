@@ -1,3 +1,5 @@
+# Dieses Programm bestimmt für zwei Personen deren jeweiligen Body Mass Index
+
 height_sawitzki = 183
 weight_sawitzki = 75.3
 height_foo = 176
