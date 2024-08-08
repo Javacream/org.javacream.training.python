@@ -1,11 +1,11 @@
-A2 = 183
-B2 = 75.3
-A3 = 176
-B3 = 63.1
+height_sawitzki = 183
+weight_sawitzki = 75.3
+height_foo = 176
+weight_foo = 63.1
 
-C2 = B2/((A2/100)*(A2/100))
-C3 = B3/((A3/100)*(A3/100))
+bmi_sawitzki = weight_sawitzki/((height_sawitzki/100)*(height_sawitzki/100))
+bmi_foo = weight_foo/((height_foo/100)*(height_foo/100))
 
-print(C2)
-print(C3)
+print(bmi_sawitzki)
+print(bmi_foo)
 
