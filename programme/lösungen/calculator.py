@@ -13,3 +13,5 @@ print(f'Die Differenz von {number1} und {number2} = {diff}')
 
 print(f'Das Produkt von {number1} und {number2} = {number1 * number2}')
 print(f'Der Quotient von {number1} und {number2} = {number1 / number2}')
+
+print(f'Ist {number1} größer als {number2} = {number1 > number2}')

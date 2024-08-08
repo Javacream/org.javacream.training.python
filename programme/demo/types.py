@@ -27,5 +27,11 @@ message = 42 # andere Sprachen würden hier einen Laufzeitfehler erzeugen
 print(type(message))
 
 
+state1 = True
+state2 = False
+#state3 = Possibly
+#state4 = Wahr
 
+and_result = state1 and state2
+or_result = state1 or state2
 
