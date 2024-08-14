@@ -1,4 +1,8 @@
-counter = 0
-while counter < 10:
-    counter += 1
+START = 0
+END = 10
+STEP = 1
+
+counter = START
+while counter < END:
+    counter += STEP
     print(counter)
