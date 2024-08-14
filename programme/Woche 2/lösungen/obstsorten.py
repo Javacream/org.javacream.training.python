@@ -1,4 +1,6 @@
 fruits  = ['Apfel', 'Orange', 'Pfirsich', 'Banane', 'Zitrone']
 
+index = 1
 for fruit in fruits:
-    print(fruit)
+    print(f'{index}={fruit}')
+    index += 1
