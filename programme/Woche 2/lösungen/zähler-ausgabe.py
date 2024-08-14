@@ -3,6 +3,8 @@ END = 10
 STEP = 1
 
 counter = START
-while counter < END:
+while True:
+    if counter == END:
+        break
     counter += STEP
     print(counter)
