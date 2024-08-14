@@ -1,3 +1,6 @@
+MIN_AGE = 0
+MAX_AGE = 125
+
 YOUTH_LIMIT = 18
 ADULT_LIMIT = 65
 
@@ -6,12 +9,19 @@ YOUTH_MESSAGE = f"jugendlich, weil das eingegebenen Alter kleiner als {YOUTH_LIM
 ADULT_MESSAGE = "erwachsen"
 RETIRED_MESSAGE = "Rentenalter"
 
+
 age = input(AGE_INPUT_MESSAGE)
 age = int(age)
-if age < YOUTH_LIMIT:
-    print(YOUTH_MESSAGE)
-elif age >= YOUTH_LIMIT and age <= ADULT_LIMIT:
-    print(ADULT_MESSAGE)
+
+INVALID_AGE_MESSAGE = f"ungültiges Alter: {age}"
+
+if age < MIN_AGE or age > MAX_AGE:
+    print(INVALID_AGE_MESSAGE)
 else:
-    print (RETIRED_MESSAGE)    
+    if age < YOUTH_LIMIT:
+        print(YOUTH_MESSAGE)
+    elif age >= YOUTH_LIMIT and age <= ADULT_LIMIT:
+        print(ADULT_MESSAGE)
+    else:
+        print (RETIRED_MESSAGE)    
 
