@@ -1,6 +1,8 @@
-counter = 1
-constraint  = counter <= 10
+counter = 0
+constraint  = counter < 10
 while constraint:
-    # counter = counter + 1
     counter += 1
-    # counter++ # das ist in Python nicht unterstützt
+    constraint  = counter < 10
+    print(f'counter: {counter}')
+
+print("Finish")
