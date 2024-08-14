@@ -1,12 +1,17 @@
 YOUTH_LIMIT = 18
 ADULT_LIMIT = 65
 
-age = input("Geben Sie bitte ihr Alter als ganze Zahl ein: ")
+AGE_INPUT_MESSAGE = "Geben Sie bitte ihr Alter als ganze Zahl ein: "
+YOUTH_MESSAGE = f"jugendlich, weil das eingegebenen Alter kleiner als {YOUTH_LIMIT} ist"
+ADULT_MESSAGE = "erwachsen"
+RETIRED_MESSAGE = "Rentenalter"
+
+age = input(AGE_INPUT_MESSAGE)
 age = int(age)
 if age < YOUTH_LIMIT:
-    print(f"jugendlich, weil das eingegebenen Alter kleiner als {YOUTH_LIMIT} ist")
+    print(YOUTH_MESSAGE)
 elif age >= YOUTH_LIMIT and age <= ADULT_LIMIT:
-    print("erwachsen")
+    print(ADULT_MESSAGE)
 else:
-    print ("Rentenalter")    
+    print (RETIRED_MESSAGE)    
 
