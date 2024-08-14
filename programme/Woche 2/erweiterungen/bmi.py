@@ -39,8 +39,9 @@ while True:
             bmi_message = FATWEIGHT_MESSAGE
         print(f'{name} ist mit einem bmi von {bmi} {bmi_message}')
 
-        new_calculation = input(NEW_CALCULATION_INPUT_MESSAGE)
-        if new_calculation == 'n':
-            break
     except:
         print(f"ungültige Eingabe von Gewicht {weight} und / oder Körpergröße: {height}")
+
+    new_calculation = input(NEW_CALCULATION_INPUT_MESSAGE)
+    if new_calculation == 'n':
+        break
