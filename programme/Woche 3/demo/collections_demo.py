@@ -17,5 +17,13 @@ address_of_hannah = name_address_dict['Hannah']
 # Skurriler Zugriff
 minus_one_name_in_list = names_list[-1]
 
+# Iteration
+for element in names_set:
+    print(element)
+
+for key in name_address_dict:
+    print(key, name_address_dict[key])
+
+
 print ('Done')
 
