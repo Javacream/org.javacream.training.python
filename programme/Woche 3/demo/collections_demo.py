@@ -39,6 +39,8 @@ name_address_dict['Emil'] = 'Mannheim'
 #names_set[1] = 'Eduardo' kein Index
 name_address_dict['Helga'] = 'Heidelberg'
 
-
+# Bestimmen der Länge einer Collection
+length_of_collection = len(name_address_dict)
+print(length_of_collection)
 print ('Done')
 
