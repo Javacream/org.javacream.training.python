@@ -42,5 +42,8 @@ name_address_dict['Helga'] = 'Heidelberg'
 # Bestimmen der Länge einer Collection
 length_of_collection = len(name_address_dict)
 print(length_of_collection)
+
+names_list.sort()
+names_set.clear()
 print ('Done')
 
