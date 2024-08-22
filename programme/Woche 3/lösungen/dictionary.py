@@ -32,3 +32,14 @@ for name in name_address_dict:
     name_address_tuple_list.append(name_address_tuple)
 print(name_address_tuple_list)
 
+
+# Dictionary in Tuple, Variante 2
+
+name_address_tuple_list = name_address_dict.items()
+print(list(name_address_tuple_list))
+
+
+# Dictionary in Tuple, Variante 3
+
+name_address_tuple_list = [(name, name_address_dict[name]) for name in name_address_dict]
+print(name_address_tuple_list)
