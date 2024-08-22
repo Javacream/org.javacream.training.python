@@ -30,3 +30,4 @@ print(message[1:3])
 print(message[:3])
 print(message[3:])
 print(message[:]) # ziemlich sinnlos, aber möglich
+print(message[-1::-1])
