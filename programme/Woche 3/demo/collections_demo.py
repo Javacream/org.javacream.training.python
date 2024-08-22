@@ -26,6 +26,19 @@ for element in from_1_to_9_step_4:
 for key in name_address_dict:
     print(key, name_address_dict[key])
 
+# Dynamik der Collections
+# Ersetzen von Elementen
+names_list[1] = 'Eduardo'
+#names_tuple[1] = 'Eduardo' unveränderlich
+#names_set[1] = 'Eduardo' kein Index
+name_address_dict['Emil'] = 'Mannheim'
+
+# Hinzufügen von Elementen
+#names_list[5] = 'Helga' diese Art des Zugriffs funktioniert nur bei vorhandenen Indizes
+#names_tuple[1] = 'Eduardo' unveränderlich
+#names_set[1] = 'Eduardo' kein Index
+name_address_dict['Helga'] = 'Heidelberg'
+
 
 print ('Done')
 
