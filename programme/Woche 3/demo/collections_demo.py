@@ -2,6 +2,8 @@ names_list = list(['Hugo', 'Emil', 'Fritz', 'Hugo', 'Hannah']) # eine Liste mit 
 names_tuple = tuple(['Hugo', 'Emil', 'Fritz', 'Hugo', 'Hannah']) # ein Tupel mit den angegebenen Elementen
 names_set = set(['Hugo', 'Emil', 'Fritz', 'Hugo', 'Hannah']) # ein Set mit den angegebenen Elementen
 name_address_dict = dict(Emil= 'Berlin', Fritz= 'München', Hugo= 'Berlin', Hannah= 'Düsseldorf') # ein Dictionary mit den angegebenen Key-Value-Paaren
+from_1_to_9 = range(1, 10)
+from_1_to_9_step_4 = range(1, 10, 4)
 
 
 second_name_in_list = names_list[1]
@@ -18,7 +20,7 @@ address_of_hannah = name_address_dict['Hannah']
 minus_one_name_in_list = names_list[-1]
 
 # Iteration
-for element in names_set:
+for element in from_1_to_9_step_4:
     print(element)
 
 for key in name_address_dict:
