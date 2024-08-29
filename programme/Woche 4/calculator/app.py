@@ -1,12 +1,4 @@
-def plus(n1, n2):
-    return n1 + n2
-def minus(n1, n2):
-    return n1 - n2
-def times(n1, n2):
-    return n1 * n2
-def divide(n1, n2):
-    return n1 / n2
-
+import calculator # Name einer Datei ohne Endung .py
 def application():
     NEW_CALCULATION_INPUT_MESSAGE = "soll eine neue Berechung durchgeführt werden (J / n):"
     FIRST_NUMBER_MESSAGE = "Bitte geben Sie die erste Zahl an: "
@@ -14,10 +6,10 @@ def application():
     OPERATION_MESSAGE = "Bitte geben Sie die gewünschte Operation an (+, -, *, /): "
 
     operations = dict()
-    operations['+'] = plus
-    operations['-'] = minus
-    operations['*'] = times
-    operations['/'] = divide
+    operations['+'] = calculator.plus
+    operations['-'] = calculator.minus
+    operations['*'] = calculator.times
+    operations['/'] = calculator.divide
 
     while True:
         try:
