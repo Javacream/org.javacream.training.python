@@ -3,8 +3,8 @@ def application():
     NEW_CALCULATION_INPUT_MESSAGE = "soll eine neue Berechung durchgeführt werden (J / n):"
     FIRST_NUMBER_MESSAGE = "Bitte geben Sie die erste Zahl an: "
     SECOND_NUMBER_MESSAGE = "Bitte geben Sie die zweite Zahl an: "
-    OPERATION_MESSAGE = "Bitte geben Sie die gewünschte Operation an (+, -, *, /): "
-
+    OPERATION_MESSAGE = f"Bitte geben Sie die gewünschte Operation an {calculator.supported_operations}: "
+    the_calculator = calculator.calculator()
     while True:
         try:
             number1 = input(FIRST_NUMBER_MESSAGE)
@@ -13,7 +13,7 @@ def application():
                 number2 = input(SECOND_NUMBER_MESSAGE)
                 number2 = float(number2)
                 operation_name = input(OPERATION_MESSAGE)
-                operation = calculator.calculator.get(operation_name)
+                operation = the_calculator.get(operation_name)
                 if operation == None:
                     print(f"Ungültige Operation: {operation_name}")
                 else:
