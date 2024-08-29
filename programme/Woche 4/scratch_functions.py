@@ -1,13 +1,17 @@
 def echo(message):
     return message
 
+def echo(message):
+    return f"echoing {message}"
+
+# echo = "Hugo"
 def application():
     message = "Hello"
-    print(echo, message)
-
+    message = "World"
     echoed = echo("Hello") 
-    # message_result = message()
-    print(echoed, message)
+    print(echoed)
 
-
+    list = ["A", "B"]
+    # ...
+    names = list()
 application()
