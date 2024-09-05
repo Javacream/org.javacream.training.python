@@ -12,3 +12,8 @@ class Person:
         self.addresses.append(address)
     def say_hello(self) -> str: 
         return f'Hello, my name is {self.firstname} {self.lastname}'    
+
+class Student(Person):
+    def __init__(self, lastname: str, firstname: str, height: int, address: Address, uni):
+        super().__init__(lastname, firstname, height, address)
+        self.university = uni
