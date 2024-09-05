@@ -7,5 +7,4 @@ def application():
     print(musterfrau.say_hello())
 
 
-
 application()
