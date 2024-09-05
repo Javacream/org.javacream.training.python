@@ -6,7 +6,7 @@ def application():
         print(l)
 
     def fn2(l):
-        l = ['A', 'B', 'C', 'D']
+        l = ['A', 'B', 'C', 'D'] # Neuzuweisung eines Wertes an einen Parameter ist Bad practice
         print(l)
 
 
