@@ -8,6 +8,7 @@ class Person:
         self.lastname = lastname
         self.firstname = firstname
         self.height = height
-        self.address = address
+        self.addresses = []
+        self.addresses.append(address)
     def say_hello(self) -> str: 
         return f'Hello, my name is {self.firstname} {self.lastname}'    
