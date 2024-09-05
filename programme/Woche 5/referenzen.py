@@ -1,13 +1,10 @@
 def application():
     list1 = ['A', 'B']
-    list2 = ['A', 'B']
-    list3 = list1
 
-    list2.append('C')
+    def fn1(l):
+        l.append("C")
+        print(l)
+
+    fn1(list1) # implizit: l = list1
     print(list1)
-
-    list3.append('D')
-    print(list1)
-
-
 application()
