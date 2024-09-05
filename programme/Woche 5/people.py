@@ -6,3 +6,8 @@ class Person:
         self.__name = f'{self.firstname} {self.lastname}'
     def say_hello(self) -> str: 
         return f'Hello, my name is {self.__name}'    
+
+class Address:
+    def __init__(self, city, street) -> None:
+        self.city = city
+        self.street = street
