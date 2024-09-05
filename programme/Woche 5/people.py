@@ -4,4 +4,4 @@ class Person:
         self.firstname = firstname
         self.height = height
     def say_hello(self):
-        pass    
+        return f'Hello, my name is {self.firstname} {self.lastname}'    
