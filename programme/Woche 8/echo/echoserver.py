@@ -8,7 +8,7 @@ def main():
     PORT = 12345 # Die Port-Nummer des Servers muss aus seiner Dokumentation entnommen werden
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
         server_socket.bind((HOST, PORT))
-        server_socket.listen(1)
+        server_socket.listen(0)
         print(f'Server listening on {HOST} {PORT}')
         while True:
             client_socket, address = server_socket.accept() # Blockierendes Warten auf einen Client-Request
