@@ -10,13 +10,14 @@ def main():
         server_socket.bind((HOST, PORT))
         server_socket.listen(1)
         print(f'Server listening on {HOST} {PORT}')
-        client_socket, address = server_socket.accept() # Blockierendes Warten auf einen Client-Request
-        with client_socket:
-            print(f'Accepted client connection: {client_socket}')
-            client_message = client_socket.recv(1024)
-            client_message = client_message.decode()
-            print(f'Received message: {client_message}')
-            client_socket.sendall(client_message.encode())
+        while True:
+            client_socket, address = server_socket.accept() # Blockierendes Warten auf einen Client-Request
+            with client_socket:
+                print(f'Accepted client connection: {client_socket}')
+                client_message = client_socket.recv(1024)
+                client_message = client_message.decode()
+                print(f'Received message: {client_message}')
+                client_socket.sendall(client_message.encode())
 
 
 if __name__ == '__main__':
