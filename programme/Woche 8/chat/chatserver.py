@@ -1,5 +1,5 @@
 import socket
-
+import multiprocessing as mp
 
 def main():
     # HOST = 'localhost' # Dieser Host nimmt nur Anfragen von localhost entgegen, er bindet nur auf localhost
@@ -13,7 +13,8 @@ def main():
         while True:
             client_socket, address = server_socket.accept() # Blockierendes Warten auf einen Client-Request
             print(f'Accepted client connection: {client_socket}')
-            handle_client(client_socket)
+            process = mp.Process(target=handle_client, args=(client_socket,))
+            process.start()
 
 def handle_client(client_socket):
         with client_socket:
@@ -22,7 +23,7 @@ def handle_client(client_socket):
             while True:
                 client_message = client_socket.recv(1024).decode()
                 print(f'Received message: {client_message}')
-                if (client_message == 'bye'):
+                if client_message == 'bye':
                     print(f'terminating client connection {client_socket}')
                     break
                 client_socket.sendall(f'{name} deine Nachricht war {client_message}\n'.encode())
