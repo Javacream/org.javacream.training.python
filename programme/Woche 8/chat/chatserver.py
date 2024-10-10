@@ -12,13 +12,17 @@ def main():
         print(f'Server listening on {HOST} {PORT}')
         while True:
             client_socket, address = server_socket.accept() # Blockierendes Warten auf einen Client-Request
+            print(f'Accepted client connection: {client_socket}')
             with client_socket:
+                name = client_message = client_socket.recv(1024).decode()
+                client_socket.sendall(f'Hello {name}\n'.encode())
                 while True:
-                    print(f'Accepted client connection: {client_socket}')
-                    client_message = client_socket.recv(1024)
-                    client_message = client_message.decode()
+                    client_message = client_socket.recv(1024).decode()
                     print(f'Received message: {client_message}')
-                    client_socket.sendall(client_message.encode())
+                    if (client_message == 'bye'):
+                        print(f'terminating client connection {client_socket}')
+                        break
+                    client_socket.sendall(f'{name} deine Nachricht war {client_message}\n'.encode())
 
 
 if __name__ == '__main__':
