@@ -12,6 +12,8 @@ def main():
         print(greeting)
         while True:
             message = input("Bitte eine Nachricht eingeben: ")
+            if message == '':
+                continue
             client_socket.sendall(message.encode('utf-8')) # utf-8 ist bereits Standard
             if (message == 'bye'):
                 break
