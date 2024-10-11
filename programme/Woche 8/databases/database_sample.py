@@ -14,14 +14,18 @@ def main():
     cursor = database.cursor()
 
     # Definition und Absetzen eines SQL-Befehls
-    sql_string = 'SELECT * FROM ADDRESSES'
-    cursor.execute(sql_string)
-    result = cursor.fetchall()
+    lastname = 'Sawitzki'
+    sql_string = f"SELECT * FROM PEOPLE LEFT JOIN ADDRESSES ON PEOPLE.address_id = ADDRESSES.id where PEOPLE.lastname='{lastname}'"
+    try:
+        cursor.execute(sql_string)
+        result = cursor.fetchall()
 
-    for row in result:
-        print(row)
-
-    cursor.close()
-    database.close()
+        for row in result:
+            print(row)
+    except Exception as e:
+        print(e)
+    finally:    
+        cursor.close()
+        database.close()
 
 main()
