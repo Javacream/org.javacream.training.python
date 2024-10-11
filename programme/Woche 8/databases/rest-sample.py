@@ -1,7 +1,7 @@
 import requests
 
 # URL des RESTful WebService
-url = "http://javacream.eu:8080/api/books/ISBN1"
+url = "http://javacream.eu:8080/api/books"
 
 # GET-Anfrage senden
 response = requests.get(url)
@@ -18,4 +18,3 @@ if response.status_code == 200:
 else:
     print(f"Fehler bei der Anfrage: {response.status_code}")
 
-response = requests.delete(url)
