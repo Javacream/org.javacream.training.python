@@ -14,12 +14,12 @@ def main():
     cursor = database.cursor()
 
     # Definition und Absetzen eines SQL-Befehls
-    sql_string = 'SELECT * FROM PEOPLE'
+    sql_string = 'SELECT * FROM ADDRESSES'
     cursor.execute(sql_string)
-    people_result = cursor.fetchall()
+    result = cursor.fetchall()
 
-    for person_infos in people_result:
-        print(person_infos[2])
+    for row in result:
+        print(row)
 
     cursor.close()
     database.close()
