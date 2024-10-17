@@ -21,5 +21,6 @@ def main():
     client = ssh_connect()
     result = ssh_execute_command(client, 'ls')
     print(result)
+    client.close()
 
 main()
