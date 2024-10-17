@@ -7,6 +7,8 @@ client = paramiko.client.SSHClient()
 HOST = 'javacream.eu'
 PORT = 22
 USER = 'teilnehmer'
-PASSWORD = 'javacream123!'
+PASSWORD = 'javacream13!'
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-client.connect(HOST, port=PORT, username=USER, password=PASSWORD)
+client.connect(HOST, port=PORT, username=USER, password=PASSWORD) # Nach Ausführung von Connect wird auf javacream.eu ein Shell-Prozess gestartet
+
+client.close()
