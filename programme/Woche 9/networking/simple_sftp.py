@@ -1,10 +1,11 @@
 import paramiko
-
+import keyring
 def sftp_connect():
     HOST = 'javacream.eu'
     PORT = 22
+    SYSTEM = 'ssh_system'
     USER = 'teilnehmer'
-    PASSWORD = 'javacream123!'
+    PASSWORD = keyring.get_password(SYSTEM, USER)
     transport = paramiko.Transport((HOST, PORT))
     transport.connect(None, USER, PASSWORD)
     client = paramiko.SFTPClient.from_transport(transport)
