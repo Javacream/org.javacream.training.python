@@ -1,6 +1,6 @@
 # Python Training
 
-Ressourcen für den am 28.10.2024 beginnenden Lernpfad mit Anleitungen, Beispielen, Musterlösungen...
+Ressourcen für den am 5.11.2024 beginnenden Lernpfad mit Anleitungen, Beispielen, Musterlösungen...
 
 * Informationen
   * Rainer Sawitzki
