@@ -15,7 +15,7 @@ while True:
                 print(f'{age} ist Rentenalter')    
 
     except Exception as e:
-        print ('*** Fehler bei der Alterskategorisierung: {e}')
+        print (f'*** Fehler bei der Alterskategorisierung: {e}')
     
     again = input("Zum Beenden des Programms 'n' eingeben: ")
     if again == 'n':
