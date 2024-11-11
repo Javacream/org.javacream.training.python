@@ -71,7 +71,7 @@ Jeder Hauptblock umfasst etwa 90 Minuten
     * Formatted Strings f'...'
 * Kontrollstrukturen
     * Datentyp Boolean
-    * `if-elsè`
+    * `if-else`
     * Boolsche Algebra
     * Fehlerbehandlung mit `try-except`
   
