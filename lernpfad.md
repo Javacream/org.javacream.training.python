@@ -184,7 +184,7 @@ Visualisierung mit Pandas und Matplotlib
 * Machine Learning mit Python-Bibliotheken
   * Deskriptive Statistik mit Pandas
   * Scikit Learn
-* Neronale Netze
+* Neuronale Netze
 * Von der Korrelation zur Kausalität: Bewertung der Modelle
 * Abschlussarbeit    
 

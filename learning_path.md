@@ -168,6 +168,6 @@ Visualization with Pandas and Matplotlib
 * Machine learning with Python libraries
   * Descriptive statistics with Pandas
   * Scikit Learn
-* Neronal networks
+* Neural networks
 * From correlation to causality: evaluation of models
 * Final exercise    
