@@ -1,28 +1,29 @@
-if True:
-    print('erfüllt')
+counter = 0
+condition = counter < 10
+#while condition: # Das ist eine Endlosschleife
+#    print(counter)
 
-while False:
-    pass
-print('weiter geht')
+#while condition: # Das ist immer noch eine eine Endlosschleife
+#    condition = counter < 10
+#    print(counter)
 
-condition = True
-if condition:
-    pass
-else:
-    pass
 
-result = True and False
-result = True and True
+while condition:
+    condition = counter < 10
+    print(counter)
+    counter = counter + 1
 
-result = True or False
-result = True or True
+while counter < 10:
+    print(counter)
+#    counter = counter + 1
+    counter +=1 # Eine häufig genutzte Verkürzung
+    #counter++ # Ein Inkrement um 1, unterstützt in vielen Programmiersprache    
 
-result = not True
 
-a = 3
-b = 5
-result = (a == b)
-result = (a < b)
-
-print('finish')
+start = 42
+end_exclusive = 47
+index = start
+while index < end_exclusive:
+    print(index)
+    index += 1
 
