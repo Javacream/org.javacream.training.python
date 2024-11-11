@@ -126,3 +126,65 @@ Jeder Hauptblock umfasst etwa 90 Minuten
     * Lesen und Schreiben in eine einfache Tabelle
 * Abschlussübung
 
+### Python Datenanalyse & Visualisierung
+
+* Einführung
+  * Von Rohdaten zur Story: Grundsätzlicher Ablauf einer Datenanalyse
+  * Das pandas-Modul: Installation, Dokumentation, Funktionsumfang
+  * Jupyter Notebooks vs Skript-Programm
+* Erstes Arbeiten
+  * Einlesen von CSV, JSON, Excel
+  * Series und DataFrame
+  * Beschreibung und Kategorisierung der Daten
+Visualisierung mit Pandas und Matplotlib
+  * Übersicht der unterstützten Diagramm-Typen
+  * Histogramme, Linien- und Kreisdiagramme
+* Aufbereitung der Rohdaten
+  * Erkennen von fehlenden oder fehlerhaften Werten
+  * Datenbereinigung
+* Datenauswertung
+  * Filtern, Formatieren und Transformieren
+  * Gruppierung und Aggregation
+* Fallstudien und Praxisbeispiele
+* Abschlussübung
+### Objektorientierte Programmierung mit Python
+* Grundprinzipien der Objektorientierten Programmierung
+  * Datenstrukturen, Assoziationen und Vererbung
+  * Modellierung mit Klassendiagramm
+  * Umsetzung einer Klasse in Python
+* Objekte und Klassen
+  * Konstruktoren im Detail
+  * Attribute und Methoden
+  * Das Klassenobjekt
+* Assoziationen und Vererbung
+* Dunder-Methoden
+  * Kapselung
+  * `__repr__`, `__eq__` und `__hash__`
+* Eine Übersicht der Klassen der Python-Bibliotheken 
+* Expertenwissen
+  * Abstrakte Elemente
+  * Protokolle
+  * Mehrfachvererbung / Mixins
+* Abschlussübung
+### Python und maschinelles Lernen
+* Einführung
+  * Begriffsdefinition und Einbettung in den Komplex "Künstliche Intelligenz"
+  * Abgrenzung und Gemeinsamkeiten zur Statistik
+* Grundlagen des Maschinellen Lernens
+  * Unterschied zwischen überwachten und unüberwachten Lernverfahren
+  * Grundlagen und Anwendungsbeispiele zu Klassifikation, Regression, Clustering 
+  * Trainieren und Bewerten von Modellen
+* Einführung in die Statistik
+  * Deskriptive Statistik (Mittelwert, Median, Abweichung und Varianz)
+  * Von der Stichprobe zur Allgemeinheit: Inferenzstatistik
+  * Regressionsanalyse
+* Klassifizierungsmethoden
+  * K-Nearest Neighbors (KNN)
+  * Entscheidungsbäume
+* Machine Learning mit Python-Bibliotheken
+  * Deskriptive Statistik mit Pandas
+  * Scikit Learn
+* Neronale Netze
+* Von der Korrelation zur Kausalität: Bewertung der Modelle
+* Abschlussarbeit    
+
