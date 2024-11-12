@@ -8,3 +8,10 @@ bmi = weight/(height*height)*100*100
 
 print(bmi)
 
+type_of_name = type(name)
+print(type_of_name)
+print(type(weight))
+print(type(height))
+
+
+
