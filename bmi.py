@@ -1,11 +1,12 @@
-# Dieses Programm berechnet einen BMI für die Person Meier mit Körpergewicht 74.1 und Körpergröße 183cm
+# Dieses Programm berechnet einen BMI
 
-name = 'Meier'
-weight = 74.1
-height = 183 
+name = input('Enter your name: ')
+weight = input('Enter your weight: ')
+height = input('Enter your height in cm: ')
+
+weight = float(weight)
+height = int(height)
 
 bmi = weight / (height * height) * 100 * 100 # Berechnung des BMI
 
 print (f'Die Person namens {name} hat mit einem Gewicht von {weight} und einer Körpergröße von {height}cm einen BMI von {bmi}')
-
-print(type(name), type(weight), type(height), type(bmi))
