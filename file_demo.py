@@ -1,4 +1,3 @@
-file = open('./file_demo.py', 'rt')
-content = file.readlines()
-print(content)
-file.close()
+with open('./file_demo.py', 'rt') as file:
+    content = file.readlines()
+    print(content)
