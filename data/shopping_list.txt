@@ -1,0 +1,7 @@
+egg: 3
+tomato: 3
+apple: 1
+banana: 1
+pepper: 1
+salt: 1
+orange: 2
