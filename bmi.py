@@ -4,6 +4,6 @@ name = 'Meier'
 weight = 74.1
 height = 183 
 
-D1 = weight / (height * height) * 100 * 100 # Berechnung des BMI
+bmi = weight / (height * height) * 100 * 100 # Berechnung des BMI
 
-print (f'Die Person namens {name} hat mit einem Gewicht von {weight} und einer Körpergröße von {height}cm einen BMI von {D1}')
+print (f'Die Person namens {name} hat mit einem Gewicht von {weight} und einer Körpergröße von {height}cm einen BMI von {bmi}')
