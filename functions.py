@@ -4,7 +4,8 @@ def fn1():
 
 def fn2(p1, p2, p3):
     print(p1, p2, p3)
-    p3.append('orange')
+    p1 = "Fridolin" # Neuzuweisung der Referenz p1
+    p3.append('orange') # Nutzen des Objektes, auf das p3 zeigt
     return 'OK'
 
 def main():
