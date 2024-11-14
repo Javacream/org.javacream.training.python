@@ -6,6 +6,7 @@ def main():
     p1 = Person('Musterperson', 'Andrea')
     p2 = Person('Meier', 'Hannah')
     p2.addresses.add(a1)
+    a1.people.append(p2)
     p1.lastname = 'Changed'
     print(p1.introduce())
     print(p2.introduce())
