@@ -4,4 +4,5 @@ from module_library import do_something as ds
 def main():
     ds()
 #    print(ml.message)
-main()
+if __name__ == '__main__':
+    main()

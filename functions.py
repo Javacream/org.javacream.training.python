@@ -20,5 +20,5 @@ def main():
     fn4()
     fn4(name= 'Hugo', number= 9)
     fn4(name= 'Hugo')
-
-main()
+if __name__ == '__main__':
+    main()
