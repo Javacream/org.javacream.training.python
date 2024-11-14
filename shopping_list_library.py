@@ -5,12 +5,7 @@ def read_raw_shopping_list(path):
 
 def get_raw_shopping_list(raw_items):
     items = list()
-    for raw_item in raw_items:
-        if raw_item.endswith('\n'):
-            items.append(raw_item[0:-1])
-        else:
-            items.append(raw_item)
-    return items
+    return [raw_item[0:-1] if raw_item.endswith('\n') else raw_item for raw_item in raw_items]
 
 def get_items(path):
     data = read_raw_shopping_list(path)
