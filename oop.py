@@ -10,3 +10,10 @@ class Address:
         self.city = city
         self.street = street
         self.people = list()
+
+class Student(Person):
+    def __init__(self, lastname, firstname, university):
+        super().__init__(lastname, firstname)
+        self.university = university        
+    def study(self):
+        return f'{self.introduce()}, i am studying at {self.university}'
