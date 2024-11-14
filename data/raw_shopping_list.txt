@@ -10,3 +10,6 @@ pepper
 orange
 tomato
 apple
+egg
+tomato
+vinegar
