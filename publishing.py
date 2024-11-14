@@ -3,4 +3,4 @@ class Book:
         self.isbn =isbn
         self.title = title
         self.price = price
-        self.paes = pages
+        self.pages = pages
