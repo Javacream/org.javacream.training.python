@@ -21,11 +21,9 @@ def main():
         # Erzeugen eines Kontextes für diese Anwendung
         
         cursor = database.cursor()
-        sql_statement = "select * from messages"
+        sql_statement = "insert into messages values ('Hello Sawitzki')"
         cursor.execute(sql_statement)
-        result = cursor.fetchall()
-        for row in result:
-            print(row)
+        database.commit() # Das dient zum endgültigen Bestätigen des Schreibevorgangs
     except Exception as e:
         print(e)
     finally:
