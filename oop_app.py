@@ -1,5 +1,4 @@
 from oop import Person, Address, Student
-
 def main():
     a1 = Address('München', 'Marienplatz')
     a2 = Address('Berlin', 'Alexanderplatz')
