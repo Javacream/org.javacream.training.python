@@ -26,6 +26,10 @@ def find_all_books():
     return books.values()
 def find_all_publishers():
     return publishers.values()
+def find_all_publishers_sorted_by_name():
+    publisher_list = list(publishers.values())
+    publisher_list.sort(key=lambda p : p.name)
+    return publisher_list
 def find_book_by(isbn):
     return books.get(isbn)
 def find_publisher_by(name):
