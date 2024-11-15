@@ -1,3 +1,4 @@
+import mysql.connector
 def read_raw_shopping_list(path):
     with open (path) as file:
         raw_items = file.readlines()
@@ -22,7 +23,30 @@ def create_shopping_list(items):
         shopping_list[item] = items.count(item)
     return shopping_list
 
-def write_shopping_list_to(path, shopping_list):
-    with open (path, 'wt') as file:
+def write_shopping_list(shopping_list):
+    HOST = 'javacream.eu'
+    PORT = 3406
+    DATABASE_NAME = 'javacream'
+    USER = 'user'
+    PWD = 'user'
+
+    try:
+        # Verbindungsaufbau
+        database = mysql.connector.connect(
+            host=HOST, 
+            port = PORT,
+            database = DATABASE_NAME,
+            user = USER,
+            password = PWD
+        )
+        cursor = database.cursor()
+        cursor.execute("delete from SHOPPING where customer='Sawitzki'")
         for item in shopping_list:
-            file.write(f'{item}: {shopping_list[item]}\n')
+            sql_statement = f"insert into SHOPPING (customer, item, amount) values ('Sawitzki', '{item}', {shopping_list[item]})"
+            cursor.execute(sql_statement)
+        database.commit() # Das dient zum endgültigen Bestätigen des Schreibevorgangs
+    except Exception as e:
+        print(e)
+    finally:
+        cursor.close()
+        database.close()    
