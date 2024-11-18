@@ -12,12 +12,22 @@
 #     print(character)
 # print(text[2])    
 
-names = {'Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz'}
-for name in names:
-    print(name)
+# names = {'Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz'}
+# for name in names:
+#     print(name)
 
-element = 'Andreas'
-if element in names:
-    print(f'{element} ist in der Names-Collection')
-else:
-    print(f'{element} ist nicht in der Names-Collection')
+# element = 'Andreas'
+# if element in names:
+#     print(f'{element} ist in der Names-Collection')
+# else:
+#     print(f'{element} ist nicht in der Names-Collection')
+
+
+names_list = ['Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz']
+# names_set = {'Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz'}
+
+names_set = set(names_list)
+print(type(names_list))
+print(type(names_set))
+names_list = list(names_set)
+print(names_list)
