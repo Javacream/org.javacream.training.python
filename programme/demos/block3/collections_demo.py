@@ -58,3 +58,7 @@ print(r1[2])
 numbers_list = list(r1)
 print(numbers_list)
 r4 = range(numbers_list)
+
+#for (counter = 0; counter < 5, counter += 1):
+for counter in range(0, 5):
+    pass
