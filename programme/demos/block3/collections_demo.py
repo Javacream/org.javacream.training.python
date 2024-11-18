@@ -31,3 +31,9 @@ print(type(names_list))
 print(type(names_set))
 names_list = list(names_set)
 print(names_list)
+
+eduard_list = list("Eduard")
+print(eduard_list)
+
+numbers = [3, -7, 8, 42, 1]
+print(sum(numbers), min(numbers), max(numbers))
