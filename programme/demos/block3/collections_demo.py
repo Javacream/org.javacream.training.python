@@ -63,5 +63,8 @@
 # for counter in range(0, 5):
 #     pass
 
-names = ('Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz')
-print(names)
+names_tuple = ('Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz')
+names_list = ['Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz']
+
+names_list.append('Eduard')
+print(names_list)
