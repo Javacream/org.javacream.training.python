@@ -38,27 +38,30 @@
 # numbers = [3, -7, 8, 42, 1]
 # print(sum(numbers), min(numbers), max(numbers))
 
-r1 = range(0, 5)
-for number in r1:
-    print(number)
+# r1 = range(0, 5)
+# for number in r1:
+#     print(number)
 
-r2 = range(0, 5, 2)
-for number in r2:
-    print(number)    
+# r2 = range(0, 5, 2)
+# for number in r2:
+#     print(number)    
 
-r3 = range(0, -5, -1)
-for number in r3:
-    print(number)    
+# r3 = range(0, -5, -1)
+# for number in r3:
+#     print(number)    
 
 # r4 = range(0, 5, 1.2) # Fehler: ranges nur mit Ganzzahlen
 # for number in r4:
 #     print(number)    
 
-print(r1[2])
-numbers_list = list(r1)
-print(numbers_list)
-r4 = range(numbers_list)
+# print(r1[2])
+# numbers_list = list(r1)
+# print(numbers_list)
+# r4 = range(numbers_list)
 
-#for (counter = 0; counter < 5, counter += 1):
-for counter in range(0, 5):
-    pass
+# #for (counter = 0; counter < 5, counter += 1):
+# for counter in range(0, 5):
+#     pass
+
+names = ('Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz')
+print(names)
