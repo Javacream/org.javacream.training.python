@@ -63,8 +63,15 @@
 # for counter in range(0, 5):
 #     pass
 
-names_tuple = ('Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz')
-names_list = ['Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz']
+# names_tuple = ('Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz')
+# names_list = ['Hugo', 'Frieda', 'Andrea', 'Hugo', 'Fritz']
 
-names_list.append('Eduard')
-print(names_list)
+# names_list.append('Eduard')
+# print(names_list)
+
+postal_codes = {'81373': 'München', '30111': 'Berlin'}
+#print(postal_codes['40444']) # Das gib einen Laufzeitfehler, einen KeyError
+print(postal_codes.get('40444')) # Nicht-gefundene Keys werden zu None
+
+postal_codes['40444'] = 'Hamburg'
+print(postal_codes.get('40444'))
