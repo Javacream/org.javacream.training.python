@@ -1,7 +1,7 @@
 try:
     pass
 except:
-    pass
+    print('da hat etwas nicht geklappt')
 
 n1 = int(input())
 n2 = int(input())
