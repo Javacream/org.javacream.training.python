@@ -3,8 +3,8 @@ while True:
         n1 = int(input())
         n2 = int(input())
         n3 = int(input())
-    except:
-        print('da hat etwas nicht geklappt')
+    except Exception as e:
+        print(f'da hat etwas nicht geklappt: {e}')
     again = input('nochmal j|n')
     if again == 'n':
         break
