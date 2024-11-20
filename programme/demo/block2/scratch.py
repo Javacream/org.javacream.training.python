@@ -1,5 +1,8 @@
-names = ['Hugo', 'Hannah', 'Andrea']
-print(names)
+try:
+    pass
+except:
+    pass
 
-for name in names: # Zuweisung an die Variable name erfolgt intern
-    print(name)
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
