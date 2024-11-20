@@ -1,30 +1,32 @@
-if 2 < 5:
-    print('2 ist kleiner als fünf')
+# # Endlos-Schleife
+# condition = True
+# while condition:
+#     pass
 
-print('1')
-#  print('2') unexpected indent
-print('3')
+# Von-bis-Schleife
 
-if 2 < 5:
-    pass
-else:
-    pass
+start = 0
+counter = start
+end = 5
+# condition = counter < end: Hier wird die Bedingung nur einmal geprüft -> True -> Endlos
+while counter < end:
+    # pass # Nicht vergessen: counter hochzählen -> Endlos
+    print(f'{counter}')
+    #counter = counter + 1
+    counter += 1
+    #counter++ # in Python gibt es kein PlusPlus
 
-print('fertig') 
+counter = 0
+while True:
+    counter += 1
+    print(f'{counter}')
+    if counter >= 5:
+        break
+counter = 0
+while counter < 5:
+    print(f'{counter}')
+    counter += 1
+    if counter % 2:
+        continue
+    print('nächster Durchlauf')
 
-b1 = True
-b2 = False
-
-print(type(b2))
-
-print (not b1)
-print (b1 and b2)
-result = b1 or b2
-print(result)
-
-var1 = 25
-var2 = var1
-var3 = var2 = 42 # var3 und var2 werden auf den Wert 42 gesetzt
-var3 = var2 == 42 # var3 ist der Wert des Vergleichs
-var3 = (var2 == 42) # runde Klammern ändern die Prioisierung der Ausführung, hier eigentlich nicht notwendig, == wird vor der Zuweisung = ausgeführt
-print('done')
