@@ -1,9 +1,13 @@
+def add_element_to(data):
+    data.append('C')
+
 def main():
-    n1 = [1,2]
-    n2 = {'A', 'B'}
-    n3 = n2
-    n4 = n2.copy()
-    n3.add('C')
+    demo_set = ['A', 'B']
+    print(f'vor aufruf: {demo_set}')
+    add_element_to(demo_set)
+    print(f'nach aufruf: {demo_set}')
+    add_element_to(demo_set.copy())
+    print(f'nach aufruf mit copy(): {demo_set}')
     print('done')
 
 main()
