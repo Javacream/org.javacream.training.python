@@ -1,0 +1,14 @@
+servers:
+  server1:
+    name: book
+    connect:
+      url: http://javacream.eu/api/books
+      user: Sawitzki
+      pwd: egal
+  server2:
+    name:
+      people
+    connect:
+      url:http://javacream.eu/api/people
+      user:Musterperson
+      pwd:test
