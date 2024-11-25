@@ -1,7 +1,6 @@
-import math
+import math as m
 
 def main():
-    m = math
     print(m.pi)
 
 main()
