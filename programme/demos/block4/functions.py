@@ -1,5 +1,6 @@
 def function1():
     for_fn1 = 'Hello'
+    message = 'Global, changed by fn1'
     print(f'called function1, {for_fn1}, {message}')
 
 def function2():
