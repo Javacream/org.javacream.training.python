@@ -9,7 +9,7 @@ def function2():
 
 def main():
     message = 'var im main-Stack'
-    function1()
+    function1(message) # param wird mit message überschrieben, das ist unmöglich für for_fn1
     function2()
 
 main()
