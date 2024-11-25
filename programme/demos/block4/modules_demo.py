@@ -1,6 +1,6 @@
-import math as m
-
+from math import pi, sqrt
 def main():
-    print(m.pi)
+    print(pi)
+    print(sqrt(2))
 
 main()
