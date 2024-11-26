@@ -5,9 +5,10 @@ names = ['Hugo', 'Andrea', 'Hannah', 'Gregor', "Emiliana", 'Harald']
 result = []
 
 for name in names:
-    result.append(len(name))
+    if name.startswith('H'):
+        result.append(len(name))
 
 
 # ___________________________
-comprehension_result = [len(name) for name in names]
+comprehension_result = [len(name) for name in names if name.startswith('H')]
 print('done')
