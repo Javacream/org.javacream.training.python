@@ -5,9 +5,9 @@ names = ['Hugo', 'Andrea', 'Hannah', 'Gregor', "Emiliana", 'Harald']
 result = []
 
 for name in names:
-    result.append(name)
+    result.append(len(name))
 
 
 # ___________________________
-comprehension_result = [name for name in names]
+comprehension_result = [len(name) for name in names]
 print('done')
