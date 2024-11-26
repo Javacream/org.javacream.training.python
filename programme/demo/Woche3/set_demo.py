@@ -1,4 +1,5 @@
 seasons = {'winter', 'spring', 'summer', 'autumn', 'spring', 'summer'}
+seasons = set(['winter', 'spring', 'summer', 'autumn', 'spring', 'summer'])
 
 #print(seasons[1])
 

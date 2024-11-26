@@ -1,4 +1,5 @@
 seasons = ('winter', 'spring', 'summer', 'autumn')
+seasons = tuple(['winter', 'spring', 'summer', 'autumn'])
 
 print(seasons[1])
 

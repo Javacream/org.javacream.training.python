@@ -1,4 +1,6 @@
 seasons = ['winter', 'spring', 'summer', 'autumn']
+seasons = list(['winter', 'spring', 'summer', 'autumn'])
+seasons = list(('winter', 'spring', 'summer', 'autumn'))
 
 print(seasons[1])
 
