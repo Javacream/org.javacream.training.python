@@ -1,0 +1,6 @@
+Joghurt: 1
+Zucker: 2
+Milch: 2
+Ei: 3
+Mehl: 3
+Apfel: 2

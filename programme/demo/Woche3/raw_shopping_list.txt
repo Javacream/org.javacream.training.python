@@ -8,3 +8,6 @@ Milch
 Zucker
 Ei
 Mehl
+Ei
+Apfel
+Zucker
