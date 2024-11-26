@@ -1,4 +1,4 @@
-text = "Das ist ein simple Text"
+text = "Das ist ein simpler Text"
 print(text[::-1])
 
 # Alternativ-Lösung, viel aufwändiger
