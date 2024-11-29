@@ -1,0 +1,6 @@
+# so nicht...
+
+with open ('./programme/demo/Woche4/books.json') as file:
+    data = file.readlines()
+# TODO: Parsen unter Berücksichtigung aller Leerzeichen, EOFs, ...
+print('done')    
