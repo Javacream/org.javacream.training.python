@@ -1,6 +1,7 @@
+import math # math ist eine Referenz auf das im Heap angelegte Modul
+
 def perimeter(radius: float):
-    pi = 22/7
-    result = 2 * radius * pi
+    result = 2 * radius * math.pi
     return result
 
 def main():
