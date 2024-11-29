@@ -1,16 +1,9 @@
-def function_with_string_param(s: str):
-    print(s.upper())
-
-def function_with_list_param(l: list[str]):
-    first_element = l[0]
-    l.append("D")
-    first_element.upper()
-    return True
+def fn_with_param(p1, *args, p2): # Variable Parameterliste, 'varargs'
+    print(f'p1={p1}')
+    for arg in args:
+        print(arg)
 
 def main():
-    string = 'Hugo'
-    character_list = ['A', 'B', 'S']
-    function_with_string_param(string)
-    result: bool = function_with_list_param(character_list)
-    function_with_list_param(string)
+    fn_with_param('P1', "P2")
+    fn_with_param('One', 'Two', 'Three')
 main()
