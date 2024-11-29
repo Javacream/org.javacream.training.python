@@ -1,7 +1,7 @@
-import math as math_utilities
+from math import pi
 
 def perimeter(radius: float):
-    result = 2 * radius * math_utilities.pi
+    result = 2 * radius * pi
     return result
 
 def main():
