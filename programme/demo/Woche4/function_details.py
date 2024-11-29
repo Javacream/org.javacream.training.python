@@ -1,9 +1,7 @@
-def fn_with_param(p1, *args, p2): # Variable Parameterliste, 'varargs'
-    print(f'p1={p1}')
-    for arg in args:
+def fn_with_param(**kwargs): # Keyworded args
+    for arg in kwargs:
         print(arg)
 
 def main():
-    fn_with_param('P1', "P2")
-    fn_with_param('One', 'Two', 'Three')
+    fn_with_param(name='Sawitzki', height=183)
 main()
