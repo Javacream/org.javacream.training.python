@@ -6,7 +6,7 @@ def read_raw_shopping_list():
         raw_items = file.readlines()
     return raw_items
 
-def create_shopping_list(items = ['Apfel', 'Birne', 'Apfel']):
+def create_shopping_list(items):
     unique_items = set(items)
     shopping_list = {item: items.count(item) for item in unique_items}
     return shopping_list
