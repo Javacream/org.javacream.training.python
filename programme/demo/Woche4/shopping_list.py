@@ -18,7 +18,5 @@ def main():
     create_shopping_list()
     write_shopping_list()
 
-outer_var = 'outer'
-
 main()
 
