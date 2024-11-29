@@ -1,5 +1,3 @@
-# Unser Shopping-List-Beispiel
-
 def read_raw_shopping_list():
     path = './programme/demo/Woche4/raw_shopping_list.txt'
     with open (path) as file:
@@ -20,11 +18,5 @@ def write_shopping_list(shopping_list):
     with open (path, 'wt') as file:
         for item in shopping_list:
             file.write(f'{item}: {shopping_list[item]}\n')
-def main():
-    raw_shopping_list = read_raw_shopping_list()
-    cleaned_raw_shopping_list = remove_end_of_line(raw_shopping_list)
-    shopping_list = create_shopping_list(cleaned_raw_shopping_list)
-    write_shopping_list(shopping_list)
 
-main()
 
