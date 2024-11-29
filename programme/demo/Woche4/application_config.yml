@@ -1,0 +1,11 @@
+database1:
+  name: customer
+  credentials:
+    user: scott
+    pwd: tiger
+
+database2:
+  name: invoices
+  credentials:
+    user: andrea
+    pwd: musterperson
