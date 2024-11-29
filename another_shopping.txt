@@ -1,0 +1,3 @@
+Mango: 5
+Orange: 3
+Granatapfel: 27
