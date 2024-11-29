@@ -11,15 +11,15 @@ def create_shopping_list(items = ['Apfel', 'Birne', 'Apfel']):
     shopping_list = {item: items.count(item) for item in unique_items}
     return shopping_list
 
-def write_shopping_list():
+def write_shopping_list(shopping_list):
     path = './programme/demo/Woche4/shopping_list.txt'
-    shopping_list = 'shopping_list in write'
-    print(shopping_list)
-
+    with open (path, 'wt') as file:
+        for item in shopping_list:
+            file.write(f'{item}: {shopping_list[item]}\n')
 def main():
     raw_shopping_list = read_raw_shopping_list()
-    shopping_list = create_shopping_list()
-    write_shopping_list()
+    shopping_list = create_shopping_list(raw_shopping_list) # Damit wird der Parameter items gesetzt / überschrieben
+    write_shopping_list(shopping_list)
 
 main()
 
