@@ -1,14 +1,14 @@
-def fn1():
-    print('called fn1')
-    return "OK"
-def fn1():
-    print('CHANGED called fn1')
-    return "OK"
-def fn1(param):
-    print('called fn1 with param')
-    return "OK"
+def function_with_string_param(s: str):
+    print(s.upper())
+
+def function_with_list_param(l: list[str]):
+    first_element = l[0]
+    first_element.upper()
+    return True
 
 def main():
-    print(fn1())
-
+    string = 'Hugo'
+    character_list = ['A', 'B', 'S']
+    function_with_string_param(string)
+    result: bool = function_with_list_param(character_list)
 main()
