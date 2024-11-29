@@ -6,7 +6,7 @@ def radius_from_area(area: float):
 
 
 def perimeter(radius: float):
-    result = 2 * radius * pi
+    result = 2 * radius * circle_number
     return result
 
 def main():
