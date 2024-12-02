@@ -27,7 +27,9 @@ def main():
     a2 = Address('Berlin', 'Alexanderplatz')
     person1 = Person(1, 'Musterperson', 'Andrea', a1)
     person2 = Person(2, 'Schneider', 'Hannah', a2)
-    student1 = Student(3, 'Einstein', 'Albert', a1)
+    student1 = Student(3, 'Einstein', 'Albert', a1, 'LMU')
+    print(person1.say_hello())
+    print(student1.say_hello())
     print('done')
 
 main()
