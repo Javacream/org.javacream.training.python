@@ -7,12 +7,11 @@ class BankAccount:
     
     def deposit(self, amount):
         if amount <= 0:
-            print(f'amount must be positive, not {amount}')
-        else:
-            self.account += amount    
+            error = Exception(f'amount must be positive, not {amount}')
+            raise error
+        self.account += amount    
 
     def payout(self, amount):
         if amount <= 0:
-            print(f'amount must be positive, not {amount}')
-        else:
-            self.account -= amount                
+            raise Exception(f'amount must be positive, not {amount}')
+        self.account -= amount                
