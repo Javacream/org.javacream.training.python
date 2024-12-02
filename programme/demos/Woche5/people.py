@@ -1,16 +1,20 @@
 class Person:
-    def __init__(self, id, lastname, firstname, *addresses):
+    def __init__(self, id, lastname, firstname, address):
         self.id = id
         self.lastname = lastname
         self.firstname = firstname
-        self.addresses = set(addresses)
-        for address in addresses:
-            address.people.add(self)
-            
+        self.address = address
+
     def say_hello(self):
         message = f'Hello, my name is {self.firstname} {self.lastname}'
         return message
 
+class Student(Person):
+    def __init__(self, id, lastname, firstname, address, university):
+        super().__init__(id, lastname, firstname, address)
+        self.university = university
+    def study(self):
+        pass
 
 class Address:
     def __init__(self, param_city, param_street):
@@ -21,11 +25,9 @@ class Address:
 def main():
     a1 = Address('München', 'Marienplatz')
     a2 = Address('Berlin', 'Alexanderplatz')
-    person1 = Person(1, 'Musterperson', 'Andrea', a1, a2)
+    person1 = Person(1, 'Musterperson', 'Andrea', a1)
     person2 = Person(2, 'Schneider', 'Hannah', a2)
-    #person1.addresses.add(a2)
-    print(person1.say_hello())
-    print(person2.say_hello())
+    student1 = Student(3, 'Einstein', 'Albert', a1)
     print('done')
 
 main()
