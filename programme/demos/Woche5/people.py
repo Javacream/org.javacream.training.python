@@ -1,8 +1,9 @@
 class Person:
-    def __init__(self, id, lastname, firstname):  # Der Konstruktor der Klasse Person
+    def __init__(self, id, lastname, firstname, address):
         self.id = id
         self.lastname = lastname
         self.firstname = firstname
+        self.address = address
     def say_hello(self):
         message = f'Hello, my name is {self.firstname} {self.lastname}'
         return message
@@ -13,9 +14,13 @@ class Address:
         self.city = param_city
         self.street = param_street   
 
-person1 = Person(1, 'Musterperson', 'Andrea')
-person2 = Person(2, 'Schneider', 'Hannah')
+def main():
+    a1 = Address('München', 'Marienplatz')
+    a2 = Address('Berlin', 'Alexanderplatz')
+    person1 = Person(1, 'Musterperson', 'Andrea', a1)
+    person2 = Person(2, 'Schneider', 'Hannah', a2)
+    print(person1.say_hello())
+    print(person2.say_hello())
+    print('done')
 
-print(person1.say_hello())
-print(person2.say_hello())
-print('done')
+main()
