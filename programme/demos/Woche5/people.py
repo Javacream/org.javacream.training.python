@@ -3,7 +3,7 @@ class Person:
         self.id = id
         self.lastname = lastname
         self.firstname = firstname
-        self.address = address
+        self.addresses = {address}
     def say_hello(self):
         message = f'Hello, my name is {self.firstname} {self.lastname}'
         return message
@@ -19,6 +19,7 @@ def main():
     a2 = Address('Berlin', 'Alexanderplatz')
     person1 = Person(1, 'Musterperson', 'Andrea', a1)
     person2 = Person(2, 'Schneider', 'Hannah', a2)
+    person1.addresses.add(a2)
     print(person1.say_hello())
     print(person2.say_hello())
     print('done')
