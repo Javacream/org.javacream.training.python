@@ -19,7 +19,7 @@ class Student(Person):
         return message
     
     def study(self):
-        pass
+        return self.say_hello()
 
 class Address:
     def __init__(self, param_city, param_street):
@@ -35,6 +35,7 @@ def main():
     student1 = Student(3, 'Einstein', 'Albert', a1, 'LMU')
     print(person1.say_hello())
     print(student1.say_hello())
+    print(student1.study())
     print('done')
 
 main()
