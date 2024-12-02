@@ -14,7 +14,8 @@ class Student(Person):
         super().__init__(id, lastname, firstname, address)
         self.university = university
     def say_hello(self):
-        message = 'I am a student'
+        super_message = super().say_hello()
+        message = f'{super_message}, i study at {self.university}'
         return message
     
     def study(self):
