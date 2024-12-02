@@ -4,7 +4,8 @@ class Person:
         self.lastname = lastname
         self.firstname = firstname
     def say_hello(self):
-        pass
+        message = f'Hello, my name is {self.firstname} {self.lastname}'
+        return message
 
 
 class Address:
@@ -12,11 +13,9 @@ class Address:
         self.city = param_city
         self.street = param_street   
 
-my_list = []  # -> leere Liste mit Literal
-my_list = list() # -> leere Liste
+person1 = Person(1, 'Musterperson', 'Andrea')
+person2 = Person(2, 'Schneider', 'Hannah')
 
-# person1 = -> Person mit Literal geht nicht, es gibt kein Personen-Literal
-person1 = Person(1, 'Musterperson', 'Andrea') # Der erste Parameter des Konstruktors, als 'self' wird hier nicht angegeben, sondern intern erzeugt
-person2 = Person(2, 'Schneider', 'Hannah') # Der erste Parameter des Konstruktors, als 'self' wird hier nicht angegeben, sondern intern erzeugt
+print(person1.say_hello())
+print(person2.say_hello())
 print('done')
-a = Address('München', 'Marienplatz')
