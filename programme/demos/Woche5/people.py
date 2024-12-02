@@ -13,6 +13,10 @@ class Student(Person):
     def __init__(self, id, lastname, firstname, address, university):
         super().__init__(id, lastname, firstname, address)
         self.university = university
+    def say_hello(self):
+        message = 'I am a student'
+        return message
+    
     def study(self):
         pass
 
