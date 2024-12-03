@@ -4,4 +4,5 @@ class Person:
         self.firstname = firstname
         self.weight = weight
     def say_hello(self):
-        pass
+        message = f"Hallo, mein Name ist {self.firstname} {self.lastname}"
+        return message
