@@ -29,4 +29,4 @@ class Student(Person):
         self.university = uni
 
     def study(self):
-        pass
+        return f'Ich studiere'

@@ -16,6 +16,7 @@ def main():
     print(p1.say_hello())
     print(p2.say_hello())
     print(s.say_hello())
+    print(s.study())
 
 if __name__ == '__main__':
     main()
