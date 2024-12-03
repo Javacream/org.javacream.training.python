@@ -21,3 +21,12 @@ class Company:
     def __init__(self, name):
         self.name = name
         self.addresses = set()
+
+    
+class Student(Person):
+    def __init__(self, lastname, firstname, weight, address, uni):
+        super().__init__(lastname, firstname, weight, address)
+        self.university = uni
+
+    def study(self):
+        pass
