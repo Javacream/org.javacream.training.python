@@ -1,9 +1,8 @@
 class Person:
-    def __init__(self, lastname, firstname, weight, address):
+    def __init__(self, lastname, firstname, weight):
         self.lastname = lastname 
         self.firstname = firstname
         self.weight = weight
-        self.address = address
     def say_hello(self):
         message = f"Hallo, mein Name ist {self.firstname} {self.lastname}"
         return message
