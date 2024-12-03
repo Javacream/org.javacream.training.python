@@ -28,5 +28,8 @@ class Student(Person):
         super().__init__(lastname, firstname, weight, address)
         self.university = uni
 
+    def say_hello(self):
+        message = super().say_hello()
+        return f"{message}, ich studiere"
     def study(self):
-        return f'Ich studiere'
+        return f'{super().say_hello()} studierend an der Universität {self.university}' 

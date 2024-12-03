@@ -13,10 +13,12 @@ def main():
     p1 = Person('H', 'J', 75.9, a1)
     p2 = Person('A', 'B', 95.9, a2)
     s = Student('X', 'Y', 123.55, a3, 'LMU')
+
     print(p1.say_hello())
     print(p2.say_hello())
     print(s.say_hello())
     print(s.study())
 
+    
 if __name__ == '__main__':
     main()
