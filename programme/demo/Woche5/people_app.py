@@ -1,7 +1,8 @@
-from people import Person
+from people import Person, Address
 def main():
-    p1 = Person('H', 'J', 75.9)
-    p2 = Person('A', 'B', 95.9)
+    address = Address(city='München', street='Marienplatz')
+    p1 = Person('H', 'J', 75.9, address)
+    p2 = Person('A', 'B', 95.9, address)
     print(p1.say_hello())
     print(p2.say_hello())
 
