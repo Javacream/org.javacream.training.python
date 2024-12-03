@@ -18,6 +18,7 @@ def main():
     print(p2.say_hello())
     print(s.say_hello())
     print(s.study())
+    print(Person.counter)
 
     
 if __name__ == '__main__':

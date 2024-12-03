@@ -1,10 +1,12 @@
 class Person:
+    counter = 0
     def __init__(self, lastname, firstname, weight, address):
         self.lastname = lastname 
         self.firstname = firstname
         self.weight = weight
         self.address = address
         address.inhabitants.append(self)
+        Person.counter += 1
     def say_hello(self):
         message = f"Hallo, mein Name ist {self.firstname} {self.lastname}"
         return message
