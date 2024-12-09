@@ -10,21 +10,21 @@ class Person:
     def say_hello(self):
         message = f"Hallo, mein Name ist {self.firstname} {self.lastname}"
         return message
-    def __str__(self):
+    def __repr__(self):
         return f"Person: lastname={self.lastname}, firstname={self.firstname}, weight={self.weight}, address={self.address}"
 class Address:
     def __init__(self, city, street):
         self.city = city
         self.street = street
         self.inhabitants = list()
-    def __str__(self):
+    def __repr__(self):
         return f'Address: street={self.street}, city={self.city}'
     
 class Company:
     def __init__(self, name):
         self.name = name
         self.addresses = set()
-    def __str__(self):
+    def __repr__(self):
         return f'Company: name={self.name}, addresses={self.addresses}'
 
     
