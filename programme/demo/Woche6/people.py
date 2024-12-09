@@ -19,7 +19,8 @@ class Address:
         self.inhabitants = list()
     def __repr__(self):
         return f'Address: street={self.street}, city={self.city}'
-    
+    def __eq__(self, other):
+        return (self.city == other.city) and (self.street == other.street)
 class Company:
     def __init__(self, name):
         self.name = name

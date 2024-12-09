@@ -15,6 +15,6 @@ def main():
 
         print(s1 == s2)
         print(s1 == s3)
-    identity_with_str()
+    identity_with_address()
 if __name__ == '__main__':
     main()
