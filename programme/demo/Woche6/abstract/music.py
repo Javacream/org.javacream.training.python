@@ -1,4 +1,9 @@
 from abc import ABC, abstractmethod
+from typing import Protocol, runtime_checkable
+@runtime_checkable
+class SoundProducer(Protocol):
+    def make_sound(self):
+        pass
 
 class Instrument(ABC):
     @abstractmethod
@@ -16,12 +21,20 @@ class Drum(Instrument):
         return 'Wumm'
     def make_sound(self):
         return self.play()    
+
+class Singer:
+    def __init__(self, lastname, firstname):
+        self.lastname = lastname
+        self.firstname = firstname
+    def sing(self):
+        return "La la la"
 class Orchester:
     def __init__(self):
         self.instruments = []
-    def add(self, instrument: Instrument):
+    def add(self, instrument: SoundProducer):
         self.instruments.append(instrument)
     def concert(self):
+        instrument: SoundProducer
         for instrument in self.instruments:
             print(instrument.make_sound())
 
@@ -32,6 +45,7 @@ def main():
     orchester.add(Guitar())
     orchester.add(Violin())
     orchester.add(Drum())
+    orchester.add(Singer('Caruso', 'Eduardo'))
     orchester.concert()
 
 if __name__ == '__main__':
