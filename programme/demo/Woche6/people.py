@@ -21,6 +21,9 @@ class Address:
         return f'Address: street={self.street}, city={self.city}'
     def __eq__(self, other):
         return (self.city == other.city) and (self.street == other.street)
+    def __hash__(self):
+        return hash(self.city) + hash(self.street)
+    
 class Company:
     def __init__(self, name):
         self.name = name
