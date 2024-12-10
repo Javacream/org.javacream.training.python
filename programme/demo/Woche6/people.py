@@ -16,6 +16,11 @@ class Address:
         self.city = city
         self.street = street
         self.inhabitants = list()
+    def __eq__(self, other):
+        if isinstance(other, Address):
+            return (self.city == other.city) and (self.street == other.street)
+        else:
+            return False    
     def __repr__(self):
         '''
         Vorsicht: Wenn hier die Inhabitants ausgegeben werden hätten wir eine Endlos-Rekursion,
