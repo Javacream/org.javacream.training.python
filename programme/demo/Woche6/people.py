@@ -20,7 +20,9 @@ class Address:
         if isinstance(other, Address):
             return (self.city == other.city) and (self.street == other.street)
         else:
-            return False    
+            return False
+    def __hash__(self):
+        return hash(self.city) + hash(self.street)
     def __repr__(self):
         '''
         Vorsicht: Wenn hier die Inhabitants ausgegeben werden hätten wir eine Endlos-Rekursion,
