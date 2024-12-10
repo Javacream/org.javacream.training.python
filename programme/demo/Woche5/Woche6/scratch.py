@@ -1,20 +1,16 @@
-def complex_oop(obj):
+def complex_functional(callback):
     print('entering')
-    print(obj.info())
+    print(callback())
     print('exiting')
 
-class A:
-    def info(self):
-        return "i am A"    
-class B:
-    def info(self):
-        return "i am B"    
+def fn1():
+    return "i am fn1"    
+def fn2():
+    return "i am fn2"    
 
 def main():
-    a = A()
-    b = B()
-    complex_oop(a)
-    complex_oop(b)
+    complex_functional(fn1)
+    complex_functional(fn2)
 
 if __name__ == '__main__':
     main()
