@@ -25,12 +25,12 @@ class Plane(FlyMixin):
     
 
 def main():
-    p = Person('Musterperson')
-    b = Bird('Coco')
-    p = Plane('Airbus')
-    print(p, b)
-    b.fly()
-    p.fly()
+    person = Person('Musterperson')
+    bird = Bird('Coco')
+    plane = Plane('Airbus')
+    print(person, bird)
+    bird.fly()
+    plane.fly()
 
 if __name__ == '__main__':
     main()    
