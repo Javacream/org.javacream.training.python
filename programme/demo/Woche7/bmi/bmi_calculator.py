@@ -1,3 +1,3 @@
 def calculate_bmi(height, weight):
-    bmi = height/(weight*weight)
+    bmi = weight/(height*height)*100*100
     return bmi
