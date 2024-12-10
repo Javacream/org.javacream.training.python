@@ -1,36 +1,32 @@
-class NameMixin:
-    def __init__(self, name):
-        self.name = name
-    def __repr__(self):
-        return f'my name is {self.name}'
+class Instrument:
+    def __init__(self, category):
+        self.category = category
+    def play():
+        pass
 
-class FlyMixin:
-    def fly(self):
-        print(f'{self} and i can fly')
-
-class Bird(FlyMixin, NameMixin):
-    def __init__(self, name):
-        NameMixin.__init__(self, name)
-
-
-class Person(NameMixin):
-    def __init__(self, name):
-        NameMixin.__init__(self, name)
-
-class Plane(FlyMixin):
-    def __init__(self, type):
-        self.type = type
-    def __repr__(self):
-        return f'a plane of type {self.type}'
-    
+class Orchester:
+    def __init__(self):
+        self.instruments = []
+    def concert(self):
+        for instrument in self.instruments:
+            print(instrument.play())
+class Guitar(Instrument):
+    def __init__(self):
+        super().__init__('string')
+    def play(self):
+        return 'Klimper'    
+class Violin(Instrument):
+    def __init__(self):
+        super().__init__('string')
+    def play(self):
+        return 'Fidel'    
 
 def main():
-    person = Person('Musterperson')
-    bird = Bird('Coco')
-    plane = Plane('Airbus')
-    print(person, bird)
-    bird.fly()
-    plane.fly()
+    orchester = Orchester()
+    orchester.instruments.append(Guitar())
+    orchester.instruments.append(Violin())
+    orchester.instruments.append(Guitar())
+    orchester.concert()
 
 if __name__ == '__main__':
     main()    
