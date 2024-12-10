@@ -9,20 +9,26 @@ class Person:
         message = f"Hallo, mein Name ist {self.firstname} {self.lastname}"
         return message
     def __repr__(self):
-        return f'Person: lastname={self.lastname}'
+        return f'Person: lastname={self.lastname}, firstname={self.firstname}, weight={self.weight}, address={self.address}'
     
 class Address:
     def __init__(self, city, street):
         self.city = city
         self.street = street
         self.inhabitants = list()
-    def get_address(self):
-        return f'Addresse: {self.street}, {self.city}'
+    def __repr__(self):
+        '''
+        Vorsicht: Wenn hier die Inhabitants ausgegeben werden hätten wir eine Endlos-Rekursion,
+        die zum Glück von Python erkannt wird. Trotzdem aufpassen! 
+        '''
+        return f'Address: {self.street}, {self.city}, inhabitants={self.inhabitants}' 
     
 class Company:
     def __init__(self, name):
         self.name = name
         self.addresses = set()
+    def __repr__(self):
+        return f'Company: {self.name}, {self.addresses}'
 
     
 class Student(Person):
