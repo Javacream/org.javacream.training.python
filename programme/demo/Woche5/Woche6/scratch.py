@@ -1,7 +1,11 @@
 class A:
+    def __repr__(self):
+        return f'i am {type(self)}'
     def __str__(self):
         return f'i am A'
 class B(object): # Erben von (object erfolgt implizit)
+    def __repr__(self):
+        return f'i am {type(self)}'
     def __str__(self):
         return f'i am B'
 def main():
