@@ -1,7 +1,7 @@
 class Instrument:
     def __init__(self, category):
         self.category = category
-    def play():
+    def play(self):
         pass
 
 class Orchester:
@@ -20,12 +20,19 @@ class Violin(Instrument):
         super().__init__('string')
     def play(self):
         return 'Fidel'    
+class Drum(Instrument):
+    def __init__(self):
+        super().__init__('percussion')
+    def make_noise(self):
+        return 'Wumm'    
 
 def main():
     orchester = Orchester()
     orchester.instruments.append(Guitar())
     orchester.instruments.append(Violin())
     orchester.instruments.append(Guitar())
+    orchester.instruments.append(Instrument('unknown'))
+    orchester.instruments.append(Drum())
     orchester.concert()
 
 if __name__ == '__main__':
