@@ -1,6 +1,9 @@
-class Instrument:
+from abc import ABC, abstractmethod
+
+class Instrument(ABC):
     def __init__(self, category):
         self.category = category
+    @abstractmethod
     def play(self):
         pass
 
@@ -24,14 +27,16 @@ class Drum(Instrument):
     def __init__(self):
         super().__init__('percussion')
     def make_noise(self):
-        return 'Wumm'    
+        return 'Wumm' 
+    def play(self):
+        return self.make_noise()
 
 def main():
     orchester = Orchester()
     orchester.instruments.append(Guitar())
     orchester.instruments.append(Violin())
     orchester.instruments.append(Guitar())
-    orchester.instruments.append(Instrument('unknown'))
+    #orchester.instruments.append(Instrument('unknown'))
     orchester.instruments.append(Drum())
     orchester.concert()
 
