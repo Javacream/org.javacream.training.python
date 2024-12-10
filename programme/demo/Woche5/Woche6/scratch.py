@@ -1,16 +1,10 @@
-def complex_functional(callback):
-    print('entering')
-    print(callback())
-    print('exiting')
-
-def fn1():
-    return "i am fn1"    
-def fn2():
-    return "i am fn2"    
-
+def by_length(s):
+    return len(s)
+def by_second_char(s):
+    return s[1]
 def main():
-    complex_functional(fn1)
-    complex_functional(fn2)
-
+    names = ['Hugo', 'Eduard', 'Zoe', 'Andreana']
+    names.sort(reverse=True, key=by_second_char)
+    print(names)
 if __name__ == '__main__':
     main()
