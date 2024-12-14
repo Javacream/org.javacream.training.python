@@ -68,12 +68,12 @@ class BooksServiceTests(unittest.TestCase):
         TEST_ISBN = 1
         test_book = Book(TEST_ISBN, 'Title', 9.99, 200, True)
         books_service.books = {TEST_ISBN: test_book}
-        self.assertEqual(test_book, books_service.find_by(TEST_ISBN))
+        self.assertEqual(test_book, books_service.find_by_isbn(TEST_ISBN))
 
     def test_unknown_isbn_finds_None(self):
         books_service.books.clear()
         UNKNOWN_ISBN = 42
-        self.assertIsNone(books_service.find_by(UNKNOWN_ISBN))
+        self.assertIsNone(books_service.find_by_isbn(UNKNOWN_ISBN))
 
     def test_contained_isbn_can_be_deleted(self):
         TEST_ISBN = 1
@@ -86,6 +86,70 @@ class BooksServiceTests(unittest.TestCase):
         books_service.books.clear()
         UNKNOWN_ISBN = 42
         self.assertFalse(books_service.delete_by(UNKNOWN_ISBN))
+    def test_find_by_title_finds_two_python_books(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 9.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 9.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(2, len(books_service.find_by_title('Python')))
+    def test_find_by_title_finds_one_java_book(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 9.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 9.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(1, len(books_service.find_by_title('Java')))
+    def test_find_by_title_finds_no_javascript_book(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 9.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 9.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(0, len(books_service.find_by_title('JavaScript')))
+    def test_find_by_price_range_no_params_finds_all(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 19.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 29.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(3, len(books_service.find_by_price_range()))
+    def test_find_by_price_range_min_price_10_finds_two_books(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 19.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 29.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(2, len(books_service.find_by_price_range(10)))
+    def test_find_by_price_range_min_price_20_finds_one_book(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 19.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 29.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(1, len(books_service.find_by_price_range(20)))
+    def test_find_by_price_range_min_price_30_finds_no_book(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 19.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 29.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(0, len(books_service.find_by_price_range(30)))
+    def test_find_by_price_range_min_price_10_and_max_price_20_finds_one_book(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 19.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 29.99, 200, True)
+            }
+        books_service.books = books_data
+        self.assertEqual(1, len(books_service.find_by_price_range(10, 20)))
 
 if __name__ == '__main__':
     unittest.main()

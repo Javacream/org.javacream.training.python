@@ -1,4 +1,5 @@
 from book import Book
+from math import inf
 books = dict()
 initial_isbn = 0
 MIN_PRICE = 0
@@ -15,8 +16,12 @@ def create(title, price = 0, pages = 200, available = True):
     return actual_isbn 
 def find_all():
     return list(books.values())    
-def find_by(isbn):
+def find_by_isbn(isbn):
     return books.get(isbn)
+def find_by_title(subtitle):
+    return [b for b in books.values() if b.title.count(subtitle) > 0]
+def find_by_price_range(min_price = 0, max_price = inf):
+    return [b for b in books.values() if (b.price  >= min_price) and (b.price <= max_price)]
 def delete_by(isbn):
     result =  books.pop(isbn, None)
     return result is not None
