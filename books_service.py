@@ -1,5 +1,6 @@
 from book import Book
 from math import inf
+import fileutil
 books = dict()
 initial_isbn = 0
 MIN_PRICE = 0
@@ -25,3 +26,9 @@ def find_by_price_range(min_price = 0, max_price = inf):
 def delete_by(isbn):
     result =  books.pop(isbn, None)
     return result is not None
+def load():
+    global books
+    result = fileutil.read_dict_from_json_file('books.json')
+    books = {int(k):Book(v['isbn'], v['title'], v['price'], v['pages'], v['available']) for k, v in result.items()}
+def save():
+    fileutil.write_dict_to_json_file('books.json', books)

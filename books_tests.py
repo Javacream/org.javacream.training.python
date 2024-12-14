@@ -151,5 +151,17 @@ class BooksServiceTests(unittest.TestCase):
         books_service.books = books_data
         self.assertEqual(1, len(books_service.find_by_price_range(10, 20)))
 
+    def test_save_data(self):
+        books_data = {
+            1: Book(1, 'Python in Action', 9.99, 200, True),
+            2: Book(2, 'A Java Action', 19.99, 200, True),
+            3: Book(3, 'Grundlagen: Python, PERL', 29.99, 200, True)
+            }
+        books_service.books = books_data
+        books_service.save()
+    def test_load_data(self):
+        books_service.load()
+        self.assertEqual(3, len(books_service.find_all())) 
+        
 if __name__ == '__main__':
     unittest.main()

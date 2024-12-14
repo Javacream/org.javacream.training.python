@@ -1,0 +1,23 @@
+{
+    "1": {
+        "isbn": 1,
+        "title": "Python in Action",
+        "price": 9.99,
+        "pages": 200,
+        "available": true
+    },
+    "2": {
+        "isbn": 2,
+        "title": "A Java Action",
+        "price": 19.99,
+        "pages": 200,
+        "available": true
+    },
+    "3": {
+        "isbn": 3,
+        "title": "Grundlagen: Python, PERL",
+        "price": 29.99,
+        "pages": 200,
+        "available": true
+    }
+}
