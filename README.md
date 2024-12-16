@@ -16,3 +16,5 @@ Ressourcen für den am 28.10.2024 beginnenden Lernpfad mit Anleitungen, Beispiel
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1P-ycduiqA6t0mf_UuuK1ZUYJw9pKD9gYIvYhJnUpEWU/edit?usp=sharing)
+
+* [Abschlussübung](https://docs.google.com/presentation/d/1gGazoVkhdpx5yrnEeKeTkktTlzHXMueVArs_1FR4mXQ/edit?usp=sharing)
