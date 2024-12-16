@@ -23,5 +23,17 @@ class BmiCalculatorTest(unittest.TestCase):
             pass
         if failure:
             self.fail()
+    def test_height_greater_than_275_is_invalid(self):
+        height = 276
+        weight = 75.3
+        failure = False
+        try:
+            calculate_bmi(height, weight)
+            failure = True
+        except:
+            pass
+        if failure:
+            self.fail()
+
 if __name__ == '__main__':
     unittest.main()
