@@ -11,5 +11,17 @@ class BmiCalculatorTest(unittest.TestCase):
         bmi = calculate_bmi(height, weight)
         # Prüfen von Assertions / Annahmen
         self.assertAlmostEqual(expected_bmi, bmi, 5)
+
+    def test_height_smaller_30_is_invalid(self):
+        height = 29
+        weight = 75.3
+        failure = False
+        try:
+            calculate_bmi(height, weight)
+            failure = True
+        except:
+            pass
+        if failure:
+            self.fail()
 if __name__ == '__main__':
     unittest.main()
