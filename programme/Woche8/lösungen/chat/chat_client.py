@@ -5,6 +5,7 @@ def main():
     PORT = 12346
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket: 
         client_socket.connect((IP_ADDRESS, PORT))
+        print(client_socket)
         name = input('Bitte Name eingeben: ')
         client_socket.sendall(name.encode('utf-8'))
         greeting = client_socket.recv(1024).decode()
