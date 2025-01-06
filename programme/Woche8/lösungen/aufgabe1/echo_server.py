@@ -5,7 +5,9 @@ def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_sock:
         server_sock.bind((IP_ADDRESS, PORT))
         server_sock.listen(1)
-        server_sock.accept()
+        while True:
+            client_sock, address_info = server_sock.accept()
+            print(address_info)
 
 if __name__ == '__main__':
     main()

@@ -5,5 +5,7 @@ def main():
     PORT = 12345
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket: # client_socket ist nur eine leere Hülle!
         client_socket.connect((IP_ADDRESS, PORT)) # ab jetzt ist der Socket real
+        print(client_socket)
+        client_socket.sendall('Hello'.encode('utf-8'))
 if __name__ == '__main__':
     main()
