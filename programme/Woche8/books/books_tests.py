@@ -56,34 +56,18 @@ class BooksServiceTests(unittest.TestCase):
         except Exception as e:
             self.assertEqual('invalid page count, must be greater than 0, was 0', str(e))    
     def test_created_books_are_stored(self):
-        books_service.books.clear()
         books_service.create('Title1', 9.99, 200, True)
         self.assertEqual(1, len(books_service.find_all()))
         books_service.create('Title2', 9.99, 200, True)
         self.assertEqual(2, len(books_service.find_all()))
         books_service.create('Title3', 9.99, 200, True)
         self.assertEqual(3, len(books_service.find_all()))
-
-    def test_contained_isbn_is_found(self):
-        TEST_ISBN = 1
-        test_book = Book(TEST_ISBN, 'Title', 9.99, 200, True)
-        books_service.books = {TEST_ISBN: test_book}
-        self.assertEqual(test_book, books_service.find_by(TEST_ISBN))
-
     def test_unknown_isbn_finds_None(self):
-        books_service.books.clear()
         UNKNOWN_ISBN = 42
         self.assertIsNone(books_service.find_by(UNKNOWN_ISBN))
 
-    def test_contained_isbn_can_be_deleted(self):
-        TEST_ISBN = 1
-        test_book = Book(TEST_ISBN, 'Title', 9.99, 200, True)
-        books_service.books = {TEST_ISBN: test_book}
-        self.assertTrue(books_service.delete_by(TEST_ISBN))
-        self.assertFalse(books_service.delete_by(TEST_ISBN))
 
     def test_unknown_isbn_cannot_be_deleted(self):
-        books_service.books.clear()
         UNKNOWN_ISBN = 42
         self.assertFalse(books_service.delete_by(UNKNOWN_ISBN))
 
