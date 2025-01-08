@@ -5,10 +5,8 @@ def main():
         host='javacream.eu', port=3406, user='user', password='user', database='javacream'
     )
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM BOOKS")
-    result = cursor.fetchall() 
-    for row in result:
-        print(row)
+    cursor.execute("INSERT INTO BOOKS (isbn, title, pages, price, available) VALUES ('ISBN 3', 'Title 3', 200, 29.99, True)")
+    connection.commit()
     cursor.close()
     connection.close()
 
