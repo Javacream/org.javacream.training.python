@@ -5,4 +5,5 @@ weight=input('Bitte geben Sie ihr Gewicht mit einer Nachkommastelle ein (Hinweis
 height = int(height)
 weight = float(weight)
 bmi=weight/(height*height)*10000
-print(f'Die Person namens {name} hat einen BMI von {bmi:.2f}')
+message = f'Die Person namens {name} hat einen BMI von {bmi:.2f}'
+print(message)
