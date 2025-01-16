@@ -5,7 +5,7 @@ end_number = int(end_number)
 
 first_divider = input('Bitte geben Sie den ersten Teiler an: ')
 first_divider = int(first_divider)
-second_divider = input('Bitte geben Sie den ersten Teiler an: ')
+second_divider = input('Bitte geben Sie den zweiten Teiler an: ')
 second_divider = int(second_divider)
 
 number = start_number
