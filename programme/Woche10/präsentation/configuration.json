@@ -1,0 +1,15 @@
+{
+    "people_server": {
+        "endpoint": "http://javacream.eu:8080/people"
+    }, 
+    "remote":{
+        "host": "javacream.eu", 
+        "port": 22,
+        "basedir": "python_training/6.1.2025/muster"
+    },
+    "credentials": {
+        "username": "teilnehmer",
+        "system": "ssh_system"
+    }
+
+}
