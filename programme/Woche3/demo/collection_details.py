@@ -27,3 +27,13 @@ my_list = [1, 2, -3, 87, 9]
 print(sum(my_list))
 print(min(my_list))
 print(max(my_list))
+
+# Erzeugungsfunktionen
+my_list = list() # = []
+my_set = set() # leeres Set geht mit den geschweiften Klammern nicht
+my_dict = dict() # = {}
+
+my_list = ['A', 'B', 'A']
+my_set = set(my_list)
+my_list = list(my_set)
+print(my_list)
