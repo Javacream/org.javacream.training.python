@@ -11,12 +11,15 @@ print(number_of_is),
 
 #...
 
-vowels = ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U', 'ä', 'ö', 'ü', 'Ä', 'Ö', 'Ü')
+vowels = ('a', 'e', 'i', 'o', 'u')
 
 vowel_counter = 0
-for character in text:
+for character in text.lower():
     if character in vowels:
         vowel_counter += 1
 print(vowel_counter)
 
+words = text.split(' ')
+print(words)
+print(" ".join(words))
 
