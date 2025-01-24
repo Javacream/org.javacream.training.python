@@ -17,5 +17,13 @@ sub_list = my_list[-1:]
 sub_list = my_list[1:4:2]
 sub_list = my_list[::-1]
 
-print(sub_list)
+# print(sub_list)
 
+# Weitere BuiltIn-Funktionen zur Verwendung mit Collections
+
+# print(sum(1, 5)) # sum ist keine Funktion, die zwei entgegen nimmt
+
+my_list = [1, 2, -3, 87, 9]
+print(sum(my_list))
+print(min(my_list))
+print(max(my_list))
