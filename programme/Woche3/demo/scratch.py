@@ -16,3 +16,16 @@ person1 = ['Sawitzki', 'Rainer']
 
 second_element = person1[1]
 print(second_element)
+
+person2 = ['Musterperson', 'Andrea', 176]
+
+print(len(person1), len(person2))
+
+for element in person2:
+    print(element)
+
+# Möglich, aber völlig untypisch
+index = 0
+while index < len(person2):
+    print(person2[index])
+    index += 1     
