@@ -6,9 +6,6 @@ print
 print()
 print('done')
 
-name = input("Bitte gebe einen Namen ein: ")
-print(f"Hallo {name}!")
-
 print(type('Hugo'))
 print(type(42))
 print(type(4.2))

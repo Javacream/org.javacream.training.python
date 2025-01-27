@@ -1,0 +1,6 @@
+name = input("Bitte gebe einen Namen ein: ")
+number = input ("Bitte gebe eine Zahl ein: ")
+number = int(number)
+print(f'Der Typ von {name} ist: {type(name)}')
+print(f'Der Typ von {number} ist: {type(number)}')
+print(number * name)
