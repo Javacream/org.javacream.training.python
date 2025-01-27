@@ -1,5 +1,5 @@
-A1 = 'Sawitzki'
-B1 = 183
-C1 = 76.3
-D1 = C1/(B1*B1)*100*100
-print(D1)
+name = 'Sawitzki'
+height = 181
+weight = 75.3
+body_mass_index = weight/(height*height)*100*100
+print(body_mass_index)
