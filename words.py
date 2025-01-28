@@ -1,7 +1,8 @@
 words = []
+exit_characters = ('x', 'q')
 while True:
-    new_word = input("Bitte ein Wort eingeben, 'x' für Programmende: ")
-    if 'x' == new_word:
+    new_word = input("Bitte ein Wort eingeben, 'x, q, X, Q'für Programmende: ")
+    if len(new_word) == 1 and new_word.lower() in exit_characters:
         break
     words.append(new_word)
     index = 1
