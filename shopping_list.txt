@@ -9,14 +9,18 @@ Tofu
 Tomaten
 Gurke
 Brot
+
+
+
 Joghurt
 Milch
 Eier
 Milch
 Tomate
+
 Mehl
 Milch
 Eier
 Reis
-Sojasausse
+Sojasoße
 
