@@ -8,6 +8,18 @@ step = int(step)
 
 index = start
 
-while index < end:
-    print(index)
-    index = index + step
+if end > start:
+    if step > 0:
+        while index < end:
+            print(index)
+            index = index + step
+    else:
+        print(f'cannot loop with {start}, {end}, {step}, looping would be endless')
+else:
+    if step < 0:
+        while index > end:
+            print(index)
+            index = index + step
+    else:
+        print(f'cannot loop with {start}, {end}, {step}, looping would be endless')
+
