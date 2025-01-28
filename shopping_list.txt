@@ -14,3 +14,9 @@ Milch
 Eier
 Milch
 Tomate
+Mehl
+Milch
+Eier
+Reis
+Sojasausse
+
