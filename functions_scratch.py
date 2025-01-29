@@ -17,6 +17,8 @@ def main():
     main_var2 = True
     step1()
     step1("Helga")
+    step1(name)
     step2()
+    # step3()
     step3(main_var)
 main()
