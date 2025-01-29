@@ -9,7 +9,8 @@ def step3(number): # implizit erfolgt hier eine Zuweisung number = main_var
 
 def step2():
     name = 'Emil'
-    print(f'step1 wurde aufgerufen, {name}')
+    print(f'step1 wurde aufgerufen, {name}')#
+    return name
 
 def main():
     name = 'Sawitzki'
@@ -21,4 +22,6 @@ def main():
     step2()
     # step3()
     step3(main_var)
+    result = step2()
+    print(result)
 main()
