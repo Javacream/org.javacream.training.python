@@ -1,10 +1,11 @@
-def step1():
+def step1(person_name = 'Andrea'):
     step_var = 'Hugo'
-    print(f'step1 wurde aufgerufen, {step_var}')
+    print(f'step1 wurde aufgerufen, {step_var}, {person_name}')
 
-def step3():
+
+def step3(number): # implizit erfolgt hier eine Zuweisung number = main_var
     step_var = 'Fritz'
-    print(f'step1 wurde aufgerufen, {step_var}')
+    print(f'step1 wurde aufgerufen, {step_var} {number}')
 
 def step2():
     name = 'Emil'
@@ -15,6 +16,7 @@ def main():
     main_var = 42
     main_var2 = True
     step1()
+    step1("Helga")
     step2()
-    step3()
+    step3(main_var)
 main()
