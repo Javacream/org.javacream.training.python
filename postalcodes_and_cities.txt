@@ -1,0 +1,7 @@
+81371=München
+70567=Stuttgart
+30000=Berlin
+81333=München
+30001=Berlin
+30002=Berlin
+40005=Hamburg
