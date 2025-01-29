@@ -3,10 +3,14 @@ def calculate_bmi(height, weight):
     return bmi
 
 def main():
-    sawitzki_height = 183
-    sawitzki_weight = 75.6
-    sawitzki_bmi = calculate_bmi(sawitzki_height, sawitzki_weight)
-    print(sawitzki_bmi)
+    person_data = [
+        [183, 75.6],
+        [176, 88.8],
+        [166, 66.6]
+    ]
+    for person in person_data:
+        bmi = calculate_bmi(person[0], person[1])
+        print(bmi)
 
 main()
 
