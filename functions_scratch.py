@@ -1,13 +1,19 @@
 def step1():
-    print('step1 wurde aufgerufen')
+    step_var = 'Hugo'
+    print(f'step1 wurde aufgerufen, {step_var}')
 
 def step3():
-    print('step3 wurde aufgerufen')
+    step_var = 'Fritz'
+    print(f'step1 wurde aufgerufen, {step_var}')
 
 def step2():
-    print('step2 wurde aufgerufen')
+    name = 'Emil'
+    print(f'step1 wurde aufgerufen, {name}')
 
 def main():
+    name = 'Sawitzki'
+    main_var = 42
+    main_var2 = True
     step1()
     step2()
     step3()
