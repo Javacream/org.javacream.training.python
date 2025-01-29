@@ -1,4 +1,4 @@
-def greet(name, friendly):
+def greet(name, friendly=False):
     if friendly:
         greeting = f'Hallo, ich bin {name}'
     else:
