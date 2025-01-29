@@ -1,6 +1,6 @@
 def greet(name):
-    # TODO
-    return "Begrüßunstext"
+    greeting = f'Hallo, ich bin {name}'
+    return greeting
 
 def main():
     test_name = 'Hugo'
