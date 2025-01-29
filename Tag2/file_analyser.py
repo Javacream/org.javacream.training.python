@@ -1,4 +1,4 @@
-filename = 'demo.txt'
+filename = './Tag2/demo.txt'
 with open(filename) as file:
     rows = file.readlines()
     print(f"{filename} has {len(rows)} rows")
