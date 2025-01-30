@@ -1,0 +1,9 @@
+Eier -> 3
+Milch -> 1
+Käse -> 1
+Brot -> 2
+Butter -> 2
+Mango -> 1
+Apfel -> 1
+Banane -> 1
+Wurst -> 1
