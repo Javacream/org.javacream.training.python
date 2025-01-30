@@ -1,7 +1,7 @@
-import greeter_service as greeter
+from greeter_service import greet
 def main():
     name = input('Bitte Name eingeben: ')
-    greeting = greeter.greet(name)
+    greeting = greet(name)
     print(greeting)
 
 if __name__ == '__main__':
