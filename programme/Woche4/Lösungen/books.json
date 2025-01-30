@@ -1,0 +1,7 @@
+[
+    {"isbn":"ISBN1","title":"Java","price":9.99,"available":true},
+    {"isbn":"ISBN2","title":"Spring","price":19.99,"available":true},
+    {"isbn":"ISBN3","title":"HTML5","price":4.99,"available":true},
+    {"isbn":"ISBN4","title":"React","price":19.99,"available":true},
+    {"isbn":"ISBN5","title":"Docker","price":29.99,"available":true}
+]
