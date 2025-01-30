@@ -4,7 +4,7 @@ def fn1():
 
 def fn2():
     fn2_var = 'in fn2'
-    print(main_var)
+    # print(main_var)
     print(f'var = {fn2_var}')
 
 def main():
