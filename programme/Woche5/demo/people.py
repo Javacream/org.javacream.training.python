@@ -1,4 +1,4 @@
-class Person:
+class Person(object):
     def __init__(self, lastname, firstname, address):
         self.lastname = lastname
         self.firstname = firstname
@@ -6,11 +6,15 @@ class Person:
     def say_hello(self):
         greeting = f'Hallo, mein Name ist {self.firstname} {self.lastname}'
         return greeting
+    def __repr__(self):
+        return f'Person: lastname={self.lastname}, firstname={self.firstname}, address={self.address}'
 
 class Address:
     def __init__(self, city, street):
         self.city = city
         self.street = street
+    def __repr__(self):
+        return f'Address: city={self.city}, street={self.street}'
 
 class Student(Person):
     def __init__(self, lastname, firstname, address, university):
@@ -26,6 +30,8 @@ class Worker(Person):
         self.company = company
     def work(self):
         print(f'ich arbeite bei {self.company}')    
+    def __repr__(self):
+        return 'ich bin ein Arbeiter'
 
 class University:
     def __init__(self, name, address):
@@ -38,7 +44,7 @@ class Company:
     def add_address(self, address):
         self.addresses.add(address)    
     def remove_address(self, address):
-        self.addresses.remove(address)    
+        self.addresses.remove(address)  
 
 
 def main():
@@ -59,6 +65,10 @@ def main():
     print(worker1.say_hello())
     print(person1.say_hello())
     print(person2.say_hello())
+
+ #   x = worker1.__repr__()
+    print(worker1)
+    print(person1)
     print('done')
 if __name__ == '__main__':
     main()
