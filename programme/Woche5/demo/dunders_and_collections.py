@@ -16,10 +16,12 @@ class Address:
     def __repr__(self):
         return f'Address: city={self.city}, street={self.street}'
     def __eq__(self, other):
-        return (self.city == other.city) and (self.street == other.street)
+        if isinstance(other, Address):
+            return (self.city == other.city) and (self.street == other.street)
+        else:
+            return False
     def __hash__(self):
         return hash(self.city) + hash(self.street)
-
 
 def main():
     address_in_munich = Address("München", "Marienplatz")
@@ -28,6 +30,7 @@ def main():
     address_in_munich3 = Address("München", "Karlsplatz")
     address_in_munich4 = address_in_munich3
 
+    print(address_in_berlin == 42)
     person1 = Person("Sawitzki", "Rainer", address_in_munich) 
     person2 = Person("Musterfrau", "Hannah", address_in_berlin)
     print(address_in_munich == address_in_berlin)
