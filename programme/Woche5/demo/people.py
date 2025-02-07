@@ -61,14 +61,16 @@ def main():
     worker1 = Worker('Schufter', 'Andrea', address_in_stuttgart, company1)
     student1.study()
     worker1.work()
-    print(student1.say_hello())
-    print(worker1.say_hello())
-    print(person1.say_hello())
-    print(person2.say_hello())
+    print_person(student1)
+    print_person(worker1)
+    print_person(person1)
+    print_person(person2)
 
  #   x = worker1.__repr__()
     print(worker1)
     print(person1)
     print('done')
+def print_person(person):
+    print(person.say_hello())
 if __name__ == '__main__':
     main()
