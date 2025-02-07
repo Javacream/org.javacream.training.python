@@ -25,19 +25,38 @@ class Worker(Person):
     def work(self):
         print(f'ich arbeite bei {self.company}')    
 
+class University:
+    def __init__(self, name, address):
+        self.name = name
+        self.address = address
+class Company:
+    def __init__(self, name, address):
+        self.company_name = name
+        self.addresses = {address}
+    def add_address(self, address):
+        self.addresses.add(address)    
+    def remove_address(self, address):
+        self.addresses.remove(address)    
+
+
 def main():
     address_in_munich = Address("München", "Marienplatz")
     address_in_berlin = Address("Berlin", "Alexanderplatz")
     address_in_stuttgart = Address("Stuttgart", "Schlossplatz")
+
+    uni1 = University('TU', address_in_munich)
+    company1 = Company('Cegos', address_in_stuttgart)
+    company1.add_address(address_in_berlin)
     person1 = Person("Sawitzki", "Rainer", address_in_munich) 
     person2 = Person("Musterfrau", "Hannah", address_in_berlin)
-    student1 = Student('Einstein', 'Albert', address_in_munich, 'TU')
-    worker1 = Worker('Schufter', 'Andrea', address_in_stuttgart, 'Cegos')
+    student1 = Student('Einstein', 'Albert', address_in_munich, uni1)
+    worker1 = Worker('Schufter', 'Andrea', address_in_stuttgart, company1)
     student1.study()
     worker1.work()
     print(student1.say_hello())
     print(worker1.say_hello())
     print(person1.say_hello())
     print(person2.say_hello())
+    print('done')
 if __name__ == '__main__':
     main()
