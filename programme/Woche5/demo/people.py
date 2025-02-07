@@ -17,7 +17,9 @@ class Student(Person):
         self.university = university
         super().__init__(lastname, firstname, address)
     def study(self):
-        print(f'ich studiere an {self.university}')    
+        print(f'ich studiere an {self.university}')   
+    def say_hello(self):
+        return f'{super().say_hello()}, ich studiere an {self.university}'
 class Worker(Person):
     def __init__(self, lastname, firstname, address, company):
         super().__init__(lastname, firstname, address)
