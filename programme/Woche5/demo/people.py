@@ -12,11 +12,23 @@ class Address:
         self.city = city
         self.street = street
 
+class Student(Person):
+    def __init__(self, lastname, firstname, address, university):
+        #self.lastname = lastname
+        #self.firstname = firstname
+        #self.address = address
+        super().__init__(lastname, firstname, address)
+        self.university = university
+    def study(self):
+        print(f'ich studiere an {self.university}')    
+
 def main():
-    adress_in_munich = Address("München", "Marienplatz")
-    person1 = Person("Sawitzki", "Rainer", adress_in_munich) # Implizit: Ein leeres Objekt wird erzeugt und als erster Parameter ergänzt
-    person2 = Person("Musterfrau", "Hannah", adress_in_munich) # Implizit: Ein leeres Objekt wird erzeugt und als erster Parameter ergänzt
-    person1.adress = adress_in_munich
+    address_in_munich = Address("München", "Marienplatz")
+    person1 = Person("Sawitzki", "Rainer", address_in_munich) # Implizit: Ein leeres Objekt wird erzeugt und als erster Parameter ergänzt
+    person2 = Person("Musterfrau", "Hannah", address_in_munich) # Implizit: Ein leeres Objekt wird erzeugt und als erster Parameter ergänzt
+    student1 = Student('Einstein', 'Albert', address_in_munich, 'TU')
+    student1.study()
+    print(student1.say_hello())
     print(type(person1))
     print(person1.say_hello()) # Implizit wird person1 in der Methode zum ersten Parameter self
     print(person2.say_hello())
