@@ -1,0 +1,10 @@
+Max Müller,85,1.80
+Anna Schmidt,62,1.68
+Felix Bauer,77,1.75
+Sophie Wagner,58,1.65
+Lukas Meier,90,1.85
+Clara Fischer,55,1.60
+Johannes Weber,82,1.78
+Laura Hoffmann,67,1.72
+Tobias Richter,95,1.88
+Maria Lehmann,60,1.66
