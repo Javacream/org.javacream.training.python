@@ -1,4 +1,4 @@
-import bmi
+import bmi as bmi_module
 def main():
     person_data = [
         [183, 75.6],
@@ -6,8 +6,8 @@ def main():
         [166, 66.6]
     ]
     for person in person_data:
-        bmi_result = bmi.calculate_bmi(person[0], person[1])
-        print(bmi_result)
+        bmi = bmi_module.calculate_bmi(person[0], person[1])
+        print(bmi)
 
 main()
 
