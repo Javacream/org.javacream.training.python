@@ -9,8 +9,8 @@ def main():
     people_result = list()
     for person in people_list:
         name = person['name']
-        height = float(person['height'])
-        weight = float(person['weight'])
+        height = person['height']
+        weight = person['weight']
         bmi = bmi_module.calculate_bmi(height, weight)
         bmi_category = bmi_module.bmi_category_for(bmi)
         people_result.append(f'{name} ist {bmi_category}')
