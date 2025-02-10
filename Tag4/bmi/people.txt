@@ -8,3 +8,5 @@ Johannes Weber,82,1.78
 Laura Hoffmann,67,1.72
 Tobias Richter,95,1.88
 Maria Lehmann,60,1.66
+Andrea Spargel,48,1.76
+Hans Brummer,123,1.64
