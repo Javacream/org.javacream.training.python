@@ -1,10 +1,10 @@
 
 def main():
     number = input('Nummer angeben: ')
-    if number.isdecimal():
+    try:
         number = int(number)
         print(number * 2)
-    else:
+    except:
         print(f'{number} war keine Zahl ')    
 if __name__ == '__main__':
     main()
