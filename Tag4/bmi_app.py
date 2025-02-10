@@ -8,6 +8,9 @@ def main():
     for person in person_data:
         bmi = bmi_module.calculate_bmi(person[0], person[1])
         print(bmi)
+    print(f'In bmi_app.py, __name__ = {__name__}')
 
-main()
+if __name__ == '__main__':
+    main()
+
 
