@@ -1,10 +1,13 @@
 
 def main():
-    number = input('Nummer angeben: ')
-    try:
-        number = int(number)
-        print(number * 2)
-    except:
-        print(f'{number} war keine Zahl ')    
+    while True:
+        input_string = input('Nummer angeben: ')
+        if input_string == 'x':
+            break
+        try:
+            input_string = int(input_string)
+            print(input_string * 2)
+        except:
+            print(f'{input_string} war keine Zahl ')    
 if __name__ == '__main__':
     main()
