@@ -2,7 +2,7 @@ import bmi as bmi_module
 import people_data
 
 def main():
-    infile = 'Tag4/bmi/people.txt'
+    infile = 'Tag4/bmi/people.csv'
     outfile = 'Tag4/bmi/people_result.txt'
 
     people_list = people_data.read_person_data(infile)

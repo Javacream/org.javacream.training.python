@@ -1,12 +1,11 @@
 import os
+import csv
 def read_person_data(path):
     people = list()
     if os.path.isfile(path):
         with open(path, encoding='utf-8') as file:
-            rows = file.readlines()
-            cleaned_rows = [row[:-1] for row in rows if not row == '\n']
-            for row in cleaned_rows:
-                person_data = row.split(',')
+            reader = csv.reader(file)
+            for person_data in reader:
                 person_dict = {'name': person_data[0], 'weight': float(person_data[1]), 'height': float(person_data[2])}
                 people.append(person_dict)
             return people
