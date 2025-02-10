@@ -1,4 +1,4 @@
-filename = './shopping_list.txt' 
+filename = './Tag3/shopping_list.txt' 
 with open(filename, encoding='utf-8') as file:
     rows = file.readlines()
     #cleaned_rows = [row[:-1] for row in rows if not row == '\n']
