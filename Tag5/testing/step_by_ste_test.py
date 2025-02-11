@@ -7,3 +7,6 @@ class ListTests(unittest.TestCase):
         my_list = []
         my_list.append(value)
         self.assertEqual(expected_length_of_list, len(my_list)) 
+
+if __name__ == '__main__':
+    unittest.main()
