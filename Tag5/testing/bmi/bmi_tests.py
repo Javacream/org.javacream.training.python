@@ -12,13 +12,20 @@ class PeopleDataUnitTests(unittest.TestCase):
         self.assertEqual(expected_data_length, length)
         self.assertEqual(expected_name_of_second_person, data[1]['name'])
 
+    def test_read_person_data_with_non_existing_file_reads_empty_list(self):
+        infile = 'Tag5/testing/bmi/non-existing.csv'
+        data = people_data.read_person_data(infile)
+        expected_data_length = 0
+        length = len(data)
+        self.assertEqual(expected_data_length, length)
+
 
     def test_write_person_data(self):
         outfile = 'Tag5/testing/bmi/test_result.txt'
         data = ['Line1', 'Line2', 'Line3']
         people_data.write_person_data(outfile, data)
         # Assertion hier nicht gut möglich, man muss sich halt die Datei anschauen. Suboptimal, aber gerade nicht zu ädnern
-      
+
 
 class BmiUnitTests(unittest.TestCase):
     def test_calculate_bmi(self):
@@ -27,23 +34,25 @@ class BmiUnitTests(unittest.TestCase):
         expected_bmi = 23.00
         calculated_bmi = bmi.calculate_bmi(height, weight)
         self.assertAlmostEqual(expected_bmi, calculated_bmi, 2) # 2=gerundet auf Nachkommastellen
-    def test_bmi_category_for(self):
+    def test_bmi_17_has_category_untergewichtig(self):
         test_bmi = 17
         expected_category = "untergewichtig"
         calculated_category = bmi.bmi_category_for(test_bmi)
         self.assertEqual(expected_category, calculated_category)
 
+    def test_bmi_22_has_category_normalgewichtig(self):
+
         test_bmi = 22
         expected_category = "normalgewichtig"
         calculated_category = bmi.bmi_category_for(test_bmi)
         self.assertEqual(expected_category, calculated_category)
-
+    def test_bmi_26_has_category_übergewichtig(self):
         test_bmi = 26
         expected_category = "übergewichtig"
         calculated_category = bmi.bmi_category_for(test_bmi)
         self.assertEqual(expected_category, calculated_category)
-
-        test_bmi = 30.5
+    def test_bmi_31_has_category_fett(self):
+        test_bmi = 31
         expected_category = "fettleibig"
         calculated_category = bmi.bmi_category_for(test_bmi)
         self.assertEqual(expected_category, calculated_category)
