@@ -9,7 +9,7 @@ class Person:
     def say_hello(self):
         return f'Hallo, ich bin {self.firstname} {self.lastname}'
     def __repr__(self):
-        return f"Ich bin eine Person"
+        return f"Person"
 
 class Address:
     def __init__(self, city, street):
@@ -22,6 +22,8 @@ class Address:
            return (self.city.lower() == other.city.lower()) and (self.street.lower() == other.street.lower())
         else:
             return False 
+    def __hash__(self):
+        return hash(self.city.lower()) + hash(self.street.lower())
 
 def main():
     address_in_munich = Address('München', 'Marienplatz')
@@ -31,7 +33,10 @@ def main():
     person2 = Person('Musterfrau', 'Andrea', 55.3, 158, address_in_berlin)
     person3 = Person('Musterfrau', 'Andrea', 55.3, 158, address_in_berlin)
 
-    print(address_in_munich2 == address_in_munich)
+    people_set = {person1, person2, person3}
+    print(len(people_set))
 
+    address_set = {address_in_munich, address_in_berlin, address_in_munich2}
+    print(len(address_set))
 if __name__ == '__main__':
     main()
