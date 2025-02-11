@@ -26,6 +26,14 @@ class PeopleDataUnitTests(unittest.TestCase):
         people_data.write_person_data(outfile, data)
         # Assertion hier nicht gut möglich, man muss sich halt die Datei anschauen. Suboptimal, aber gerade nicht zu ädnern
 
+    def test_write_to_non_existing_file_throws_exception(self):
+        outfile = '/TagX/non-existing'
+        data = ['Line1', 'Line2', 'Line3']
+        try:
+            people_data.write_person_data(outfile, data)
+            self.fail("FileNotFoundError must be thrown")
+        except FileNotFoundError:
+            pass
 
 class BmiUnitTests(unittest.TestCase):
     def test_calculate_bmi(self):
