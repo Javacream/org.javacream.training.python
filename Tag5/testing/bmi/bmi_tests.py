@@ -34,6 +34,26 @@ class PeopleDataUnitTests(unittest.TestCase):
             self.fail("FileNotFoundError must be thrown")
         except FileNotFoundError:
             pass
+    def test_categorize_fat_person(self):
+        person = people_data.Person('Hugo', 99, 1.55, 'm')
+        people_data.categorize(person)
+        self.assertEqual(1, len(people_data.people_in_categories['fettleibig']))
+        self.assertEqual(1, len(people_data.people_by_gender['m']))
+    def test_categorize_underweight_person(self):
+        person = people_data.Person('Hugo', 19, 1.55, 'w')
+        people_data.categorize(person)
+        self.assertEqual(1, len(people_data.people_in_categories['untergewichtig']))
+        self.assertEqual(1, len(people_data.people_by_gender['w']))
+    def test_categorize_normalweight_person(self):
+        person = people_data.Person('Hugo', 78, 1.83, 'd')
+        people_data.categorize(person)
+        self.assertEqual(1, len(people_data.people_in_categories['normalgewichtig']))
+        self.assertEqual(1, len(people_data.people_by_gender['d']))
+
+    def test_categorize_overweight_person(self):
+        person = people_data.Person('Hugo', 90, 1.83, 'm')
+        people_data.categorize(person)
+        self.assertEqual(1, len(people_data.people_in_categories['übergewichtig']))
 
 class BmiUnitTests(unittest.TestCase):
     def test_calculate_bmi(self):
