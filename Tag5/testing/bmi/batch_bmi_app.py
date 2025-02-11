@@ -5,6 +5,7 @@ def main():
     indir = 'Tag5/testing/bmi/data'
     outdir = 'Tag5/testing/bmi/result'
     infiles = os.listdir(indir)
+    data_counter = 0
     for infilename in infiles:
         people_list = people_data.read_person_data(f'{indir}/{infilename}')
         people_result = list()
@@ -12,7 +13,9 @@ def main():
             bmi = bmi_module.calculate_bmi(person.height, person.weight)
             bmi_category = bmi_module.bmi_category_for(bmi)
             people_result.append(f'{person.name} ist {bmi_category}')
+            data_counter += 1
         people_data.write_person_data(f'{outdir}/{infilename}.txt', people_result)    
+    print(f'Anzahl gelesener Personendaten: {data_counter}')
 if __name__ == '__main__':
     main()
 
