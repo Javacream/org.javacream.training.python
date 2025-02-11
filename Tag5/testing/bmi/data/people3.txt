@@ -1,0 +1,15 @@
+Lukas Meier,78,180,m
+Anna Schmidt,65,165,w
+Felix Becker,85,185,m
+Sophie Wagner,60,170,w
+Noah Braun,72,175,m
+Emilia Fischer,58,160,w
+Maximilian Hoffmann,90,190,m
+Marie Schulz,55,158,w
+Ben Richter,80,182,m
+Lea Wolf,62,167,w
+Alex Weber,75,176,d
+Kim Schneider,68,172,d
+Robin Keller,74,178,d
+Charlie Neumann,70,174,d
+Sam Berger,79,181,d
