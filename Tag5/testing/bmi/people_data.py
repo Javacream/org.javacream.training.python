@@ -6,7 +6,7 @@ def read_person_data(path):
         with open(path, encoding='utf-8') as file:
             reader = csv.reader(file)
             for person_data in reader:
-                person_dict = {'name': person_data[0], 'weight': float(person_data[1]), 'height': float(person_data[2])}
+                person_dict = {'name': person_data[0], 'weight': float(person_data[1]), 'height': float(person_data[2]), 'gender':person_data[3]}
                 people.append(person_dict)
             return people
     else:
