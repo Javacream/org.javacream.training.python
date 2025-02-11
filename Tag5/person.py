@@ -11,6 +11,12 @@ class Person:
     def __repr__(self):
         return f"Person"
 
+class Student(Person):
+    def __init__(self, lastname, firstname, weight, height, address, university):
+        super().__init__(lastname, firstname, weight, height, address)
+        self.university = university
+    def study(self):
+        return f'ich studiere an {self.university}'
 class Address:
     def __init__(self, city, street):
         self.city = city
@@ -32,11 +38,8 @@ def main():
     person1 = Person('Sawitzki', 'Rainer', 75.3, 183, address_in_munich)
     person2 = Person('Musterfrau', 'Andrea', 55.3, 158, address_in_berlin)
     person3 = Person('Musterfrau', 'Andrea', 55.3, 158, address_in_berlin)
-
-    people_set = {person1, person2, person3}
-    print(len(people_set))
-
-    address_set = {address_in_munich, address_in_berlin, address_in_munich2}
-    print(len(address_set))
+    student = Student('Einstein', 'Albert', 77.7, 177, address_in_munich, 'TU')
+    print(student.study())
+    print(student.say_hello())
 if __name__ == '__main__':
     main()
