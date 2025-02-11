@@ -9,7 +9,7 @@ class Person:
     def say_hello(self):
         return f'Hallo, ich bin {self.firstname} {self.lastname}'
     def __repr__(self):
-        return f"Person"
+        return f"Person: lastname={self.lastname}, firstname={self.firstname}, weight={self.weight}, height={self.height}, address={self.address}"
 
 class Student(Person):
     def __init__(self, lastname, firstname, weight, height, address, university):
@@ -17,6 +17,12 @@ class Student(Person):
         self.university = university
     def study(self):
         return f'ich studiere an {self.university}'
+class Worker(Person):
+    def __init__(self, lastname, firstname, weight, height, address, company):
+        super().__init__(lastname, firstname, weight, height, address)
+        self.company = company
+    def work(self):
+        return f'ich arbeite bei {self.company}'
 class Address:
     def __init__(self, city, street):
         self.city = city
@@ -34,12 +40,11 @@ class Address:
 def main():
     address_in_munich = Address('München', 'Marienplatz')
     address_in_berlin = Address('Berlin', 'Alexanderplatz')
-    address_in_munich2 = Address('München', 'MARIENPLATZ')
-    person1 = Person('Sawitzki', 'Rainer', 75.3, 183, address_in_munich)
-    person2 = Person('Musterfrau', 'Andrea', 55.3, 158, address_in_berlin)
-    person3 = Person('Musterfrau', 'Andrea', 55.3, 158, address_in_berlin)
     student = Student('Einstein', 'Albert', 77.7, 177, address_in_munich, 'TU')
-    print(student.study())
+    worker = Worker('Schufter', 'Andrea', 55.5, 161, address_in_berlin, 'Conti')
     print(student.say_hello())
+    print(student.study())
+    print(worker.say_hello())
+    print(worker.work())
 if __name__ == '__main__':
     main()
