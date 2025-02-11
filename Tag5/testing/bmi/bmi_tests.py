@@ -10,7 +10,7 @@ class PeopleDataUnitTests(unittest.TestCase):
         expected_name_of_second_person = 'Anna Schmidt'
         length = len(data)
         self.assertEqual(expected_data_length, length)
-        self.assertEqual(expected_name_of_second_person, data[1]['name'])
+        self.assertEqual(expected_name_of_second_person, data[1].name)
 
     def test_read_person_data_with_non_existing_file_reads_empty_list(self):
         infile = 'Tag5/testing/bmi/non-existing.csv'

@@ -10,12 +10,9 @@ def main():
     people_list = people_data.read_person_data(f'{indir}/{infilename}')
     people_result = list()
     for person in people_list:
-        name = person['name']
-        height = person['height']
-        weight = person['weight']
-        bmi = bmi_module.calculate_bmi(height, weight)
+        bmi = bmi_module.calculate_bmi(person.height, person.weight)
         bmi_category = bmi_module.bmi_category_for(bmi)
-        people_result.append(f'{name} ist {bmi_category}')
+        people_result.append(f'{person.name} ist {bmi_category}')
     people_data.write_person_data(f'{outdir}/{outfilename}', people_result)    
 if __name__ == '__main__':
     main()

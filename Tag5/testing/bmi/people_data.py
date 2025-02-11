@@ -1,13 +1,20 @@
 import os
 import csv
+
+class Person:
+    def __init__(self, name, weight, height, gender):
+        self.name = name
+        self.weight = weight
+        self.height = height
+        self.gender = gender
 def read_person_data(path):
     people = list()
     if os.path.isfile(path):
         with open(path, encoding='utf-8') as file:
             reader = csv.reader(file)
             for person_data in reader:
-                person_dict = {'name': person_data[0], 'weight': float(person_data[1]), 'height': float(person_data[2]), 'gender':person_data[3]}
-                people.append(person_dict)
+                person= Person(person_data[0], float(person_data[1]), float(person_data[2]), person_data[3])
+                people.append(person)
             return people
     else:
         print(f"Datei {path} nicht gefunden")
