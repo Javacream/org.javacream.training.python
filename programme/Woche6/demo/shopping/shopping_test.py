@@ -11,6 +11,14 @@ class JavacreamTestCase(unittest.TestCase):
         if not os.path.isfile(path):
             self.fail(f"File {path} does not exist")
 class FileUtilTests(JavacreamTestCase):
+    def test_read_raw_if_file_does_not_exist(self):
+        path = ('non-existing')
+        try:
+            file_util.read_raw(path)
+            self.fail("FileNotFound must be detected")
+        except FileNotFoundError:
+            pass
+
     def test_read_raw(self):
         path = 'programme/Woche6/demo/shopping/test_data.txt'
         
@@ -35,6 +43,14 @@ class FileUtilTests(JavacreamTestCase):
         self.assertFileExists(path)
         self.delete_file(path)
 class ShoppingTests(unittest.TestCase):
+    def test_create_unique_items_with_wrong_type(self):
+        data = 42
+        try:
+            shopping.create_unique_items(data)
+            self.fail("TypeError must be detected")
+        except TypeError:
+            pass
+
     def test_create_unique_items(self):
         items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
         expected_item_set = {'A', 'B', 'C', 'D'}
