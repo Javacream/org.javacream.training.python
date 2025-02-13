@@ -2,7 +2,12 @@ import unittest
 import file_util
 import shopping
 
-class FileUtilTests(unittest.TestCase):
+import os
+class JavacreamTestCase(unittest.TestCase):
+    def assertFileExists(self, path):
+        if not os.path.isfile(path):
+            self.fail(f"File {path} does not exist")
+class FileUtilTests(JavacreamTestCase):
     def test_read_raw(self):
         path = 'programme/Woche6/demo/shopping/test_data.txt'
         
@@ -15,7 +20,12 @@ class FileUtilTests(unittest.TestCase):
     def test_clean_data(self):
         self.fail('ToDo')
     def test_write_result(self):
-        self.fail('ToDo')
+        items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
+        path = 'programme/Woche6/demo/shopping/test_written.txt'
+
+        file_util.write_result(items_list, path)
+        # ich finde keine Standard-Assertion
+        self.assertFileExists(path)
 class ShoppingTests(unittest.TestCase):
     def test_create_unique_items(self):
         items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
