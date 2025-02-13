@@ -4,6 +4,9 @@ import shopping
 
 import os
 class JavacreamTestCase(unittest.TestCase):
+    def delete_file(self, path):
+        if os.path.isfile(path):
+            os.remove(path)
     def assertFileExists(self, path):
         if not os.path.isfile(path):
             self.fail(f"File {path} does not exist")
@@ -18,14 +21,19 @@ class FileUtilTests(JavacreamTestCase):
         self.assertEqual(expected_row_3, rows[2])
 
     def test_clean_data(self):
-        self.fail('ToDo')
+        dirty_data = ['a\n', '\n', 'Test\n', '\n', 'End']
+        expected_cleaned_data = ['a', 'Test', 'End']
+
+        calculated_cleaned_data = file_util.clean_data(dirty_data)
+
+        self.assertEqual(expected_cleaned_data, calculated_cleaned_data)
     def test_write_result(self):
         items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
         path = 'programme/Woche6/demo/shopping/test_written.txt'
-
+        self.delete_file(path)
         file_util.write_result(items_list, path)
-        # ich finde keine Standard-Assertion
         self.assertFileExists(path)
+        self.delete_file(path)
 class ShoppingTests(unittest.TestCase):
     def test_create_unique_items(self):
         items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
@@ -35,8 +43,12 @@ class ShoppingTests(unittest.TestCase):
 
         self.assertEqual(expected_item_set, calculated_item_set)
     def test_create_shopping_collection(self):
-        self.fail('ToDo')
+        items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
+        expected_list = ['A -> 3', 'B -> 2', 'C -> 1', 'D -> 1']
 
+        calculated_list = shopping.create_shopping_collection(items_list)
+
+        self.assertEqual(expected_list, calculated_list)
 
 if __name__ == '__main__':
     unittest.main()
