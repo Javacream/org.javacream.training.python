@@ -16,3 +16,5 @@ Ressourcen für den am 6.1.2025 beginnenden Lernpfad mit Anleitungen, Beispielen
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1rPyyqLkClUXeTzEFu10FRM-23bs63G7Z551HRzy8muQ/edit?usp=sharing)
+
+* [Abschlussübung](https://docs.google.com/presentation/d/1gGazoVkhdpx5yrnEeKeTkktTlzHXMueVArs_1FR4mXQ/edit?usp=sharing)
