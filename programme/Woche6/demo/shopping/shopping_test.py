@@ -11,7 +11,12 @@ class FileUtilTests(unittest.TestCase):
         self.fail('ToDo')
 class ShoppingTests(unittest.TestCase):
     def test_create_unique_items(self):
-        self.fail('ToDo')
+        items_list = ['A', 'B', 'C', 'B', 'D', 'A', 'A']
+        expected_item_set = {'A', 'B', 'C', 'D'}
+        
+        calculated_item_set = shopping.create_unique_items(items_list)
+
+        self.assertEqual(expected_item_set, calculated_item_set)
     def test_create_shopping_collection(self):
         self.fail('ToDo')
 
