@@ -4,7 +4,14 @@ import shopping
 
 class FileUtilTests(unittest.TestCase):
     def test_read_raw(self):
-        self.fail('ToDo')
+        path = 'programme/Woche6/demo/shopping/test_data.txt'
+        
+        expected_number_of_lines = 10
+        expected_row_3 = 'Test\n'
+        rows = file_util.read_raw(path)
+        self.assertEqual(expected_number_of_lines, len(rows))
+        self.assertEqual(expected_row_3, rows[2])
+
     def test_clean_data(self):
         self.fail('ToDo')
     def test_write_result(self):
