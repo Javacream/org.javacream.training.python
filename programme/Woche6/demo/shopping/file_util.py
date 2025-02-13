@@ -16,7 +16,6 @@ def clean_data(raw_data :list[str]):
     return clean_data        
 
 def write_result(result: list[str], filename: str):
-    #with open(filename, 'wt', encoding='utf-8') as file:
-    #    result = [f'{element}\n' for element in result]
-    #    file.writelines(result)
-    pass
+    with open(filename, 'wt', encoding='utf-8') as file:
+        result = [f'{element}\n' for element in result]
+        file.writelines(result)
