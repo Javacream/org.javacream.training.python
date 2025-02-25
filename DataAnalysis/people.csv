@@ -1,7 +1,7 @@
 Name,Weight,Height
 Anna Neumann,55.8,165
 Ben Wagner,78.6,180
-Carla Weber,60.5,170
+Carla Weber,60.5,
 David Schmidt,85.5,185
 Elena Zimmermann,52.5,160
 Felix Schäfer,90.5,190
@@ -12,10 +12,10 @@ Jonas Bauer,80.3,182
 Klara Schäfer,56.7,166
 Lukas Fischer,76.4,179
 Maria Weber,62.1,171
-Nico Wolf,88.5,187
-Olivia Schäfer,54.9,162
+Nico Wolf,,187
+Olivia Schäfer,,
 Paul Müller,79.2,181
 Quinn Neumann,68.8,175
-Ronja Müller,74.2,176
+Ronja Müller,,176
 Samuel Schröder,83.7,184
 Tina Fischer,59.7,168
