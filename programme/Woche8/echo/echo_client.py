@@ -6,6 +6,9 @@ def main():
         print(f'Client Socket vor connect: {client_socket}')
         client_socket.connect((IP_ADDRESS, PORT))
         print(f'Client Socket nach connect: {client_socket}')
+        client_socket.sendall('Hügö'.encode('utf-8'))
+        server_response = client_socket.recv(1024).decode()
+        print(f'Response={server_response}')
 
 if __name__ == '__main__':
     main()
