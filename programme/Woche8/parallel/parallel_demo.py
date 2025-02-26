@@ -1,6 +1,6 @@
 import time
 import random
-
+from multiprocessing import Process
 def do_something(id):
     counter = 0
     while True:
@@ -8,14 +8,12 @@ def do_something(id):
         counter += 1
         print(f'{id} -> {counter}')
 
-def caller(callback_function, arg):
-    print(f'calling  {callback_function} with arg {arg}')
-    callback_function(arg)
 
 def main():
-    caller(do_something, 'ID1')
-    do_something('ID2')
-
+    p1 = Process(target=do_something, args=('ID1', ))
+    p2 = Process(target=do_something, args=('ID2', ))
+    p1.start()
+    p2.start()
 
 if __name__ == '__main__':
     main()
