@@ -3,7 +3,7 @@ import keyring
 def sftp_connect():
     HOST = 'javacream.eu'
     PORT = 22
-    SYSTEM = 'ssh_system'
+    SYSTEM = 'TRAINING'
     USER = 'teilnehmer'
     PASSWORD = keyring.get_password(SYSTEM, USER)
     transport = paramiko.Transport((HOST, PORT))
