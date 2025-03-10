@@ -1,10 +1,12 @@
 from django.shortcuts import render
+from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
 @api_view(['POST']) # So ein Decorator ist eine Zusatzinformation ('Annotation'), die hier bedeutet: Ein POST-Request soll diese Methode anstossen
-def echo_view(request):
-    return Response({'echo': request.data})
+def echo_view(request: Request):
+    print(request)
+    return Response({'echo': request.data['message']})
 
 @api_view(['GET'])
 def ping(request):
