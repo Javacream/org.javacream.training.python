@@ -1,6 +1,7 @@
 import requests
 def main():
-    response = requests.get('https://jsonplaceholder.typicode.com/users')
+    book = {'isbn': 'ISBN1', 'title': 'java in action', 'price': 1.99, 'available': False}
+    response = requests.put('http://javacream.eu:8081/api/books/ISBN1', json=book)
     if response.ok:
         data = response.json()
         print(data)
