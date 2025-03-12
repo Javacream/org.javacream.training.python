@@ -82,8 +82,5 @@ def main():
     publishing_service.written_by(book2, author2)
     publishing_service.written_by(book3, author1)
     print('done')
+
 main() 
-
-o = object()
-o.
-
