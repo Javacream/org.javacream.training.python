@@ -1,10 +1,10 @@
-user_input = input('Bitte geben Sie einen Wert ein: ')
-print(user_input)
+# input gibt immer einen String zurück!
 
-# so nicht, danach funktioniert keine Benutzereingabe mehr...
-input = input('Bitte geben Sie noch einen Wert ein: ')
-print(input)
+input1 = input('Bitte geben Sie einen Wert ein: ')
+input2 = input('Bitte geben Sie noch einen Wert ein: ')
 
-input = input('Bitte geben Sie noch einen dritten Wert ein: ')
-print(input)
+result = input1 + input2
+print(f'Die Summe der Werte {input1} und {input2} ist {result}')
+
+
 
