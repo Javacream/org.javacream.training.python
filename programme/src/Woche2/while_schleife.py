@@ -1,5 +1,8 @@
 condition = True
 
-# Das ist eine Endlosschleife! Damit wird die CPU des Rechners massiv belastet
+actual_number = 0
+END = 5
 while condition:
-    print("condition ist erfüllt")
+    actual_number += 1 #  Identisch zu actual_number = actual_number + 1
+    print(f"{actual_number}")
+    condition = actual_number < END
