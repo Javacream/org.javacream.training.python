@@ -1,7 +1,6 @@
 
-# 🐍 One-Day Python Basics Training Agenda
+# One-Day Python Basics Training Agenda
 
-## 📅 Date: [Insert Date]  
 ## ⏰ Time: 09:00 – 16:15 (4 Sessions, 90 minutes each)
 
 ---
@@ -63,8 +62,7 @@ Participants should have:
 
 ---
 
-### 🔹 Session 4: File Handling and Practical Exercise
-- Reading and writing text files (`open`, `read`, `write`)
-- Working with CSV files using `csv` and a short intro to `pandas`
-- Final mini-project: load data, clean it, and print a report
-- Q&A and recap
+### 🔹 Session 4: A short introduction to OOP principals
+- References and objects
+- Accessing attributes and methods using the Dot-Operator
+- A simple user-defined class
