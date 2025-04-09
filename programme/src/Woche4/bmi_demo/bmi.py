@@ -1,5 +1,6 @@
 def calculate_bmi(w, h):
     body_mass_index = w/(h**2)*100**2
+    message = "Hello"
     return body_mass_index
 
 def main():
