@@ -1,14 +1,13 @@
 def get_text():
-    # ToDo: Der Text soll einer Datei text.txt entnommen werden
-    text = """
-        Nimm eine Liste von Namen, filtere die Liste, das Ergebnis soll nur die Namen enthalten, die den Anfangsbuchstaben "A" haben
-        """
-    return text.strip()
+    with open('programme/src/Woche4/text.txt', 'rt', encoding='utf-8') as input_file:
+        lines = input_file.readlines()
+        text = "".join(lines)
+        return text
 
 def word_count(text):
     return len(text.split(" "))
 def vowel_count(text):
-    vowels = ('a', 'e', 'i', 'o', 'u')
+    vowels = ('a', 'e', 'i', 'o', 'u', 'ä', 'ö', 'ü')
     vowel_count = 0
     for character in text.lower():
         if character in vowels:

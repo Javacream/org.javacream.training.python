@@ -1,5 +1,13 @@
-def get_names(): # ToDo Auslesen aus einer names.txt
-    return ['Emil', 'Hannah', 'Fritz', 'Eduard', 'Andrea', 'Hugo', 'Hans']
+def get_names(): 
+    with open('programme/src/Woche4/names.txt', 'rt', encoding='utf-8') as input_file:  
+        raw_names = input_file.readlines()
+        names = []
+        for raw_name in raw_names:
+            if raw_name.endswith('\n'):
+                names.append(raw_name[:-1])
+            else:
+                names.append(raw_name)
+        return names
 def get_character():
     str = input("Geben Sie einen Buchstaben ein: ")
     return str[0]
@@ -13,6 +21,8 @@ def main():
     names = get_names()
     filter_char = get_character()
     filtered_names = names_starting_with(names, filter_char)
-    # Ausgabe in eine Datei names_filtered_by_xyz.txt
-    print(f'Namen, die mit {filter_char} beginnen: {filtered_names}') 
+    for index in range(0, len(filtered_names)):
+        filtered_names[index] += '\n'
+    with open (f'programme/src/Woche4/names_filtered_by_{filter_char}.txt', 'wt', encoding='utf-8') as outfile:
+        outfile.writelines(filtered_names)
 main()
