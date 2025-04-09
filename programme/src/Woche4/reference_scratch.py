@@ -1,11 +1,18 @@
+def do_something(l):
+    l = ['C']
+    # l.append('C')
+    print('exiting do_something')
+
+def do_something_with_string(s):
+    s = "Emil"
+    s2 = s.lower()
+    print(s2)
+    print('exiting do_something')
+
+
 def main():
-    #message = "Hello"
-    #message2 = message
-
-    names1 = ['A', 'B']
-    names2 = names1
-
-    names1.append('C')
-    print(names1[2])
-    print(names2[2])
+    names = ['A', 'B']
+    do_something(names.copy())
+    print(names)
+    do_something_with_string('Hugo')
 main()
