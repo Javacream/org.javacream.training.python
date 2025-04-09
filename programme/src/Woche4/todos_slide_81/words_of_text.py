@@ -1,4 +1,5 @@
 def get_text():
+    # ToDo: Der Text soll einer Datei text.txt entnommen werden
     text = """
         Nimm eine Liste von Namen, filtere die Liste, das Ergebnis soll nur die Namen enthalten, die den Anfangsbuchstaben "A" haben
         """

@@ -1,4 +1,4 @@
-def get_names():
+def get_names(): # ToDo Auslesen aus einer names.txt
     return ['Emil', 'Hannah', 'Fritz', 'Eduard', 'Andrea', 'Hugo', 'Hans']
 def get_character():
     str = input("Geben Sie einen Buchstaben ein: ")
@@ -13,5 +13,6 @@ def main():
     names = get_names()
     filter_char = get_character()
     filtered_names = names_starting_with(names, filter_char)
+    # Ausgabe in eine Datei names_filtered_by_xyz.txt
     print(f'Namen, die mit {filter_char} beginnen: {filtered_names}') 
 main()

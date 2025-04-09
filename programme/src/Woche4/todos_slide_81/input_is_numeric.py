@@ -1,4 +1,5 @@
 def get_data():
+    # ToDo: Dieses Eingabe soll die Datei input.txt sein
     data = input("Bitte etwas eingeben: ")
     return data
 def check_data_is_numeric(data):
@@ -10,5 +11,5 @@ def check_data_is_numeric(data):
 def main():
     data = get_data()
     result = check_data_is_numeric(data)
-    print(result)
+    print(result) # ToDo: Schreiben in eine output.txt
 main()
