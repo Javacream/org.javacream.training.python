@@ -1,0 +1,18 @@
+class Person:
+    def __init__(self, name, height, weight):
+        self.name = name
+        self.height = height
+        self.weight = weight
+
+def main():
+    height = 183
+    weight = 75.7
+    name = "Sawitzki"
+
+    person1_dict = {"name": "Sawitzki", "weight": 75.7, "height": 183}
+    person2_dict = {"x": "Sawitzki", "y": 75.7, "z": 183}
+    person1 = Person("Sawitzki", 183, 75.7)
+    person2 = Person("Meier", 189, 83.5)
+
+    print('done')
+main()
