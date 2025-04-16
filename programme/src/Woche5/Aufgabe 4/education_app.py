@@ -3,24 +3,23 @@ def main():
     s1 = Student('Einstein', 81)
     s2 = Student('Musterperson', 21)
     school = School()
-    c1 = Course('Python Programming')
-    c2 = Course('AI')
+    print(school.get_student_ids())
+    id1 = school.add(s1)
+    id2 = school.add(s2)
 
-    school.courses[c1.title] = c1
-    school.courses[c2.title] = c2
-    school.add(s1)
-    school.add(s2)
+    print(school.get_student_ids())
 
-    s1.courses.add(c1)
-    c1.students.add(s1)
-    s1.courses.add(c2)
-    c2.students.add(s1)
-    
-    s2.courses.add(c1)
-    c1.students.add(s2)
+    school.enroll(id1, "Python Programming")
+    school.enroll(id2, "Python Programming")
+    school.enroll(id2, "AI")
+    school.enroll(id2, "Cooking")
+    school.enroll(42, "AI")
 
-    print(school.get_info(1))
-    print(school.get_students_for_course("Python Programming"))
+    print(school.get_info(id1))
+
+    for student in school.get_students_for_course("Python Programming"):
+        print(student.name)
+    print(school.get_info(42))
 
 
 main()
