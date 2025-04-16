@@ -1,19 +1,24 @@
-def Person(name, weight, height):
-    new_person = dict()
-    new_person["name"] = name
-    new_person["weight"] = weight
-    new_person["height"] = height
-    return new_person
+class Person:
+    def __init__(self, name, height, weight):
+        self.name = name
+        self.height = height
+        self.weight = weight
+    def say_hello(self):
+        return "Hello!"
+    def greet(self, friendly):
+        if friendly:
+            return f"Hi, my name is {self.name}"
+        else:
+            return f"Good day, my name is {self.name}"
 
 def main():
-    height = 183
-    weight = 75.7
-    name = "Sawitzki"
-
-    person1_dict = {"name": "Sawitzki", "weight": 75.7, "height": 183}
-    person2_dict = {"x": "Sawitzki", "y": 75.7, "z": 183}
     person1 = Person("Sawitzki", 183, 75.7)
     person2 = Person("Meier", 189, 83.5)
-
-    print('done')
+    print(person1.name)
+    person1.name = "Musterperson"
+    print(person1.name)
+    print(person1.say_hello())    
+    print(person2.say_hello())
+    print(person1.greet(True))    
+    print(person2.greet(False))
 main()
