@@ -1,8 +1,9 @@
-class Person:
-    def __init__(self, name, height, weight):
-        self.name = name
-        self.height = height
-        self.weight = weight
+def Person(name, weight, height):
+    new_person = dict()
+    new_person["name"] = name
+    new_person["weight"] = weight
+    new_person["height"] = height
+    return new_person
 
 def main():
     height = 183
