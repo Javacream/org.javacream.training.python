@@ -3,10 +3,11 @@ class Address:
         self.city = city
         self.street = street
 class Person:
-    def __init__(self, name, height, weight):
+    def __init__(self, name, height, weight, address):
         self.name = name
         self.height = height
         self.weight = weight
+        self.address = address
     def say_hello(self):
         return "Hello!"
     def greet(self, friendly):
@@ -17,8 +18,7 @@ class Person:
 def main():
     a1 = Address("München", "Marienplatz")
     a2 = Address("Berlin", "Alexanderplatz")
-    person1: Person = Person("Sawitzki", 183, 75.7)
-    person2 = Person("Meier", 189, 83.5)
-    person1.addresss = a1
+    person1: Person = Person("Sawitzki", 183, 75.7, a1)
+    person2 = Person("Meier", 189, 83.5, a2)
     print("done")
 main()
