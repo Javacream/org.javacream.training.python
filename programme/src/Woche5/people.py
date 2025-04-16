@@ -15,10 +15,11 @@ class Person:
             return f"Hi, my name is {self.name}"
         else:
             return f"Good day, my name is {self.name}"
-def main():
-    a1 = Address("München", "Marienplatz")
-    a2 = Address("Berlin", "Alexanderplatz")
-    person1: Person = Person("Sawitzki", 183, 75.7, a1)
-    person2 = Person("Meier", 189, 83.5, a2)
-    print("done")
-main()
+class PeopleService:
+    def __init__(self):
+        self.people = set()
+    def add(self, person:Person):
+        self.people.add(person)
+    def find_by_height(self, height):
+        return [p for p in self.people if p.height == height]
+    
