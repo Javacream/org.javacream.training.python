@@ -1,4 +1,4 @@
-from people import Address, Person, PeopleService
+from people import Address, Person, PeopleService, Worker
 # import people
 def main():
     a1 = Address("München", "Marienplatz")
@@ -13,5 +13,6 @@ def main():
     people_with_height_189 = people_service.find_by_height(189)
     for person in people_with_height_189:
         print(person.name)
+    w = Worker('Schufter', 183, 88.3, a2, 'Cegos')
     print("done")
 main()

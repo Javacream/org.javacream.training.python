@@ -23,3 +23,9 @@ class PeopleService:
     def find_by_height(self, height):
         return [p for p in self.people if p.height == height]
     
+class Worker(Person):
+    def __init__(self, name, height, weight, address, company):
+        super().__init__(name, height, weight, address)
+        self.company = company
+    def work(self):
+        print(f'Working at {self.company}')
