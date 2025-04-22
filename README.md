@@ -19,3 +19,6 @@ Ressourcen für den am 17.3.2025 beginnenden Lernpfad mit Anleitungen, Beispiele
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1HToVhEm_iwgUaoj_h-9sLZwSGMbu-gZ_MepNZsZwz5w/edit?usp=sharing)
 
+* [Abschlussübung](https://docs.google.com/presentation/d/1gGazoVkhdpx5yrnEeKeTkktTlzHXMueVArs_1FR4mXQ/edit?usp=sharing)
+
+
