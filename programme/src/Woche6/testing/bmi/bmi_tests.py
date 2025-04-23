@@ -13,6 +13,25 @@ class BmiTests(TestCase):
         expected_bmi = 30.5
         bmi = calculate_bmi(weight, height)
         self.assertAlmostEqual(expected_bmi, bmi, 1)
-
+    def test_height_49_must_raise_an_error(self):
+        weight = 95.7
+        height = 49
+        ok = True
+        try:
+            calculate_bmi(weight, height)
+            ok = False
+        except:
+            pass
+        self.assertTrue(ok)
+    def test_height_251_must_raise_an_error(self):
+        weight = 95.7
+        height = 251
+        ok = True
+        try:
+            calculate_bmi(weight, height)
+            ok = False
+        except:
+            pass
+        self.assertTrue(ok)
 
 main()
