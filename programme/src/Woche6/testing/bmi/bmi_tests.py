@@ -33,5 +33,45 @@ class BmiTests(TestCase):
         except:
             pass
         self.assertTrue(ok)
+    def test_weight_1_9_must_raise_an_error(self):
+        weight = 1.9
+        height = 183
+        ok = True
+        try:
+            calculate_bmi(weight, height)
+            ok = False
+        except:
+            pass
+        self.assertTrue(ok)
+    def test_weight_450_1_must_raise_an_error(self):
+        weight = 450.1
+        height = 183
+        ok = True
+        try:
+            calculate_bmi(weight, height)
+            ok = False
+        except:
+            pass
+        self.assertTrue(ok)
+    def test_weight_35_and_height_199_must_raise_an_error(self):
+        weight = 35
+        height = 199
+        ok = True
+        try:
+            calculate_bmi(weight, height)
+            ok = False
+        except:
+            pass
+        self.assertTrue(ok)
+    def test_weight_100_and_height_51_must_raise_an_error(self):
+        weight = 100
+        height = 51
+        ok = True
+        try:
+            calculate_bmi(weight, height)
+            ok = False
+        except:
+            pass
+        self.assertTrue(ok)
 
 main()
