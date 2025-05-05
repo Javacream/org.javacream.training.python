@@ -1,4 +1,4 @@
-A1 = 76.3
-B1 = 1.83
-C1 = A1/(B1*B1)
-print(C1)
+weight = 76.3
+height = 1.83
+body_mass_index = weight/(height*height)
+print(body_mass_index)
