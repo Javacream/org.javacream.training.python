@@ -32,3 +32,14 @@ print(nested[0][1])
 # print(nested[0, 1]) Funktioniert nicht
 
 print(nested[0][0][1])
+
+# Iterieren
+
+print('#################### ')
+counter = 0
+while counter < len(names):
+    print(names[counter])
+    counter += 1
+
+for name in names:
+    print(name)
