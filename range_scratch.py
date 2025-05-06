@@ -10,3 +10,4 @@ for number in range(1, 4):
     print(number)
 
 print(numbers[0])    
+print(3 in numbers)

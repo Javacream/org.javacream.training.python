@@ -13,3 +13,5 @@ print('#################### ')
 
 for postal_code in postal_codes:
     print(f'{postal_code}={postal_codes[postal_code]}')
+
+print ('81371' in postal_codes)    

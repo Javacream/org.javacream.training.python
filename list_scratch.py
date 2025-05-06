@@ -43,3 +43,5 @@ while counter < len(names):
 
 for name in names:
     print(name)
+
+print(3 in numbers)
