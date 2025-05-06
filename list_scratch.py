@@ -14,3 +14,21 @@ people = [person1, person2, person3]
 numbers_length = len(numbers)
 print(f'{numbers} hat {numbers_length} Elemente')
 print(f'{numbers} hat {len(numbers)} Elemente')
+
+print(numbers[2])
+print(numbers[0])
+#print(numbers[10]) # index out of range
+print(numbers[-1]) # Letzte Element, äquivalent zu numbers[len(numbers)-1]
+print(numbers[-3])
+#print(numbers[-10]) # index out of range
+
+print(nested[0])
+
+sub_list = nested[0]
+print(sub_list[1])
+
+print(nested[0][1])
+
+# print(nested[0, 1]) Funktioniert nicht
+
+print(nested[0][0][1])
