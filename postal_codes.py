@@ -35,13 +35,13 @@ city_to_postal_codes  = {
 }
 
 while True:
-    option = input ('plz, ort, ende? ')
-    if option == 'ende':
+    option = input ('PLZ, Ort, Ende? ')
+    if option == 'Ende':
         break
-    elif option == 'plz':
+    elif option == 'PLZ':
         postal_code = input ('Bitte eine gültige PLZ eingeben: ')
         print(f'Der Ort für die PLZ {postal_code} ist {postal_codes_to_cities[postal_code]}')
-    elif option == 'ort':
+    elif option == 'Ort':
         city = input ('Bitte eine gültige Stadt eingeben: ')
         print(f'Die PLZs für den Ort {city} sind {city_to_postal_codes[city]}')
     else:
