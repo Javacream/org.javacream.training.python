@@ -33,3 +33,16 @@ city_to_postal_codes  = {
     "Köln": ["50667", "50670", "50733", "50933", "51103"],
     "Frankfurt am Main": ["60311", "60313", "60486", "60528", "60599"]
 }
+
+while True:
+    option = input ('plz, ort, ende? ')
+    if option == 'ende':
+        break
+    elif option == 'plz':
+        postal_code = input ('Bitte eine gültige PLZ eingeben: ')
+        print(f'Der Ort für die PLZ {postal_code} ist {postal_codes_to_cities[postal_code]}')
+    elif option == 'ort':
+        city = input ('Bitte eine gültige Stadt eingeben: ')
+        print(f'Die PLZs für den Ort {city} sind {city_to_postal_codes[city]}')
+    else:
+        print(f'Unbekanntes Kommando: {option}')
