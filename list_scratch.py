@@ -11,4 +11,6 @@ person1 = ['Hugo', 'Sawitzki']
 person2 = ['Andrea', 'Meier']
 person3 = ['Helga', 'Müller']
 people = [person1, person2, person3]
-print(numbers)
+numbers_length = len(numbers)
+print(f'{numbers} hat {numbers_length} Elemente')
+print(f'{numbers} hat {len(numbers)} Elemente')
