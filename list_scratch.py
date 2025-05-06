@@ -1,4 +1,4 @@
-numbers = [1,3,42,-9,5]
+numbers = [1,3,42,-9,5, 42, 42]
 names = ['Hugo', 'Andrea', 'Helga']
 mixed = ['Hugo', 76.6, 1.83]
 nested = [

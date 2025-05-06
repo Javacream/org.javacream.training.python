@@ -8,15 +8,15 @@ MAX_WEIGHT = 200
 MIN_BMI = 14
 MAX_BMI = 45
 people_data = [
-    ['Hugo', 176.6, 1.83],
-    ['Andrea', 66.6, 1.66],
-    ['Helga', 56.6, 1.93],
-    ['Hannah', 56.6, 2.93]
+    {'name': 'Hugo', 'gender': 'm', 'weight': 176.6, 'height': 1.83},
+    {'name': 'Andrea', 'gender': 'd', 'weight': 66.6, 'height': 1.66},
+    {'name': 'Helga', 'gender': 'w', 'weight': 56.6, 'height': 1.93},
+    {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 2.93}
 ]
 for person in people_data:
-    name = person[0]
-    weight = person[1]
-    height = person[2]
+    name = person['name']
+    weight = person['weight']
+    height = person['height']
     if height < MIN_HEIGHT or height > MAX_HEIGHT:
         print(f'Unzulässige Körpergröße {height} für {name}, muss zwischen {MIN_HEIGHT} und {MAX_HEIGHT} liegen!')
     elif weight < MIN_WEIGHT or weight > MAX_WEIGHT:
