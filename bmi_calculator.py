@@ -7,6 +7,11 @@ MIN_WEIGHT = 40
 MAX_WEIGHT = 200
 MIN_BMI = 14
 MAX_BMI = 45
+people_data = [
+    ['Hugo', 76.6, 1.83],
+    ['Andrea', 66.6, 1.66],
+    ['Helga', 86.6, 1.93]
+]
 while True:
     name = input("Bitte Name eingeben: ")
     weight = input("Bitte Körpergewicht in kg: ")
