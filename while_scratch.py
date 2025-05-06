@@ -1,2 +1,3 @@
-while True:
-    print("in while Schleife")
+counter = 1
+while counter < 10:
+    print(f"Counter: {counter}")
