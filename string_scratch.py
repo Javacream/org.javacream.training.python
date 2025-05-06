@@ -7,3 +7,5 @@ for character in name:
 
 if 'u' in name:
     print(f'u ist in {name} vorhanden')
+
+print(name[1:3])

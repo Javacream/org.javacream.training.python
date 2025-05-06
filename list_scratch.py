@@ -45,3 +45,7 @@ for name in names:
     print(name)
 
 print(3 in numbers)
+print('#################### ')
+print(numbers[1:4]) # print(numbers[range(1, 4)])
+print(numbers[1:4:2])
+print(numbers[-1::-1])
