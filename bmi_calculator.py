@@ -8,24 +8,23 @@ MAX_WEIGHT = 200
 MIN_BMI = 14
 MAX_BMI = 45
 people_data = [
-    ['Hugo', 76.6, 1.83],
+    ['Hugo', 176.6, 1.83],
     ['Andrea', 66.6, 1.66],
-    ['Helga', 86.6, 1.93]
+    ['Helga', 56.6, 1.93],
+    ['Hannah', 56.6, 2.93]
 ]
-while True:
-    name = input("Bitte Name eingeben: ")
-    weight = input("Bitte Körpergewicht in kg: ")
-    height = input("Bitte Körpergröße in Meter: ")
-    weight = float(weight)
-    height = float(height)
+for person in people_data:
+    name = person[0]
+    weight = person[1]
+    height = person[2]
     if height < MIN_HEIGHT or height > MAX_HEIGHT:
-        print(f'Unzulässige Körpergröße {height}, muss zwischen {MIN_HEIGHT} und {MAX_HEIGHT} liegen!')
+        print(f'Unzulässige Körpergröße {height} für {name}, muss zwischen {MIN_HEIGHT} und {MAX_HEIGHT} liegen!')
     elif weight < MIN_WEIGHT or weight > MAX_WEIGHT:
-        print(f'Unzulässiges Körpergewicht {weight}, muss zwischen {MIN_WEIGHT} und {MAX_WEIGHT} liegen!')
+        print(f'Unzulässiges Körpergewicht {weight} für {name}, muss zwischen {MIN_WEIGHT} und {MAX_WEIGHT} liegen!')
     else:
         body_mass_index = weight/(height**2)
         if body_mass_index < MIN_BMI or body_mass_index > MAX_BMI:
-            print(f'Berechneter BMI {body_mass_index} ist außerhalb des gültigen Bereiches [{MIN_BMI}, {MAX_BMI}]')
+            print(f'Berechneter BMI {body_mass_index:.2f} für {name} ist außerhalb des gültigen Bereiches [{MIN_BMI}, {MAX_BMI}]')
         else:
             if body_mass_index < UNDERWEIGHT_LIMIT:
                 print(f'{name} ist untergewichtig')
@@ -35,6 +34,3 @@ while True:
                 print(f'{name} ist übergewichtig')
             else:
                 print(f'{name} ist fettleibig')
-    again = input('Nochmal j|n?')
-    if again == 'n':
-        break
