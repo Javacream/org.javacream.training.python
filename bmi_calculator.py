@@ -7,14 +7,18 @@ MIN_WEIGHT = 40
 MAX_WEIGHT = 200
 MIN_BMI = 14
 MAX_BMI = 45
-people_data = [
-    {'name': 'Hugo', 'gender': 'm', 'weight': 76.6, 'height': 1.83},
-    {'name': 'Emil', 'gender': 'm', 'weight': 76.6, 'height': 1.63},
-    {'name': 'Andrea', 'gender': 'd', 'weight': 66.6, 'height': 1.66},
-    {'name': 'Donatella', 'gender': 'd', 'weight': 96.6, 'height': 1.66},
-    {'name': 'Helga', 'gender': 'w', 'weight': 56.6, 'height': 1.93},
-    {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 2.81}
-]
+with open('people.txt', 'rt', encoding='utf-8') as people_file: 
+    lines =  people_file.readlines()
+people_data = list()
+for line in lines:
+    line = line.replace('\n', '')    
+    splitted = line.split(';')
+    name = splitted[0]
+    weight = float(splitted[2])
+    height = float(splitted[3])
+    person_data = {'name': name, 'weight': weight, 'height': height}
+    people_data.append(person_data)
+
 underweighted = list()
 normalweighted = list()
 overweighted = list()
@@ -41,8 +45,9 @@ for person in people_data:
                 overweighted.append(name)
             else:
                 obese.append(name)
-print(f'Ungültig: Anzahl {len(invalid)}, Personen {invalid}')
-print(f'Untergewicht: Anzahl {len(underweighted)}, Personen {underweighted}')
-print(f'Normalgewicht: Anzahl {len(normalweighted)}, Personen {normalweighted}')
-print(f'Übergewicht: Anzahl {len(overweighted)}, Personen {overweighted}')
-print(f'Fettleibig: Anzahl {len(obese)}, Personen {obese}')
+with open('people_bmi_analysis_result.txt', 'wt', encoding='utf-8') as result_file:
+    result_file.write(f'Ungültig: Anzahl {len(invalid)}, Personen {invalid}\n')
+    result_file.write(f'Untergewicht: Anzahl {len(underweighted)}, Personen {underweighted}\n')
+    result_file.write(f'Normalgewicht: Anzahl {len(normalweighted)}, Personen {normalweighted}\n')
+    result_file.write(f'Übergewicht: Anzahl {len(overweighted)}, Personen {overweighted}\n')
+    result_file.write(f'Fettleibig: Anzahl {len(obese)}, Personen {obese}')
