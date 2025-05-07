@@ -13,6 +13,7 @@ people_data = [
     {'name': 'Helga', 'gender': 'w', 'weight': 56.6, 'height': 1.93},
     {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 2.93}
 ]
+underweighted = list()
 for person in people_data:
     name = person['name']
     weight = person['weight']
@@ -28,9 +29,11 @@ for person in people_data:
         else:
             if body_mass_index < UNDERWEIGHT_LIMIT:
                 print(f'{name} ist untergewichtig')
+                underweighted.append(name)
             elif body_mass_index >= UNDERWEIGHT_LIMIT and body_mass_index <= NORMALWEIGHT_LIMIT:
                 print(f'{name} ist normalgewichtig')
             elif body_mass_index > NORMALWEIGHT_LIMIT and body_mass_index < OVERWEIGHT_LIMIT:
                 print(f'{name} ist übergewichtig')
             else:
                 print(f'{name} ist fettleibig')
+print("done")
