@@ -13,21 +13,21 @@ people_data = [
     {'name': 'Andrea', 'gender': 'd', 'weight': 66.6, 'height': 1.66},
     {'name': 'Donatella', 'gender': 'd', 'weight': 96.6, 'height': 1.66},
     {'name': 'Helga', 'gender': 'w', 'weight': 56.6, 'height': 1.93},
-    {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 1.81}
+    {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 2.81}
 ]
 underweighted = list()
 normalweighted = list()
 overweighted = list()
 obese = list()
-
+invalid = list()
 for person in people_data:
     name = person['name']
     weight = person['weight']
     height = person['height']
     if height < MIN_HEIGHT or height > MAX_HEIGHT:
-        print(f'Unzulässige Körpergröße {height} für {name}, muss zwischen {MIN_HEIGHT} und {MAX_HEIGHT} liegen!')
+        invalid.append(f'Unzulässige Körpergröße {height} für {name}, muss zwischen {MIN_HEIGHT} und {MAX_HEIGHT} liegen!')
     elif weight < MIN_WEIGHT or weight > MAX_WEIGHT:
-        print(f'Unzulässiges Körpergewicht {weight} für {name}, muss zwischen {MIN_WEIGHT} und {MAX_WEIGHT} liegen!')
+        invalid.append(f'Unzulässiges Körpergewicht {weight} für {name}, muss zwischen {MIN_WEIGHT} und {MAX_WEIGHT} liegen!')
     else:
         body_mass_index = weight/(height**2)
         if body_mass_index < MIN_BMI or body_mass_index > MAX_BMI:
@@ -41,6 +41,7 @@ for person in people_data:
                 overweighted.append(name)
             else:
                 obese.append(name)
+print(f'Ungültig: Anzahl {len(invalid)}, Personen {invalid}')
 print(f'Untergewicht: Anzahl {len(underweighted)}, Personen {underweighted}')
 print(f'Normalgewicht: Anzahl {len(normalweighted)}, Personen {normalweighted}')
 print(f'Übergewicht: Anzahl {len(overweighted)}, Personen {overweighted}')
