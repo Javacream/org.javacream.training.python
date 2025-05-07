@@ -8,12 +8,18 @@ MAX_WEIGHT = 200
 MIN_BMI = 14
 MAX_BMI = 45
 people_data = [
-    {'name': 'Hugo', 'gender': 'm', 'weight': 176.6, 'height': 1.83},
+    {'name': 'Hugo', 'gender': 'm', 'weight': 76.6, 'height': 1.83},
+    {'name': 'Emil', 'gender': 'm', 'weight': 76.6, 'height': 1.63},
     {'name': 'Andrea', 'gender': 'd', 'weight': 66.6, 'height': 1.66},
+    {'name': 'Donatella', 'gender': 'd', 'weight': 96.6, 'height': 1.66},
     {'name': 'Helga', 'gender': 'w', 'weight': 56.6, 'height': 1.93},
-    {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 2.93}
+    {'name': 'Hannah', 'gender': 'w', 'weight': 56.6, 'height': 1.81}
 ]
 underweighted = list()
+normalweighted = list()
+overweighted = list()
+obese = list()
+
 for person in people_data:
     name = person['name']
     weight = person['weight']
@@ -28,12 +34,14 @@ for person in people_data:
             print(f'Berechneter BMI {body_mass_index:.2f} für {name} ist außerhalb des gültigen Bereiches [{MIN_BMI}, {MAX_BMI}]')
         else:
             if body_mass_index < UNDERWEIGHT_LIMIT:
-                print(f'{name} ist untergewichtig')
                 underweighted.append(name)
             elif body_mass_index >= UNDERWEIGHT_LIMIT and body_mass_index <= NORMALWEIGHT_LIMIT:
-                print(f'{name} ist normalgewichtig')
+                normalweighted.append(name)
             elif body_mass_index > NORMALWEIGHT_LIMIT and body_mass_index < OVERWEIGHT_LIMIT:
-                print(f'{name} ist übergewichtig')
+                overweighted.append(name)
             else:
-                print(f'{name} ist fettleibig')
-print("done")
+                obese.append(name)
+print(f'Untergewicht: Anzahl {len(underweighted)}, Personen {underweighted}')
+print(f'Normalgewicht: Anzahl {len(normalweighted)}, Personen {normalweighted}')
+print(f'Übergewicht: Anzahl {len(overweighted)}, Personen {overweighted}')
+print(f'Fettleibig: Anzahl {len(obese)}, Personen {obese}')
