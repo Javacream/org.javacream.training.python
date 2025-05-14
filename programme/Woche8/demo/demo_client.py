@@ -7,6 +7,9 @@ def main():
         print(f'Client Socket vor connect: {client_socket}')
         client_socket.connect(ENDPOINT)
         print(f'Client Socket nach connect: {client_socket}')
+        client_socket.sendall('Hello'.encode('utf-8'))
+        server_message = client_socket.recv(1024).decode('utf-8')
+        print(f'Received response message from server: {server_message}')
 
 if __name__ == '__main__': 
     main()
