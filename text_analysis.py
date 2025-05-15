@@ -1,33 +1,55 @@
 def read_file(path):
-    pass
-    return ''
-
+    with open ('text.txt', 'rt', encoding='utf-8') as file:
+        content = file.read()
+        content = content.replace('\n', '')
+    return content
 def count_characters(text):
-    pass
-    return 0
+    return len(text)
 
 def count_alphanumeric_characters(text):
-    pass
-    return 0
+    character_counter = 0
+    for char in text:
+        if char.isalnum():
+            character_counter += 1
+    return character_counter
 
 def count_words(text):
-    pass
-    return 0
-
+    words = text.split(' ')
+    return len(words)
 def count_unique_words(text):
-    pass
-    return 0
+    words = text.split(' ')
+    words_without_duplicates = set(words)
+    return len(words_without_duplicates)
 
 def smallest_words(text):
-    pass
-    return (0, [])
+    min_words = set()
+    min_words_length = 9999999
+    words = text.split(' ')
+
+    for word in words:
+        if len(word) < min_words_length:
+            min_words_length = len(word)
+
+    for word in words:
+        if len(word) == min_words_length:
+            min_words.add(word)
+    return (min_words_length, min_words)
 
 def lengthiest_words(text):
-    pass
-    return (0, [])
+    max_words = set()
+    max_words_length = 0
+    words = text.split(' ')
+    for word in words:
+        if len(word) > max_words_length:
+            max_words_length = len(word)
+
+    for word in words:
+        if len(word) == max_words_length:
+            max_words.add(word)
+    return (max_words_length, max_words)
 
 def write_result(result_dictionary):
-    pass
+    print(result_dictionary)
 
 def main():
     file_path = 'text.txt'
