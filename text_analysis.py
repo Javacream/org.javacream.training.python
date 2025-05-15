@@ -1,36 +1,49 @@
-with open ('text.txt', 'rt', encoding='utf-8') as file:
-    content = file.read()
-    content = content.replace('\n', '')
+def read_file(path):
+    pass
+    return ''
 
-print(f"Der gelesene Text besteht aus {len(content)} Zeichen")
+def count_characters(text):
+    pass
+    return 0
 
-character_counter = 0
-for char in content:
-    if char.isalnum():
-        character_counter += 1
-print(f"Der gelesene Text besteht aus {character_counter} alphanumerischen Zeichen")
+def count_alphanumeric_characters(text):
+    pass
+    return 0
 
-words = content.split(' ')
-print(f"Der gelesene Text besteht aus {len(words)} Wörtern")
-words_without_duplicates = set(words)
-print(f"Der gelesene Text besteht aus {len(words_without_duplicates)} unterschiedlichen Wörtern")
+def count_words(text):
+    pass
+    return 0
 
-max_words = set()
-min_words = set()
-min_words_length = 9999999
-max_words_length = 0
-for word in words:
-    if len(word) < min_words_length:
-        min_words_length = len(word)
-    if len(word) > max_words_length:
-        max_words_length = len(word)
+def count_unique_words(text):
+    pass
+    return 0
 
-for word in words:
-    if len(word) == max_words_length:
-        max_words.add(word)
-    if len(word) == min_words_length:
-        min_words.add(word)
+def smallest_words(text):
+    pass
+    return (0, [])
 
-print(f'Die längsten Wörter sind {max_words} mit einer Länge von {max_words_length}')
-print(f'Die kürzesten Wörter sind {min_words} mit einer Länge von {min_words_length}')
+def lengthiest_words(text):
+    pass
+    return (0, [])
 
+def write_result(result_dictionary):
+    pass
+
+def main():
+    file_path = 'text.txt'
+    content = read_file(file_path)
+    character_count = count_characters(content)
+    alphanumeric_character_count = count_alphanumeric_characters(content)
+    word_count = count_words(content)
+    unique_word_count = count_unique_words(content)
+    smallest = smallest_words(content)
+    lengthiest = lengthiest_words(content)
+    result = dict()
+    result['character_count'] = character_count
+    result['alphanumeric_character_count'] = alphanumeric_character_count
+    result['word_count'] = word_count
+    result['unique_character_count'] = unique_word_count
+    result['smallest'] = smallest
+    result['lengthiest'] = lengthiest
+    write_result(result)
+main()
