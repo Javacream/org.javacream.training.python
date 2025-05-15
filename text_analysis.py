@@ -1,3 +1,6 @@
+def write_result(result_dictionary):
+    print(result_dictionary)
+
 def read_file(path):
     with open ('text.txt', 'rt', encoding='utf-8') as file:
         content = file.read()
@@ -48,8 +51,6 @@ def lengthiest_words(text):
             max_words.add(word)
     return (max_words_length, max_words)
 
-def write_result(result_dictionary):
-    print(result_dictionary)
 
 def create_result(character_count, alphanumeric_character_count, word_count, unique_word_count, smallest, lengthiest):
     result = dict()
@@ -59,6 +60,7 @@ def create_result(character_count, alphanumeric_character_count, word_count, uni
     result['unique_character_count'] = unique_word_count
     result['smallest'] = smallest
     result['lengthiest'] = lengthiest
+    return result 
 
 def main():
     file_path = 'text.txt'
@@ -71,4 +73,5 @@ def main():
     lengthiest = lengthiest_words(content)
     result = create_result(character_count, alphanumeric_character_count, word_count, unique_word_count, smallest, lengthiest)
     write_result(result)
+
 main()
