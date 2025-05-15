@@ -12,10 +12,7 @@ def write_shopping_data(shopping_data):
     print(shopping_data)
 
 def unique_names(shopping_data):
-    uniques = set()
-    for data in shopping_data:
-        name = data[0]
-        uniques.add(name)
+    uniques = {data[0] for data in shopping_data}
     return uniques
     
 def main():
