@@ -4,3 +4,6 @@ Andrea Eier 1
 Hannah Käse 4
 Hannah Brot 2
 Rainer Käse 1
+Hugo Wurst 10
+Emil Tofu 5
+Hugo Tofu 3

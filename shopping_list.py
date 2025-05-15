@@ -11,10 +11,17 @@ def create_shopping_data(data_list):
 def write_shopping_data(shopping_data):
     print(shopping_data)
 
+def unique_names(shopping_data):
+    uniques = set()
+    for data in shopping_data:
+        name = data[0]
+        uniques.add(name)
+    return uniques
+    
 def main():
     path = "shopping_list.txt"
     rows = read_shopping_list(path)
     shopping_data = create_shopping_data(rows)
     write_shopping_data(shopping_data)
-
+    print(unique_names(shopping_data))
 main()
