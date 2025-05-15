@@ -9,7 +9,8 @@ def read_shopping_list(path):
 def create_shopping_data(data_list):
     shopping_data = []
     for data in data_list:
-        data_tuple = tuple(data.split(" "))
+        splitted = data.split(" ")
+        data_tuple = (splitted[0], splitted[1], int(splitted[2]))
         shopping_data.append(data_tuple)
     return shopping_data
 
