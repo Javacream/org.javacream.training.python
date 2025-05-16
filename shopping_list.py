@@ -37,14 +37,3 @@ def create_products_by_people(shopping_data):
     for data in shopping_data:
         products_by_people[data[0]].add(data[1])
     return products_by_people    
-def main():
-    path = "shopping_list.txt"
-    rows = read_shopping_list(path)
-    shopping_data = create_shopping_data(rows)
-    write_shopping_data(shopping_data)
-    print(f'Namensliste: {create_unique_names(shopping_data)}')
-    print(f'Produktliste: {create_unique_products(shopping_data)}')
-    print(f'Produktliste mit Anzahl: {create_products_amounts(shopping_data)}')
-    print(f'Produktliste pro Person: {create_products_by_people(shopping_data)}')
-
-main()
