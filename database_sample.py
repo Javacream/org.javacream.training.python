@@ -8,18 +8,18 @@ def main():
     USER = 'user'
     PWD = 'user'
 
-    database = mysql.connector.connect(
+    connection = mysql.connector.connect(
         host=HOST, 
-            port = PORT,
-            database = DATABASE_NAME,
-            user = USER,
-            password = PWD
+        port = PORT,
+        database = DATABASE_NAME,
+        user = USER,
+        password = PWD
         )
+    cursor = connection.cursor()
+    sql_statement = "select * from SHOPPING_LIST"
+    cursor.execute(sql_statement)
+    result = cursor.fetchall()
+    connection.commit() # Das dient zum endgültigen Bestätigen des Schreibevorgangs
+    print(result)
 
-        # Erzeugen eines Kontextes für diese Anwendung
-        
-        cursor = database.cursor()
-        sql_statement = "select * from SHOPPING_LIST"
-        cursor.execute(sql_statement)
-        result = cursor.fetchall()
-        database.commit() # Das dient zum endgültigen Bestätigen des Schreibevorgangs
+main()
