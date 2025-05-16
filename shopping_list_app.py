@@ -1,8 +1,8 @@
 import shopping_list
 
 def main():
-    path = "shopping_list.txt"
-    rows = shopping_list.read_shopping_list(path)
+    #path = "shopping_list.txt"
+    rows = shopping_list.read_shopping_list()
     shopping_data = shopping_list.create_shopping_data(rows)
     shopping_list.write_shopping_data(shopping_data)
     print(f'Namensliste: {shopping_list.create_unique_names(shopping_data)}')

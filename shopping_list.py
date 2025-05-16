@@ -1,7 +1,25 @@
-def read_shopping_list(path):
-    with open(path, 'rt', encoding='utf-8') as file:
-        raw_rows = file.readlines()
-    rows = [raw_row.replace('\n', '') for raw_row in raw_rows]
+import mysql.connector
+
+def read_shopping_list():
+    HOST = 'javacream.eu'
+    PORT = 3406
+    DATABASE_NAME = 'javacream'
+    USER = 'user'
+    PWD = 'user'
+
+    connection = mysql.connector.connect(
+        host=HOST, 
+        port = PORT,
+        database = DATABASE_NAME,
+        user = USER,
+        password = PWD
+        )
+    cursor = connection.cursor()
+    sql_statement = "select * from SHOPPING_LIST"
+    cursor.execute(sql_statement)
+    result = cursor.fetchall()
+    connection.commit() # Das dient zum endgültigen Bestätigen des Schreibevorgangs
+    rows = [f'{data[0]} {data[1]} {str(data[2])}' for data in result]
     return rows
 
 def create_shopping_data(data_list):
