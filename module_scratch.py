@@ -1,0 +1,4 @@
+from math import sqrt
+import datetime as dt
+print(sqrt(4))
+print(dt.datetime.now())
