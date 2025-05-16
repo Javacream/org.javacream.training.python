@@ -62,16 +62,3 @@ def create_result(character_count, alphanumeric_character_count, word_count, uni
     result['lengthiest'] = lengthiest
     return result 
 
-def main():
-    file_path = 'text.txt'
-    content = read_file(file_path)
-    character_count = count_characters(content)
-    alphanumeric_character_count = count_alphanumeric_characters(content)
-    word_count = count_words(content)
-    unique_word_count = count_unique_words(content)
-    smallest = smallest_words(content)
-    lengthiest = lengthiest_words(content)
-    result = create_result(character_count, alphanumeric_character_count, word_count, unique_word_count, smallest, lengthiest)
-    write_result(result)
-
-main()
