@@ -6,6 +6,8 @@ class Book:
         self.title = title
         self.price = price
         self.available = available
+    def __repr__(self):
+        return f'Book(isbn={self.isbn}, title={self.title}, price={self.price}, available={self.available})'
 
 def search(isbn):
     url = f'http://javacream.eu:8080/api/books/{isbn}'
