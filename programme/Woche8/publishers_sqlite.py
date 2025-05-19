@@ -86,14 +86,10 @@ def prepare(conn):
             )
 def analyse(conn):
     cursor = conn.cursor()
-    cursor.execute("""
-    SELECT b.title, a.firstname || ' ' || a.lastname AS author, p.name AS publisher
-    FROM book b
-    JOIN book_author ba ON b.isbn = ba.book_isbn
-    JOIN author a ON ba.author_id = a.author_id
-    JOIN publisher p ON b.publisher_id = p.publisher_id
-    LIMIT 10
-    """)
+    # statement = "select * from book where title like '%1%'"
+    # statement = "select b.title from book b join book_author ba on b.isbn = ba.book_isbn join author a on ba.author_id = a.author_id where a.lastname='Clark'"
+    statement = "select DISTINCT a.lastname, a.firstname from author a join book_author ba on a.author_id = ba.author_id join book b on b.isbn = ba.book_isbn join publisher p on b.publisher_id = p.publisher_id where p.name='Springer Verlag'"
+    cursor.execute(statement)
     for row in cursor.fetchall():
         print(row)
 
