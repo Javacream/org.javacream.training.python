@@ -11,7 +11,7 @@ def ssh_connect():
     client.connect(HOST, port=PORT, username=USER, password=PASSWORD) # Nach Ausführung von Connect wird auf javacream.eu ein Shell-Prozess gestartet
     return client
 
-def ssh_execute_command(client, cmd):
+def ssh_execute_command(client: paramiko.client.SSHClient, cmd):
     remote_process = client.exec_command(cmd) # r_stdin, r_stdout, r_stderr = client.exec
     remote_stdout = remote_process[1]
     remote_stderr = remote_process[2]
