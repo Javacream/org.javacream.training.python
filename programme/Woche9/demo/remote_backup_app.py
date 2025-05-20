@@ -11,8 +11,6 @@ def ssh_connect():
     client.connect(HOST, port=PORT, username=USER, password=PASSWORD) # Nach Ausführung von Connect wird auf javacream.eu ein Shell-Prozess gestartet
     return client
 
-    return client
-
 def upload_backup_script(client:paramiko.SSHClient):
     sftp_client = client.open_sftp()
     sftp_client.chdir('python_training/sawitzki')
