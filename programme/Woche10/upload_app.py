@@ -16,7 +16,7 @@ def main():
         sftp = ssh.open_sftp()
         sftp.put(filename, f"{configuration['remote']['basedir']}/{name}/{filename}")
     except FileNotFoundError as e:
-        print(f'Error: Local file {filename} not found: {e}')
+        print(f'Error transferring {filename} to {configuration['remote']['basedir']}/{name}/{filename}: {e}')
     except paramiko.SSHException as e:
         print(f'SSH error: {e}')
     except Exception as e:
