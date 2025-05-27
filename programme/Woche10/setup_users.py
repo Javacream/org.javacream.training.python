@@ -1,7 +1,7 @@
 import paramiko
 from credentials import get_password
 from setup_utilities import *
-class ClientSetup:
+class UsersSetup:
     def init(self, configuration):
         try:
             ssh = paramiko.SSHClient()
