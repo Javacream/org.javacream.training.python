@@ -1,10 +1,11 @@
 import requests
 
-NAUTOBOT_URL = 'https://demo.nautobot.com/api/'
+NAUTOBOT_URL = 'https://demo.nautobot.com/graphql/'
 API_TOKEN = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 headers = {
-    "Authorization": API_TOKEN,
-    "Content-Type": "application/json"
+    'Authorization': f'Token {API_TOKEN}',
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
 }
 
 # GraphQL-Query
@@ -25,7 +26,7 @@ query = """
 }
 """
 
-response = requests.post(NAUTOBOT_URL, json={"query": query}, headers=headers)
+response = requests.post(NAUTOBOT_URL)#, json={"query": query}, headers=headers)
 
 # Ergebnis anzeigen
 if response.status_code == 200:
@@ -34,4 +35,4 @@ if response.status_code == 200:
         print(f"Name: {device['name']}, Modell: {device['device_type']['model']}, Standort: {device['site']['name']}")
 else:
     print(f"Fehler: {response.status_code}")
-    print(response.text)
+    # print(response.text)
