@@ -1,36 +1,12 @@
-name = 'Hugo'
-weight = 76.6
-height = 183
-
-
-type_of_name = type(name)
-print(type_of_name)
-
+weight = input('Gewicht eingeben: ')
 print(type(weight))
-print(type(height))
 
-n1 = 20
-n2 = 2.2
+weight = float(weight)
+print(type(weight))
 
-result = n1 + n2
-print(result)
+i = 4
+print(i*5)
+i = str(i)
+print(i*5)
 
-result = n1 - n2
-print(result)
-
-result = n1 * n2
-print(result)
-
-s1 = 'Hugo'
-s2 = 'Emil'
-result = s1 + s2
-print(result)
-
-#result = s1 - s2
-#print(result)
-
-#result = s1 + n1
-#print(result)
-
-result = s1 * n1
-print(result)
+weight = float(input('Bitte Gewicht eingeben: '))
