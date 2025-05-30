@@ -1,0 +1,50 @@
+Der für Julia Klein         berechnete Body Mass Index von 53.64 ist unplausibel, muss zwischen 12 und 45 liegen
+Der für Leon Berger         berechnete Body Mass Index von 53.25 ist unplausibel, muss zwischen 12 und 45 liegen
+Der für Felix Maier         berechnete Body Mass Index von 72.15 ist unplausibel, muss zwischen 12 und 45 liegen
+Luca Kraus          ist mit einem Body Mass Index von 40.88 fettleibig
+Gregor Klein        ist mit einem Body Mass Index von 21.00 normalgewichtig
+Der für Noah Winter         berechnete Body Mass Index von 76.93 ist unplausibel, muss zwischen 12 und 45 liegen
+Der für Paul Zimmer         berechnete Body Mass Index von 61.01 ist unplausibel, muss zwischen 12 und 45 liegen
+Der für Emma Schulz         berechnete Body Mass Index von 73.18 ist unplausibel, muss zwischen 12 und 45 liegen
+Max Mustermann      ist mit einem Body Mass Index von 27.35 übergewichtig
+Eva König           ist mit einem Body Mass Index von 34.97 fettleibig
+Felix Maier         ist mit einem Body Mass Index von 24.53 normalgewichtig
+Noah Winter         ist mit einem Body Mass Index von 30.58 fettleibig
+Der für Harald Winter       berechnete Body Mass Index von 60.54 ist unplausibel, muss zwischen 12 und 45 liegen
+Tim Brandt          ist mit einem Body Mass Index von 28.90 übergewichtig
+Anna Schmidt        ist mit einem Body Mass Index von 26.27 übergewichtig
+Julia Klein         ist mit einem Body Mass Index von 44.48 fettleibig
+Eva König           ist mit einem Body Mass Index von 23.85 normalgewichtig
+Emma Schulz         ist mit einem Body Mass Index von 37.83 fettleibig
+Sophie Braun        ist mit einem Body Mass Index von 37.78 fettleibig
+Nina Koch           ist mit einem Body Mass Index von 44.55 fettleibig
+Der für Hannah Mustermann   berechnete Body Mass Index von 90.48 ist unplausibel, muss zwischen 12 und 45 liegen
+Sophie Braun        ist mit einem Body Mass Index von 20.49 normalgewichtig
+Franziska Winter    ist mit einem Body Mass Index von 20.03 normalgewichtig
+Der für Sophie Braun        berechnete Body Mass Index von 51.36 ist unplausibel, muss zwischen 12 und 45 liegen
+Mia Vogt            ist mit einem Body Mass Index von 42.19 fettleibig
+Felix Maier         ist mit einem Body Mass Index von 31.06 fettleibig
+Emma Schulz         ist mit einem Body Mass Index von 34.74 fettleibig
+Nina Koch           ist mit einem Body Mass Index von 20.02 normalgewichtig
+Sophie Brand        ist mit einem Body Mass Index von 16.49 untergewichtig
+Der für Sara Koch           berechnete Body Mass Index von 67.91 ist unplausibel, muss zwischen 12 und 45 liegen
+Der für Leon Berger         berechnete Body Mass Index von 61.00 ist unplausibel, muss zwischen 12 und 45 liegen
+Nina Koch           ist mit einem Body Mass Index von 24.29 normalgewichtig
+Tom Schröder        ist mit einem Body Mass Index von 30.91 fettleibig
+Der für Lena Weber          berechnete Body Mass Index von 62.11 ist unplausibel, muss zwischen 12 und 45 liegen
+Jan Neumann         ist mit einem Body Mass Index von 26.03 übergewichtig
+Lena Weber          ist mit einem Body Mass Index von 26.88 übergewichtig
+Der für Nina Lada           berechnete Body Mass Index von 79.51 ist unplausibel, muss zwischen 12 und 45 liegen
+Lena Wand           ist mit einem Body Mass Index von 35.96 fettleibig
+Tom Schröder        ist mit einem Body Mass Index von 18.29 normalgewichtig
+Der für Felix Maier         berechnete Body Mass Index von 62.08 ist unplausibel, muss zwischen 12 und 45 liegen
+Tom Schröder        ist mit einem Body Mass Index von 16.85 untergewichtig
+Felix Maier         ist mit einem Body Mass Index von 38.37 fettleibig
+Der für Fritz Wagsoner      berechnete Body Mass Index von 52.54 ist unplausibel, muss zwischen 12 und 45 liegen
+Paul Zimmer         ist mit einem Body Mass Index von 38.91 fettleibig
+Tom Schröder        ist mit einem Body Mass Index von 14.41 untergewichtig
+Noah Herbst         ist mit einem Body Mass Index von 31.73 fettleibig
+Nina Koch           ist mit einem Body Mass Index von 27.70 übergewichtig
+Horst Waner         ist mit einem Body Mass Index von 29.09 übergewichtig
+Felix Maier         ist mit einem Body Mass Index von 31.17 fettleibig
+Ben Richter         ist mit einem Body Mass Index von 33.36 fettleibig

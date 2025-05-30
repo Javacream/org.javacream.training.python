@@ -10,30 +10,25 @@ NORMALWEIGHT_LIMIT = 25
 OVERWEIGHT_LIMIT = 30
 MIN_BMI = 12
 MAX_BMI = 45
-while True:
-    name = input('Bitte geben Sie Ihren Namen an: ')
-    while True:
-        weight = input('Bitte geben Sie Ihr Körpergewicht in Kilogramm an, Kommazeichen ist der Punkt: ')
-        try:
-            weight = float(weight)
-            break
-        except:
-            print(f'{weight} nicht als Zahl interpretierbar, bitte neu eingeben!')
-    while True:
-        height = input('Bitte geben Sie Ihre Körpergröße in cm an: ')
-        try:
-            height = float(height)
-            break
-        except:
-            print(f'{height} nicht als Zahl interpretierbar, bitte neu eingeben!')
+
+with open('programme/Präsenztag2/people.txt', encoding='utf-8') as people_file:
+    content = people_file.readlines()
+# print(len(content))
+for row in content:
+    row_length = len(row)
+    if row[row_length -1] == '\n':
+        row = row[0:row_length -1]
+    name = row[0:19]
+    weight = float(row[20:26])
+    height = int(row[27:31])
     if weight <= MIN_WEIGHT or weight > MAX_WEIGHT:
-        print(f'Das eingegebene Körpergewicht {weight} ist außerhalb des gültigen Bereichs {MIN_WEIGHT}-{MAX_WEIGHT}' )
+        result = f'Das für {name} eingelesene Körpergewicht {weight} ist außerhalb des gültigen Bereichs {MIN_WEIGHT}-{MAX_WEIGHT}'
     elif height <= MIN_HEIGHT or height > MAX_HEIGHT:
-        print(f'Die eingegebene Körpergröße {height} ist außerhalb des gültigen Bereichs {MIN_HEIGHT}-{MAX_HEIGHT}' )
+        result = f'Die für {name} eingelesene Körpergröße {height} ist außerhalb des gültigen Bereichs {MIN_HEIGHT}-{MAX_HEIGHT}'
     else:
         body_mass_index = weight / (height/100 * height/100)
         if body_mass_index < MIN_BMI or body_mass_index > MAX_BMI:
-            print(f'Der für {name} berechnete Body Mass Index von {body_mass_index:.2f} ist unplausibel, muss zwischen {MIN_BMI} und {MAX_BMI} liegen')        
+            result = f'Der für {name} berechnete Body Mass Index von {body_mass_index:.2f} ist unplausibel, muss zwischen {MIN_BMI} und {MAX_BMI} liegen'        
         else:
             if body_mass_index < UNDERWEIGHT_LIMIT:
                 category = 'untergewichtig'
@@ -43,7 +38,7 @@ while True:
                 category = 'übergewichtig'
             else:
                 category = 'fettleibig'
-            print(f'{name} ist mit einem Body Mass Index von {body_mass_index:.2f} {category}')
-    again = input('Weitere Berechnung (j|n)')
-    if again == 'n':
-        break            
+            result = f'{name} ist mit einem Body Mass Index von {body_mass_index:.2f} {category}'
+
+    with open ('programme/Präsenztag2/people_bmi.txt', 'at', encoding='utf-8') as file:
+        file.write(f'{result}\n')
