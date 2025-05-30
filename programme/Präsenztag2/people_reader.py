@@ -10,7 +10,7 @@ for row in content:
     if row[row_length -1] == '\n':
         row = row[0:row_length -1]
     print(row)
-    name = row[0:20]
-    weight = row[21:26]
-    height = row[27:31]
+    name = row[0:19]
+    weight = float(row[20:26])
+    height = int(row[27:31])
     print(f'{name} {weight} {height}')
