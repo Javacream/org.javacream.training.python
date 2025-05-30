@@ -14,8 +14,12 @@ while True:
     name = input('Bitte geben Sie Ihren Namen an: ')
     weight = input('Bitte geben Sie Ihr Körpergewicht in Kilogramm an, Kommazeichen ist der Punkt: ')
     height = input('Bitte geben Sie Ihre Körpergröße in cm an: ')
-    weight = float(weight)
-    height = int(height)
+    try:
+        weight = float(weight)
+        height = int(height)
+    except:
+        print(f'{weight} oder {height} nicht als Zahl interpretierbar, bitte neu eingeben!')
+        continue      
     if weight <= MIN_WEIGHT or weight > MAX_WEIGHT:
         print(f'Das eingegebene Körpergewicht {weight} ist außerhalb des gültigen Bereichs {MIN_WEIGHT}-{MAX_WEIGHT}' )
     elif height <= MIN_HEIGHT or height > MAX_HEIGHT:
