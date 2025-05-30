@@ -39,4 +39,7 @@ else:
     print(f'{candidate} ist in {names} nicht enthalten')
 
 print(f'Länge von names: {len(names)}')
-print(f'Erstes Element von names: {names[1]}')
+print(f'Erstes Element von names: {names[-1]}')
+
+text = 'ErstesElementvonnames'
+print(text[3:7:3])
