@@ -22,8 +22,8 @@ for data in list_of_cleaned_rows:
     dns_names.append(splitted[3])
 
 index = 0
-for type in types:
-    if not type == 'host':
+for ip_type in types:
+    if not ip_type == 'host':
         types[index] = 'DHCP'
     index = index + 1
 
@@ -38,16 +38,16 @@ print(f'Anzahl inaktiver IP-Adressen: {len(status) - active_ip_counter} ')
 
 host_ips = 0
 
-for type in types:
-    if type == 'host':
+for ip_type in types:
+    if ip_type == 'host':
         host_ips +=1
 print(f'Anzahl host: {host_ips} ')
 print(f'Anzahl DHCP: {len(types) - host_ips} ')
 
 active_host_ips = 0
 index = 0
-for type in types:
-    if type == 'host' and status[index] == 1:
+for ip_type in types:
+    if ip_type == 'host' and status[index] == 1:
         active_host_ips += 1
     index += 1
 
