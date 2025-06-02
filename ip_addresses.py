@@ -18,7 +18,7 @@ for data in list_of_cleaned_rows:
     splitted = data.split(',')
     ip_addresses.append(splitted[0])
     types.append(splitted[1])
-    status.append(splitted[2])
+    status.append(int(splitted[2]))
     dns_names.append(splitted[3])
 
 index = 0
@@ -29,10 +29,7 @@ for type in types:
 
 # Aktiven IP-Adressen
 
-active_ip_counter = 0
-for s in status:
-    if s == '1':
-        active_ip_counter += 1
+active_ip_counter = sum(status)
 
 print(f'Anzahl aktiver IP-Adressen: {active_ip_counter} ')
 print(f'Anzahl inaktiver IP-Adressen: {len(status) - active_ip_counter} ')
