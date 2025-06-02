@@ -26,4 +26,22 @@ for type in types:
     if not type == 'host':
         types[index] = 'DHCP'
     index = index + 1
+
+# Aktiven IP-Adressen
+
+active_ip_counter = 0
+for s in status:
+    if s == '1':
+        active_ip_counter += 1
+
+print(f'Anzahl aktiver IP-Adressen: {active_ip_counter} ')
+
+inactive_ip_counter = 0
+for s in status:
+    if s == '0':
+        inactive_ip_counter += 1
+
+print(f'Anzahl inaktiver IP-Adressen: {inactive_ip_counter} ')
+
+
 print('done')
