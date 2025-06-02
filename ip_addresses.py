@@ -61,5 +61,24 @@ with open ('inactive_dns_entries.txt', 'at', encoding='utf-8') as result_file:
             result_file.write(f'DNS-Eintrag {dns_name} ist inaktiv\n')
         index += 1
 
+# Doppelte IP-Adressen?
 
+print(len(set(ip_addresses))) # Ein set erkennt Duplikate. Falls also das set der ip_addresses-Liste weniger als 100 Einträge hat, sind Duplikate vorhanden!
+
+# Zur Bestimmung der Duplikate müssen wir das set Element für Element befüllen
+ip_addresses_set = set()
+for ip_address in ip_addresses:
+    if ip_address in ip_addresses_set:
+        print(f'Die IP-Adresse {ip_address} ist doppelt vergeben!')
+    else:
+        ip_addresses_set.add(ip_address)
+
+# Bestimmung der vorhandenen Domänennamen
+unique_dns_names = set()
+for dns_name in dns_names:
+    index_of_first_dot = dns_name.find('.') # Index des ersten Auftretens, sonst 0
+    if (index_of_first_dot > 0):
+        domain_name = dns_name[index_of_first_dot + 1:]
+        unique_dns_names.add(domain_name)
+print(f'Vorhndene Domänen-Namen: {unique_dns_names}')
 print('done')
