@@ -21,5 +21,13 @@ for data in list_of_cleaned_rows:
     status.append(splitted[2])
     dns_names.append(splitted[3])
 
-
+index = 0
+for type in types:
+    if not type == 'host':
+        if not type == 'DHCP':
+            if type == 'Dhcp':
+                types[index] = 'DHCP'
+            if type == 'dhcp':
+                types[index] = 'DHCP'
+    index = index + 1
 print('done')
