@@ -1,5 +1,8 @@
 with open('./programme/Präsenztag3/people.csv', 'rt', encoding='utf-8') as people_csv_file:
-    rows = people_csv_file.read().splitlines()
+    rows_with_cr = people_csv_file.readlines()
+rows = []
+for row_with_cr in rows_with_cr:
+    rows.append(row_with_cr.replace('\n', ''))
 
 for actual_row in rows:
     list_of_person_data = actual_row.split(',')  
