@@ -31,7 +31,7 @@ print(replaced)
 
 # Zählen
 
-print(text.lower().count('obst'))
+print(text.lower().count('e'))
 
 while True:
     text = input ('Bitte etwas eingeben: ')
