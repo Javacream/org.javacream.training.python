@@ -1,0 +1,7 @@
+81371=München
+69666=Frankfurt
+30000=Berlin
+81372=München
+30002=Berlin
+30020=Berlin
+30022=Berlin
