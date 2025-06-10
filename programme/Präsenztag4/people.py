@@ -6,20 +6,27 @@ def read_lines(path):
         rows.append(row_with_cr.replace('\n', ''))
     return rows
 
-def print_people_data(people_data):
-    for actual_row in people_data:
-        list_of_person_data = actual_row.split(',')  
-        # print(f'{list_of_person_data[0]} {list_of_person_data[1]} ist {float(list_of_person_data[2])}kg schwer und {int(list_of_person_data[3])} cm groß')
+def create_people_data(lines):
+    people = []
+    for actual_line in lines:
+        list_of_person_data = actual_line.split(',')  
         firstname = list_of_person_data[0]
         lastname = list_of_person_data[1]
         weight = float(list_of_person_data[2])
         height = int(list_of_person_data[3])
-        print(f'{firstname} {lastname} ist {weight}kg schwer und {height} cm groß')
+        person = {'firstname': firstname, 'lastname': lastname, 'height': height, 'weight': weight}
+        people.append(person)
+    return people
+
+def print_people_data(people_data):
+    for person in people_data:
+        print(f'{person["firstname"]} {person["lastname"]} ist {person["weight"]}kg schwer und {person["height"]} cm groß')
 
 def main():
     file_name =  './programme/Präsenztag4/people.csv'
     lines = read_lines(file_name)# Implizit wird hier beim Aufruf die Anweisung path = file_name ausgeführt
-    print_people_data(lines)
+    people = create_people_data(lines)
+    print_people_data(people)
     print('done')
 
 main()  
