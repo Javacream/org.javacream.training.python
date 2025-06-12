@@ -1,6 +1,10 @@
 import os
 import file_util
 
+RESULT_DIR = 'result'
+BACKUP_DIR = 'backup'
+RESULT_FILE = f'{RESULT_DIR}/people_result.txt'
+
 def create_people_data(lines):
     people = []
     for actual_line in lines:
@@ -20,14 +24,11 @@ def calculate_backup_number(backup_dir):
     return len(os.listdir(backup_dir)) + 1
 
 def write_people_data(result):
-    file_util.write_data(f'result/people_result.txt', result)
+    file_util.write_data(RESULT_FILE, result)
 def prepare():
-    RESULT_DIR = 'result'
-    BACKUP_DIR = 'backup'
-    RESULT_FILE = 'people_result.txt'
 
     file_util.prepare_dir(RESULT_DIR)
     file_util.prepare_dir(BACKUP_DIR)
-    if file_util.check_file_exists(f'{RESULT_DIR}/{RESULT_FILE}'):
+    if file_util.check_file_exists(RESULT_FILE):
         backup_number = calculate_backup_number(BACKUP_DIR)
-        os.rename(f'{RESULT_DIR}/{RESULT_FILE}', f'{BACKUP_DIR}/people_result_{backup_number}.bak')
+        os.rename(RESULT_FILE, f'{BACKUP_DIR}/people_result_{backup_number}.bak')
