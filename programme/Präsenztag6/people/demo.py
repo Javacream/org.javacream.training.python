@@ -1,1 +1,0 @@
-import people_app
