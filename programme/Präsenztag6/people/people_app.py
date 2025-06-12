@@ -1,7 +1,7 @@
 import os
 import people
 
-def main():
+def application():
     file_name =  './data/people.csv'
     if people.check_file_exists(file_name):
         people.prepare()
@@ -12,4 +12,6 @@ def main():
         print(f'input file {file_name} does not exist in {os.getcwd().replace('\\', '/')}')
     print('done')
 
-main()
+print(__name__)
+if __name__ == '__main__':
+    application()
