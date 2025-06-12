@@ -1,16 +1,5 @@
 import os
-
-RESULT_DIR = 'result'
-BACKUP_DIR = 'backup'
-RESULT_FILE = 'people_result.txt'
-
-def read_lines(path):
-    with open(path, 'rt', encoding='utf-8') as people_csv_file:
-        rows_with_cr = people_csv_file.readlines()
-    rows = []
-    for row_with_cr in rows_with_cr:
-        rows.append(row_with_cr.replace('\n', ''))
-    return rows
+import file_util
 
 def create_people_data(lines):
     people = []
@@ -24,31 +13,21 @@ def create_people_data(lines):
         people.append(person)
     return people
 
-def write_people_data(people_data):
-    with open(f'{RESULT_DIR}/{RESULT_FILE}', 'wt', encoding='utf-8') as file:
-        file.writelines([f'{person["firstname"]} {person["lastname"]} ist {person["weight"]}kg schwer und {person["height"]} cm groß\n' for person in people_data])
+def create_people_result(people_data):
+    return [f'{person["firstname"]} {person["lastname"]} ist {person["weight"]}kg schwer und {person["height"]} cm groß\n' for person in people_data]
 
-def check_file_exists(path):
-    return os.path.exists(path)
+def calculate_backup_number(backup_dir):
+    return len(os.listdir(backup_dir)) + 1
 
-
-def prepare_result_dir():
-    if not os.path.isdir(RESULT_DIR):
-        os.mkdir(RESULT_DIR)
-
-def prepare_backup_dir():
-    if not os.path.isdir(BACKUP_DIR):
-        os.mkdir(BACKUP_DIR)
-
-def check_existing_resultfile():
-    return os.path.exists(f'{RESULT_DIR}/{RESULT_FILE}')
-
-def calculate_backup_number():
-    return len(os.listdir(BACKUP_DIR)) + 1
-
+def write_people_data(result):
+    file_util.write_data(f'result/people_result.txt', result)
 def prepare():
-    prepare_result_dir()
-    prepare_backup_dir()
-    if check_existing_resultfile():
-        backup_number = calculate_backup_number()
+    RESULT_DIR = 'result'
+    BACKUP_DIR = 'backup'
+    RESULT_FILE = 'people_result.txt'
+
+    file_util.prepare_dir(RESULT_DIR)
+    file_util.prepare_dir(BACKUP_DIR)
+    if file_util.check_file_exists(f'{RESULT_DIR}/{RESULT_FILE}'):
+        backup_number = calculate_backup_number(BACKUP_DIR)
         os.rename(f'{RESULT_DIR}/{RESULT_FILE}', f'{BACKUP_DIR}/people_result_{backup_number}.bak')
