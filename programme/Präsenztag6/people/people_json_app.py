@@ -1,9 +1,10 @@
 import os
 import people
 import file_util as fu
-
+import sys
 def application():
-    file_name =  './data/people.json'
+    print(sys.argv)
+    file_name =  sys.argv[1] # './data/people.json'
     if fu.check_file_exists(file_name):
         people.prepare()
         people_data = fu.read_json(file_name)
