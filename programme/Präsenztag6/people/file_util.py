@@ -1,5 +1,5 @@
 import os
-
+import json
 def read_lines(path):
     with open(path, 'rt', encoding='utf-8') as people_csv_file:
         rows_with_cr = people_csv_file.readlines()
@@ -19,4 +19,8 @@ def check_file_exists(path):
 def prepare_dir(dirpath):
     if not os.path.isdir(dirpath):
         os.mkdir(dirpath)
+
+def write_json(path, data):
+    with open (path, 'wt', encoding='utf-8') as file:
+        json.dump(data, file)
 
