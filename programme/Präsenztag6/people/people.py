@@ -52,16 +52,3 @@ def prepare():
     if check_existing_resultfile():
         backup_number = calculate_backup_number()
         os.rename(f'{RESULT_DIR}/{RESULT_FILE}', f'{BACKUP_DIR}/people_result_{backup_number}.bak')
-
-def main():
-    file_name =  './data/people.csv'
-    if check_file_exists(file_name):
-        prepare()
-        lines = read_lines(file_name)
-        people = create_people_data(lines)
-        write_people_data(people)
-    else:
-        print(f'input file {file_name} does not exist in {os.getcwd().replace('\\', '/')}')
-    print('done')
-
-main()  
