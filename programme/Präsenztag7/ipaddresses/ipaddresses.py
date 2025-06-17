@@ -38,12 +38,16 @@ class IpAddressService:
     def activate(self, ipv4_address):
         address = self.ip_addresses.get(ipv4_address)
         if address != None:
-           address.status = 1 
-
+            address.status = 1 
+        else:
+            print(f'Aktivierung fehlgeschlagen, Adresse {ipv4_address} ist unbekannt')            
     def deactivate(self, ipv4_address):
         address = self.ip_addresses.get(ipv4_address)
         if address != None:
            address.status = 0 
 
     def delete(self, ipv4_address):
-        self.ip_addresses.pop(ipv4_address, None)
+        address = self.ip_addresses.pop(ipv4_address, None)
+        if address == None:
+            print(f'Löschen fehlgeschlagen, Adresse {ipv4_address} ist unbekannt')            
+
