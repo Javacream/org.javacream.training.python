@@ -8,6 +8,7 @@ def main():
     print(p1.lastname)
     print(p2.lastname)
     print(p2.weight)
+    print(p3.say_hello())
     print('done')
 
 if __name__ == '__main__': 
