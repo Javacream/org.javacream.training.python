@@ -1,5 +1,5 @@
 # import people
-from people import Person, Address
+from people import Person, Address, Worker, Student
 
 def main():
     a1 = Address('München', 'Marienplatz')
@@ -11,10 +11,14 @@ def main():
     p1.addresses.append(a2)
     p2.addresses.append(a2)
 
-    print(p1.lastname)
-    print(p2.lastname)
-    print(p2.weight)
-    print(p3.say_hello())
+    s = Student('Einstein', 'Albert', 77, 163, 'LMU')
+    s.addresses.append(a1)
+    print(s.study())
+    
+    w = Worker('Schufter', 'Hannah', 87, 193, 'Javacream')
+    w.addresses.append(a2)
+    print(w.work())
+
     print('done')
 
 if __name__ == '__main__': 
