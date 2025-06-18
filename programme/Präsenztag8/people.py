@@ -5,7 +5,6 @@ class Person:
         self.weight = weight
         self.height = height
         self.addresses: list[Address] = list()
-        print(f'***** erzeuge die Person {lastname}' )
     def say_hello(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
     

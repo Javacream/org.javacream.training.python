@@ -10,15 +10,10 @@ def main():
     p1.addresses.append(a1)
     p1.addresses.append(a2)
     p2.addresses.append(a2)
-
     s = Student('Einstein', 'Albert', 77, 163, 'LMU')
     s.addresses.append(a1)
-    print(s.study())
-    
     w = Worker('Schufter', 'Hannah', 87, 193, 'Javacream')
     w.addresses.append(a2)
-    print(w.work())
-
     print('done')
 
 if __name__ == '__main__': 
