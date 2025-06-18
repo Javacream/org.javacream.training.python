@@ -7,12 +7,15 @@ class Person:
         self.addresses: list[Address] = list()
     def say_hello(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
-    
+    def __repr__(self):
+        return f'Person(lastname={self.lastname}, firstname={self.firstname}, weight={self.weight}, height={self.height})'
 
 class Address:
     def __init__(self, city, street):
         self.city = city
         self.street = street
+    def __repr__(self):
+        return f'Address(city={self.city}, street={self.street})'
 
 class Student(Person):
     def __init__(self, lastname: str, firstname: str, weight: float, height: int, university):

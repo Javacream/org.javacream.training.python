@@ -14,6 +14,8 @@ def main():
     s.addresses.append(a1)
     w = Worker('Schufter', 'Hannah', 87, 193, 'Javacream')
     w.addresses.append(a2)
+    print(p1)
+    print(a1)
     print('done')
 
 if __name__ == '__main__': 
