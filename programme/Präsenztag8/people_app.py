@@ -28,5 +28,8 @@ def main():
     print(s1 == s2) # Bisher ist das Ergebnis True nicht nachvollziehbar!!!
     print('done')
 
+    unique_addresses = {a1, a2, a3, a4}
+    print(unique_addresses)
+
 if __name__ == '__main__': 
     main()
