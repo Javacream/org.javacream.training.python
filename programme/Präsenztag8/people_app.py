@@ -23,7 +23,7 @@ def main():
     print(p1 == p2)
     print(a1 == p1)
     print(p2 == p4)
-    print(a1 == a3) # Gleiche Stadt und gleiche Straße sollten dieselbe Adresse sein
+    print(f'a1 und a3 identisch? {a1 == a3}') # Gleiche Stadt und gleiche Straße sollten dieselbe Adresse sein
     print(a1 == a4) # Vergleich: deuten die Referenzen auf dasselbe Objekt
     print(s1 == s2) # Bisher ist das Ergebnis True nicht nachvollziehbar!!!
     print('done')

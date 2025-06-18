@@ -9,14 +9,19 @@ class Person:
         return f'Hello, my name is {self.firstname} {self.lastname}'
     def __repr__(self):
         return f'Person(lastname={self.lastname}, firstname={self.firstname}, weight={self.weight}, height={self.height})'
-
 class Address:
     def __init__(self, city, street):
         self.city = city
         self.street = street
     def __repr__(self):
         return f'Address(city={self.city}, street={self.street})'
-
+    def __eq__(self, other_address):
+        if isinstance(other_address, Address):
+            return (self.city == other_address.city) and (self.street == other_address.street) 
+        else:
+            return False
+    def __hash__(self):
+        return hash(self.city) + hash(self.street) 
 class Student(Person):
     def __init__(self, lastname: str, firstname: str, weight: float, height: int, university):
         super().__init__(lastname, firstname, weight, height)
