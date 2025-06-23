@@ -10,9 +10,14 @@ def prepare(connection):
 
 def analyse(connection):
     cursor = connection.cursor()
-    cursor.execute('SELECT * FROM  DEVICES')
-    result = cursor.fetchall()
-    print(result)
+    while True:
+        try:
+            sql_statement = input('Bitte Statement eingeben: ')
+            cursor.execute(sql_statement)
+            result = cursor.fetchall()
+            print(result)
+        except Exception as e:
+            print(e)
 
 def main():
     with sqlite3.connect(":memory:") as connection:
