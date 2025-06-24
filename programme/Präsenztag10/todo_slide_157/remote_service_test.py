@@ -1,12 +1,12 @@
 import unittest
 from remote_service import RemoteService
-
+import keyring
 class RemoteServiceTests(unittest.TestCase):
     def test_upload_and_execute_simple_py(self):
         config = {
             'port': 22,
             'username': 'teilnehmer',
-            'password': 'javacream123!'
+            'password': keyring.get_password('ssh_system', 'teilnehmer')
         }
         remote_service = RemoteService('javacream.eu', config)
         result = remote_service.upload_and_execute('programme/Präsenztag10/todo_slide_157/simple.py', 'test.py')
