@@ -1,6 +1,6 @@
 import time
 import random
-import multiprocessing
+from threading import Thread
 def do_something(id):
     counter = 0
     while True:
@@ -10,10 +10,13 @@ def do_something(id):
 
 
 def main():
-    process1 = multiprocessing.Process(target=do_something, args=['ID-1'])
-    process2 = multiprocessing.Process(target=do_something, args=['ID-2'])
-    process1.start()
-    process2.start()
+    threads = []
+    for i in range (1, 3):
+        thread = Thread(target=do_something, args=[f'ID-{i}'])
+        thread.start()
+        threads.append(thread)
+    for t in threads:
+        t.join()
     print('done')
 if __name__ == '__main__':
     main()
