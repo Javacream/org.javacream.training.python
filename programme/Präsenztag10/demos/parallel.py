@@ -1,5 +1,6 @@
 import time
 import random
+import multiprocessing
 def do_something(id):
     counter = 0
     while True:
@@ -9,7 +10,10 @@ def do_something(id):
 
 
 def main():
-    do_something('ID-1')
-    do_something('ID-2')
+    process1 = multiprocessing.Process(target=do_something, args=['ID-1'])
+    process2 = multiprocessing.Process(target=do_something, args=['ID-2'])
+    process1.start()
+    process2.start()
+    print('done')
 if __name__ == '__main__':
     main()
