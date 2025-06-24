@@ -9,9 +9,9 @@ class RemoteServiceTests(unittest.TestCase):
             'password': 'javacream123!'
         }
         remote_service = RemoteService('javacream.eu', config)
-        result = remote_service.upload_and_execute('programme/Präsenztag10/todo_slide_157/simple.py')
-        self.assertEqual('', result[1])
+        result = remote_service.upload_and_execute('programme/Präsenztag10/todo_slide_157/simple.py', 'test.py')
         self.assertEqual('Hello\n', result[0])
+        self.assertEqual('', result[1])
 
 if __name__ == '__main__':
     unittest.main()
