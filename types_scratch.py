@@ -23,3 +23,10 @@ name = 'Hugo'
 # print(name + ' ist ' + age + ' Jahre alt')
 print(name + ' ist ' + str(age) + ' Jahre alt') # Funktioniert, ist aber fürchterlich zu schreiben
 print(f'{name} ist {age:.1f} Jahre alt')
+
+value = input('Bitte geben Sie etwas ein: ')
+print(type(value))
+
+value = input('Bitte geben Sie eine Zahl ein: ')
+value = float(value)
+print(type(value))
