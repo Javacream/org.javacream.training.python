@@ -4,28 +4,24 @@ MIN_HEIGHT = 30
 MAX_HEIGHT = 250
 
 while True:
-    name = input('Enter your name: ')
-    weight  = input('Enter your weight in kg: ') 
     try:
+        name = input('Enter your name: ')
+        weight  = input('Enter your weight in kg: ') 
         weight = float(weight)
-    except:
-        print(f'invalid weight {weight}, not a number')
-        continue
-    if weight < MIN_WEIGHT or weight > MAX_WEIGHT:
-        print(f'you entered an invalid weight: {weight}, must be between {MIN_WEIGHT} and {MAX_WEIGHT}')
-    else:    
-        height  = input('Enter your height in cm: ') 
-        try:
+        if weight < MIN_WEIGHT or weight > MAX_WEIGHT:
+            print(f'you entered an invalid weight: {weight}, must be between {MIN_WEIGHT} and {MAX_WEIGHT}')
+        else:    
+            height  = input('Enter your height in cm: ') 
             height = int(height)
-        except:
-            print(f'invalid height {height}, not a number')
-            continue
-        if height < MIN_HEIGHT or height > MAX_HEIGHT:
-            print(f'you entered an invalid height: {height}, must be between {MIN_HEIGHT} and {MAX_HEIGHT}')
-        else:
-            height = height / 100 
-            bmi = weight / (height * height) 
-            print(f'{name} has a body mass index of {bmi:.2f}')
+            if height < MIN_HEIGHT or height > MAX_HEIGHT:
+                print(f'you entered an invalid height: {height}, must be between {MIN_HEIGHT} and {MAX_HEIGHT}')
+            else:
+                height = height / 100 
+                bmi = weight / (height * height) 
+                print(f'{name} has a body mass index of {bmi:.2f}')
+    except:
+        print(f'invalid input, not a number')
+        continue
     again = input('Again? y|n: ')
     if again == 'n':
         break
