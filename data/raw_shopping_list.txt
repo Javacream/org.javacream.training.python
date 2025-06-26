@@ -13,3 +13,5 @@ apple
 egg
 tomato
 vinegar
+grünzeug
+tömatös
