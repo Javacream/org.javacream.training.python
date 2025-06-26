@@ -1,10 +1,13 @@
 egg
+    
 tomato
 banana
 tomato
 orange
 egg
+
 egg
+   
 salt
 pepper
 orange
