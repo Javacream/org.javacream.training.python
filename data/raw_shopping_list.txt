@@ -1,20 +1,20 @@
-egg
+Rainer:egg
 
-tomato
-banana
-tomato
-orange juice
-egg
+Hugo:tomato
+Rainer:banana
+Hannah:tomato
+Rainer:orange juice
+Hugo:egg
 
-egg
+Hannah:egg
    
-salt
-pepper
-orange
-tomato
-apple
-egg
-tomato
-vinegar
-grünzeug
-tömatös
+Hugo:salt
+Rainer:pepper
+Hannah:orange
+Hannah:tomato
+Hugo:apple
+Hannah:egg
+Hannah:tomato
+Hannah:vinegar
+Hugo:grünzeug
+Hannah:tömatös
