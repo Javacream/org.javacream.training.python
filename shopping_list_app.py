@@ -1,10 +1,10 @@
 
-import shopping_list_module as slm
+from shopping_list_module import *
 def main():
-    raw_data = slm.read_raw_shopping_list()
-    cleaned_data = slm.clean(raw_data)
-    slm.create_shopping_list(cleaned_data)
-    slm.calculate_number_of_people(cleaned_data)
-    slm.group_items(cleaned_data)
+    raw_data = read_raw_shopping_list()
+    cleaned_data = clean(raw_data)
+    create_shopping_list(cleaned_data)
+    calculate_number_of_people(cleaned_data)
+    group_items(cleaned_data)
 
 main()    
