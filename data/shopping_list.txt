@@ -1,11 +1,11 @@
-salt=2
+orange juice=1
+tomato=4
 pepper=2
+apple=1
 egg=4
+orange=1
 tömatös=1
 vinegar=1
-orange=1
-grünzeug=1
 banana=1
-apple=1
-tomato=4
-orange juice=1
+salt=2
+grünzeug=1
