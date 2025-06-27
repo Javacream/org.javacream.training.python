@@ -6,9 +6,20 @@ class Person:
         #self.addresses = set(addresses)# self.addresses ist ein Tuple
     def introduce(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
+    def __repr__(self):
+        return f'Person(lastname={self.lastname}, firstname={self.firstname})'    
 
 
 class Address:
     def __init__(self, city, street):
         self.street = street
         self.city = city
+    def __eq__(self, other_address):
+        if isinstance(other_address, Address):
+            return (self.city == other_address.city) and (self.street == other_address.street) 
+        else:
+            return False
+    def __hash__(self):
+        return hash(self.city) + hash(self.street)
+    def __repr__(self):
+        return f'Address(city={self.city}, street={self.street})'    
