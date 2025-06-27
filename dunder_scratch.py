@@ -47,11 +47,35 @@ def duplicates():
 class Money:
     def __init__(self, amount):
         self.amount = amount
+    def __eq__(self, other):
+        if isinstance(other, Money):
+            return self.amount == other.amount
+        else:
+            return False
+    def __hash__(self):
+        return hash(self.amount)
+    def __repr__(self):
+        return f'Money(amount={self.amount})'
+    def __add__(self, other):
+        return Money(self.amount + other.amount)
+    def __add__(self, other):
+        return Money(self.amount + other.amount)
+    def __sub__(self, other):
+        return Money(self.amount - other.amount)
+    def __rmul__(self, other):
+        return Money(self.amount * other)
+    def __truediv__(self, other):
+        return Money(self.amount / other)
+
 
 def money():
     m1 = Money(20)
     m2 = Money(22)
     m3 = m1 + m2
+    print(m3)
+    print(5*m1)
+    print(m1/5)
+
 def main():
     #identity()
     #print_out()
