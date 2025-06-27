@@ -1,17 +1,23 @@
 def main():
-    def do_something():
-        print('doing something...')
+    names = ['Hugo', 'Hannah', 'Fridolin', 'Emil']
+    names.sort() # names wird intern umsortiert
+    # print(names)
+    names = ['Hugo', 'Hannah', 'Fridolin', 'Emil']
+    sorted_names = sorted(names)
+    # print(names, sorted_names)
 
-    def demo(callback):
-        callback()
+    def criterion(name):
+        return len(name)
+    
+    names = ['Hugo', 'Hannah', 'Fridolin', 'Emil']
+    names.sort(key=criterion)
+    criterion = lambda name: len(name)
+    names.sort(key=criterion)
+    names.sort(key= lambda name: len(name))
+    names.sort(key=len)
+    print(names)
+    names.sort(key= lambda name: name[1])
+    print(names)
 
-
-    do_something()
-    x = do_something
-    x()
-    demo(do_something)
-
-    lambda_demo = lambda p1, p2: print(p1, p2) 
-    lambda_demo('hello', 'world')
 if __name__ == '__main__':
     main()
