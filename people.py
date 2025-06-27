@@ -29,4 +29,10 @@ class Student(Person):
         super().__init__(lastname, firstname, addresses)
         self.university = university
     def study(self):
-        return f'i am studying at {self.university}'
+        return f'{self.introduce()}, i am studying at {self.university}'        
+class Worker(Person):
+    def __init__(self, lastname, firstname, company, *addresses):
+        super().__init__(lastname, firstname, addresses)
+        self.company = company
+    def work(self):
+        return f'{self.introduce()}, i am working at {self.company}'    
