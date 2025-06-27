@@ -44,9 +44,18 @@ def duplicates():
     address_set = {a1, a2, a3, a1, a3}
     print(len(address_set))
 
+class Money:
+    def __init__(self, amount):
+        self.amount = amount
+
+def money():
+    m1 = Money(20)
+    m2 = Money(22)
+    m3 = m1 + m2
 def main():
     #identity()
     #print_out()
-    duplicates()
+    # duplicates()
+    money()
 if __name__ == '__main__':
     main()
