@@ -1,6 +1,6 @@
 import unittest
-#from people_service_class import PeopleService
-from people_service_class_with_database import PeopleService
+from database_people_service import PeopleService
+
 class PeopleServiceTests(unittest.TestCase):
 
     def test_read_people(self):

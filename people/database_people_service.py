@@ -1,16 +1,21 @@
-import requests
+import mysql.connector
 
 class PeopleService:
-    def __init__(self, endpoint):
-        self.endpoint = endpoint
+    def __init__(self, config):
+        self.config = config
 
     def read_people(self):
-        response = requests.get(self.endpoint)
-        if response.status_code == 200:
-            data = response.json()
-            people = [Person(element['id'], element['lastname'], element['firstname'], element['height'], element['gender']) for element in data]
-            return people
-        
+        try:
+            with mysql.connector.connect(**self.config) as connection:
+                cursor = connection.cursor()
+                cursor.execute(f'SELECT * FROM PEOPLE')
+                data = cursor.fetchall()
+                people = [Person(element[0], element[2], element[1], float(element[3]), element[5]) for element in data]
+                return people
+                #return data
+        except Exception as e:
+            print(e)
+
 class Person:
     def __init__(self, id, lastname, firstname, height, gender):
         self.id = id
