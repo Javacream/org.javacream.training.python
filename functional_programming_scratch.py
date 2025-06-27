@@ -18,6 +18,7 @@ def main():
     print(names)
     names.sort(key= lambda name: name[1])
     print(names)
-
+    print(list(map(len, names)))
+    list(map(lambda name: print(name), names))
 if __name__ == '__main__':
     main()

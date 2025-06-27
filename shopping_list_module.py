@@ -8,12 +8,13 @@ def create_shopping_list(rows: list[str]):
         shopping_list.append(f'{unique_item}={items.count(unique_item)}\n')
     with open('data/shopping_list.txt', 'wt', encoding='utf-8') as file:
         file.writelines(shopping_list)
+    return shopping_list
 
 def calculate_number_of_people(rows: list[str]):
     people = [row.split(SEPARATOR)[0] for row in rows]
     unique_people = set(people)
     print(f'{len(unique_people)} people need items')
-
+    return len(unique_people)
 def group_items(rows: list[str]):
     grouped_items = dict()
     for row in rows:
