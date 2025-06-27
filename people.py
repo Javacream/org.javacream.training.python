@@ -23,3 +23,10 @@ class Address:
         return hash(self.city) + hash(self.street)
     def __repr__(self):
         return f'Address(city={self.city}, street={self.street})'    
+
+class Student(Person):
+    def __init__(self, lastname, firstname, university, *addresses):
+        super().__init__(lastname, firstname, addresses)
+        self.university = university
+    def study(self):
+        return f'i am studying at {self.university}'
