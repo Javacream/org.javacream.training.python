@@ -5,5 +5,11 @@ def greet(name, friendly):
         greeting = f'Good day {name}!'
     return greeting
 
-print(greet('Hugo', True))
-print(greet('Egon', False))
+def main():
+    print(greet('Hugo', True))
+    name = 'Egon'
+    greeting_cat = False
+    greeting = greet(name, greeting_cat)
+    print(greeting)
+
+main()
