@@ -15,3 +15,7 @@ while True:
         bmi_category = 'obese'
 
     print(f'the person {name} is {bmi_category}')
+
+    again = input('again?.')
+    if again == 'n':
+        break
