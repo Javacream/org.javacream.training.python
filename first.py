@@ -1,4 +1,4 @@
-A1 = 183
-B1 = 76.7
-C1 = B1 /(A1*A1) * 10000
-print(C1)
+height = 183
+weight = 76.7
+body_mass_index = weight /(height*height) * 10000
+print(body_mass_index)
