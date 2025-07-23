@@ -1,5 +1,5 @@
 def main():
-    with open('README.md', 'rt', encoding='utf-8') as file:
+    with open('file_scratch.py', 'rt', encoding='utf-8') as file:
         content = file.read()
-    print('done')
+    print(content)
 main()
