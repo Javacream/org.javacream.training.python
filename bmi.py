@@ -1,6 +1,17 @@
 def read_people_data():
-    # TODO: read people.csv
-    return []
+    with open('people.csv', 'rt', encoding='utf-8') as file:
+        content = file.read()
+    rows = content.split('\n')
+    rows = rows[1:] # remove header
+    result = []
+    for row in rows:
+        if row.strip() != '': # detect empty rows 
+            person_data = row.split(',')
+            person_data[1] = int(person_data[1])
+            person_data[2] = float(person_data[2])
+            result.append(person_data)
+    return result
+
 def calculate_bmi(height, weight):
      return weight /(height*height) * 10000
 
@@ -16,14 +27,17 @@ def categorize_bmi(bmi):
     return bmi_category
 
 def print_bmi(name, bmi_category):
-    # TODO: replace with write to file people_bmi.txt print(f'the person {name} is {bmi_category}')
-    pass
+    with open ('people_bmi.txt', 'a', encoding='utf-8') as file:
+        file.write(f'the person {name} is {bmi_category}\n')
 
 def main():
     people_data = read_people_data()
-    # TODO iteration over people_data, calculate and categorize each person
-    body_mass_index = calculate_bmi(height, weight)
-    bmi_category = categorize_bmi(body_mass_index)
-    print_bmi(name, bmi_category)
+    for person_data in people_data:
+        name = person_data[0]
+        height = person_data[1]
+        weight = person_data[2]
+        body_mass_index = calculate_bmi(height, weight)
+        bmi_category = categorize_bmi(body_mass_index)
+        print_bmi(name, bmi_category)
 
 main()
