@@ -1,0 +1,4 @@
+a very simple text
+containing multiple
+lines. All lines end with eol character
+and all words are separated with a single whitespace
