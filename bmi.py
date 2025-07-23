@@ -1,14 +1,6 @@
-def input_height():
-        height = input('Please enter your height: ')
-        height = int(height)
-        return height
-def input_weight():
-        weight = input('Please enter your weight: ')
-        weight = float(weight)
-        return weight
-def input_name():
-     return input('Please enter your name: ')
-
+def read_people_data():
+    # TODO: read people.csv
+    return []
 def calculate_bmi(height, weight):
      return weight /(height*height) * 10000
 
@@ -24,18 +16,14 @@ def categorize_bmi(bmi):
     return bmi_category
 
 def print_bmi(name, bmi_category):
-    print(f'the person {name} is {bmi_category}')
-     
+    # TODO: replace with write to file people_bmi.txt print(f'the person {name} is {bmi_category}')
+    pass
+
 def main():
-    while True:
-        height = input_height()
-        weight = input_weight()
-        name = input_name()
-        body_mass_index = calculate_bmi(height, weight)
-        bmi_category = categorize_bmi(body_mass_index)
-        print_bmi(name, bmi_category)
-        again = input('again?.')    
-        if again == 'n':
-            break
+    people_data = read_people_data()
+    # TODO iteration over people_data, calculate and categorize each person
+    body_mass_index = calculate_bmi(height, weight)
+    bmi_category = categorize_bmi(body_mass_index)
+    print_bmi(name, bmi_category)
 
 main()
