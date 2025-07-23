@@ -1,16 +1,16 @@
-def number_of_characters(string):
+def number_of_characters(string: str):
     return len(string)
 
-def number_of_character(char, string):
+def number_of_character(char:str , string: str):
     return string.count(char)
 
-def number_of_words(string):
+def number_of_words(string: str):
     return len(string.split(' '))
 
-def is_int(string):
+def is_int(string: str):
     return string.isdigit()
 
-def is_float(string):
+def is_float(string: str):
     if string.count('.') > 1:
         return False
     else:
