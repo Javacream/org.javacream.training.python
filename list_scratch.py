@@ -5,3 +5,7 @@ for e in names:
     print(e)
 
 names.append('John')
+
+print('Hello')
+# append('John')
+# names.print('Hello')
