@@ -1,16 +1,17 @@
+import mysql.connector
+
 def read_people_data():
-    with open('people.csv', 'rt', encoding='utf-8') as file:
-        content = file.read()
-    rows = content.split('\n')
-    rows = rows[1:] # remove header
-    result = []
-    for row in rows:
-        if row.strip() != '': # detect empty rows 
-            person_data = row.split(',')
-            person_data[1] = int(person_data[1])
-            person_data[2] = float(person_data[2])
-            result.append(person_data)
-    return result
+    host = 'javacream.eu'
+    port = 3406
+    database = 'javacream'
+    username = 'user'
+    password = 'user'
+
+    with mysql.connector.connect(host=host, port=port, database=database, username=username, password=password) as connection:
+        cursor = connection.cursor()
+        cursor.execute(f'SELECT lastname, height*100, weight FROM PEOPLE')
+        people_data_list = cursor.fetchall()
+    return people_data_list
 
 def calculate_bmi(height, weight):
      return weight /(height*height) * 10000
