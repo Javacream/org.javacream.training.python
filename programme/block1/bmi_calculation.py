@@ -1,5 +1,7 @@
-weight = 76.6
-height = 183
+weight = input('Bitte geben Sie Ihr Körpergewicht in kg ein: ')
+height = input('Bitte geben Sie Ihre Größe in cm an: ')
+weight = float(weight)
+height = int(height)
 height = height / 100
 bmi = weight/(height*height)
 
