@@ -1,3 +1,4 @@
-# hello_world.py
+# Konsolenausgabe von Hallo Welt
 
-print("Hallo Welt!")
+message = "Hallo Welt!"
+print(message)
