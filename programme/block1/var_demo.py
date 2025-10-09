@@ -4,3 +4,5 @@ height = 183
 print(name)
 print(weight)
 print('Hello')
+
+print(type(height))
