@@ -1,3 +1,4 @@
 name = input('Bitte Name eingeben: ')
 age = input('Bitte Alter eingeben: ')
-print(f'{name} ist {age} Jahre alt')
+message = f'{name} ist {age} Jahre alt'
+print(message)
