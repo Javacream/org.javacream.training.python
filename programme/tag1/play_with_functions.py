@@ -1,2 +1,5 @@
-name = print('Name eingeben: ')
-print(name)
+input = input('Bitte etwas eingeben: ')
+print(input)
+
+input = input('Bitte etwas eingeben: ')
+print(input)
