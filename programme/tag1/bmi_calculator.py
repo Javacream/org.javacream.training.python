@@ -1,7 +1,9 @@
-name = 'Hugo'
-weight = 76.6
-height = 183
+name = input('Bitte Name eingeben: ')
+weight = input('Bitte Gewicht in kg eingeben: ')
+height = input('Bitte Größe in cm eingeben: ')
 
+weight = float(weight)
+height = int(height)
 height = height / 100
 bmi = weight / (height * height)
 
