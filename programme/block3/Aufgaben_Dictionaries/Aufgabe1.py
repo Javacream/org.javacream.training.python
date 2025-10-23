@@ -1,5 +1,5 @@
 try:
-    n = input ("Bitte Entzahl angeben:")
+    n = input ("Bitte Endzahl angeben:")
     n = int(n)
     numbers = dict()
     for i in range (1, n+1):
