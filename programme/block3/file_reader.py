@@ -1,6 +1,5 @@
 try:
-    opened_file = open('data/README.md', encoding='utf-8')
-    lines = opened_file.readlines()
-    opened_file.close()   
+    with open('data/README.md', encoding='utf-8') as opened_file:
+        lines = opened_file.readlines()
 except Exception as e:
     print(e)
