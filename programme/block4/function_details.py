@@ -1,13 +1,9 @@
-def do_something(dict_param):
-    for key in dict_param:
-        print(f'{key}={dict_param[key]}')
+def my_function(elements: list[int]):
+    print(elements.count(3))
 
-def do_something_with_kwargs(**dict_param):
-    for key in dict_param:
-        print(f'{key}={dict_param[key]}')
 
 def main():
-    person = {'name': 'Rainer Sawitzki', 'height': 183, 'weight': 75.8}
-    do_something(person)
-    do_something_with_kwargs(name='Rainer Sawitzki', height=183, weight=75.8)
+    n = [1,2,3, 2, 3, 3, 3, 3]
+    my_function(n)
+    # my_function(42)
 main()
