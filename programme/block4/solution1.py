@@ -3,3 +3,7 @@ def sum_elements(number_list):
     for number in number_list:
         result = result + number
     return result
+
+list_of_numbers = [1, 7, -5, 28]
+sum_of_list = sum_elements(list_of_numbers)
+print(sum_of_list)
