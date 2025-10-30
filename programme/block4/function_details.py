@@ -1,9 +1,20 @@
-def my_function(elements: list[int]):
-    print(elements.count(3))
+def my_fn(p1):
+    print('called my_fn')
 
+def my_fn():
+    print('called another my_fn')
+
+def demo(fn):
+    fn()
 
 def main():
-    n = [1,2,3, 2, 3, 3, 3, 3]
-    my_function(n)
-    # my_function(42)
+    name = 'Hugo'
+    name = 'Hannah'
+    name2 = name
+    print(name2)
+    my_fn()
+    # my_fn('Hugo')
+    x = my_fn
+    x()
+    demo(x)
 main()
