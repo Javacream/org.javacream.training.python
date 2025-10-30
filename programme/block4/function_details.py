@@ -1,29 +1,33 @@
-def no_param_function():
-    print('a parameterless function')
+def sum_elements(numbers):
+    result = 0
+    for number in numbers:
+        result += number
+    return result
 
-def one_param_function(param):
-    print(f'one parameter {param} function')
+def sum_elements_varargs(*numbers):
+    result = 0
+    for number in numbers:
+        result += number
+    return result
 
-def one_default_param_function(param = 'Egon'):
-    print(f'one parameter {param} function')
+def sum_elements_varargs_with_param(offset, *numbers):
+    result = offset
+    for number in numbers:
+        result += number
+    return result
 
-def one_param_and_one_default_param_function(p1, p2 = 'Egon'):
-    print(f'first parameter {p1}, second {p2} function')
+def sum_elements_param_with_varargs(*numbers, offset):
+    result = offset
+    for number in numbers:
+        result += number
+    return result
 
-#def wrong_syntax(p1, p2 = 'Egon', p3):
-#    pass
 
 def main():
-    no_param_function()
-    # no_param_function('Hugo')
-    one_param_function('Hugo')
-    # one_param_function()
-    # one_param_function('Hugo', 'Hannah')
-    one_default_param_function('Hugo')
-    one_default_param_function()
-    one_param_and_one_default_param_function(42)
-    one_param_and_one_default_param_function(42, 'Hannah')
-
-
-
+    values = (1, 6, 4, 8)
+    print(sum_elements(values))
+    print(sum_elements_varargs(1, 6, 4, 8))
+    print(sum_elements_varargs_with_param(-42, 1,2,3))
+    # print(sum_elements_param_with_varargs(-42, 1,2,3))
+    print(sum_elements_param_with_varargs(1,2,3, offset=42))
 main()
