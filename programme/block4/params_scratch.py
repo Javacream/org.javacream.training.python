@@ -1,13 +1,13 @@
-def sum_elements(numbers):
-    return sum(numbers)
+def print_out(data_dict):
+    for key in data_dict:
+        print(f'{key}={data_dict[key]}')
 
-def sum_elements2(*numbers):
-    return sum(numbers)
-
-def sum_elements3(*numbers, offset, multiplier):
-    return multiplier*(offset + sum(numbers))
-
+def print_out2(**data_dict):
+    for key in data_dict:
+        print(f'{key}={data_dict[key]}')
 
 def main():
-    print(sum_elements3(1, 2, 3, 4, offset=42, multiplier=-1))
+    data = {'name': 'Sawitzki', 'height': 183}
+    print_out(data)
+    print_out2(name='Sawitzki', height=183)
 main()
