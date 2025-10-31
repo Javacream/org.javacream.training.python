@@ -1,31 +1,12 @@
-def one_param(p):
-    print(f'param={p}')
+def sum_elements(numbers):
+    return sum(numbers)
 
-def one_default_param(p='Emil'):
-    print(f'param={p}')
-
-def default_params(p1='Emil', p2=4711):
-    print(f'params={p1}, {p2}')
-def param_and_default_params(p, p1='Emil', p2=4711):
-    print(f'params={p}, {p1}, {p2}')
-
-#def wrong_param_and_default_params(p1='Emil', p, p2=4711):
-#    print(f'params={p}, {p1}, {p2}')
+def sum_elements2(*numbers):
+    return sum(numbers)
 
 def main():
-    value = 'Hugo'
-    one_param(value)
-    # one_param()
-    # one_param(value, 42)
-    one_default_param(value)
-    one_default_param()
-    # one_default_param(value, 42)
-    default_params()
-    default_params(value)
-    default_params(value, 42)
+    n = (1, 5, 2, -4, 3)
+    print(sum_elements(n))
+    print(sum_elements2(1, 5, 2, -4, 3))
 
-    # param_and_default_params()
-    param_and_default_params(value)
-    param_and_default_params(value, 42)
-    param_and_default_params(value, 42, True)
 main()
