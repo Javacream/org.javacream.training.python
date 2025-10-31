@@ -1,4 +1,4 @@
-def words(text):
+def words(text: str):
     words = text.split(' ')
     return words
 
