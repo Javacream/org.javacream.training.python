@@ -22,3 +22,5 @@ class Student(Person):
     def study(self):
         print(f'{self.lastname} is studying at {self.university}')
 
+    def say_hello(self):
+        return f'{super().say_hello()}, i study at {self.university}'
