@@ -21,4 +21,6 @@ def main():
     p2.address.street = 'Ostbahnhof'
     print(p2.address.street, p3.address.street)
 
+    print(type(p1), type(a1))
+
 main()
