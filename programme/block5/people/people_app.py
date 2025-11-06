@@ -1,4 +1,4 @@
-from people import Person, Address
+from people import Person, Address, Student
 
 def main():
     a1 = Address('München', 'Marienplatz')
@@ -23,4 +23,5 @@ def main():
 
     print(type(p1), type(a1))
 
+    s1 = Student('Einstein', 'Albert', 169, 65.5, a1)
 main()

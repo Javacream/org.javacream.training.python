@@ -12,4 +12,7 @@ class Person:
         self.weight = weight
         self.address = address.copy()
 
+class Student(Person):
+    def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address):
+        super().__init__(lastname, firstname, height, weight, address)        
 
