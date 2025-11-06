@@ -13,6 +13,7 @@ class Person:
         self.address = address.copy()
 
 class Student(Person):
-    def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address):
+    def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address, university: str):
         super().__init__(lastname, firstname, height, weight, address)        
+        self.university = university
 

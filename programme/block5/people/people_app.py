@@ -6,6 +6,8 @@ def main():
     p1 = Person('Sawitzki', 'Rainer', 183, 76.2, a1)
     p2 = Person('Musterperson', 'Hannah', 179, 66.2, a2)
     p3 = Person('Schufter', 'Hans', 199, 96.2, a2)
+    s1 = Student('Einstein', 'Albert', 169, 65.5, a1, 'LMU')
+
 
 
     print(p1.lastname, p2.lastname)
@@ -23,5 +25,4 @@ def main():
 
     print(type(p1), type(a1))
 
-    s1 = Student('Einstein', 'Albert', 169, 65.5, a1)
 main()
