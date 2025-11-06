@@ -25,4 +25,7 @@ def main():
 
     print(type(p1), type(a1))
 
+    print(p1.say_hello())
+    print(s1.say_hello()) 
+    s1.study()
 main()

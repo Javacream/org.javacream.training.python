@@ -11,9 +11,14 @@ class Person:
         self.height = height
         self.weight = weight
         self.address = address.copy()
+    def say_hello(self):
+        return f'Hello, my name is {self.firstname} {self.lastname}'
 
 class Student(Person):
     def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address, university: str):
         super().__init__(lastname, firstname, height, weight, address)        
         self.university = university
+    
+    def study(self):
+        print(f'{self.lastname} is studying at {self.university}')
 
