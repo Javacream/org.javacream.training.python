@@ -7,7 +7,7 @@ class Book:
 
 class Library:
     def __init__(self):
-        self.books = set()
+        self.books: set[Book] = set()
 
     def append(self, book: Book):
         self.books.add(book)
