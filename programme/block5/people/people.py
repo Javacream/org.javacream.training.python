@@ -12,8 +12,12 @@ class Person:
         self.height = height
         self.weight = weight
         self.addresses = set()
+    def greet(self):
+        return f'Hello, my name is {self.firstname} {self.lastname}'
 
 class Student(Person):
     def __init__(self, lastname: str, firstname: str, height: int, weight: float, university:str):
         super().__init__(lastname, firstname, height, weight)
         self.university = university
+    def study(self):
+        print(f'{self.lastname} studying at {self.university}')

@@ -10,6 +10,8 @@ def main():
     p2.addresses.add(a2)
     print(p1.addresses)
 
-    s = Student('Einstein', 'Albert', 167, 58.9)
-    print(type(s))
+    s = Student('Einstein', 'Albert', 167, 58.9, 'LMU')
+    print(p1.greet())
+    print(s.greet())
+    s.study()    
 main()
