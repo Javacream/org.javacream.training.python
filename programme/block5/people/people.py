@@ -11,5 +11,6 @@ class Person:
         self.firstname = firstname
         self.height = height
         self.weight = weight
+        self.addresses = set()
 
         
