@@ -13,6 +13,10 @@ def main():
 
     p1.eye_color = 'blue'
     print(f'{p1.lastname}: eyes are {p1.eye_color}')
-    #print(f'{p2.lastname}: eyes are {p2.eye_color}') # p2 does not have attribute eye_color -> exception
+    # print(f'{p2.lastname}: eyes are {p2.eye_color}') # p2 does not have attribute eye_color -> exception
+
+    a3 = a2.copy()
+    a3.street = 'somewhere'
+    print(a2.street)
 
 main()
