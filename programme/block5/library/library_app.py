@@ -13,6 +13,6 @@ def main():
     library.lend(b2)
     print(b1.status, b2.status)
 
-
+    print(library.show())
 
 main()

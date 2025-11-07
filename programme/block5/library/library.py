@@ -21,8 +21,5 @@ class Library:
         book.status = True
 
     def show(self):
-        result = []
-        for book in self.books:
-            if book.status == False:
-                result.append(book)
-        return result
+        return  [book.title for book in self.books if book.status == False]
+

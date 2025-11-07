@@ -9,4 +9,6 @@ def main():
     p1.addresses.add(a2)
     p2.addresses.add(a2)
     print(p1.addresses)
+
+    print(type(a1))
 main()
