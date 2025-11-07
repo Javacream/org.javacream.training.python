@@ -13,4 +13,6 @@ class Person:
         self.weight = weight
         self.addresses = set()
 
-        
+class Student(Person):
+    def __init__(self, lastname: str, firstname: str, height: int, weight: float):
+        super().__init__(lastname, firstname, height, weight)        
