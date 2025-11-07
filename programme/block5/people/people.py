@@ -21,3 +21,5 @@ class Student(Person):
         self.university = university
     def study(self):
         print(f'{self.lastname} studying at {self.university}')
+    def greet(self):
+        return 'i am a student'
