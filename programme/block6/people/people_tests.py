@@ -2,6 +2,9 @@ import unittest
 from people import Person, Address
 
 class PeopleTests(unittest.TestCase):
+    def test_object(self):
+        o = object()
+        self.assertIsNotNone(o)
 
     def test_say_hello(self):
         p = Person('A', 'B', 188, 76.6, Address('some', 'where'))
@@ -12,8 +15,8 @@ class PeopleTests(unittest.TestCase):
 
     def test_print_person(self):
         p = Person('A', 'B', 188, 76.6, Address('some', 'where'))
-        expected_representation_starts_with = '<people.Person object at '
+        expected_representation = 'Person(lastname=A, firstname=B, height=188, weight=76.6)'
         # representation = p.__repr__()
         representation = repr(p)
-        self.assertTrue(representation.startswith(expected_representation_starts_with), f'{representation} does not start with {expected_representation_starts_with}')
+        self.assertEqual(expected_representation, representation)
 unittest.main()
