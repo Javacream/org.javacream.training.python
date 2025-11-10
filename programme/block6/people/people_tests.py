@@ -46,4 +46,10 @@ class PeopleTests(unittest.TestCase):
         p2 = Person('X', 'Y', 148, 96.6, Address('some', 'where'))
         self.assertTrue(p1 > p2)
 
+    def test_people_add_weight(self):
+        p1 = Person('A', 'B', 188, 76.6, Address('some', 'where'))
+        print(p1.weight)
+        p1 = p1 + 12.3
+        print(p1.weight)
+
 unittest.main()

@@ -29,6 +29,13 @@ class Person(object):
             return self.height > other.height
         else:
             return False
+    def __add__(self, weight):
+        if isinstance(weight, float):
+            self.weight += weight
+            return self
+        else:
+            return self
+
 class Student(Person):
     def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address, university: str):
         super().__init__(lastname, firstname, height, weight, address)        
