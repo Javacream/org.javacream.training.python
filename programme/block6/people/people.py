@@ -3,7 +3,9 @@ class Address:
         self.city = city
         self.street = street
     def copy(self):
-        return Address(self.city, self.street)    
+        return Address(self.city, self.street)
+    def __repr__(self):
+        return f'Address(city={self.city}, street={self.street})'   
 class Person(object):
     def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address):
         self.lastname = lastname
