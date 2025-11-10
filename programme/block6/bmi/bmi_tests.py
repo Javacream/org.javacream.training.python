@@ -9,7 +9,7 @@ class BmiTests(unittest.TestCase):
         calculated_bmi = bmi_calculation(height, weight)
 
         self.assertAlmostEqual(expected_bmi, calculated_bmi, 1)
-        
+
     def test_bmi_of_16_has_category_underweight(self):
         bmi = 16
         expected_category = 'underweight'
@@ -18,6 +18,16 @@ class BmiTests(unittest.TestCase):
     def test_bmi_of_33_has_category_obese(self):
         bmi = 33
         expected_category = 'obese'
+        calculated_category = bmi_categorization(bmi)
+        self.assertEqual(expected_category, calculated_category)
+    def test_bmi_of_27_has_category_overweight(self):
+        bmi = 27
+        expected_category = 'overweight'
+        calculated_category = bmi_categorization(bmi)
+        self.assertEqual(expected_category, calculated_category)
+    def test_bmi_of_22_has_category_normalweight(self):
+        bmi = 22
+        expected_category = 'normalweight'
         calculated_category = bmi_categorization(bmi)
         self.assertEqual(expected_category, calculated_category)
 
