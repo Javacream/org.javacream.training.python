@@ -1,14 +1,19 @@
+UNDERWEIGHT_LIMIT = 18.5
+NORMAL_WEIGHT_LIMIT = 24.9
+OVERWEIGHT_LIMIT = 30
+
+
 def calculate_bmi(weight: float, height: int) -> float:#
     height = height/100
     bmi = weight/(height*height)
     return bmi
 
 def categorize_bmi(bmi: float) -> str:
-    if bmi < 18.5:
+    if bmi < UNDERWEIGHT_LIMIT:
         return 'underweight'
-    elif bmi < 24.9:
+    elif bmi < NORMAL_WEIGHT_LIMIT:
         return 'normalweight'
-    elif bmi < 30:
+    elif bmi < OVERWEIGHT_LIMIT:
         return 'overweight'
     else:
         return 'obese'
