@@ -4,6 +4,12 @@ class Address:
         self.street = street
     def copy(self):
         return Address(self.city, self.street)
+    
+    def __eq__(self, other):
+        if isinstance(other, Address):
+            return (self.city == other.city) and (self.street == other.street)
+        else:
+            return False
 
 class Person(object):
     def __init__(self, lastname: str, firstname: str, height: int, weight: float):

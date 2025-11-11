@@ -1,5 +1,5 @@
 import unittest
-from people import Person
+from people import Person, Address
 class PeopleTests(unittest.TestCase):
     def test_person(self):
         lastname = 'A'
@@ -25,5 +25,26 @@ class PeopleTests(unittest.TestCase):
     def test_object(self):
         o = object()
         self.assertIsNotNone(o)
-    
+
+    def test_person_equality(self):
+        p1 = Person('B', 'A', 100, 200)
+        p2 = Person('X', 'Y', 130, 60)
+        p3 = p1
+        p4 = Person('B', 'A', 100, 200)
+
+        self.assertFalse(p1 == p2)
+        self.assertTrue(p1 == p3)
+        self.assertFalse(p1 == p4)
+
+    def test_address_equality(self):
+        a1 = Address('B', 'A')
+        a2 = Address('X', 'Y')
+        a3 = a1
+        a4 = Address('B', 'A')
+
+        self.assertFalse(a1 == a2)
+        self.assertTrue(a1 == a3)
+        self.assertTrue(a1 == a4)
+
+
 unittest.main()
