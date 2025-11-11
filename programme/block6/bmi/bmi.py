@@ -12,3 +12,10 @@ def categorize_bmi(bmi: float) -> str:
         return 'overweight'
     else:
         return 'obese'
+    
+
+def main():
+    print(calculate_bmi(99.9, 177))
+
+if __name__ == '__main__':
+    main()        
