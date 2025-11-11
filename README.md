@@ -21,3 +21,6 @@ Ressourcen für den am 6.10.2025 beginnenden Lernpfad mit Anleitungen, Beispiele
 
 * [Aufzeichnungen](https://my.hidrive.com/share/m0jho80fa7)
 
+* [Abschlussübung](https://docs.google.com/presentation/d/1gGazoVkhdpx5yrnEeKeTkktTlzHXMueVArs_1FR4mXQ/edit?usp=sharing)
+
+
