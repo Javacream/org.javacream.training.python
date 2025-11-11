@@ -5,13 +5,16 @@ class Address:
     def copy(self):
         return Address(self.city, self.street)
 
-class Person:
+class Person(object):
     def __init__(self, lastname: str, firstname: str, height: int, weight: float):
         self.lastname = lastname
         self.firstname = firstname
         self.height = height
         self.weight = weight
         self.addresses = set()
+    def __repr__(self):
+        return f'Person(lastname={self.lastname}, firstname={self.firstname}, height={self.height}, weight={self.weight})'
+    
     def greet(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
 
