@@ -46,5 +46,11 @@ class PeopleTests(unittest.TestCase):
         self.assertTrue(a1 == a3)
         self.assertTrue(a1 == a4)
 
+    def test_person_adds_weight(self):
+        p = Person('B', 'A', 100, 200)
+        self.assertAlmostEqual(200, p.weight, 2)
+        # ich möchte folgendes:
+        p = p + 11.1
+        self.assertAlmostEqual(211.1, p.weight, 2)
 
 unittest.main()

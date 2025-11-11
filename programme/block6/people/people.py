@@ -20,7 +20,12 @@ class Person(object):
         self.addresses = set()
     def __repr__(self):
         return f'Person(lastname={self.lastname}, firstname={self.firstname}, height={self.height}, weight={self.weight})'
-    
+    def __add__(self, add_weight):
+        if isinstance(add_weight, float):
+            self.weight += add_weight
+            return self
+        else:
+            raise TypeError(f"unsupported operand type(s) for +: 'Person' and '{type(add_weight)}'")    
     def greet(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
 
