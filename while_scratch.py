@@ -39,3 +39,7 @@ while counter < 5:
     if counter % 2 == 1:
         continue
     print(f'standard while with continue: actual counter: {counter}')
+
+# nicht unterstützt in Python
+# for counter = 0; counter < 5; counter += 1:
+#     print(counter)
