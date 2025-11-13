@@ -53,4 +53,7 @@ coordinates = [
 ]
 
 mixed = ['Hugo', [1, 2], True]
+
+if 'Hugo' in mixed:
+    print(f'Hugo is in {mixed}')
 print('done')
