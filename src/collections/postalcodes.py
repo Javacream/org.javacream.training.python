@@ -25,3 +25,8 @@ postal_codes = {
     '90403': 'Nürnberg-Altstadt',
     '24103': 'Kiel'
 }
+
+
+code = input('please enter a valid postal code: ')
+city = postal_codes[code]
+print(f'the city for postal code {code} is: {city}')
