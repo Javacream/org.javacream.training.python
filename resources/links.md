@@ -9,4 +9,4 @@
 * [Liste der BuiltIns](https://www.w3schools.com/python/python_ref_functions.asp)
 
 * Format Strings
-* [Übersicht](https://www.w3schools.com/python/python_string_formatting.asp)
+  * [Übersicht](https://www.w3schools.com/python/python_string_formatting.asp)
