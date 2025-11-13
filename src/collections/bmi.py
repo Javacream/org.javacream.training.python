@@ -5,8 +5,7 @@ data = [
 ]
 
 for person in data:
-    name = person[0]
-    weight = person[1]
-    height = person[2] / 100
+    name, weight, height = person
+    height = height / 100
     bmi = weight/(height**2)
     print(f'{name} with height={height} and weight={weight} has a bmi of {bmi:.2f}')

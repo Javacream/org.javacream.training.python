@@ -20,6 +20,8 @@ for item in todos:
 for x in todos:
     print(x)
 
+todo1, todo2, todo3 = todos
+
 eat_todo = ['eat', 'middle']
 sleep_todo = ['sleep', 'low']
 drink_todo = ['drink', 'high']
