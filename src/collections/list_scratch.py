@@ -19,3 +19,36 @@ for item in todos:
     print(item)
 for x in todos:
     print(x)
+
+eat_todo = ['eat', 'middle']
+sleep_todo = ['sleep', 'low']
+drink_todo = ['drink', 'high']
+
+todos_variation1 = [eat_todo, sleep_todo, drink_todo]
+
+todos_variation2 = [['eat', 'middle'], ['sleep', 'low'], ['drink', 'high']]
+
+todos_variation3 = [
+    ['eat', 'middle'], 
+    ['sleep', 'low'], 
+    ['drink', 'high']
+]
+
+# Ausgabe der Priorisierung des Eintrags sleep
+sleep_todo = todos_variation3[1]
+sleep_priority = sleep_todo[1]
+print(sleep_priority)
+print(todos_variation3[1][1])
+# print(todos_variation3[1, 1]) # kann Python nicht
+
+coordinates = [
+    ['computer', [
+        1,1,3
+    ]], 
+    'picture', [
+        4,5,6
+    ]
+]
+
+mixed = ['Hugo', [1, 2], True]
+print('done')
