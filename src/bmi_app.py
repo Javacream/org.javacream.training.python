@@ -1,11 +1,17 @@
 def get_data():
     with open('data/people_data.txt', encoding='utf-8') as file:
-        return file.read().split('\n')
+        content = file.read() 
+        return content.split('\n')
 
 def get_people_data(data: list):
     people = []
     for person_data in data:
-        firstname, lastname, weight, height = person_data.split(',')
+        # firstname, lastname, weight, height = person_data.split(',')
+        person_data_list = person_data.split(',')
+        firstname = person_data_list[0]
+        lastname = person_data_list[1]
+        weight = person_data_list[2]
+        height = person_data_list[3]
         weight = float(weight)
         height = int(height)
         people.append((firstname, lastname, weight, height))
