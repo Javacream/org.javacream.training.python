@@ -2,7 +2,7 @@ def get_data():
     with open('data/people_data.txt', encoding='utf-8') as file:
         return file.read().split('\n')
 
-def get_people_data(data):
+def get_people_data(data: list):
     people = []
     for person_data in data:
         firstname, lastname, weight, height = person_data.split(',')
@@ -11,7 +11,7 @@ def get_people_data(data):
         people.append((firstname, lastname, weight, height))
     return people    
 
-def get_people_result(people):
+def get_people_result(people: list):
     descriptions = []
     for person in people:
         firstname, lastname, weight, height = person
@@ -19,17 +19,17 @@ def get_people_result(people):
         descriptions.append(description)
     return descriptions
 
-def get_description(firstname, lastname, weight, height):
+def get_description(firstname: str, lastname: str, weight: float, height: int):
     bmi = calculate_bmi(weight, height)
     category = categorize_bmi(bmi)
     return f'{firstname} {lastname} with weight {weight}kg and height {height}cm has a body mass index of {bmi:.2f} and is therefor {category}'
 
-def calculate_bmi(weight, height):
+def calculate_bmi(weight: float, height: int):
     height = height / 100
     bmi = weight / (height**2)
     return bmi
 
-def categorize_bmi(body_mass_index):
+def categorize_bmi(body_mass_index: float):
     UNDERWEIGHT_LIMIT = 18.5
     NORMALWEIGHT_LIMIT = 25
     OVERWEIGHT_LIMIT = 30
@@ -44,7 +44,7 @@ def categorize_bmi(body_mass_index):
         bmi_category = 'obese'
     return bmi_category
 
-def write_result(descriptions):
+def write_result(descriptions: list):
     out_descriptions = [f'{description}\n' for description in descriptions]
     result_outpath = 'data/people_bmi_descriptions.txt'
     with open(result_outpath, 'wt', encoding='utf-8') as file:
