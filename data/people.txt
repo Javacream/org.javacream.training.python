@@ -9,3 +9,5 @@ Emil
 Hannelore
 Oliver
 Hugo
+Gregor
+Franz
