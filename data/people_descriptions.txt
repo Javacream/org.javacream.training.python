@@ -1,13 +1,13 @@
-Hugo has 4 characters
-Emil has 4 characters
-Hannah has 6 characters
-Andrea has 6 characters
-Jürgen has 6 characters
-Hugo has 4 characters
-Fridolin has 8 characters
-Emil has 4 characters
-Hannelore has 9 characters
-Oliver has 6 characters
-Hugo has 4 characters
-Gregor has 6 characters
-Franz has 5 characters
+the name Hugo has 4 characters
+the name Emil has 4 characters
+the name Hannah has 6 characters
+the name Andrea has 6 characters
+the name Jürgen has 6 characters
+the name Hugo has 4 characters
+the name Fridolin has 8 characters
+the name Emil has 4 characters
+the name Hannelore has 9 characters
+the name Oliver has 6 characters
+the name Hugo has 4 characters
+the name Gregor has 6 characters
+the name Franz has 5 characters

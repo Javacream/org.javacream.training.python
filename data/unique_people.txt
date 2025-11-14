@@ -1,10 +1,10 @@
-Fridolin
-Andrea
-Jürgen
-Gregor
-Hannelore
 Franz
-Oliver
-Emil
 Hannah
+Gregor
+Jürgen
+Emil
+Hannelore
+Oliver
+Andrea
+Fridolin
 Hugo

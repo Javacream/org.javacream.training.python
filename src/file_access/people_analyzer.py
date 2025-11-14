@@ -6,7 +6,7 @@ def read_people_data():
     return names
 
 def write_people_upper(names):
-    upper_names = [f'{name.upper()}\n' for name in names]
+    upper_names = {f'{name.upper()}\n' for name in names}
     upper_names_outpath = 'data/people_upper.txt'
     with open(upper_names_outpath, 'wt', encoding='utf-8') as people_file:
         people_file.writelines(upper_names)
@@ -18,15 +18,22 @@ def write_people_unique(names):
         people_file.writelines(unique_names)
 
 def write_people_descriptions(names):
-    name_descriptions = [f'{name} has {len(name)} characters\n' for name in names]
+    name_descriptions = [f'the name {name} has {len(name)} characters\n' for name in names]
     name_descriptions_outpath = 'data/people_descriptions.txt'
     with open(name_descriptions_outpath, 'wt', encoding='utf-8') as people_file:
         people_file.writelines(name_descriptions)
+
+def write_people_lower(names):
+    lower_names = {f'{name.lower()}\n' for name in names}
+    lower_names_outpath = 'data/people_lower.txt'
+    with open(lower_names_outpath, 'wt', encoding='utf-8') as people_file:
+        people_file.writelines(lower_names)
 
 def main():
     people_data = read_people_data()
     write_people_upper(people_data)
     write_people_unique(people_data)
     write_people_descriptions(people_data)
+    write_people_lower(people_data)
 
 main()
