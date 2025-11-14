@@ -1,6 +1,18 @@
-start = input(f'please enter the start number: ')
-end = input(f'please enter the end number: ')
-
+invalid = True
+while invalid:
+    start = input(f'please enter the start number: ')
+    
+    if start.isdigit():
+        invalid = False
+    else:
+        print(f'invalid input: {start} is not a number!')
+invalid = True
+while invalid:
+    end = input(f'please enter the end number: ')
+    if end.isdigit():
+        invalid = False
+    else:
+        print(f'invalid input: {end} is not a number!')
 start = int(start)
 end = int(end)
 
