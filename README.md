@@ -23,4 +23,6 @@ Ressourcen für den am 6.10.2025 beginnenden Lernpfad mit Anleitungen, Beispiele
 
 * [Abschlussübung](https://docs.google.com/presentation/d/1gGazoVkhdpx5yrnEeKeTkktTlzHXMueVArs_1FR4mXQ/edit?usp=sharing)
 
+* [Fortsetzung Netzwerkprogrammierung](https://github.com/Javacream/org.javacream.training.python/tree/db_networking_27.11.2025)
+* [Fortsetzung Data Analysis](https://github.com/Javacream/org.javacream.training.python/tree/db_data_analysis_5.12.2025)
 
