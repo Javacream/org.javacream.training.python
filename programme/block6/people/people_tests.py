@@ -11,6 +11,7 @@ class PeopleTests(unittest.TestCase):
         expeceted_result = 'Hello, my name is B A'
         result = p.say_hello()
         self.assertEqual(expeceted_result, result)
+        print(Person.get_people_count())
 
 
     def test_print_person(self):

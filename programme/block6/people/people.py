@@ -12,12 +12,19 @@ class Address:
         else:
             return False
 class Person(object):
+    @classmethod
+    def get_people_count(cls): # cls ist die Referenz auf die aktuelle Klasse
+        print("##################### accessing person counter")
+        return cls.counter
+    counter = 0 # counter ist gültig für die Klasse, nicht für die individuelle Person
     def __init__(self, lastname: str, firstname: str, height: int, weight: float, address: Address):
         self.lastname = lastname
         self.firstname = firstname
         self.height = height
         self.weight = weight
         self.address = address.copy()
+        # self.counter = self.counter + 1
+        Person.counter +=1
     def say_hello(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
     
