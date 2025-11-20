@@ -1,10 +1,12 @@
-from math import pi as circle_number
+from math import pi as circle_number, sqrt
 import datetime as dtm
 # dtm = datetime
 def perimeter(radius):
     # pi_approx = 3.1415
     return 2* radius * circle_number
 
+def radius_from(area):
+    return sqrt(area/circle_number)
 def actual_date_and_time():
     #dtm = datetime
     return dtm.datetime.now()
@@ -12,4 +14,5 @@ def actual_date_and_time():
 def main():
     print(perimeter(2))
     print(actual_date_and_time())
+    print(radius_from(42))
 main()
