@@ -35,6 +35,7 @@ def main():
     print(person1.say_hello())
     print(person2.say_hello())
     print(person1.get_bmi())
+    print(student1.get_bmi())
     print(person1)
     print('done')
 
