@@ -2,12 +2,13 @@ class Person:
     def __init__(self, lastname, firstname, height=170, weight=67):
         self.lastname = lastname
         self.firstname = firstname
-        self.height = height
+        self.height = height / 100
         self.weight = weight
+        self.name = f'{self.firstname} {self.lastname}'
     def say_hello(self):
-        return f'Hello, my name is {self.firstname} {self.lastname}'
+        return f'Hello, my name is {self.name}'
     def get_bmi(self):
-        height = self.height / 100
+        height = self.height
         return self.weight/(height**2)
 
 def main():
