@@ -1,9 +1,9 @@
-import math
+from math import pi
 import datetime as dtm
 # dtm = datetime
 def perimeter(radius):
     # pi_approx = 3.1415
-    return 2* radius * math.pi
+    return 2* radius * pi
 
 def actual_date_and_time():
     #dtm = datetime
