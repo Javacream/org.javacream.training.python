@@ -6,6 +6,9 @@ class Person:
         self.weight = weight
     def say_hello(self):
         return f'Hello, my name is {self.firstname} {self.lastname}'
+    def get_bmi(self):
+        height = self.height / 100
+        return self.weight/(height**2)
 
 def main():
     person1 = Person('Sawitzki', 'Rainer', 183, 75.8)
@@ -16,6 +19,7 @@ def main():
 
     print(person1.say_hello())
     print(person2.say_hello())
+    print(person1.get_bmi())
     print('done')
 
 main()
