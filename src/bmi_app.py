@@ -1,26 +1,19 @@
-def get_data():
-    with open('data/people_data.txt', encoding='utf-8') as file:
-        content = file.read() 
-        return content.split('\n')
+import csv
 
-def get_people_data(data: list):
+def get_people_data():
+    path = 'data/people_data.csv'
     people = []
-    for person_data in data:
-        # firstname, lastname, weight, height = person_data.split(',')
-        person_data_list = person_data.split(',')
-        firstname = person_data_list[0]
-        lastname = person_data_list[1]
-        weight = person_data_list[2]
-        height = person_data_list[3]
-        weight = float(weight)
-        height = int(height)
-        people.append((firstname, lastname, weight, height))
-    return people    
-
+    with open(path, encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            row["height"] = int(row["height"])
+            row["weight"] = float(row["weight"])
+            people.append(row)
+    return people
 def get_people_result(people: list):
     descriptions = []
     for person in people:
-        firstname, lastname, weight, height = person
+        firstname, lastname, weight, height = person.values()
         description = get_description(firstname, lastname, weight, height)
         descriptions.append(description)
     return descriptions
@@ -56,8 +49,7 @@ def write_result(descriptions: list):
     with open(result_outpath, 'wt', encoding='utf-8') as file:
         file.writelines(out_descriptions)
 def main():
-    raw_data = get_data()
-    people_data = get_people_data(raw_data)
+    people_data = get_people_data()
     people_result = get_people_result(people_data)
     write_result(people_result)
 main()

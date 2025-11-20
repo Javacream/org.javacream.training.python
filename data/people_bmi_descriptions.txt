@@ -1,3 +1,4 @@
 Hugo Meier with weight 76.6kg and height 185cm has a body mass index of 22.38 and is therefor normal weighted
 Hannhah Musterperson with weight 56.9kg and height 176cm has a body mass index of 18.37 and is therefor underweighted
 Andrea Jäger with weight 66.6kg and height 157cm has a body mass index of 27.02 and is therefor overweighted
+Andreas Jäger with weight 96.6kg and height 199cm has a body mass index of 24.39 and is therefor normal weighted
