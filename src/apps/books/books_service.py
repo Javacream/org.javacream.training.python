@@ -6,4 +6,5 @@ class BooksService:
         url = f'{self.url}/{isbn}'
         return requests.get(url).json()
     def find_all(self):
-        pass
+        url = self.url
+        return requests.get(url).json()
