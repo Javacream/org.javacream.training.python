@@ -10,12 +10,7 @@ class BooksService:
     def find_all(self):
         url = self.url
         datas = requests.get(url).json()
-        result = []
-        for data in datas:
-            book = Book(data)
-            result.append(book)
-        return result
-
+        return [Book(data) for data in datas]
 class Book:
     def __init__(self, book_data_dict):
         self.isbn = book_data_dict['isbn']
