@@ -1,6 +1,6 @@
 import requests
 class Book:
-    def __init__(self, book_data_dict):
+    def __init__(self, book_data_dict: dict):
         self.isbn: str = book_data_dict['isbn']
         self.title: str = book_data_dict['title']
         self.price: float = book_data_dict['price']
