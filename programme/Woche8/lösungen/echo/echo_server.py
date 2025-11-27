@@ -1,13 +1,14 @@
 import socket
 import configuration
-
+import pickle
 class EchoServer:
     def __init__(self, endpoint):
         self.endpoint = endpoint
     def handle_client_request(self, client_socket):
             with client_socket:
-                message_from_client = client_socket.recv(1024).decode('utf-8')
-                client_socket.sendall(message_from_client.encode().upper())
+                messages_from_client = pickle.loads(client_socket.recv(1024))
+                result = [f'{message.lower()}\n' for message in messages_from_client]
+                client_socket.sendall(pickle.dumps(result))
     def init(self):
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         server_socket.bind(self.endpoint)

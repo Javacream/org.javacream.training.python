@@ -1,4 +1,4 @@
-HUGO
-EMIL
-ANNA
-EVA
+hugo
+emil
+anna
+eva
