@@ -20,3 +20,4 @@ Ressourcen für den am 27.11.2025 beginnenden Lernpfad mit Anleitungen, Beispiel
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/181xDxVW2N2pEOqU0bWEUhSnLvkW7zDpwvVadydvJbrU/edit?usp=sharing)
+* [Aufzeichnungen](https://my.hidrive.com/share/0xftc84d.v)
