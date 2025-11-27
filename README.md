@@ -19,3 +19,5 @@ Ressourcen für den am 5.12.2025 beginnenden Lernpfad mit Anleitungen, Beispiele
   * Gerne jederzeit Kontakt über die angegebene Mail-Adresse aufnehmen!
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1krBfAyAKeJ7PC2lw6m-fwqZugW0s2iKQN7mPM8bELao/edit?usp=sharing)
+
+* [Aufzeichnungen](https://my.hidrive.com/share/gro7jt-tdg)
