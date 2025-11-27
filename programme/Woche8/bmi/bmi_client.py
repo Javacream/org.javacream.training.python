@@ -8,10 +8,9 @@ def main():
         weight = float(input('Enter weight in kg: '))
         height = int(input('Enter height in kg: '))
         client_socket.connect((IP_ADDRESS, PORT))
-        client_socket.sendall(pickle.dumps((height, weight)))
-        server_response = client_socket.recv(1024).decode()
-        bmi = float(server_response)
-        print(f'{name} has a bmi of {bmi}')
+        client_socket.sendall(pickle.dumps((name, height, weight)))
+        name, bmi = pickle.loads(client_socket.recv(1024))
+        print(f'{name} has a bmi of {bmi:.2f}')
 
 if __name__ == '__main__':
     main()
