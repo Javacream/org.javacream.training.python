@@ -1,8 +1,17 @@
 import requests
 def main():
-    response = requests.get('https://jsonplaceholder.typicode.com/users')
-    person_text = response.text
-    print(person_text)
-    person_dict = response.json()
-    print(person_dict)
+    new_person = {
+        "id": 666,
+        "lastname": "Christ",
+        "firstname": "Anti",
+        "gender": "d",
+        "height": 247
+    }
+    response = requests.put('http://javacream.eu:8080/people', json=new_person)
+    print(response.status_code)
+
+    response = requests.delete('http://javacream.eu:8080/people/666')
+    print(response.status_code)
+
 if __name__ == '__main__': main()
+
