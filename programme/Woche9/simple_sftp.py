@@ -14,9 +14,13 @@ def sftp_connect():
 def download_file(client:paramiko.SFTPClient):
     client.get('sawitzki.txt', 'from_javacream.txt')
 
+def demo_workflow(client:paramiko.SFTPClient):
+    client.chdir('referent')
+    print(client.listdir('.'))
 def main():
     sftp_client =sftp_connect()
-    download_file(sftp_client)
+    # download_file(sftp_client)
+    demo_workflow(sftp_client)
     sftp_client.close()
 
 
