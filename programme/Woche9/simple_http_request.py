@@ -1,6 +1,6 @@
 import requests
 def main():
-    response = requests.get('http://javacream.eu:8080/people')
+    response = requests.get('https://jsonplaceholder.typicode.com/users')
     person_text = response.text
     print(person_text)
     person_dict = response.json()
