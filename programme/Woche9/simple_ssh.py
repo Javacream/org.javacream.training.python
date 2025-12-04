@@ -1,11 +1,12 @@
 import paramiko
 import paramiko.client
+import keyring
 def ssh_connect():
     client = paramiko.client.SSHClient()
     HOST = 'javacream.eu'
     PORT = 22
     USER = 'teilnehmer'
-    PASSWORD = 'javacream123!'
+    PASSWORD = keyring.get_password('TRAINING', USER)
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     client.connect(HOST, port=PORT, username=USER, password=PASSWORD) # Nach Ausführung von Connect wird auf javacream.eu ein Shell-Prozess gestartet
     return client
@@ -19,7 +20,9 @@ def ssh_execute_command(client, cmd):
 
 def main():
     client = ssh_connect()
-    print(ssh_execute_command(client, 'ls'))
+    print(ssh_execute_command(client, 'cd python_training; ls'))
+    result = ssh_execute_command(client, 'ls')
+    print(result)
     client.close()
 
 if __name__ == '__main__':
