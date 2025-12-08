@@ -1,0 +1,142 @@
+[
+  {
+    "Name":"Anna Neumann",
+    "Weight":55.8,
+    "Height":165.0,
+    "Bmi":20.4958677686,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Ben Wagner",
+    "Weight":78.6,
+    "Height":180.0,
+    "Bmi":24.2592592593,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Carla Weber",
+    "Weight":60.5,
+    "Height":183.0,
+    "Bmi":18.0656334916,
+    "BMI Category":"underweight"
+  },
+  {
+    "Name":"David Schmidt",
+    "Weight":85.5,
+    "Height":185.0,
+    "Bmi":24.9817384953,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Elena Zimmermann",
+    "Weight":52.5,
+    "Height":160.0,
+    "Bmi":20.5078125,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Felix Sch\u00e4fer",
+    "Weight":90.5,
+    "Height":190.0,
+    "Bmi":25.0692520776,
+    "BMI Category":"overweight"
+  },
+  {
+    "Name":"Gina Zimmermann",
+    "Weight":65.6,
+    "Height":172.0,
+    "Bmi":22.1741481882,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Hannes Hoffmann",
+    "Weight":72.4,
+    "Height":178.0,
+    "Bmi":22.8506501704,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Isabel Koch",
+    "Weight":58.8,
+    "Height":167.0,
+    "Bmi":21.0835813403,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Jonas Bauer",
+    "Weight":80.3,
+    "Height":182.0,
+    "Bmi":24.2422412752,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Klara Sch\u00e4fer",
+    "Weight":56.7,
+    "Height":166.0,
+    "Bmi":20.5762810277,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Lukas Fischer",
+    "Weight":76.4,
+    "Height":179.0,
+    "Bmi":23.8444492993,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Maria Weber",
+    "Weight":62.1,
+    "Height":171.0,
+    "Bmi":21.2373037858,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Nico Wolf",
+    "Weight":81.8,
+    "Height":187.0,
+    "Bmi":23.3921473305,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Olivia Sch\u00e4fer",
+    "Weight":81.8,
+    "Height":183.0,
+    "Bmi":24.4259309027,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Paul M\u00fcller",
+    "Weight":79.2,
+    "Height":181.0,
+    "Bmi":24.1750862306,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Quinn Neumann",
+    "Weight":68.8,
+    "Height":175.0,
+    "Bmi":22.4653061224,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Ronja M\u00fcller",
+    "Weight":81.8,
+    "Height":176.0,
+    "Bmi":26.4075413223,
+    "BMI Category":"overweight"
+  },
+  {
+    "Name":"Samuel Schr\u00f6der",
+    "Weight":83.7,
+    "Height":184.0,
+    "Bmi":24.7223534972,
+    "BMI Category":"normalweight"
+  },
+  {
+    "Name":"Tina Fischer",
+    "Weight":59.7,
+    "Height":168.0,
+    "Bmi":21.1522108844,
+    "BMI Category":"normalweight"
+  }
+]
