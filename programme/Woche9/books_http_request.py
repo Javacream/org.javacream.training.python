@@ -1,3 +1,5 @@
+# python 3.x
+# pip install requests
 import requests
 def main():
     book = {'isbn': 'ISBN1', 'title': 'java in action', 'price': 1.99, 'available': False}
