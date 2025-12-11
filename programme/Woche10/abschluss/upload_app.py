@@ -3,7 +3,7 @@ from credentials import get_password
 import paramiko
 def main():
     try:
-        configuration = read_configuration('programme/Woche10/upload_configuration.json')
+        configuration = read_configuration('programme/Woche10/Abschluss/upload_configuration.json')
         name = input ('Bitte geben Sie Ihren Namen an: <Vorname> <Nachname>: ')
         name = name.replace(' ', '.')
         filename = input('Welche Datei soll hochgeladen werden? ')

@@ -2,7 +2,7 @@
     "remote":{
         "host": "javacream.eu", 
         "port": 22,
-        "basedir": "python_training/17.3.2025/muster"
+        "basedir": "python_training/27.11.2025/muster"
     },
     "credentials": {
         "username": "teilnehmer",
