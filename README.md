@@ -21,3 +21,11 @@ Ressourcen für den am 27.11.2025 beginnenden Lernpfad mit Anleitungen, Beispiel
 
 * [Digitales Flipchart](https://docs.google.com/presentation/d/181xDxVW2N2pEOqU0bWEUhSnLvkW7zDpwvVadydvJbrU/edit?usp=sharing)
 * [Aufzeichnungen](https://my.hidrive.com/share/0xftc84d.v)
+
+
+* Dependencies
+  * Python 3.x
+  * pip install requests
+  * pip install mysql-connector-python
+    * >= 8
+
