@@ -3,9 +3,9 @@ import keyring
 def main():
     device = {
         'device_type': 'cisco_ios',
-        'host': '192.168.111.110',
+        'host': 'https://sandboxapicdc.cisco.com',
         'username': 'admin',
-        'password': keyring.get_password("cisco", 'admin')
+        'password': '!v3G@!4@Y'
     }
 
     connection = ConnectHandler(**device)
