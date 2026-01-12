@@ -1,4 +1,5 @@
-weight = 76.6 # Variablennamen Kleinbuchstaben, englisch, Zuweisung mit =, Gleitkommazahl mit . als Deziamltrenner
-height = 183 # Ganzzahl ohne Komma
-bmi = weight / (height*height) # Alle mathematischen Grundrechenarten + Klammeregeln werden untersützt
+weight = 76.6 
+height = 183
+height = height / 100
+bmi = weight / (height*height)
 print(bmi)
