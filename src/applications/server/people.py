@@ -5,10 +5,7 @@ def load_people(url):
     return response.json()
 def get_tall_people(people):
     min_size = 190
-    tall_people = []
-    for person in people:
-        if person['height'] >= min_size:
-            tall_people.append(f'{person["firstname"]} {person["lastname"]}')
+    tall_people = [f'{person["firstname"]} {person["lastname"]}' for person in people if person['height'] >= min_size]
     return tall_people
 def main():
     url = "http://javacream.eu:8080/people"
