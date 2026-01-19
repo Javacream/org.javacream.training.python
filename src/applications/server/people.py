@@ -8,7 +8,7 @@ def get_tall_people(people):
     tall_people = []
     for person in people:
         if person['height'] >= min_size:
-            tall_people.append(person)
+            tall_people.append(f'{person["firstname"]} {person["lastname"]}')
     return tall_people
 def main():
     url = "http://javacream.eu:8080/people"
