@@ -1,3 +1,6 @@
 Hugo with weight 76.6 and height 183 has a bmi of 22.87 and is therefor normalweight
 Hannah with weight 57.3 and height 177 has a bmi of 18.29 and is therefor underweight
 Emil with weight 145.9 and height 199 has a bmi of 36.84 and is therefor obese
+Hugo with weight 76.6 and height 183 has a bmi of 22.87 and is therefor normalweight
+Hannah with weight 57.3 and height 177 has a bmi of 18.29 and is therefor underweight
+Emil with weight 145.9 and height 199 has a bmi of 36.84 and is therefor obese
