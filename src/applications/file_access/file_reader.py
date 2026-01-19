@@ -1,15 +1,14 @@
 def read_demo():
     path = 'src/applications/file_access/simple.txt'
-    file = open(path, 'rt', encoding='utf-8')
-    content = file.read()
-    file.close()
+    with open(path, 'rt', encoding='utf-8') as file:
+        content = file.read()
     print(content)
 
 def write_demo():
     path = 'src/applications/file_access/result.txt'
-    file = open(path, 'wt', encoding='utf-8')
-    file.write('dqfwghsdicsdabvf ä ül öö')
-    file.close()
+    with open(path, 'wt', encoding='utf-8') as file:
+        file.write('dqfwghsdicsdabvf ä ül öö')
+
 def main():
     read_demo()
     write_demo()
