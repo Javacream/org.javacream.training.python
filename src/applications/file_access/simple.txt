@@ -1,0 +1,2 @@
+Es gibt auch glöbale Väriable in Python
+"Sawitzki mag die aber nicht…"
