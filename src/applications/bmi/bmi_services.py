@@ -26,15 +26,3 @@ def extract(raw_data):
 def write(path, result):
     with open(path, 'at', encoding='utf-8') as file:
         file.write(f'{result}\n')
-def main():
-    input_path = 'src/applications/bmi/people.csv'
-    result_path = 'src/applications/bmi/bmi.txt'
-    people_data = read_people_data(input_path)
-    for raw_person_data in people_data:
-        name, height, weight = extract(raw_person_data)
-        bmi = calculate_bmi(height, weight)
-        bmi_category = calculate_bmi_category(bmi)
-        result = calculate_result_text(name, height, weight, bmi, bmi_category)
-        write(result_path, result)
-
-main()
