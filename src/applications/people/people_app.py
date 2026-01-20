@@ -7,7 +7,8 @@ def main():
     print(p2.say_hello())
     a1 = Address('München', 'Marienplatz')
     a2 = Address('Berlin', 'Alexanderplatz')
-    print(a1.info())
-    print(a2.info())
+    with open ('address.infos.txt', 'at', encoding='utf-8') as file:
+        file.write(f'{a1.info()}\n')
+        file.write(f'{a2.info()}\n')
 if __name__ == '__main__':
     main()
