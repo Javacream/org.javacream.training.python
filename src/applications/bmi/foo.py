@@ -1,0 +1,1 @@
+import bmi_app # eigentlich ein unsinniger import, applications stellen ja gar keine Funktionen zur Verfügung

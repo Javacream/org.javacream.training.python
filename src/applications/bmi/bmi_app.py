@@ -10,4 +10,5 @@ def main():
         result = calculate_result_text(name, height, weight, bmi, bmi_category)
         write(result_path, result)
 
-main()
+if __name__ == '__main__':
+    main()
